@@ -1,4 +1,6 @@
 import './App.css'
+
+// import pages
 import Home from './pages/Home'
 
 function App() {
@@ -6,7 +8,7 @@ function App() {
   return (
     <>
       <Home />
-    <div className='h-[2000px]'></div>
+      <div className='h-[2000px]'></div>
     </>
   )
 }

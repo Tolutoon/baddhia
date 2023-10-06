@@ -14,12 +14,17 @@ html {
 }
 
 
-
-
 .homePage {
     background: url('images/background-image.png');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.banner {
+    background: url('images/htfypm-dummy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
 }
 
 @layer base {

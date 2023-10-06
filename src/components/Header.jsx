@@ -1,10 +1,12 @@
 import React from "react";
+
+// import assets
 import Logo from "/images/baddhia-logo.svg";
 
 function Header() {
   return (
-    <header className="w-full bg-white shadow-md font-semibold fixed">
-      <div className="flex justify-between items-center px-40 py-6">
+    <header className="w-full bg-white shadow-md font-semibold fixed z-10 transition-all duration-300">
+      <div className="flex justify-between items-center px-40 py-4">
         <div className="cursor-pointer">
           <img src={Logo} alt="" />
         </div>
