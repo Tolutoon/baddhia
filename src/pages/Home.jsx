@@ -8,7 +8,7 @@ import CardBenefits from '../components/CardBenefits';
 
 function Home() {
   return (
-    <main>
+    <main className='max-w-[1920px] mx-auto'>
         <Header />
         <Hero />
         <FindMatch />
