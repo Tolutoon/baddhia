@@ -29,7 +29,14 @@ function Header() {
             </li>
           </ul>
           <div className="flex relative">
-            {toggleMenu ? <AiOutlineClose fontSize={28}/> : <BiMenuAltRight fontSize={28} className="md:hidden text-baddhia-orange cursor-pointer"/>}
+            {toggleMenu ? (
+              <AiOutlineClose fontSize={28} />
+            ) : (
+              <BiMenuAltRight
+                fontSize={28}
+                className="md:hidden text-baddhia-orange cursor-pointer"
+              />
+            )}
             {toggleMenu && (
               <ul className="flex flex-col gap-x-7 uppercase transition">
                 <li className="text-baddhia-orange text-base">
