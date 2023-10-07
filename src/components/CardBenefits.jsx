@@ -4,7 +4,7 @@ import emojis from '/images/emojis.png';
 
 function CardBenefits() {
   return (
-    <div className="">
+    <div className="px-10">
       <div className="flex pt-40 items-center flex-col md:flex-row justify-center w-full gap-[44px] md:gap-[194px]">
         <div>
           <img className="h-[400px] w-[323px]" src={connectImage} alt="" />
