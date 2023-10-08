@@ -28,7 +28,7 @@ html {
 }
 
 .testimonal-backDrop{
-    background: linear-gradient(7deg, rgba(255, 157, 112, 0.734) -120.8%, rgba(255, 255, 255, 0.90) 95.52%);
+    background: linear-gradient(7deg, rgba(255, 204, 180, 0.559) -120.8%, rgba(255, 255, 255, 0.90) 95.52%);
 }
 
 @layer base {

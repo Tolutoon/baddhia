@@ -10,7 +10,7 @@ function Hero() {
             , <br /> <span className="text-baddhia-orange">Anywhere</span> in
             the World.
           </h1>
-          <p className="text-white xl:max-w-[80vh] max-w-[60vh] text-center text-base">
+          <p className="text-white xl:max-w-[80vh] max-w-[60vh] text-center xl:text-base text-[14px]">
             Finding the right person is tough, but we have made it easier.
             Whether you’re looking for love, friendship, or chat, our algorithm
             will connect you with someone who shares your interests and values.
@@ -20,7 +20,7 @@ function Hero() {
           <a href="https://play.google.com/store/apps/details?id=com.baddhia.app">
             <button
               type="submit"
-              className="bg-baddhia-orange p-4 xl:px-16 px-12 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
+              className="bg-baddhia-orange p-4 xl:px-16 px-10 rounded-[16px] font-semibold xl:text-base text-[12px] text-white transition-all duration-300 hover:scale-105"
             >
               Download
             </button>
