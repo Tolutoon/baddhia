@@ -2,12 +2,12 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="py-20">
+    <section className="py-10">
       <div className="homePage h-[95vh] w-full px-10 flex-nowrap">
-        <div className="flex flex-col justify-center w-full items-center h-full gap-y-8 mx-auto">
-          <h1 className="text-white text-center xl:max-w-6xl max-w-[80vh] md:leading-none leading-11 font-semibold text-4xl md:text-[64px]">
+        <div className="flex flex-col justify-center w-full items-center h-full md:gap-y-8 gap-y-6 mx-auto">
+          <h1 className="text-white text-center xl:max-w-6xl max-w-[80vh] md:leading-none leading-11 font-semibold text-4xl md:text-[44px] xl:text-[64px]">
             Find your <span className="text-baddhia-orange">Perfect Match</span>
-            ,<span className="text-baddhia-orange"> Anywhere</span> in
+            ,<br /> <span className="text-baddhia-orange"> Anywhere</span> in
             the World.
           </h1>
           <p className="text-white xl:max-w-[80vh] max-w-[60vh] text-center xl:text-base md:text-[14px] text-[12px]">
