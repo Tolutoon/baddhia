@@ -3,9 +3,9 @@ import React from "react";
 function Hero() {
   return (
     <section className="py-10">
-      <div className="homePage h-[95vh] w-full px-10 flex-nowrap">
+      <div className="homePage h-screen w-full px-10 flex-nowrap">
         <div className="flex flex-col justify-center w-full items-center h-full md:gap-y-8 gap-y-6 mx-auto">
-          <h1 className="text-white text-center xl:max-w-6xl max-w-[80vh] md:leading-none leading-11 font-semibold text-4xl md:text-[44px] xl:text-[64px]">
+          <h1 className="text-white text-center xl:max-w-6xl max-w-[80vh] md:leading-none font-semibold text-4xl md:text-[44px] xl:text-[64px]">
             Find your <span className="text-baddhia-orange">Perfect Match</span>
             ,<br /> <span className="text-baddhia-orange"> Anywhere</span> in
             the World.
