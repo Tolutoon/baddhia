@@ -9,11 +9,11 @@ function CardSlider() {
         const { id, description, name } = elem;
         return (
           <div
-            className="card flex flex-col gap-[30px] w-[350px] h-fit py-10 px-5 mb-20 justify-center mx-5 items-center flex-shrink-0 bg-white"
+            className="card flex flex-col gap-[30px] w-fit h-fit py-10 px-5 mb-20 justify-center mx-5 items-center flex-shrink-0 bg-white"
             key={id}
           >
             <span className="text-[64px] text-baddhia-orange">❝</span>
-            <p className="text-[12px] text-gray-500 text-center">
+            <p className="text-[12px] w-[80%] text-gray-500 text-center">
               {description}
             </p>
             <h3 className="font-semibold">{name}</h3>
