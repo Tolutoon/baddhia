@@ -4,7 +4,7 @@ import Data from "../Data";
 
 function CardSlider() {
   return (
-    <div className="h-fit pt-20 relative px-5 xl:my-10 my-5 py-20 xl:hidden flex flex-row duration-500">
+    <div className="h-fit pt-20 relative px-5 xl:my-10 my-5 py-20 max-w-[100vw] xl:hidden flex flex-row duration-500">
       {Data.map((elem) => {
         const { id, description, name } = elem;
         return (
