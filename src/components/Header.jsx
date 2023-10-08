@@ -25,11 +25,23 @@ function Header() {
               <a href="/support">Support</a>
             </li>
             <li className="text-baddhia-orange text-base">
-                  <a href="https://play.google.com/store/apps/details?id=com.baddhia.app" target="_blank">Download App</a>
-                </li>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.baddhia.app"
+                target="_blank"
+              >
+                Download App
+              </a>
+            </li>
           </ul>
           <div className="flex relative">
-            {toggleMenu ? <AiOutlineClose fontSize={28}/> : <BiMenuAltRight fontSize={28} className="md:hidden text-baddhia-orange cursor-pointer"/>}
+            {toggleMenu ? (
+              <AiOutlineClose fontSize={28} />
+            ) : (
+              <BiMenuAltRight
+                fontSize={28}
+                className="md:hidden text-baddhia-orange cursor-pointer"
+              />
+            )}
             {toggleMenu && (
               <ul className="flex flex-col gap-x-7 uppercase transition">
                 <li className="text-baddhia-orange text-base">
@@ -39,7 +51,12 @@ function Header() {
                   <a href="/support">Support</a>
                 </li>
                 <li className="text-baddhia-orange text-base">
-                  <a href="https://play.google.com/store/apps/details?id=com.baddhia.app" target="_blank">Download App</a>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.baddhia.app"
+                    target="_blank"
+                  >
+                    Download App
+                  </a>
                 </li>
               </ul>
             )}

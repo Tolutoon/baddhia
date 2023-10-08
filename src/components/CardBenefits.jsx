@@ -1,7 +1,6 @@
 import React from "react";
 import connectImage from "/images/connect.png";
-import emojis from '/images/emojis.png';
-
+import emojis from "/images/emojis.png";
 
 function CardBenefits() {
   return (
@@ -36,9 +35,11 @@ function CardBenefits() {
         </div>
       </div>
       <div className="flex pt-20 items-center flex-col-reverse md:flex-row justify-center w-full gap-[64px]">
-      <div className="flex flex-col gap-[24px]">
+        <div className="flex flex-col gap-[24px]">
           <h2 className="xl:text-5xl text-4xl text-left font-semibold">
-            Send & Receive <br /> <span className="text-baddhia-orange">Customized</span><br />
+            Send & Receive <br />{" "}
+            <span className="text-baddhia-orange">Customized</span>
+            <br />
             Emojis{" "}
           </h2>
           <p className="text-left m-w-[460px] text-gray-500 text-base">
@@ -70,7 +71,8 @@ function CardBenefits() {
         </div>
         <div className="flex flex-col gap-[24px]">
           <h2 className="text-5xl xl:text-right text-left font-semibold">
-            Shop <span className="text-baddhia-orange">&</span> <br/> Exchange Gifts
+            Shop <span className="text-baddhia-orange">&</span> <br /> Exchange
+            Gifts
           </h2>
           <p className="xl:text-right text-left m-w-[460px]">
             Tired of meeting people who don’t get your sense <br /> of humor?
