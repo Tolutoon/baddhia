@@ -15,7 +15,6 @@ function Home() {
         <FindMatch />
         <CardBenefits />
         <Testimonials />
-        <div className='h-[2000px]'></div>
     </main>
   )
 }
