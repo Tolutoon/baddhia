@@ -8,29 +8,23 @@ function CardSlider() {
   return (
     <div className="overflow-hidden">
       <Swiper
-        spaceBetween={50}
+        spaceBetween={10}
         slidesPerView={1}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >
-        {Data.map((slide) => (
-          <SwiperSlide key={slide.id}>
+        {Data.map((item) => (
+          <SwiperSlide key={item.id}>
             <div className="h-fit pt-20 relative xl:my-10 my-5 py-20  xl:hidden flex flex-row duration-500">
-              {Data.map((item) => {
-                const { id, description, name } = item;
-                return (
-                  <div
-                    className={`card flex flex-col gap-[30px] w-[320px] h-[450px] py-10 px-5 mb-20 justify-center mx-5 items-center flex-shrink-0 bg-white`}
-                    key={id}
-                  >
-                    <span className="text-[54px] text-baddhia-orange">❝</span>
-                    <p className="text-[12px] text-gray-500 text-center w-[80%]">
-                      {description}
-                    </p>
-                    <h3 className="font-semibold">{name}</h3>
-                  </div>
-                );
-              })}
+              <div
+                className={`card flex flex-col gap-[30px] w-[350px] h-[450px] py-10 px-5 mb-20 justify-center mx-5 items-center flex-shrink-0 bg-white`}
+              >
+                <span className="text-[54px] text-baddhia-orange">❝</span>
+                <p className="text-[12px] text-gray-500 text-center w-[80%]">
+                  {item.description}
+                </p>
+                <h3 className="font-semibold">{item.name}</h3>
+              </div>
             </div>
           </SwiperSlide>
         ))}
