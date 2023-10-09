@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         'baddhia-orange': '#fc5000',
+        'B-writeup': "#FFD9C8"
       }
     },
   },
