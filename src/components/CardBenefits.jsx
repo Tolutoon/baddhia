@@ -70,11 +70,11 @@ function CardBenefits() {
           <img className="h-[400px] w-[323px]" src={connectImage} alt="" />
         </div>
         <div className="flex flex-col gap-[24px]">
-          <h2 className="text-5xl xl:text-right text-left font-semibold">
+          <h2 className="text-4xl xl:text-5xl xl:text-right text-left font-semibold">
             Shop <span className="text-baddhia-orange">&</span> <br /> Exchange
             Gifts
           </h2>
-          <p className="xl:text-right text-left m-w-[460px]">
+          <p className="xl:text-right text-left m-w-[460px] text-gray-500">
             Tired of meeting people who don’t get your sense <br /> of humor?
             Your passion for collecting rubber ducks? Your love <br /> of puns?
             Well, with Baddhia, you can finally meet someone <br />

@@ -9,7 +9,7 @@ import Testimonials from '../components/Testimonials';
 
 function Home() {
   return (
-    <main className='max-w-[1920px] mx-auto transition overflow-hidden'>
+    <main className='max-w-[1920px] mx-auto transition'>
         <Header />
         <Hero />
         <FindMatch />
