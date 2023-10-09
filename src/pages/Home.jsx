@@ -6,6 +6,7 @@ import Hero from '../components/Hero';
 import FindMatch from '../components/FindMatch';
 import CardBenefits from '../components/CardBenefits';
 import Testimonials from '../components/Testimonials';
+import ConnectKindly from '../components/ConnectKindly';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
         <FindMatch />
         <CardBenefits />
         <Testimonials />
+        <ConnectKindly />
     </main>
   )
 }

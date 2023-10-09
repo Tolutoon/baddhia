@@ -27,6 +27,12 @@ html {
     background-position-y: center;
 }
 
+.backBanner {
+    background: url('/images/connect-kindly.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .card{
     border-radius: 32px 32px 0px 32px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.133);
