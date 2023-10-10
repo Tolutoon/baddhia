@@ -7,6 +7,7 @@ import FindMatch from '../components/FindMatch';
 import CardBenefits from '../components/CardBenefits';
 import Testimonials from '../components/Testimonials';
 import ConnectKindly from '../components/ConnectKindly';
+import CardBenefitsII from '../components/CardBenefitsII';
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
         <CardBenefits />
         <Testimonials />
         <ConnectKindly />
+        <CardBenefitsII />
     </main>
   )
 }
