@@ -5,7 +5,7 @@ import privacy from '/images/privacy.png';
 function CardBenefitsII() {
   return (
     <div className="px-10">
-      <div className="flex items-center mb-20 md:mb-20 flex-col-reverse md:flex-row-reverse justify-center w-full gap-y-[84px] md:gap-[164px]">
+      <div className="flex items-center mb-20 md:mb-20 flex-col-reverse md:flex-row-reverse justify-center w-full gap-y-[44px] md:gap-[164px]">
         <div className="pt-10">
           <img className="md:h-[532px] md:w-[282px] h-[423px] w-[262px]" src={shareMoment} alt="" />
         </div>
@@ -40,7 +40,7 @@ function CardBenefitsII() {
           </div>
         </div>
       </div>
-      <div className="flex items-center flex-col-reverse md:flex-row justify-center w-full gap-[84px] md:gap-[164px]">
+      <div className="flex items-center flex-col-reverse md:flex-row justify-center w-full gap-[44px] md:gap-[164px]">
         <div className="pt-10">
           <img className="md:h-[503px] md:w-[442px] h-[403px] w-[332px]" src={privacy} alt="" />
         </div>

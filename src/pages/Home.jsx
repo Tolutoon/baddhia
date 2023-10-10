@@ -8,6 +8,7 @@ import CardBenefits from '../components/CardBenefits';
 import Testimonials from '../components/Testimonials';
 import ConnectKindly from '../components/ConnectKindly';
 import CardBenefitsII from '../components/CardBenefitsII';
+import Press from '../components/Press';
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
         <Testimonials />
         <ConnectKindly />
         <CardBenefitsII />
+        <Press/>
     </main>
   )
 }
