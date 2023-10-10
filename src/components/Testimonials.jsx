@@ -9,7 +9,7 @@ function Testimonials() {
         <h2 className="xl:text-3xl text-2xl font-semibold mx-auto xl:mb-20">
           What our <span className="text-baddhia-orange">users</span> say
         </h2>
-        <div className="justify-center relative xl:flex flex-col h-fit md:flex-row p-10 hidden">
+        <div className="justify-center relative md:flex flex-col h-fit md:flex-row p-10 hidden">
           {Data.map((elem) => {
             const { id, description, name } = elem;
             return (
