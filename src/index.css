@@ -23,14 +23,15 @@ html {
 .banner {
     background: url('/images/htfypm-dummy.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: center;
+    background-size: contain;
+    width: 100%;
 }
 
 .backBanner {
     background: url('/images/connect-kindly.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    
 }
 
 .card{

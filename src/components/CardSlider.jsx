@@ -17,7 +17,7 @@ function CardSlider() {
           <SwiperSlide key={item.id}>
             <div className="h-fit pt-20 relative xl:my-10 my-5 py-20  xl:hidden flex flex-row duration-500">
               <div
-                className={`card flex flex-col gap-[30px] w-[320px] h-[450px] py-10 px-5 mb-20 justify-center mx-5 items-center flex-shrink-0 bg-white`}
+                className={`card flex flex-col gap-[30px] w-fit h-[450px] py-10 px-5 mb-20 justify-center mx-5 items-center flex-shrink-0 bg-white`}
               >
                 <span className="text-[54px] text-baddhia-orange">❝</span>
                 <p className="text-[12px] text-gray-500 text-center w-[80%]">
