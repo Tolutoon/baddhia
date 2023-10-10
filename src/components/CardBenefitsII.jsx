@@ -4,7 +4,7 @@ import privacy from '/images/privacy.png';
 
 function CardBenefitsII() {
   return (
-    <div className="px-10">
+    <div className="px-10 mb-20">
       <div className="flex items-center mb-20 md:mb-20 flex-col-reverse md:flex-row-reverse justify-center w-full gap-y-[44px] md:gap-[164px]">
         <div className="pt-10">
           <img className="md:h-[532px] md:w-[282px] h-[423px] w-[262px]" src={shareMoment} alt="" />
