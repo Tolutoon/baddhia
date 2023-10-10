@@ -3,7 +3,7 @@ import shareMoment from "/images/share-moments.png";
 
 function CardBenefitsII() {
   return (
-      <div className="flex items-center flex-col-reverse md:flex-row-reverse justify-center w-full gap-[84px] md:gap-[164px]">
+      <div className="flex px-10 items-center flex-col-reverse md:flex-row-reverse justify-center w-full gap-[84px] md:gap-[164px]">
         <div>
           <img className="md:h-[532px] md:w-[282px] h-[423px] w-[262px]" src={shareMoment} alt="" />
         </div>
