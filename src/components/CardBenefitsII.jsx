@@ -7,7 +7,7 @@ function CardBenefitsII() {
     <div className="px-10 mb-20">
       <div className="flex items-center mb-20 md:mb-20 flex-col-reverse md:flex-row-reverse justify-center w-full gap-y-[44px] md:gap-[164px]">
         <div className="pt-10">
-          <img className="md:h-[532px] md:w-[282px] h-[423px] w-[262px]" src={shareMoment} alt="" />
+          <img className="md:h-[532px] md:w-[282px] h-[423px] w-[262px]" src={shareMoment} alt="" loading="lazy"/>
         </div>
         <div className="m-w-[503px] flex flex-col gap-[34px]">
           <h2 className="text-4xl xl:text-5xl text-left font-semibold">
@@ -42,7 +42,7 @@ function CardBenefitsII() {
       </div>
       <div className="flex items-center flex-col-reverse md:flex-row justify-center w-full gap-[44px] md:gap-[164px]">
         <div className="pt-10">
-          <img className="md:h-[503px] md:w-[442px] h-[403px] w-[332px]" src={privacy} alt="" />
+          <img className="md:h-[503px] md:w-[442px] h-[403px] w-[332px]" src={privacy} alt="" loading="lazy"/>
         </div>
         <div className="m-w-[503px] flex flex-col gap-[34px]">
           <h2 className="text-4xl xl:text-5xl text-left font-semibold">
