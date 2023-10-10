@@ -31,7 +31,7 @@ function Press() {
       <div className="flex md:flex-row flex-col justify-center items-center gap-10">
             <div className="md:h-[350px] bg-[url('/images/techCabal.png')] md:w-[323px] h-[280px] w-[263px] bg-cover bg-no-repeat relative shadow-md rounded-2xl">
               <div className="flex absolute bg-[#FFF6F2] md:w-[323px] h-[40%] w-[263px] bottom-0 flex-col gap-[16px] rounded-2xl justify-center items-center">
-                <img className="w-[130px]" src='/images/techCabalLogo.svg' alt="" />
+                <img className="w-[130px] h-[20px]" src='/images/techCabalLogo.svg' alt="" />
                 <a href='https://techcabal.com/2022/10/27/baddhia-launches-app-aims-to-inspire-bliss-in-every-romantic-relationship-across-africa/' target="_blank" rel="noopener noreferrer"> {/* Added target="_blank" for opening links in a new tab */}
                   <button
                     type="submit"
