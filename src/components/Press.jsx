@@ -1,5 +1,5 @@
 import React from "react";
-import pressData from "../../PressData";
+import pressData from "../PressData";
 
 function Press() {
   return (
