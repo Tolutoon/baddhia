@@ -2,7 +2,7 @@ import React from 'react';
 
 function FindMatch() {
   return (
-    <section className='banner h-[380px] mt-20'></section>
+    <section className='banner h-[60vh] w-[100vw] mt-20'></section>
   )
 }
 

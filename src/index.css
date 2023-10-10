@@ -15,16 +15,32 @@ html {
 
 
 .homePage {
-    background: url('images/background-image.png');
+    background: url('/images/background-image.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .banner {
-    background: url('images/htfypm-dummy.png');
+    background: url('/images/htfypm-dummy.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: center;
+    background-size: contain;
+    width: 100%;
+}
+
+.backBanner {
+    background: url('/images/connect-kindly.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.card{
+    border-radius: 32px 32px 0px 32px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.133);
+}
+
+.testimonal-backDrop{
+    background: linear-gradient(7deg, rgba(255, 204, 180, 0.559) -120.8%, rgba(255, 255, 255, 0.90) 95.52%);
 }
 
 @layer base {

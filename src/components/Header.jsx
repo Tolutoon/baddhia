@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <header className="w-full bg-white shadow-md font-semibold fixed z-10 transition-all duration-300">
-      <div className="flex justify-between items-center py-4 xl:px-40 px-10">
+      <div className="flex justify-between items-center md:py-4 xl:px-40 px-10 py-2">
         <div className="cursor-pointer">
           <img src={Logo} alt="" style={{ width: 51, height: 50 }} />
         </div>
@@ -25,11 +25,23 @@ function Header() {
               <a href="/support">Support</a>
             </li>
             <li className="text-baddhia-orange text-base">
-              <a href="/">Download App</a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.baddhia.app"
+                target="_blank"
+              >
+                Download App
+              </a>
             </li>
           </ul>
           <div className="flex relative">
-            {toggleMenu ? <AiOutlineClose fontSize={28}/> : <BiMenuAltRight fontSize={28} className="md:hidden text-baddhia-orange cursor-pointer"/>}
+            {toggleMenu ? (
+              <AiOutlineClose fontSize={28} />
+            ) : (
+              <BiMenuAltRight
+                fontSize={28}
+                className="md:hidden text-baddhia-orange cursor-pointer"
+              />
+            )}
             {toggleMenu && (
               <ul className="flex flex-col gap-x-7 uppercase transition">
                 <li className="text-baddhia-orange text-base">
@@ -39,7 +51,12 @@ function Header() {
                   <a href="/support">Support</a>
                 </li>
                 <li className="text-baddhia-orange text-base">
-                  <a href="/">Download App</a>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.baddhia.app"
+                    target="_blank"
+                  >
+                    Download App
+                  </a>
                 </li>
               </ul>
             )}
