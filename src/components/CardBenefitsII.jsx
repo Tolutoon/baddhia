@@ -3,7 +3,7 @@ import shareMoment from "/images/share-moments.png";
 
 function CardBenefitsII() {
   return (
-      <div className="flex pt-10 px-20 items-center flex-col-reverse md:flex-row-reverse justify-center w-full gap-[84px] md:gap-[164px]">
+      <div className="flex items-center flex-col-reverse md:flex-row-reverse justify-center w-full gap-[84px] md:gap-[164px]">
         <div>
           <img className="md:h-[532px] md:w-[282px] h-[423px] w-[262px]" src={shareMoment} alt="" />
         </div>
@@ -17,7 +17,7 @@ function CardBenefitsII() {
             <br />
             Moments
           </h2>
-          <p className="text-left m-w-[460px] text-gray-500 md:text-base text-[13px]">
+          <p className="text-left m-w-[460px] text-gray-500 text-base">
             Share your adventures and connect with <br/> people who share your
             passions on Baddhia. <br/> Our 24-hour disappearing photos, videos and <br/>
             text posts are the perfect way to attract like-<br/>minded people. So
