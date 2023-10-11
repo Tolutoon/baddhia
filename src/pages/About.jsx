@@ -8,8 +8,11 @@ function About() {
   return (
     <div>
       <Header />
+      <div className='h-[10vh]'></div>
+      <div className='aboutBannerHeader h-[40vh]'>
 
-      <JoinCard/>
+      </div>
+
 
     </div>
   )
