@@ -55,11 +55,11 @@ function Header() {
               />
             )}
             {toggleMenu && (
-              <ul className="flex flex-col uppercase transition list-none rounded-md fixed md:hidden top-0 w-full h-[50vh] p-3 justify-start bg-white shadow-2xl">
+              <ul className="flex flex-col uppercase transition list-none rounded-xl fixed md:hidden top-2 w-full h-[50vh] p-3 justify-start bg-white shadow-2xl">
                 <AiOutlineClose
                   fontSize={28}
                   onClick={() => setToggleMenu(false)}
-                  className="cursor-pointer text-baddhia-orange"
+                  className="cursor-pointer text-baddhia-orange justify-end w-full ml-28"
                 />{" "}
                 <li className="text-baddhia-orange text-xl w-full my-2 mt-10 flex items-end">
                   <a href="/about">About us</a>
