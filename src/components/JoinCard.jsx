@@ -2,8 +2,8 @@ import React from "react";
 
 function JoinCard() {
   return (
-    <div className="bg-[url('/images/joinBack.png')] h-[100vh] xl:h-fit w-full bg-center mb-[-105px] mt-[-105px] xl:mt-0 md:mb-0 bg-no-repeat flex md:flex-row flex-col md:items-center justify-center mx-auto p-10 xl:py-40 md:gap-[84px] gap-[34px]">
-      <div className="flex flex-col md:max-w-[40vw] gap-8">
+    <div className="bg-[url('/images/joinBack.png')] h-[100vh] xl:h-fit w-full bg-center mb-[-25px] mt-[-105px] xl:mt-0 md:mb-0 bg-no-repeat flex md:flex-row flex-col md:items-center justify-center mx-auto p-10 xl:py-40 md:gap-[84px] gap-[34px]">
+      <div className="flex flex-col md:max-w-[40vw] gap-8 ">
         <h2 className="xl:text-6xl text-4xl font-semibold md:text-left xl:leading-[59px] text-white uppercase w-[80vw] xl:w-fit text-center">
           Join the <span className="text-baddhia-orange">Baddhia</span>{" "}
           Community

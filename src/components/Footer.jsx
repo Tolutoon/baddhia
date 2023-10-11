@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className='bg-baddhia-orange h-[40vh]'>Footer</footer>
+    <footer className='footer h-[40vh]'>Footer</footer>
   )
 }
 
