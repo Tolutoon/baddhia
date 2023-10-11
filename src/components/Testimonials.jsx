@@ -4,12 +4,12 @@ import CardSlider from "./CardSlider";
 
 function Testimonials() {
   return (
-    <section className="testimonal-backDrop px-10 py-10 w-full mb-10 xl:mb-0">
+    <section className="testimonal-backDrop px-10 py-10 w-full xl:mb-0">
       <div className="flex flex-col justify-center xl:items-center">
         <h2 className="xl:text-3xl text-2xl font-semibold mx-auto xl:mb-20">
           What our <span className="text-baddhia-orange">users</span> say
         </h2>
-        <div className="justify-center relative xl:flex flex-col h-fit md:flex-row p-10 hidden">
+        <div className="xl:justify-center justify-start relative md:flex flex-col h-fit md:flex-row p-10 hidden">
           {Data.map((elem) => {
             const { id, description, name } = elem;
             return (
