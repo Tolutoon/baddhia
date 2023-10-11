@@ -1,6 +1,7 @@
 import React from "react";
 import connectImage from "/images/connect.png";
 import emojis from "/images/emojis.png";
+import gifts from '/images/gifts.png'
 
 function CardBenefits() {
   return (
@@ -77,7 +78,7 @@ function CardBenefits() {
       </div>
       <div className="flex pt-20 items-center flex-col md:flex-row justify-center w-full gap-[84px] mx-auto">
         <div>
-          <img className="h-[400px] w-[323px]" src={connectImage} alt="" />
+          <img className="h-[400px] w-[323px]" src={gifts} alt="" loading="lazy"/>
         </div>
         <div className="flex flex-col gap-[24px]">
           <h2 className="text-4xl xl:text-5xl xl:text-right text-left font-semibold">

@@ -14,11 +14,11 @@ function Testimonials() {
             const { id, description, name } = elem;
             return (
               <div
-                className="card flex flex-col gap-[32px] w-[330px] h-fit py-10 px-5 mb-10 justify-center mx-5 items-center flex-shrink-0 bg-white"
+                className="card flex flex-col gap-[32px] w-[330px] h-[410px] py-10 px-5 mb-10 justify-center mx-5 items-center flex-shrink-0 bg-white"
                 key={id}
               >
                 <span className="text-[64px] text-baddhia-orange">❝</span>
-                <p className="text-[12px] text-gray-500 text-center">
+                <p className="text-[12px] text-gray-500 text-center italic w-[80%]">
                   {description}
                 </p>
                 <h3 className="font-semibold">{name}</h3>
