@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Header from '../components/Header';
 
 function Support() {
   return (
-    <div>Support</div>
+    <div>
+      <Header />
+    </div>
   )
 }
 
