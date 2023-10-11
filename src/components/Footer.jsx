@@ -25,7 +25,7 @@ function Blogfooter() {
             <p className="mb-1">Privacy Policy</p>
             <p className="mb-1">Blog</p>
             <p className="mb-1">Frequently Ask Questions</p>
-            <button className="bg-white text-gray-950 py-2 px-9 rounded-full mt-6 mb-9">
+            <button className="bg-white py-2 px-9 text-baddhia-orange rounded-full mt-6 mb-9">
               <a href="">Download</a>
             </button>
           </div>
