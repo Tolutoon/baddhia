@@ -7,7 +7,6 @@ function About() {
   return (
     <div>
       <Header />
-      <CardBenefits />
 
     </div>
   )
