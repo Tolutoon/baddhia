@@ -2,7 +2,9 @@ import React from 'react'
 import BlogHeader from '../components/BlogHeader';
 import BlogImg from '../components/BlogImg';
 import BlogWriteup from '../components/BlogWriteup';
-import BlogFooter from '../components/blogFooter';
+import BlogCommunity from '../components/BlogCommunity';
+import Blogfooter from "../components/Blogfooter";
+
 
 
 function Blog() {
@@ -12,7 +14,8 @@ function Blog() {
       <BlogHeader />
       <BlogImg />
       <BlogWriteup />
-      <BlogFooter />
+      <BlogCommunity />
+      <Blogfooter />
     </>
     
   )

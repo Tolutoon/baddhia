@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import BlogContent from '../pages/BlogContent'
 import Group1 from "/images/group1.jpg"
 import Group2 from "/images/group2.jpg"
 import Group3 from "/images/group3.jpg"
@@ -20,7 +22,9 @@ function BlogWriteup() {
                     <h2 className="font-bold mt-3">Anchor's Name</h2>
                     <div className="flex justify-between mt-2">
                         <p className="text-xs">DD-MM-YYYY</p>
-                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">read more</div>
+                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
+                            <Link to="/BlogContent">Read more</Link>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -35,7 +39,9 @@ function BlogWriteup() {
                     <h2 className="font-bold mt-3">Anchor's Name</h2>
                     <div className="flex justify-between mt-2">
                         <p className="text-xs">DD-MM-YYYY</p>
-                        <div className="bg-baddhia-orange border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">read more</div>
+                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
+                            <Link to="/BlogContent">Read more</Link>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -51,7 +57,9 @@ function BlogWriteup() {
                     <h2 className="font-bold mt-3">Anchor's Name</h2>
                         <div className="flex justify-between mt-2">
                             <p className="text-xs">DD-MM-YYYY</p>
-                            <div className="bg-baddhia-orange border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">read more</div>
+                            <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
+                            <Link to="/BlogContent">Read more</Link>
+                        </div>
                         </div>
                 </div>
             </div>
@@ -66,7 +74,9 @@ function BlogWriteup() {
                     <h2 className="font-bold mt-3">Anchor's Name</h2>
                         <div className="flex justify-between mt-2">
                             <p className="text-xs">DD-MM-YYYY</p>
-                            <div className="bg-baddhia-orange border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">read more</div>
+                            <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
+                            <Link to="/BlogContent">Read more</Link>
+                        </div>
                         </div>
                 </div>
             </div>
@@ -83,7 +93,9 @@ function BlogWriteup() {
                     <h2 className="font-bold mt-3">Anchor's Name</h2>
                     <div className="flex justify-between mt-2">
                         <p className="text-xs">DD-MM-YYYY</p>
-                        <div className="bg-baddhia-orange border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">read more</div>
+                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
+                            <Link to="/BlogContent">Read more</Link>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -97,12 +109,14 @@ function BlogWriteup() {
                     <h2 className="font-bold mt-3">Anchor's Name</h2>
                     <div className="flex justify-between mt-2">
                         <p className="text-xs">DD-MM-YYYY</p>
-                        <div className="bg-baddhia-orange text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">read more</div>
+                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
+                            <Link to="/BlogContent">Read more</Link>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div className='flex justify-center items-center'><button className='bg-baddhia-orange py-2 px-9 mb-28 uppercase text-gray-300 text-lg font-semibold rounded-full'>Read more article</button></div>
+        <div className='flex justify-center items-center'><button className='bg-baddhia-orange py-2 px-9 mb-28 uppercase text-gray-300 text-lg font-semibold rounded-full'><Link to="/BlogContent">Read more article</Link></button></div>
     </div>
   )
 }
