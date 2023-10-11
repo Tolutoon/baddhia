@@ -15,7 +15,7 @@ import Footer from '../components/Footer';
 
 function Home() {
   return (
-    <main className='max-w-[1920px] mx-auto transition'>
+    <main className='max-w-[1920px] mx-auto transition overflow-hidden'>
         <Header />
         <Hero />
         <FindMatch />
