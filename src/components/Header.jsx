@@ -10,8 +10,6 @@ import { AiOutlineClose } from "react-icons/ai";
 function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
-
-
   return (
     <header className="w-full bg-white shadow-md font-semibold fixed z-10 transition-all duration-300">
       <div

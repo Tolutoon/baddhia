@@ -1,13 +1,18 @@
 import React from "react";
 import shareMoment from "/images/share-moments.png";
-import privacy from '/images/privacy.png';
+import privacy from "/images/privacy.png";
 
 function CardBenefitsII() {
   return (
     <div className="px-10 mb-20">
       <div className="flex items-center mb-20 md:mb-20 flex-col-reverse md:flex-row-reverse justify-center w-full gap-y-[44px] md:gap-[164px]">
         <div className="pt-10">
-          <img className="md:h-[532px] md:w-[282px] h-[423px] w-[262px]" src={shareMoment} alt="" loading="lazy"/>
+          <img
+            className="md:h-[532px] md:w-[282px] h-[423px] w-[262px]"
+            src={shareMoment}
+            alt=""
+            loading="lazy"
+          />
         </div>
         <div className="m-w-[503px] flex flex-col gap-[34px]">
           <h2 className="text-4xl xl:text-5xl text-left font-semibold">
@@ -20,12 +25,16 @@ function CardBenefitsII() {
             Moments
           </h2>
           <p className="text-left m-w-[460px] text-gray-500 text-base">
-            Share your adventures and connect with <br/> people who share your
-            passions on Baddhia. <br/> Our 24-hour disappearing photos, videos and <br/>
-            text posts are the perfect way to attract like-<br/>minded people. So
-            whether you’re hiking up a<br/> mountain, dancing the night away, or just<br/>
-            hanging out with friends, share it all on Baddhia.<br/> You never know
-            who you might meet
+            Share your adventures and connect with <br /> people who share your
+            passions on Baddhia. <br /> Our 24-hour disappearing photos, videos
+            and <br />
+            text posts are the perfect way to attract like-
+            <br />
+            minded people. So whether you’re hiking up a<br /> mountain, dancing
+            the night away, or just
+            <br />
+            hanging out with friends, share it all on Baddhia.
+            <br /> You never know who you might meet
           </p>
           {/* button */}
           <div className="flex justify-start">
@@ -42,19 +51,29 @@ function CardBenefitsII() {
       </div>
       <div className="flex items-center flex-col-reverse md:flex-row justify-center w-full gap-[44px] md:gap-[164px]">
         <div className="pt-10">
-          <img className="md:h-[503px] md:w-[442px] h-[403px] w-[332px]" src={privacy} alt="" loading="lazy"/>
+          <img
+            className="md:h-[503px] md:w-[442px] h-[403px] w-[332px]"
+            src={privacy}
+            alt=""
+            loading="lazy"
+          />
         </div>
         <div className="m-w-[503px] flex flex-col gap-[34px]">
           <h2 className="text-4xl xl:text-5xl text-left font-semibold">
-            Privacy <span className="text-baddhia-orange">&</span> <br/> Security
+            Privacy <span className="text-baddhia-orange">&</span> <br />{" "}
+            Security
           </h2>
           <p className="text-left m-w-[460px] text-gray-500 text-base">
-            Share your adventures and connect with <br/> people who share your
-            passions on Baddhia. <br/> Our 24-hour disappearing photos, videos and <br/>
-            text posts are the perfect way to attract like-<br/>minded people. So
-            whether you’re hiking up a<br/> mountain, dancing the night away, or just<br/>
-            hanging out with friends, share it all on Baddhia.<br/> You never know
-            who you might meet
+            Share your adventures and connect with <br /> people who share your
+            passions on Baddhia. <br /> Our 24-hour disappearing photos, videos
+            and <br />
+            text posts are the perfect way to attract like-
+            <br />
+            minded people. So whether you’re hiking up a<br /> mountain, dancing
+            the night away, or just
+            <br />
+            hanging out with friends, share it all on Baddhia.
+            <br /> You never know who you might meet
           </p>
           {/* button */}
           <div className="flex justify-start">
