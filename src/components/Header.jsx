@@ -61,13 +61,13 @@ function Header() {
                   onClick={() => setToggleMenu(false)}
                   className="cursor-pointer text-baddhia-orange justify-end w-full ml-[65px]"
                 />{" "}
-                <li className="text-baddhia-orange text-xl w-full my-2 mt-10 flex items-end">
+                <li className="text-baddhia-orange text-base w-full my-2 mt-10 flex items-end">
                   <a href="/about">About us</a>
                 </li>
-                <li className="text-baddhia-orange text-xl w-full my-2 flex items-end">
+                <li className="text-baddhia-orange text-base w-full my-2 flex items-end">
                   <a href="/support">Support</a>
                 </li>
-                <li className="text-baddhia-orange text-xl w-full my-2 flex items-end">
+                <li className="text-baddhia-orange text-base w-full my-2 flex items-end">
                   <a
                     href="https://play.google.com/store/apps/details?id=com.baddhia.app"
                     target="_blank"
