@@ -41,7 +41,7 @@ function Press() {
               {/* Added target="_blank" for opening links in a new tab */}
               <button
                 type="submit"
-                className="bg-baddhia-orange p-4 px-8 rounded-[16px] font-semibold md:text-base text-[12px] text-white transition-all duration-300 hover:scale-105"
+                className="bg-baddhia-orange p-4 px-8 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
               >
                 Read More
               </button>
@@ -60,7 +60,7 @@ function Press() {
               {/* Added target="_blank" for opening links in a new tab */}
               <button
                 type="submit"
-                className="bg-baddhia-orange p-4 px-8 rounded-[16px] font-semibold md:text-base text-[12px] text-white transition-all duration-300 hover:scale-105"
+                className="bg-baddhia-orange p-4 px-8 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
               >
                 Read More
               </button>

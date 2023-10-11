@@ -10,6 +10,7 @@ import ConnectKindly from '../components/ConnectKindly';
 import CardBenefitsII from '../components/CardBenefitsII';
 import Press from '../components/Press';
 import LearnBlog from '../components/LearnBlog';
+import JoinCard from '../components/JoinCard';
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
         <CardBenefitsII />
         <Press />
         <LearnBlog />
+        <JoinCard/>
     </main>
   )
 }
