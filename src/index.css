@@ -19,7 +19,6 @@ html {
     background: url('/images/background-image.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 }
 
 .banner {
