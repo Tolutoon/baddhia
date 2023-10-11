@@ -59,7 +59,7 @@ function Header() {
                 <AiOutlineClose
                   fontSize={28}
                   onClick={() => setToggleMenu(false)}
-                  className="cursor-pointer text-baddhia-orange justify-end w-full ml-28"
+                  className="cursor-pointer text-baddhia-orange justify-end w-full ml-[65px]"
                 />{" "}
                 <li className="text-baddhia-orange text-xl w-full my-2 mt-10 flex items-end">
                   <a href="/about">About us</a>
