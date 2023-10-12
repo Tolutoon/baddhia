@@ -53,7 +53,7 @@ function Header() {
               />
             )}
             {toggleMenu && (
-              <ul className="flex flex-col uppercase transition list-none rounded-xl fixed md:hidden top-2 w-full h-fit p-3 justify-start bg-white shadow-2xl">
+              <ul className="flex flex-col uppercase transition list-none rounded-xl fixed md:hidden top-2 w-full h-fit p-3 pt-0 justify-start bg-white shadow-2xl">
                 <AiOutlineClose
                   fontSize={28}
                   onClick={() => setToggleMenu(false)}
