@@ -19,7 +19,7 @@ function About() {
         <div>
           <img src={banner} className="md:w-[45vw] hidden xl:flex h-[776px]" alt="" />
         </div>
-        <div className="xl:w-[40vw] md:w-[90vw] md:px-0 px-10">
+        <div className="xl:w-[40vw] md:w-[90vw] md:px-0 px-10 mb-20">
           <h2 className="text-baddhia-orange md:text-4xl text-3xl text-left md:mb-10 mb-5 font-semibold">
             Where Love & Friendship
             <br /> Blossoms
