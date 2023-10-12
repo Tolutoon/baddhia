@@ -45,8 +45,8 @@ function Reasons() {
           return (
             <div className="bg-[#FFF6F2] shadow-lg rounded-[32px] md:h-[428px] md:w-[255px] h-[358px] w-[245px] gap-8 p-10 flex justify-center flex-col items-center" key={elem.id}>
               <h2 className="m-4 md:text-3xl text-2xl text-baddhia-orange">{elem.title}</h2>
-              <img src={elem.img} alt="" className="md:w-[90px] md:h-[90px] w-[60px] h-[60px]" />
-              <p className="text-center text-gray-600 md:text-[14px] text-[12px] w-[80%]">
+              <img src={elem.img} alt="" className="md:w-[70px] md:h-[70px] w-[60px] h-[60px]" />
+              <p className="text-center text-gray-600 text-[12px] w-[80%]">
                 {elem.description}
               </p>
             </div>
