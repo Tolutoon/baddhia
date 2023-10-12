@@ -3,9 +3,8 @@ import BackgroundImage from "./BackgroundImage";
 
 function Hero() {
   return (
-    <section className="py-5 relative">
+    <section className="py-10 relative">
       <BackgroundImage/>
-      <div>
         <div className="flex flex-col justify-center w-full items-center h-full md:gap-y-8 gap-y-6 mx-auto absolute p-10 top-0 left-0">
           <h1 className="text-white text-center xl:max-w-6xl max-w-[80vh] md:leading-none font-semibold text-4xl md:text-[44px] xl:text-[64px]">
             Find your <span className="text-baddhia-orange">Perfect Match</span>
@@ -28,7 +27,6 @@ function Hero() {
             </button>
           </a>
         </div>
-      </div>
     </section>
   );
 }
