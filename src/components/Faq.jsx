@@ -16,7 +16,7 @@ function Faq() {
   };
 
   return (
-    <div className="md:pt-40 pt-[110px] md:px-40">
+    <div className="md:pt-40 pt-[110px] md:px-40 mb-20">
       <h1 className="md:text-4xl text-[18px] text-center mb-5 text-baddhia-orange font-semibold w-full">
         Frequently Asked Questions
       </h1>
