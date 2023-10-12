@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 // import assets
-import Logo from "/images/baddhia-logo.png";
+import Logo from "/images/baddhiaLogo.svg";
 
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";

@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import banner from "/images/aboutBanner.png";
+import Reasons from "../components/Reasons";
 
 function About() {
   return (
@@ -11,16 +12,16 @@ function About() {
         <h2 className="md:text-5xl text-3xl font-semibold md:mb-8">About Baddhia</h2>
         <p className="md:text-xl">Our brand story</p>
       </div>
-      <div className="flex flex-col md:flex-row gap-12">
+      <div className="flex flex-col md:flex-row gap-12 h-[80vh]">
         <div>
-          <img src={banner} className="md:w-[45vw] hidden md:flex" alt="" />
+          <img src={banner} className="md:w-[45vw] hidden xl:flex h-[776px]" alt="" />
         </div>
-        <div className="md:w-[40vw] md:px-0 px-10">
+        <div className="xl:w-[40vw] md:w-[90vw] md:px-0 px-10">
           <h2 className="text-baddhia-orange md:text-4xl text-3xl text-left md:mb-10 mb-5 font-semibold">
             Where Love & Friendship
             <br /> Blossoms
           </h2>
-          <p className="text-gray-500 leading-7 md:text-base text-[12px]">
+          <p className="text-gray-500 md:leading-7 leading-6 md:text-base text-[12px]">
             I never thought I would find love again after my divorce,” says
             Sarah. “I was so hurt, hopeless, and jaded, and I felt like I would
             never be able to trust someone again. But then I met John on
@@ -53,6 +54,7 @@ function About() {
           </p>
         </div>
       </div>
+      <Reasons />
     </div>
   );
 }
