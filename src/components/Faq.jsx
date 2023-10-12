@@ -36,7 +36,7 @@ function Faq() {
               </div>
               <div className="font-semibold group-[.is-active]:font-bold">{elem.title}</div>
             </div>
-            <div className="overflow-hidden max-h-0 group-[.is-active]:max-h-[120px] text-gray-500">
+            <div className="overflow-hidden max-h-0 group-[.is-active]:max-h-fit text-gray-500">
               {elem.info}
             </div>
           </div>
