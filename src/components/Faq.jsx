@@ -16,8 +16,8 @@ function Faq() {
   };
 
   return (
-    <div className="md:pt-40 pt-20 md:px-40 md:px-20">
-      <h1 className="md:text-4xl text-2xl text-center mb-10 text-baddhia-orange">
+    <div className="md:pt-40 pt-[110px] md:px-40">
+      <h1 className="md:text-4xl text-2xl text-center mb-5 text-baddhia-orange font-semibold w-full">
         Frequently Asked Questions
       </h1>
       {items.map((elem) => (
@@ -32,7 +32,7 @@ function Faq() {
                 className="text-xl text-baddhia-orange cursor-pointer rotate-90 group-[.is-active]:rotate-[270deg]"
                 onClick={() => handleToggleActive(elem.id)}
               >
-                >
+                {'>'}
               </div>
               <div className="font-semibold group-[.is-active]:font-bold">{elem.title}</div>
             </div>
