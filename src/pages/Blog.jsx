@@ -1,5 +1,5 @@
 import React from 'react'
-import BlogHeader from '../components/BlogHeader';
+import Header from '../components/Header';
 import BlogImg from '../components/BlogImg';
 import BlogWriteup from '../components/BlogWriteup';
 import BlogCommunity from '../components/BlogCommunity';
@@ -11,7 +11,7 @@ function Blog() {
     
   return (
     <>
-      <BlogHeader />
+      <Header />
       <BlogImg />
       <BlogWriteup />
       <BlogCommunity />

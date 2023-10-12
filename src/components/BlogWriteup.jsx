@@ -40,7 +40,7 @@ function BlogWriteup() {
                     <div className="flex justify-between mt-2">
                         <p className="text-xs">DD-MM-YYYY</p>
                         <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
-                            <Link to="/BlogContent">Read more</Link>
+                            <Link to="/">Read more</Link>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ function BlogWriteup() {
                         <div className="flex justify-between mt-2">
                             <p className="text-xs">DD-MM-YYYY</p>
                             <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
-                            <Link to="/BlogContent">Read more</Link>
+                            <Link to="/">Read more</Link>
                         </div>
                         </div>
                 </div>
@@ -75,7 +75,7 @@ function BlogWriteup() {
                         <div className="flex justify-between mt-2">
                             <p className="text-xs">DD-MM-YYYY</p>
                             <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
-                            <Link to="/BlogContent">Read more</Link>
+                            <Link to="/">Read more</Link>
                         </div>
                         </div>
                 </div>
@@ -94,7 +94,7 @@ function BlogWriteup() {
                     <div className="flex justify-between mt-2">
                         <p className="text-xs">DD-MM-YYYY</p>
                         <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
-                            <Link to="/BlogContent">Read more</Link>
+                            <Link to="/">Read more</Link>
                         </div>
                     </div>
                 </div>
@@ -110,13 +110,13 @@ function BlogWriteup() {
                     <div className="flex justify-between mt-2">
                         <p className="text-xs">DD-MM-YYYY</p>
                         <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
-                            <Link to="/BlogContent">Read more</Link>
+                            <Link to="/">Read more</Link>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div className='flex justify-center items-center'><button className='bg-baddhia-orange py-2 px-9 mb-28 uppercase text-gray-300 text-lg font-semibold rounded-full'><Link to="/BlogContent">Read more article</Link></button></div>
+        <div className='flex justify-center items-center'><button className='bg-baddhia-orange py-2 px-9 mb-28 uppercase text-gray-300 text-lg font-semibold rounded-full'><Link to="/">Read more article</Link></button></div>
     </div>
   )
 }

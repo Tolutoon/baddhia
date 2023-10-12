@@ -11,7 +11,7 @@ import CardBenefitsII from '../components/CardBenefitsII';
 import Press from '../components/Press';
 import LearnBlog from '../components/LearnBlog';
 import JoinCard from '../components/JoinCard';
-import Footer from '../components/Footer';
+import Blogfooter from '../components/Blogfooter';
 
 function Home() {
   return (
@@ -26,7 +26,7 @@ function Home() {
         <Press />
         <LearnBlog />
         <JoinCard/>
-        <Footer/>
+        <Blogfooter/>
     </main>
   )
 }

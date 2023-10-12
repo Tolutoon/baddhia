@@ -1,4 +1,5 @@
 import React from 'react'
+//import Logo from "/images/baddhia-logo.png"
 import Logo from "/images/baddhia-logo.png"
 import Bg from "/images/blog-header-img.png"
 import { useState } from "react";
