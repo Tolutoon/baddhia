@@ -8,7 +8,7 @@ function About() {
     <div>
       <Header />
       <div className="h-[10vh]"></div>
-      <div className="aboutBannerHeader md:h-[40vh] h-[15vh] md:mb-10 text-white md:px-20 md:py-10 px-10 pt-2">
+      <div className="aboutBannerHeader md:h-[40vh] h-[15vh] md:mb-10 text-white md:px-40 md:py-10 px-10 pt-2">
         <h2 className="md:text-5xl text-3xl font-semibold md:mb-8">About Baddhia</h2>
         <p className="md:text-xl">Our brand story</p>
       </div>
