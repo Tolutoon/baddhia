@@ -2,6 +2,9 @@ import React from "react";
 import Header from "../components/Header";
 import banner from "/images/aboutBanner.png";
 import Reasons from "../components/Reasons";
+import JoinCard from "../components/JoinCard";
+import Footer from '../components/Footer';
+
 
 function About() {
   return (
@@ -55,6 +58,8 @@ function About() {
         </div>
       </div>
       <Reasons />
+      <JoinCard/>
+      <Footer />
     </div>
   );
 }
