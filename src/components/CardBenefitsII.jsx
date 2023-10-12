@@ -49,7 +49,7 @@ function CardBenefitsII() {
           </div>
         </div>
       </div>
-      <div className="flex items-center flex-col-reverse xl:flex-row justify-center w-full gap-[44px] md:gap-[84px]">
+      <div className="flex items-center flex-col-reverse md:flex-row justify-center w-full gap-[44px] md:gap-[84px]">
 
         <div className="m-w-[503px] flex flex-col gap-[34px]">
           <h2 className="text-4xl xl:text-5xl text-left font-semibold">
@@ -82,7 +82,7 @@ function CardBenefitsII() {
         </div>
         <div className="pt-10">
           <img
-            className="md:h-[503px] md:w-[442px] h-[403px] w-[332px]"
+            className="xl:h-[503px] xl:w-[442px] h-[403px] w-[332px]"
             src={privacy}
             alt=""
             loading="lazy"
