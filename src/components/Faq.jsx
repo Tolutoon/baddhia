@@ -17,7 +17,7 @@ function Faq() {
 
   return (
     <div className="md:pt-40 pt-[110px] md:px-40">
-      <h1 className="md:text-4xl text-2xl text-center mb-5 text-baddhia-orange font-semibold w-full">
+      <h1 className="md:text-4xl text-[18px] text-center mb-5 text-baddhia-orange font-semibold w-full">
         Frequently Asked Questions
       </h1>
       {items.map((elem) => (
