@@ -24,7 +24,7 @@ function Blogfooter() {
             <p className="mb-1">Terms of Use</p>
             <p className="mb-1">Privacy Policy</p>
             <p className="mb-1">Blog</p>
-            <p className="mb-1">Frequently Ask Questions</p>
+            <p className="mb-1">Frequently Asked Questions</p>
             <button className="bg-white py-2 px-9 text-baddhia-orange rounded-full mt-6 mb-9">
               <a href="">Download</a>
             </button>
