@@ -3,8 +3,7 @@ import Header from "../components/Header";
 import banner from "/images/aboutBanner.png";
 import Reasons from "../components/Reasons";
 import JoinCard from "../components/JoinCard";
-import Footer from '../components/Footer';
-
+import Footer from "../components/Footer";
 
 function About() {
   return (
@@ -12,12 +11,18 @@ function About() {
       <Header />
       <div className="h-[10vh]"></div>
       <div className="aboutBannerHeader md:h-[40vh] h-[15vh] md:mb-10 text-white md:px-40 md:py-10 px-10 pt-2">
-        <h2 className="md:text-5xl text-3xl font-semibold md:mb-8">About Baddhia</h2>
+        <h2 className="md:text-5xl text-3xl font-semibold md:mb-8">
+          About Baddhia
+        </h2>
         <p className="md:text-xl">Our brand story</p>
       </div>
       <div className="flex flex-col md:flex-row gap-12 h-fit">
         <div>
-          <img src={banner} className="md:w-[45vw] hidden xl:flex h-[776px]" alt="" />
+          <img
+            src={banner}
+            className="md:w-[45vw] hidden xl:flex h-[776px]"
+            alt=""
+          />
         </div>
         <div className="xl:w-[40vw] md:w-[90vw] md:px-0 px-10 mb-20">
           <h2 className="text-baddhia-orange md:text-4xl text-3xl text-left md:mb-10 mb-5 font-semibold">
@@ -58,7 +63,7 @@ function About() {
         </div>
       </div>
       <Reasons />
-      <JoinCard/>
+      <JoinCard />
       <Footer />
     </div>
   );

@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function LearnBlog() {
-  return (
-    <div className='h-[20vh]'>LearnBlog</div>
-  )
+  return <div className="h-[20vh]">LearnBlog</div>;
 }
 
-export default LearnBlog
+export default LearnBlog;

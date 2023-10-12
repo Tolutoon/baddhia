@@ -43,9 +43,18 @@ function Reasons() {
       <div className="flex md:flex-row flex-col gap-y-8 gap-x-8">
         {Data.map((elem) => {
           return (
-            <div className="bg-[#FFF6F2] shadow-lg rounded-[32px] md:h-[428px] md:w-[255px] h-[358px] w-[245px] gap-8 p-10 flex justify-center flex-col items-center" key={elem.id}>
-              <h2 className="m-4 md:text-3xl text-2xl text-baddhia-orange">{elem.title}</h2>
-              <img src={elem.img} alt="" className="md:w-[70px] md:h-[70px] w-[60px] h-[60px]" />
+            <div
+              className="bg-[#FFF6F2] shadow-lg rounded-[32px] md:h-[428px] md:w-[255px] h-[358px] w-[245px] gap-8 p-10 flex justify-center flex-col items-center"
+              key={elem.id}
+            >
+              <h2 className="m-4 md:text-3xl text-2xl text-baddhia-orange">
+                {elem.title}
+              </h2>
+              <img
+                src={elem.img}
+                alt=""
+                className="md:w-[70px] md:h-[70px] w-[60px] h-[60px]"
+              />
               <p className="text-center text-gray-600 text-[12px] w-[80%]">
                 {elem.description}
               </p>

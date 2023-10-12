@@ -50,7 +50,6 @@ function CardBenefitsII() {
         </div>
       </div>
       <div className="flex items-center flex-col-reverse md:flex-row justify-center w-full gap-[44px] md:gap-[84px]">
-
         <div className="m-w-[503px] flex flex-col gap-[34px]">
           <h2 className="text-4xl xl:text-5xl text-left font-semibold">
             Privacy <span className="text-baddhia-orange">&</span> <br />{" "}
