@@ -1,4 +1,4 @@
-const Questions = [
+const data = [
   {
     id: 1,
     title: "What is Baddhia?",
@@ -30,3 +30,7 @@ const Questions = [
     info: "We respect your privacy and as such, we’ve made available eight (8) in-app features to help you keep your profile and usability private. Also, we protect your information, including any non-public personal information from unauthorized third-party access.",
   },
 ];
+
+
+
+export default data;

@@ -1,15 +1,21 @@
-import React from "react";
+import React from 'react';
+import data from '../faqData';
 
 function Faq() {
   return (
-    <section className="pt-40">
-      <div>
-        <h1 className="md:text-3xl text-baddhia-orange text-center font-semibold">
-          Frequently Asked Questions
-        </h1>
-      </div>
-    </section>
-  );
+    <div className='md:pt-40 pt-20'>
+      <h1>Faq</h1>
+      {data.map((elem)=>{
+        return (
+          <>
+          
+          <div>{elem.title}</div>
+          <div>{elem.info}</div>
+          </>
+        )
+      })}
+    </div>
+  )
 }
 
-export default Faq;
+export default Faq

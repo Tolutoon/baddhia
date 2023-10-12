@@ -6,7 +6,7 @@ function Support() {
   return (
     <div>
       <Header />
-      <Faq/>
+      <Faq />
     </div>
   )
 }
