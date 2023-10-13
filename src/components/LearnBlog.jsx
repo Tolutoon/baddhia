@@ -14,7 +14,7 @@ function LearnBlog() {
               dolor pretium donec dictum. Vici consequat justo enim. Venenatis
               eget adipiscing luctus lorem.
             </p>
-            <div className="flex gap-4">
+            <div className="flex gap-2 md:gap-4">
               <div className="flex flex-col">
                 <span className="text-[14px] font-semibold">Fletcher James</span>
                 <span className="text-[12px]">June 28, 2013</span>
