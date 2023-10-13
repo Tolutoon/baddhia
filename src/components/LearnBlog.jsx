@@ -34,7 +34,7 @@ function LearnBlog() {
                 {/* Added target="_blank" for opening links in a new tab */}
                 <button
                   type="submit"
-                  className="bg-baddhia-orange p-2 md:px-8 px-6 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
+                  className="bg-baddhia-orange p-2  px-6 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
                 >
                   Read More
                 </button>
