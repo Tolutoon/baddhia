@@ -14,7 +14,7 @@ function LearnBlog() {
               dolor pretium donec dictum. Vici consequat justo enim. Venenatis
               eget adipiscing luctus lorem.
             </p>
-            <div className="flex gap-2 md:gap-4">
+            <div className="flex gap-8 justify-center items-center">
               <div className="flex flex-col">
                 <span className="text-[14px] font-semibold">Fletcher James</span>
                 <span className="text-[12px]">June 28, 2013</span>
@@ -25,7 +25,7 @@ function LearnBlog() {
                 {/* Added target="_blank" for opening links in a new tab */}
                 <button
                   type="submit"
-                  className="bg-baddhia-orange p-2 px-8 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
+                  className="bg-baddhia-orange md:px-8 px-6 py-2 rounded-[16px] font-semibold text-[10px] text-white transition-all duration-300 hover:scale-105"
                 >
                   Read More
                 </button>
