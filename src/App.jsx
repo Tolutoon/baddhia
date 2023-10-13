@@ -5,6 +5,8 @@ import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Support from './pages/Support';
+import Blog from './pages/Blog';
+import BlogContent from './pages/BlogContent';
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
       <Route path='/' element={<Home />}/>
       <Route path='/about' element={<About />}/>
       <Route path='/support' element={<Support />} />
+      <Route path='/blog' element={<Blog />}/>
+      <Route path='/blogContent' element={<BlogContent />}/>
     </Routes>
   )
 }

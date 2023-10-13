@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "/images/logoWhite.svg";
+import Blo from "../pages/Blog";
 import { FiInstagram } from "react-icons/fi";
 import { FaSquareXTwitter, FaFacebook, FaLinkedin } from "react-icons/fa6";
 
