@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Header from '../components/Header';
 import Faq from '../components/Faq';
 
@@ -8,9 +8,6 @@ import Footer from '../components/Footer';
 
 
 function Support() {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  },[])
   return (
     <div id='support'>
       <Header />

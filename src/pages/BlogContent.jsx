@@ -1,19 +1,19 @@
-import React from 'react'
-import BlogArticle from '../components/BlogArticle'
+import React from "react";
+import BlogArticle from "../components/BlogArticle";
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import JoinCard from '../components/JoinCard';
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import JoinCard from "../components/JoinCard";
 
 function BlogContent() {
   return (
-    <div>
-        <Header/>
+    <div className="" id="blogContent">
+      <Header />
       <BlogArticle />
       <JoinCard />
-    <Footer />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default BlogContent
+export default BlogContent;
