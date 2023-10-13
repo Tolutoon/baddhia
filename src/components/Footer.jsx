@@ -30,7 +30,7 @@ function Blogfooter() {
             <a href="https://play.google.com/store/apps/details?id=com.baddhia.app" target="_blank" rel="noreferrer">
               <button
                 type="submit"
-                className="bg-white py-2 px-9 text-baddhia-orange rounded-full mt-6 mb-9 w-[120px]"
+                className="bg-white py-2 px-9 text-baddhia-orange rounded-full mt-6 mb-9 w-fit "
               >
                 Download
               </button>
