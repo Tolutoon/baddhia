@@ -7,7 +7,7 @@ import { FaSquareXTwitter, FaFacebook, FaLinkedin } from "react-icons/fa6";
 function Blogfooter() {
 
   const scrollToTop = () => {
-    document.getElementById("support").scroll(0,0)
+    document.getElementById("body").scroll(0,0)
   }
 
   return (
@@ -29,7 +29,7 @@ function Blogfooter() {
           <div className="text-sm flex flex-col md:items-end">
             <Link className="mb-1">Terms of Use</Link>
             <Link className="mb-1">Privacy Policy</Link>
-            <Link className="mb-1">Blog</Link>
+            <Link to={'/blog'} onClick={scrollToTop} className="mb-1">Blog</Link>
             <Link to={'/support'} onClick={scrollToTop} className="mb-1">Frequently Asked Questions</Link>
 
             <a href="https://play.google.com/store/apps/details?id=com.baddhia.app" target="_blank" rel="noreferrer">
