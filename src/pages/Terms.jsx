@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Header from "../components/Header"
 import TermsContent from '../components/TermsContent'
 import BlogCommunity from '../components/BlogCommunity'
 import Blogfooter from '../components/Blogfooter'
@@ -8,7 +8,7 @@ import Blogfooter from '../components/Blogfooter'
 function Terms() {
   return (
     <div>
-      <Navbar />
+      <Header />
       <TermsContent />
       <BlogCommunity />
       <Blogfooter />
