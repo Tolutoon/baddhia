@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import group1 from '/images/blogHero.png';
 
 
 
@@ -7,7 +8,7 @@ function BlogArticle() {
     <div>
       <div className='sm:flex lg:px-36 md:px-10 px-8 md:justify-between mb-48 py-20 md:py-40'>
         <div className='sm:w-1/2 sm:mr-6 lg:mr-10 mb-16'>
-          <img className='h-96 w-full object-cover sm:h-80 mb-10' src='' alt=""/>
+          <img className='h-96 w-full object-cover sm:h-80 mb-10' src={group1} alt=""/>
           <p className='mb-7 text-justify'>Lorem ipsum dolor sit amet consectetur. Et interdum pulvinar pharetra eu semper vel. Curabitur mollis aliquam non egestas tortor justo luctus consequat. Sagittis lectus amet adipiscing nibh nulla congue sapien ligula quisque. Praesent eget non et cursus semper tincidunt. Ultricies elementum bibendum dignissim pharetra dui neque non a sed. Tortor diam tortor venenatis morbi. Elementum in amet tellus ipsum amet. Congue dictumst sit nunc cras fringilla a eget tempus euismod.
           Molestie hac nunc amet dictum quis viverra a lorem. A mi nibh lorem suscipit. Pellentesque non est gravida praesent. Fringilla molestie lorem fermentum risus pulvinar. In risus consequat fermentum gravida viverra. Vestibulum imperdiet
           </p> 
