@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "/images/logoWhite.svg";
-import Blo from "../pages/Blog";
+import { Link } from "react-router-dom";
 import { FiInstagram } from "react-icons/fi";
 import { FaSquareXTwitter, FaFacebook, FaLinkedin } from "react-icons/fa6";
 
@@ -21,14 +21,20 @@ function Blogfooter() {
             <FaFacebook className="ml-4" />
             <FaLinkedin className="ml-4" />
           </div>
-          <div className="text-sm">
-            <p className="mb-1">Terms of Use</p>
-            <p className="mb-1">Privacy Policy</p>
-            <p className="mb-1">Blog</p>
-            <p className="mb-1">Frequently Asked Questions</p>
-            <button className="bg-white py-2 px-9 text-baddhia-orange rounded-full mt-6 mb-9">
-              <a href="">Download</a>
-            </button>
+          <div className="text-sm flex flex-col md:items-end">
+            <Link className="mb-1">Terms of Use</Link>
+            <Link className="mb-1">Privacy Policy</Link>
+            <Link className="mb-1">Blog</Link>
+            <Link to={'/support'} className="mb-1">Frequently Asked Questions</Link>
+
+            <a href="https://play.google.com/store/apps/details?id=com.baddhia.app" target="_blank" rel="noreferrer">
+              <button
+                type="submit"
+                className="bg-white py-2 px-9 text-baddhia-orange rounded-full mt-6 mb-9 w-[120px]"
+              >
+                Download
+              </button>
+            </a>
           </div>
         </div>
       </div>

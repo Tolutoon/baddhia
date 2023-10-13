@@ -5,7 +5,7 @@ import guardianLogo from "/images/guardianLogo.svg";
 
 function Press() {
   return (
-    <section className="px-10 md:px-20">
+    <section className="px-10 md:px-20 mb-20">
       <h2 className="xl:text-3xl text-2xl font-semibold mx-auto xl:mb-20 mb-10 text-center">
         Baddhia in the <span className="text-baddhia-orange">press</span>
       </h2>
