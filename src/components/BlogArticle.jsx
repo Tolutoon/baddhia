@@ -1,5 +1,8 @@
 import React from 'react';
 import group1 from '/images/blogHero.png';
+import group2 from '/images/group2.png';
+import group3 from '/images/orange-back.png';
+import group4 from '/images/Frame 15.png';
 
 
 
@@ -25,7 +28,7 @@ function BlogArticle() {
         </div>
         <div className='sm:w-1/2 sm:ml-6 lg:ml-20'>
           <div className='relative mb-16'>
-            <img className='h-96 w-full object-cover sm:h-80' src='' alt="" />
+            <img className='h-96 w-full object-cover sm:h-80' src={group2} alt="" />
             <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white'>
               <p className='text-2xl w-60 mb-10 font-bold'>Find a Compatible
                 Partner on Baddhia Today!
@@ -38,7 +41,7 @@ function BlogArticle() {
             </div>
           </div>
           <div className='relative mb-16'>
-            <img className='h-96 w-full object-cover' src='' alt="" />
+            <img className='h-96 w-full object-cover' src={group3} alt="" />
             <div className='absolute top-20 left-0 text-center text-black'>
               <p className='mb-4 font-bold text-lg'>
               Subscribe to our newsletter
@@ -61,7 +64,7 @@ function BlogArticle() {
           <div className='mb-7'>
             <p className='text-baddhia-orange font-semibold mb-5 text-lg'>Related Articles</p>
             <div className='w-full rounded-2xl overflow-hidden shadow-lg'>
-              <img className='h-60 w-full object-cover' src='' alt="" />
+              <img className='h-60 w-full object-cover' src={group4} alt="" />
               <div className='px-10 py-5 bg-orange-100 lg:h-64 w-auto md:h-80 sm:h-64'>
               <h3 className='font-bold text-lg mb-3'>More Than Romance: Building Lasting Friendships on Baddhia</h3>
               <p className='text-sm mb-6'>Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.
@@ -83,7 +86,7 @@ function BlogArticle() {
 
           <div>
           <div className='w-full rounded-2xl overflow-hidden shadow-lg'>
-              <img className='h-60 w-full object-cover' src='' alt="" />
+              <img className='h-60 w-full object-cover' src={group4} alt="" />
               <div className='px-10 py-5 lg:h-64 bg-orange-100 w-auto md:h-80 sm:h-64'>
               <h3 className='font-bold text-lg mb-5'>More Than Romance: Building Lasting Friendships on Baddhia</h3>
               <p className='text-sm mb-6'>Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.

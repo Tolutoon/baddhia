@@ -14,6 +14,7 @@ import JoinCard from '../components/JoinCard';
 import Footer from '../components/Footer';
 
 
+
 function Home() {
 
   return (
