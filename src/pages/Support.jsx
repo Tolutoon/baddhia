@@ -12,8 +12,8 @@ function Support() {
     <div id='support'>
       <Header />
       <Faq />
-      <div className='mb-10'>
-        <img src={getInTouch} alt=''/>
+      <div className="mb-10 bg-[url('/images/getIntouch.png')] h-[50vh] bg-cover bg-center w-[100vw] flex justify-center items-center">
+        <h2 className='text-white text-5xl font-semibold tracking-wide'>Get in Touch</h2>
       </div>
       <div>
         <div className='flex flex-col justify-center w-[70vw] mx-auto items-center'>

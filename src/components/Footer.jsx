@@ -21,14 +21,14 @@ function Blogfooter() {
 
         <div className="sm:text-right">
           <div className="flex sm:justify-end text-xl mb-4">
-            <FiInstagram />
-            <FaSquareXTwitter className="ml-4" />
-            <FaFacebook className="ml-4" />
-            <FaLinkedin className="ml-4" />
+           <a href="https://www.instagram.com/baddhia/?hl=en"><FiInstagram /></a> 
+            <a href="https://twitter.com/baddhia"><FaSquareXTwitter className="ml-4" /></a>
+            <a href="https://www.facebook.com/Baddhiia/"><FaFacebook className="ml-4" /></a>
+            <a href="https://www.linkedin.com/company/baddhia/"><FaLinkedin className="ml-4" /></a>
           </div>
           <div className="text-sm flex flex-col md:items-end">
-            <Link className="mb-1">Terms of Use</Link>
-            <Link className="mb-1">Privacy Policy</Link>
+            <Link to={'/terms&condition'} onClick={scrollToTop} className="mb-1">Terms of Use</Link>
+            <Link to={'/privacy'} onClick={scrollToTop} className="mb-1">Privacy Policy</Link>
             <Link to={'/blog'} onClick={scrollToTop} className="mb-1">Blog</Link>
             <Link to={'/support'} onClick={scrollToTop} className="mb-1">Frequently Asked Questions</Link>
 
