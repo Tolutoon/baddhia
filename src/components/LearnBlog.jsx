@@ -23,7 +23,7 @@ function LearnBlog() {
             </p>
             <div className="flex md:gap-4 gap-8 ">
               <div className="flex flex-col">
-                <span className="text-[14px] font-semibold">
+                <span className="text-[12px] font-semibold">
                   Fletcher James
                 </span>
                 <span className="text-[12px]">June 28, 2013</span>
