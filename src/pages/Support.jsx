@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from '../components/Header';
 import Faq from '../components/Faq';
 
@@ -6,9 +6,13 @@ import getInTouch from '/images/getIntouch.png'
 import JoinCard from '../components/JoinCard';
 import Footer from '../components/Footer';
 
+
 function Support() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  },[])
   return (
-    <div>
+    <div id='support'>
       <Header />
       <Faq />
       <div className='mb-10'>

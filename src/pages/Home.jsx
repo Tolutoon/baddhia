@@ -13,9 +13,12 @@ import LearnBlog from '../components/LearnBlog';
 import JoinCard from '../components/JoinCard';
 import Footer from '../components/Footer';
 
+
 function Home() {
+
   return (
     <main className='max-w-[1920px] mx-auto transition overflow-hidden'>
+
         <Header />
         <Hero />
         <FindMatch />

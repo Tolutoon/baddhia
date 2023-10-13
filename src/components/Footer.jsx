@@ -5,6 +5,11 @@ import { FiInstagram } from "react-icons/fi";
 import { FaSquareXTwitter, FaFacebook, FaLinkedin } from "react-icons/fa6";
 
 function Blogfooter() {
+
+  const scrollToTop = () => {
+    document.getElementById("support").scroll(0,0)
+  }
+
   return (
     <footer className="footer">
       <div className="flex max-sm:flex-col-reverse sm:flex pl-10 sm:justify-between text-white pt-16 sm:px-12 md:px-40 pb-10">
@@ -25,7 +30,7 @@ function Blogfooter() {
             <Link className="mb-1">Terms of Use</Link>
             <Link className="mb-1">Privacy Policy</Link>
             <Link className="mb-1">Blog</Link>
-            <Link to={'/support'} className="mb-1">Frequently Asked Questions</Link>
+            <Link to={'/support'} onClick={scrollToTop} className="mb-1">Frequently Asked Questions</Link>
 
             <a href="https://play.google.com/store/apps/details?id=com.baddhia.app" target="_blank" rel="noreferrer">
               <button
