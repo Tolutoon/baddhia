@@ -3,19 +3,19 @@ import { Link } from "react-router-dom";
 
 function LearnBlog() {
   return (
-    <div className="h-fit">
-      <h1>Learn More About our Blogs</h1>
-      <div className="md:h-[350px] bg-[url('/images/dummyImg.png')] md:w-[323px] h-[280px] w-[263px] bg-cover bg-no-repeat relative shadow-md rounded-2xl">
-        <div className="flex absolute bg-[#FFF6F2] md:w-[323px] h-fit w-fit bottom-0 flex-col gap-[16px] rounded-2xl justify-center items-center">
-          <div>
-            <h3>More Then Romance: Building Lasting Friendships on Baddhia</h3>
-            <p className="text-gray-400">
+    <div className="h-fit px-20 md:px-40 mb-20">
+      <h1 className="text-center font-semibold text-3xl mb-10">Learn <span className="text-baddhia-orange">More</span> About our Blogs</h1>
+      <div className=" bg-[url('/images/dummyImg.png')]  h-[480px] w-[283px] bg-cover bg-center bg-no-repeat relative shadow-md rounded-2xl">
+        <div className="flex absolute bg-[#FFF6F2] w-fit bottom-0 flex-col gap-[16px] rounded-2xl justify-center items-center p-4">
+          <div className="w-[90%]">
+            <h3 className="text-baddhia-orange font-semibold mb-4">More Then Romance: Building Lasting Friendships on Baddhia</h3>
+            <p className="text-gray-400 text-[12px] mb-4">
               Aenean eleifend ante maecenas pulvinar montes lorem et pede dis
               dolor pretium donec dictum. Vici consequat justo enim. Venenatis
               eget adipiscing luctus lorem.
             </p>
-            <div>
-              <div>
+            <div className="flex">
+              <div className="flex flex-col">
                 <span>Fletcher James</span>
                 <span>June 28, 2013</span>
               </div>
@@ -25,7 +25,7 @@ function LearnBlog() {
                 {/* Added target="_blank" for opening links in a new tab */}
                 <button
                   type="submit"
-                  className="bg-baddhia-orange p-4 px-8 rounded-[16px] font-semibold md:text-base text-[12px] text-white transition-all duration-300 hover:scale-105"
+                  className="bg-baddhia-orange p-2 px-8 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
                 >
                   Read More
                 </button>
