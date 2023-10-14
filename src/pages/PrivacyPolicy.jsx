@@ -2,7 +2,7 @@ import React from "react";
 
 function PrivacyPolicy() {
   return (
-    <div className="p-4 pt-20 md:px-40 px-20">
+    <div className="p-4 pt-20 md:px-40 px-10">
       <div>
         <h1 className="text-baddhia-orange text-4xl mb-10 font-bold">Privacy Policy</h1>
         <h3 className="font-semibold text-baddhia-orange md:text-xl mb-5">Create an account and unlock free subscription</h3>
