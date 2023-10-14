@@ -4,7 +4,7 @@ function PrivacyPolicy() {
   return (
     <div className="p-4 pt-20 md:px-40 px-10">
       <div>
-        <h1 className="text-baddhia-orange text-4xl mb-10 font-bold">Privacy Policy</h1>
+        <h1 className="text-baddhia-orange md:text-4xl text-3xl mb-10 font-bold">Privacy Policy</h1>
         <h3 className="font-semibold text-baddhia-orange md:text-xl mb-5">Create an account and unlock free subscription</h3>
         <p className="text-gray-500 leading-7 mb-20">
           This Privacy Policy is to succinctly explain how we collect, use,
