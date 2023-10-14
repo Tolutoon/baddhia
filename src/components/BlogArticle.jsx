@@ -39,20 +39,22 @@ function BlogArticle() {
                </a>
             </div>
           </div>
-          <div className='relative mb-16'>
-            <img className='h-96 w-full object-cover' src={Frameblog2} alt="" />
-            <div className='absolute top-20 left-0 text-center text-black'>
+          <div className='mb-16'>
+            <div className='bg-B-writeup py-20 w-full'> 
+              <div className='text-center text-black'>
               <p className='mb-4 font-bold text-lg'>
               Subscribe to our newsletter
               </p>
               <p className='px-10'>Lorem ipsum dolor sit amet consectetur. Ultrices id congue augue enim vestibulum magna vita risus.</p>
               <div>
                 <div>
-                  <button className='bg-baddhia-orange py-3 px-20 rounded-full text-white'>Submit</button>
+                  <button className='bg-baddhia-orange py-3 px-12 sm:py-3 sm:px-16 rounded-full text-white'>Submit</button>
                 </div>
-                <div>
-                <input className='mt-6 mb-6 pl-5 pr-10 py-3 rounded-full outline-none ' placeholder='EMAIL' type="email" name="Email Address" id="emailAddress" required/>
+                <div className='md:px-11 px-8'>
+                <input className='mt-6 pl-4  py-3 w-full rounded-full outline-none ' placeholder='EMAIL' type="email" name="Email Address" id="emailAddress" required/>
                 </div>
+            </div>
+            
                 
               </div>
               
