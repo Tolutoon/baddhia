@@ -2,11 +2,11 @@ import React from "react";
 
 function PrivacyPolicy() {
   return (
-    <div className="p-4">
+    <div className="p-4 pt-20 md:px-40">
       <div>
-        <h1>Privacy Policy</h1>
-        <h3 className="font-semibold text-baddhia-orange">Create an account and unlock free subscription</h3>
-        <p>
+        <h1 className="text-baddhia-orange text-4xl mb-10 font-bold">Privacy Policy</h1>
+        <h3 className="font-semibold text-baddhia-orange md:text-xl mb-5">Create an account and unlock free subscription</h3>
+        <p className="text-gray-500 leading-7 mb-20">
           This Privacy Policy is to succinctly explain how we collect, use,
           disclose and protect your information, including any non-public
           personal information. This policy applies to information we collect
@@ -24,8 +24,8 @@ function PrivacyPolicy() {
         </p>
       </div>
       <div>
-        <h3>1. Categories of Non-public Personal Information</h3>
-        <p>
+        <h3 className="font-semibold text-baddhia-orange mb-5">1. Categories of Non-public Personal Information</h3>
+        <p className="text-gray-500 mb-5">
           We collect non-public personal information you provide to us when you
           sign-up on our Baddhia platform or when you communicate with us about
           your Baddhia account. The types of information we may collect include
@@ -35,8 +35,8 @@ function PrivacyPolicy() {
           status, username, password, and any other information you choose to
           provide.
         </p>
-        <h3>2. Information About Your Transactions with Us</h3>
-        <p>
+        <h3 className="font-semibold text-baddhia-orange mb-5">2. Information About Your Transactions with Us</h3>
+        <p className="text-gray-500 mb-5">
           As you use your Baddhia account to connect, build healthy
           relationships, chat, and make transactions, we collect non-public
           personal information in connection with each transaction, including
@@ -44,24 +44,24 @@ function PrivacyPolicy() {
           collect photos or other information that you make available during
           online activities.
         </p>
-        <h3>3. Information From Other Sources</h3>
-        <p>
+        <h3 className="font-semibold text-baddhia-orange mb-5">3. Information From Other Sources</h3>
+        <p className="text-gray-500 mb-5">
           When you create a Baddhia account, we may collect information,
           including non-public personal information, about you from
           non-affiliated third-party service providers in order to verify your
           identity and for fraud prevention, including your prior addresses and
           names
         </p>
-        <h3>4. Other Information we Collect</h3>
-        <p>
+        <h3 className="font-semibold text-baddhia-orange mb-5">4. Other Information we Collect</h3>
+        <p className="text-gray-500 mb-5">
           We may collect information you provide to us, such as your name, email
           address and any other information you choose to provide. For example,
           we may collect such information if you request an invite to join
           Baddhia or if you enter into any marketing and brand promotion
           activities.
         </p>
-        <h3>5. Information We Collect Automatically from our Services</h3>
-        <p>
+        <h3 className="font-semibold text-baddhia-orange mb-5">5. Information We Collect Automatically from our Services</h3>
+        <p className="text-gray-500 mb-5">
           When you access or use our Services, we automatically collect
           information about you as follows: 1. Location Information: We may
           collect your location information from your mobile device with your
@@ -94,8 +94,8 @@ function PrivacyPolicy() {
           count visits, understand usage and campaign effectiveness and
           determine whether an email has been opened and acted upon.
         </p>
-        <h3>6. How We Respond to Do Not Track Signals</h3>
-        <p>
+        <h3 className="font-semibold text-baddhia-orange mb-5">6. How We Respond to Do Not Track Signals</h3>
+        <p className="text-gray-500 mb-5">
           We allow Do Not Track browser configurations. We use cookies and other
           tracking technologies, and Do Not Track status may alter the available
           services with certain browsers when these tracking functionalities are
@@ -107,8 +107,8 @@ function PrivacyPolicy() {
           Services (ii). Flutterwave payment gateway (iii). Paystack payment
           gateway (iv). Apple Store Services
         </p>
-        <h3>7. Use of Information</h3>
-        <p>
+        <h3 className="font-semibold text-baddhia-orange mb-5">7. Use of Information</h3>
+        <p className="text-gray-500 mb-5">
           We may use your information, including non-public personal information
           as follows: • provide, maintain, and improve our Services. • provide
           and deliver the products and services you request. • process
@@ -128,8 +128,8 @@ function PrivacyPolicy() {
           service. • carry out any other purpose for which the information was
           collected. 7. Use of Information
         </p>
-        <h3>8. Disclosure of Information</h3>
-        <p>
+        <h3 className="font-semibold text-baddhia-orange mb-5">8. Disclosure of Information</h3>
+        <p className="text-gray-500 mb-5">
           We may disclose any information we collect about current and former
           customers, including non-public personal information, to affiliates
           and non-affiliated third parties as follows: 1. with Fintech
@@ -172,15 +172,15 @@ function PrivacyPolicy() {
           improve our accuracy in product deliveries and to improve the clarity
           of transaction descriptions.
         </p>
-        <h3>9. Account Information</h3>
-        <p>
+        <h3 className="font-semibold text-baddhia-orange mb-5">9. Account Information</h3>
+        <p className="text-gray-500 mb-5">
           You may edit your account profile information by logging into your
           account via our Services. If you wish to delete or deactivate your
           online account, please contact us, but note that we may retain certain
           information as required by law or for legitimate business purposes.
         </p>
-        <h3>10. Location Information</h3>
-        <p>
+        <h3 className="font-semibold text-baddhia-orange mb-5">10. Location Information</h3>
+        <p className="text-gray-500 mb-5">
           Due to the nature of our business – online dating/geo-location
           matching; you would be required to give out details of your location
           information to Baddhia or Map service provider within our mobile
@@ -191,23 +191,23 @@ function PrivacyPolicy() {
           standard uninstall process to remove our mobile application from your
           device.
         </p>
-        <h3>11. Baddhia Brand Promotional Communications</h3>
-        <p>
+        <h3 className="font-semibold text-baddhia-orange mb-5">11. Baddhia Brand Promotional Communications</h3>
+        <p className="text-gray-500 mb-5">
           You may opt out of receiving promotional emails and text messages from
           Baddhia by following the instructions in those messages. Please note
           that if you opt out, we may still send you transactional or
           relationship messages, such as those about your account or our ongoing
           business relations.
         </p>
-        <h3>12. Cookies </h3>
-        <p>
+        <h3 className="font-semibold text-baddhia-orange mb-5">12. Cookies </h3>
+        <p className="text-gray-500 mb-5">
           Most web browsers are set to accept cookies by default. If you prefer,
           you can usually choose to set your browser to remove or reject browser
           cookies. Please note that if you choose to remove or reject cookies,
           this could affect the availability and functionality of our Services.
         </p>
-        <h3>13. Social Sharing Features</h3>
-        <p>
+        <h3 className="font-semibold text-baddhia-orange mb-5">13. Social Sharing Features</h3>
+        <p className="text-gray-500 mb-5">
           Our Services include social sharing features for common social
           networks to let users share content. These features are served from
           third-party services that may serve their own cookies. The use of such
@@ -218,8 +218,8 @@ function PrivacyPolicy() {
           social sharing features, please visit the privacy policies of the
           entities that provide these features.
         </p>
-        <h3>14. Analytics and Advertising Services Provided by Others</h3>
-        <p>
+        <h3 className="font-semibold text-baddhia-orange mb-5">14. Analytics and Advertising Services Provided by Others</h3>
+        <p className="text-gray-500 mb-5">
           We may allow others to provide analytics services on our behalf and to
           serve advertisements on our behalf across the Internet. These entities
           may use cookies, web beacons and other technologies to collect

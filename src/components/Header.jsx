@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 // import assets
@@ -42,7 +42,7 @@ function Header() {
             {toggleMenu ? (
               <AiOutlineClose
                 fontSize={28}
-                className="text-baddhia-orange cursor-pointer md:hidden"
+                className="text-baddhia-orange md:hidden max-md:hidden cursor-pointer"
                 onClick={() => setToggleMenu(false)}
               />
             ) : (
@@ -53,13 +53,14 @@ function Header() {
               />
             )}
             {toggleMenu && (
-              <ul className="flex flex-col uppercase transition list-none rounded-xl fixed md:hidden top-2 w-full h-fit p-3 pt-0 justify-start bg-white shadow-2xl">
+              <ul className="z-10 fixed -top-0 -right-2 p-3 w-[70vw] h-fit shadow-2xl md:hidden list-none uppercase bg-white
+              flex flex-col justify-start items-end rounded-md text-baddhia-orange">
                 <AiOutlineClose
                   fontSize={28}
                   onClick={() => setToggleMenu(false)}
-                  className="cursor-pointer text-baddhia-orange justify-end w-full ml-[65px]"
+                  className="cursor-pointer text-baddhia-orange mr-2 mt-2"
                 />{" "}
-                <li className="text-baddhia-orange text-base w-full my-2 mt-10 flex items-end">
+                <li className="text-baddhia-orange text-base w-full my-2 mt-4 flex items-end">
                   <a href="/about">About us</a>
                 </li>
                 <li className="text-baddhia-orange text-base w-full my-2 flex items-end">
