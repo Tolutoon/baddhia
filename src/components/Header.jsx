@@ -6,6 +6,7 @@ import Logo from "/images/baddhiaLogo.svg";
 
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
+import { GiHamburgerMenu } from 'react-icons/gi';
 
 function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -46,14 +47,14 @@ function Header() {
                 onClick={() => setToggleMenu(false)}
               />
             ) : (
-              <BiMenuAltRight
+              <GiHamburgerMenu
                 fontSize={28}
                 className="md:hidden text-baddhia-orange cursor-pointer"
                 onClick={() => setToggleMenu(true)}
               />
             )}
             {toggleMenu && (
-              <ul className="z-10 fixed -top-0 -right-2 p-3 w-[70vw] h-fit shadow-2xl md:hidden list-none uppercase bg-white
+              <ul className="z-10 fixed -top-0 -right-2 p-3 w-[70vw] h-full shadow-2xl md:hidden list-none uppercase bg-white
               flex flex-col justify-start items-end rounded-md text-baddhia-orange animate-slide-in">
                 <AiOutlineClose
                   fontSize={28}
