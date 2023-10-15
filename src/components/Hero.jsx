@@ -1,33 +1,22 @@
 import React from "react";
+import hero from "/images/HeroImg.png"
 
 function Hero() {
   return (
-    <section className="py-10">
-      <div className="homePage h-screen w-full px-10 flex-nowrap">
-        <div className="flex flex-col justify-center w-full items-center h-full md:gap-y-8 gap-y-6 mx-auto">
-          <h1 className="text-white text-center xl:max-w-6xl max-w-[80vh] md:leading-none font-semibold text-4xl md:text-[44px] xl:text-[64px]">
-            Find your <span className="text-baddhia-orange">Perfect Match</span>
-            ,<br /> <span className="text-baddhia-orange"> Anywhere</span> in
-            the World.
-          </h1>
-          <p className="text-white xl:max-w-[80vh] max-w-[60vh] text-center xl:text-base">
-            Finding the right person is tough, but we have made it easier.
-            Whether you’re looking for love, friendship, or chat, our algorithm
-            will connect you with someone who shares your interests and values.
-          </p>
-
-          {/* button */}
-          <a href="https://play.google.com/store/apps/details?id=com.baddhia.app">
-            <button
-              type="submit"
-              className="bg-baddhia-orange p-4 xl:px-16 px-10 rounded-[16px] font-semibold xl:text-base text-[12px] text-white transition-all duration-300 hover:scale-105"
-            >
-              Download
-            </button>
-          </a>
-        </div>
-      </div>
-    </section>
+    <div className='relative'>
+            <img className='w-full' src={hero} alt="" />
+            <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white'>
+              <p className='lg:text-5xl font-bold sm:text-2xl text-l mt-5 md:text-3xl w-full mb-0 md:mb-3 m-auto md:font-bold'>Find Your <span className="text-baddhia-orange">Perfect Match, 
+                Anywhere</span> in the World.
+              </p>
+              <p className="w-full text-xs md:text-sm mb-2">Finding the right person is tough, but we have made it easier. Whether you’re looking for love, friendship, or chat, our algorithm will connect you with someone who shares your interests and values.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.baddhia.app">
+              <button
+               className='bg-baddhia-orange md:py-3 mb-6 md:px-10 md:text-sm text-xs py-2 px-4 rounded-full'>Download Now
+               </button>
+               </a>
+            </div>
+          </div>
   );
 }
 
