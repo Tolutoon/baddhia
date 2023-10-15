@@ -6,7 +6,7 @@ import gifts from "/images/gifts.png";
 function CardBenefits() {
   return (
     <div className="px-10 mb-20">
-      <div className="flex pt-40 items-center flex-col md:flex-row justify-center w-full gap-[44px] md:gap-[144px]">
+      <div className="flex md:pt-40 pt-20 items-center flex-col md:flex-row justify-center w-full gap-[44px] md:gap-[144px]">
         <div>
           <img
             className="h-[363px] w-[323px]"
@@ -21,10 +21,10 @@ function CardBenefits() {
             Vibe{" "}
           </h2>
           <p className="text-left m-w-[460px] text-gray-500 text-base">
-            Tired of meeting people who don’t get your sense <br /> of humor?
-            Your passion for collecting rubber ducks? Your love <br /> of puns?
-            Well, with Baddhia, you can finally meet someone <br />
-            who shares your passions, understands your quirks, and <br />{" "}
+            Tired of meeting people who don’t get your sense of humor?
+            Your passion for collecting rubber ducks? Your love of puns?
+            Well, with Baddhia, you can finally meet someone
+            who shares your passions, understands your quirks, and
             appreciates your uniqueness.
           </p>
           {/* button */}
@@ -32,9 +32,9 @@ function CardBenefits() {
             <a href="https://play.google.com/store/apps/details?id=com.baddhia.app">
               <button
                 type="submit"
-                className="bg-baddhia-orange p-4 px-12 xl:px-14 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
+                className="bg-baddhia-orange p-4 px-8 xl:px-14 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
               >
-                Download
+                Download Now
               </button>
             </a>
           </div>

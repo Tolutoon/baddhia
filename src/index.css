@@ -22,11 +22,6 @@ html {
     background-size: cover;
 }
 
-.banner {
-    background: url('/images/htfypm-dummy.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
 .backBanner {
     background: url('/images/connect-kindly.png');
