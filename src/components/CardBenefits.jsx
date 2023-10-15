@@ -9,7 +9,7 @@ function CardBenefits() {
       <div className="flex md:pt-40 pt-20 items-center flex-col md:flex-row justify-center w-full gap-[44px] md:gap-[144px]">
         <div>
           <img
-            className="h-[363px] w-[323px]"
+            className="h-[399px] w-[323px]"
             src={connectImage}
             alt=""
             loading="lazy"
@@ -20,7 +20,7 @@ function CardBenefits() {
             Meet, Connect <span className="text-baddhia-orange">&</span> <br />{" "}
             Vibe{" "}
           </h2>
-          <p className="text-left m-w-[460px] text-gray-500 text-base">
+          <p className="text-left max-w-[440px] text-gray-500 text-base">
             Tired of meeting people who don’t get your sense of humor?
             Your passion for collecting rubber ducks? Your love of puns?
             Well, with Baddhia, you can finally meet someone
@@ -32,7 +32,7 @@ function CardBenefits() {
             <a href="https://play.google.com/store/apps/details?id=com.baddhia.app">
               <button
                 type="submit"
-                className="bg-baddhia-orange p-4 px-8 xl:px-14 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
+                className="bg-baddhia-orange p-4 px-8 xl:px-10 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
               >
                 Download Now
               </button>
@@ -60,9 +60,9 @@ function CardBenefits() {
             <a href="https://play.google.com/store/apps/details?id=com.baddhia.app">
               <button
                 type="submit"
-                className="bg-baddhia-orange p-4 px-14 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
+                className="bg-baddhia-orange p-4 px-12 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
               >
-                Download
+                Download Now
               </button>
             </a>
           </div>
