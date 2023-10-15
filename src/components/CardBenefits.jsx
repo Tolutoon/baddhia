@@ -49,10 +49,10 @@ function CardBenefits() {
             Emojis{" "}
           </h2>
           <p className="text-left m-w-[460px] text-gray-500 text-base">
-            Tired of meeting people who don’t get your sense <br /> of humor?
-            Your passion for collecting rubber ducks? Your love <br /> of puns?
-            Well, with Baddhia, you can finally meet someone <br />
-            who shares your passions, understands your quirks, and <br />{" "}
+            Tired of meeting people who don’t get your sense of humor?
+            Your passion for collecting rubber ducks? Your love of puns?
+            Well, with Baddhia, you can finally meet someone 
+            who shares your passions, understands your quirks, and
             appreciates your uniqueness.
           </p>
           {/* button */}
