@@ -8,7 +8,7 @@ function CardBenefitsII() {
       <div className="flex items-center mb-20 md:mb-20 flex-col md:flex-row justify-center w-full gap-y-[44px] md:gap-[164px]">
         <div className="pt-10">
           <img
-            className="md:h-[532px] md:w-[282px] h-[423px] w-[262px]"
+            className="h-[532px] w-[282px]"
             src={shareMoment}
             alt=""
             loading="lazy"
@@ -24,57 +24,47 @@ function CardBenefitsII() {
             <br />
             Moments
           </h2>
-          <p className="text-left m-w-[460px] text-gray-500 text-base">
-            Share your adventures and connect with <br /> people who share your
-            passions on Baddhia. <br /> Our 24-hour disappearing photos, videos
-            and <br />
-            text posts are the perfect way to attract like-
-            <br />
-            minded people. So whether you’re hiking up a<br /> mountain, dancing
-            the night away, or just
-            <br />
-            hanging out with friends, share it all on Baddhia.
-            <br /> You never know who you might meet
+          <p className="text-left max-w-[440px] text-gray-500 text-base">
+            Share your adventures and connect with people who share your
+            passions on Baddhia. Our 24-hour disappearing photos, videos and
+            text posts are the perfect way to attract like- minded people. So
+            whether you’re hiking up a mountain, dancing the night away, or just
+            hanging out with friends, share it all on Baddhia. You never know
+            who you might meet
           </p>
           {/* button */}
           <div className="flex justify-start">
             <a href="https://play.google.com/store/apps/details?id=com.baddhia.app">
               <button
                 type="submit"
-                className="bg-baddhia-orange p-4 px-12 xl:px-14 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
+                className="bg-baddhia-orange p-4 px-8 xl:px-10 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
               >
-                Download
+                Download Now
               </button>
             </a>
           </div>
         </div>
       </div>
       <div className="flex items-center flex-col-reverse md:flex-row justify-center w-full gap-[44px] md:gap-[84px]">
-        <div className="m-w-[503px] flex flex-col gap-[34px]">
+        <div className="max-w-[403px] flex flex-col gap-[34px]">
           <h2 className="text-4xl xl:text-5xl text-left font-semibold">
             Privacy <span className="text-baddhia-orange">&</span> <br />{" "}
             Security
           </h2>
-          <p className="text-left m-w-[460px] text-gray-500 text-base">
-            Share your adventures and connect with <br /> people who share your
-            passions on Baddhia. <br /> Our 24-hour disappearing photos, videos
-            and <br />
-            text posts are the perfect way to attract like-
-            <br />
-            minded people. So whether you’re hiking up a<br /> mountain, dancing
-            the night away, or just
-            <br />
-            hanging out with friends, share it all on Baddhia.
-            <br /> You never know who you might meet
+          <p className="text-left max-w-[440px] text-gray-500 text-base">
+            Tired of meeting people who don’t get your sense of humor? Your
+            passion for collecting rubber ducks? Your love of puns? Well, with
+            Baddhia, you can finally meet someone who shares your passions,
+            understands your quirks, and appreciates your uniqueness.
           </p>
           {/* button */}
           <div className="flex justify-start">
             <a href="https://play.google.com/store/apps/details?id=com.baddhia.app">
               <button
                 type="submit"
-                className="bg-baddhia-orange p-4 px-12 xl:px-14 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
+                className="bg-baddhia-orange p-4 px-8 xl:px-10 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
               >
-                Download
+                Download Now
               </button>
             </a>
           </div>

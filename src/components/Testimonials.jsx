@@ -4,17 +4,17 @@ import CardSlider from "./CardSlider";
 
 function Testimonials() {
   return (
-    <section className="testimonal-backDrop px-10 py-10 w-full xl:mb-0">
-      <div className="flex flex-col justify-center xl:items-center">
-        <h2 className="xl:text-3xl text-2xl font-semibold mx-auto xl:mb-20">
+    <section className="testimonal-backDrop px-10 py-10 w-full xl:mb-0 ">
+      <div className="flex flex-col justify-center">
+        <h2 className="xl:text-3xl text-2xl font-semibold mx-auto md:mb-10">
           What our <span className="text-baddhia-orange">users</span> say
         </h2>
-        <div className="xl:justify-center justify-start relative md:flex flex-col h-fit md:flex-row p-10 hidden">
+        <div className=" md:justify-start items-start relative md:flex h-fit p-10 hidden">
           {Data.map((elem) => {
             const { id, description, name } = elem;
             return (
               <div
-                className="card flex flex-col gap-[32px] w-[330px] h-[410px] py-10 px-5 mb-10 justify-center mx-5 items-center flex-shrink-0 bg-white"
+                className="card flex flex-col gap-[32px] w-[330px] h-[330px] py-10 px-5 mb-10 justify-center mx-5 items-center flex-shrink-0 bg-white"
                 key={id}
               >
                 <span className="text-[64px] text-baddhia-orange">❝</span>

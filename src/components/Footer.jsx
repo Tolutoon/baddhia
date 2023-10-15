@@ -15,7 +15,7 @@ function Blogfooter() {
       <div className="flex max-sm:flex-col-reverse sm:flex pl-10 sm:justify-between text-white pt-16 sm:px-12 md:px-40 pb-10">
         <div className="text-sm">
           <img className="w-14 mb-3" src={Logo} alt="" />
-          <p>Copyright © 2023 All Right Reeserved</p>
+          <p>Copyright © 2023 All Right Reserved</p>
           <p>Baddhia</p>
         </div>
 
@@ -35,9 +35,9 @@ function Blogfooter() {
             <a href="https://play.google.com/store/apps/details?id=com.baddhia.app" target="_blank" rel="noreferrer">
               <button
                 type="submit"
-                className="bg-white py-2 px-9 text-baddhia-orange rounded-full mt-6 mb-9 w-fit "
+                className="bg-white py-2 px-6 text-baddhia-orange rounded-full mt-6 mb-9 w-fit "
               >
-                Download
+                Download Now
               </button>
             </a>
           </div>
