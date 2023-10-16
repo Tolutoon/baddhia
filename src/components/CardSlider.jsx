@@ -58,7 +58,7 @@ function CardSlider() {
             </div>
           </SwiperSlide>
         ))}
-        <div className="flex mt-40">
+        <div className="flex mt-20">
           <div
             className="absolute -translate-x-0 translate-y-[-50%] left-[35%] md:left-[45%] bottom-[5%] p-2 text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md"
             onClick={slideToPrev}
