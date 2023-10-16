@@ -20,7 +20,7 @@ function CardBenefits() {
             Meet, Connect <span className="text-baddhia-orange">&</span> <br />{" "}
             Vibe{" "}
           </h2>
-          <p className="text-left max-w-[440px] text-gray-500 text-base">
+          <p className="text-left max-w-[440px] text-gray-500 text-[14px]">
             Tired of meeting people who don’t get your sense of humor? Your
             passion for collecting rubber ducks? Your love of puns? Well, with
             Baddhia, you can finally meet someone who shares your passions,
@@ -47,7 +47,7 @@ function CardBenefits() {
             <br />
             Emojis{" "}
           </h2>
-          <p className="text-left max-w-[410px] text-gray-500 text-base">
+          <p className="text-left max-w-[410px] text-gray-500 text-[14px]">
             Show your loved one or crush how much you care with a personalized
             gift from Baddhia. With our wide selection of trendy and romantic
             gifts, you’re sure to find the perfect way to make them feel
@@ -84,7 +84,7 @@ function CardBenefits() {
             Shop <span className="text-baddhia-orange">&</span> <br /> Exchange
             Gifts
           </h2>
-          <p className="xl:text-right text-left max-w-[420px] text-gray-500">
+          <p className="xl:text-right text-left max-w-[420px] text-gray-500 text-[14px]">
             Tired of meeting people who don’t get your sense of humor? Your
             passion for collecting rubber ducks? Your love of puns? Well, with
             Baddhia, you can finally meet someone who shares your passions,
