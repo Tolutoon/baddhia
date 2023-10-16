@@ -47,11 +47,13 @@ function BlogArticle() {
               </p>
               <p className='px-10'>Lorem ipsum dolor sit amet consectetur. Ultrices id congue augue enim vestibulum magna vita risus.</p>
               <div>
+        
+                <div className='md:px-11 px-5'>
+                <input className='mt-6 pl-4 mb-8  py-3 w-full rounded-full outline-none' placeholder='EMAIL' type="email" name="Email Address" id="emailAddress" required/>
+
                 <div>
                   <button className='bg-baddhia-orange py-3 px-12 sm:py-3 sm:px-16 rounded-full text-white'>Submit</button>
                 </div>
-                <div className='md:px-11 px-8'>
-                <input className='mt-6 pl-4  py-3 w-full rounded-full outline-none ' placeholder='EMAIL' type="email" name="Email Address" id="emailAddress" required/>
                 </div>
             </div>
             
