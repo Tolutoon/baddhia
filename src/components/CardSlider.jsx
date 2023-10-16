@@ -1,4 +1,4 @@
-import React, {useRef, useState} from "react";
+import React, {useRef} from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore from 'swiper/core';
 
@@ -16,7 +16,7 @@ import Data from "../Data";
 SwiperCore.use([Navigation, Pagination, Scrollbar]);
 
 function CardSlider() {
-  const swiperRef = useState(null);
+  const swiperRef = useRef(null);
 
   const slideToNext = () => {
     if (swiperRef.current) {
@@ -57,10 +57,10 @@ function CardSlider() {
         ))}
         <div className="flex mt-20">
           <div className="absolute -translate-x-0 translate-y-[-50%] left-[35%] md:left-[45%] bottom-[5%] p-2 text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md" onClick={slideToPrev}>
-            <BsChevronCompactLeft size={24} onTouchStart={slideToPrev}/>
+            <BsChevronCompactLeft size={24} />
           </div>
           <div className="absolute -translate-x-0 translate-y-[-50%] p-2 right-[35%] md:right-[45%] bottom-[5%] text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md" onClick={slideToNext}>
-            <BsChevronCompactRight size={24} onTouchStart={slideToNext}/>
+            <BsChevronCompactRight size={24}/>
           </div>
         </div>
       </Swiper>
