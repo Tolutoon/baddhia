@@ -3,7 +3,7 @@ import hero from "/images/background-image.png";
 
 function Heros() {
   return (
-    <div className='relative'>
+    <div className='relative md:hidden'>
       <div className="h-[7vh]"></div>
             <img className='w-full h-[45vh] object-fit' src={hero} alt="" />
             <div className='absolute top-1/2 min-w-[300px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white'>
