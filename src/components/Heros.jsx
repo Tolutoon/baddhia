@@ -5,7 +5,7 @@ function Heros() {
   return (
     <div className='relative'>
       <div className="h-[7vh]"></div>
-            <img className='w-full h-[45vh]' src={hero} alt="" />
+            <img className='w-full h-[45vh] object-cover' src={hero} alt="" />
             <div className='absolute top-1/2 min-w-[300px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white'>
               <p className='lg:text-5xl font-semibold text-3xl text-l mt-5 md:text-3xl w-full mb-2 md:mb-3 m-auto pt-10  md:font-bold'>Find Your <span className="text-baddhia-orange">Perfect Match, 
                 Anywhere</span> in the World.
