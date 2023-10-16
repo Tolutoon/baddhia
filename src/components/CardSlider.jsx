@@ -15,12 +15,12 @@ function CardSlider() {
       >
         {Data.map((item) => (
           <SwiperSlide key={item.id}>
-            <div className="h-[440px] pt-20 relative xl:my-10 my-5   md:hidden flex flex-row duration-500">
+            <div className="h-[460px] pt-20 relative xl:my-10 my-5   md:hidden flex flex-row duration-500">
               <div
                 className={`card flex flex-col gap-[16px] w-fit py-10 px-5 mb-20 justify-center mx-5 items-center bg-white`}
               >
                 <span className="text-[54px] text-baddhia-orange">❝</span>
-                <p className="text-[12px] text-gray-500 text-center w-[90%]">
+                <p className="text-base text-gray-500 text-center w-[90%]">
                   {item.description}
                 </p>
                 <h3 className="font-semibold">{item.name}</h3>
