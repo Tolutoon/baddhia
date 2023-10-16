@@ -16,7 +16,7 @@ function BlogWriteup() {
                     <h2 className="font-bold mt-3">Anchor's Name</h2>
                     <div className="flex justify-between mt-2">
                         <p className="text-xs">DD-MM-YYYY</p>
-                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
+                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-white rounded-full uppercase py-2 px-6 m-0">
                             <Link to="/BlogContent">Read more</Link>
                         </div>
                     </div>
@@ -32,7 +32,7 @@ function BlogWriteup() {
                     <h2 className="font-bold mt-3">Anchor's Name</h2>
                     <div className="flex justify-between mt-2">
                         <p className="text-xs">DD-MM-YYYY</p>
-                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
+                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-white rounded-full uppercase py-2 px-6 m-0">
                             <Link to="/BlogContent">Read more</Link>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ function BlogWriteup() {
                     <h2 className="font-bold mt-3">Anchor's Name</h2>
                     <div className="flex justify-between mt-2">
                         <p className="text-xs">DD-MM-YYYY</p>
-                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
+                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-white rounded-full uppercase py-2 px-6 m-0">
                             <Link to="/BlogContent">Read more</Link>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ function BlogWriteup() {
                     <h2 className="font-bold mt-3">Anchor's Name</h2>
                     <div className="flex justify-between mt-2">
                         <p className="text-xs">DD-MM-YYYY</p>
-                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
+                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-white rounded-full uppercase py-2 px-6 m-0">
                             <Link to="/BlogContent">Read more</Link>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ function BlogWriteup() {
                     <h2 className="font-bold mt-3">Anchor's Name</h2>
                     <div className="flex justify-between mt-2">
                         <p className="text-xs">DD-MM-YYYY</p>
-                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
+                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-white rounded-full uppercase py-2 px-6 m-0">
                             <Link to="/BlogContent">Read more</Link>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ function BlogWriteup() {
                     <h2 className="font-bold mt-3">Anchor's Name</h2>
                     <div className="flex justify-between mt-2">
                         <p className="text-xs">DD-MM-YYYY</p>
-                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
+                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-white rounded-full uppercase py-2 px-6 m-0">
                             <Link to="/BlogContent">Read more</Link>
                         </div>
                     </div>
