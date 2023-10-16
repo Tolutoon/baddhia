@@ -30,13 +30,16 @@ function CardSlider() {
     }
   };
 
+  // Detect if the device is a touchscreen device
+  const isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0);
+
+  const clickEvent = isTouchDevice ? 'touchend' : 'click';
+
   return (
     <div className="overflow-hidden">
       <Swiper
-
         spaceBetween={50}
         slidesPerView={1}
-
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => (swiperRef.current = swiper)}
       >
@@ -56,17 +59,27 @@ function CardSlider() {
           </SwiperSlide>
         ))}
         <div className="flex mt-20">
-          <div className="absolute -translate-x-0 translate-y-[-50%] left-[35%] md:left-[45%] bottom-[5%] p-2 text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md" onTouchEnd={slideToPrev}>
+          <div
+            className="absolute -translate-x-0 translate-y-[-50%] left-[35%] md:left-[45%] bottom-[5%] p-2 text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md"
+            onClick={slideToPrev}
+            onTouchEnd={slideToPrev}
+            on={clickEvent}
+          >
             <BsChevronCompactLeft size={24} />
           </div>
-          <div className="absolute -translate-x-0 translate-y-[-50%] p-2 right-[35%] md:right-[45%] bottom-[5%] text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md" onTouchEnd={slideToNext}>
+          <div
+            className="absolute -translate-x-0 translate-y-[-50%] p-2 right-[35%] md:right-[45%] bottom-[5%] text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md"
+            onClick={slideToNext}
+            onTouchEnd={slideToNext}
+            on={clickEvent}
+          >
             <BsChevronCompactRight size={24} />
           </div>
         </div>
       </Swiper>
     </div>
   );
-
 }
 
 export default CardSlider;
+
