@@ -2,7 +2,7 @@ import React from 'react';
 
 // import components
 import Header from '../components/Header';
-import Hero from '../components/Hero';
+import Heros from '../components/Heros';
 import FindMatch from '../components/FindMatch';
 import CardBenefits from '../components/CardBenefits';
 import Testimonials from '../components/Testimonials';
@@ -21,7 +21,7 @@ function Home() {
     <main className='max-w-[1920px] mx-auto transition overflow-hidden'>
 
         <Header />
-        <Hero />
+        <Heros />
         <FindMatch />
         <CardBenefits />
         <Testimonials />
