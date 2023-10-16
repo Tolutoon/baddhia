@@ -56,11 +56,11 @@ function CardSlider() {
           </SwiperSlide>
         ))}
         <div className="flex mt-20">
-          <div className="absolute -translate-x-0 translate-y-[-50%] left-[35%] md:left-[45%] bottom-[5%] p-2 text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md" onTouchStart={slideToPrev}>
-            <BsChevronCompactLeft size={24} />
+          <div className="absolute -translate-x-0 translate-y-[-50%] left-[35%] md:left-[45%] bottom-[5%] p-2 text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md" onClick={slideToPrev}>
+            <BsChevronCompactLeft size={24} onTouchStart={slideToPrev}/>
           </div>
-          <div className="absolute -translate-x-0 translate-y-[-50%] p-2 right-[35%] md:right-[45%] bottom-[5%] text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md" onTouchStart={slideToNext}>
-            <BsChevronCompactRight size={24} />
+          <div className="absolute -translate-x-0 translate-y-[-50%] p-2 right-[35%] md:right-[45%] bottom-[5%] text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md" onClick={slideToNext}>
+            <BsChevronCompactRight size={24} onTouchStart={slideToNext}/>
           </div>
         </div>
       </Swiper>
