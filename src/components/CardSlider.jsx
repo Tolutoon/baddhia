@@ -15,12 +15,12 @@ function CardSlider() {
       >
         {Data.map((item) => (
           <SwiperSlide key={item.id}>
-            <div className="h-[570px] pt-20 relative xl:my-10 my-5 py-20  md:hidden flex flex-row duration-500">
+            <div className="h-[440px] pt-20 relative xl:my-10 my-5   md:hidden flex flex-row duration-500">
               <div
-                className={`card flex flex-col gap-[30px] w-fit py-10 px-5 mb-20 justify-center mx-5 items-center bg-white`}
+                className={`card flex flex-col gap-[16px] w-fit py-10 px-5 mb-20 justify-center mx-5 items-center bg-white`}
               >
                 <span className="text-[54px] text-baddhia-orange">❝</span>
-                <p className="text-[12px] text-gray-500 text-center w-[80%]">
+                <p className="text-[12px] text-gray-500 text-center w-[90%]">
                   {item.description}
                 </p>
                 <h3 className="font-semibold">{item.name}</h3>
@@ -28,11 +28,11 @@ function CardSlider() {
             </div>
           </SwiperSlide>
         ))}
-        <div className="flex cursor-pointer">
-          <div className="absolute -translate-x-0 translate-y-[-50%] left-[35%] bottom-[5%] p-2 text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white">
+        <div className="flex mt-20">
+          <div className="absolute -translate-x-0 translate-y-[-50%] left-[35%] md:left-[45%] bottom-[5%] p-2 text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md">
             <BsChevronCompactLeft size={24} />
           </div>
-          <div className="absolute -translate-x-0 translate-y-[-50%] p-2 right-[35%] bottom-[5%] text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white">
+          <div className="absolute -translate-x-0 translate-y-[-50%] p-2 right-[35%] md:right-[45%] bottom-[5%] text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md">
             <BsChevronCompactRight size={24} />
           </div>
         </div>

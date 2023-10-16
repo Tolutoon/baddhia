@@ -5,7 +5,7 @@ import mobileBack from '/images/mobile-back.png';
 function BackgroundImage() {
   return (
     <div className='h-[100vh] w-full'>
-        <img src={background} className='h-[100vh] md:w-[100vw] object-cover ' loading='lazy' alt=''/>
+        <img src={background} className='h-[100vh] md:w-[100vw] object-cover' loading='lazy' alt=''/>
     </div>
   )
 }
