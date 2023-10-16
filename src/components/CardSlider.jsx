@@ -30,22 +30,19 @@ function CardSlider() {
     }
   };
 
-  // Detect if the device is a touchscreen device
-  const isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0);
-
-  const clickEvent = isTouchDevice ? 'touchend' : 'click';
-
   return (
     <div className="overflow-hidden">
       <Swiper
+
         spaceBetween={50}
         slidesPerView={1}
+
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => (swiperRef.current = swiper)}
       >
         {Data.map((item) => (
           <SwiperSlide key={item.id}>
-            <div className="h-[520px] pt-20 relative xl:my-10 my-5   md:hidden flex flex-row duration-500">
+            <div className="h-[520px] pt-20 relative xl:my-10 my-5 mb-20  md:hidden flex flex-row duration-500">
               <div
                 className={`card flex flex-col gap-[16px] w-fit py-10 px-5 mb-20 justify-center mx-5 items-center bg-white`}
               >
@@ -59,27 +56,17 @@ function CardSlider() {
           </SwiperSlide>
         ))}
         <div className="flex mt-20">
-          <div
-            className="absolute -translate-x-0 translate-y-[-50%] left-[35%] md:left-[45%] bottom-[5%] p-2 text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md"
-            onClick={slideToPrev}
-            onTouchEnd={slideToPrev}
-            on={clickEvent}
-          >
+          <div className="absolute -translate-x-0 translate-y-[-50%] left-[35%] md:left-[45%] bottom-[5%] p-2 text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md" onClick={slideToPrev}>
             <BsChevronCompactLeft size={24} />
           </div>
-          <div
-            className="absolute -translate-x-0 translate-y-[-50%] p-2 right-[35%] md:right-[45%] bottom-[5%] text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md"
-            onClick={slideToNext}
-            onTouchEnd={slideToNext}
-            on={clickEvent}
-          >
+          <div className="absolute -translate-x-0 translate-y-[-50%] p-2 right-[35%] md:right-[45%] bottom-[5%] text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md" onClick={slideToNext}>
             <BsChevronCompactRight size={24} />
           </div>
         </div>
       </Swiper>
     </div>
   );
+
 }
 
 export default CardSlider;
-
