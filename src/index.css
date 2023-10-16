@@ -30,11 +30,7 @@ html {
     
 }
 
-.aboutBannerHeader {
-    background: url('/images/aboutHeadBanner.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
+
 
 .card{
     border-radius: 32px 32px 0px 32px;

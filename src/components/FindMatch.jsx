@@ -8,8 +8,12 @@ function FindMatch() {
       <FindMatchBackground />
 
       <div className="absolute left-0 h-[20vh] md:h-full w-full flex justify-center flex-col items-center z-20 cursor-pointer top-0 text-white ">
-        <h2 className="text-[20px]">How to Find your Perfect Match</h2>
-        <AiOutlinePlayCircle fontSize={28} />
+        <h2 className="text-[20px] md:text-4xl mb-2 md:mb-8 md:font-semibold">
+          How to Find your Perfect Match
+        </h2>
+        <a href="https://www.youtube.com/watch?v=YHetNsWUd5k" target="_blank">
+          <AiOutlinePlayCircle fontSize={42} />
+        </a>
       </div>
     </section>
   );
