@@ -33,21 +33,6 @@ export default function DefaultCarousel() {
           src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
         />
       </Carousel>
-      <style>
-        {`
-          /* Customize the previous button */
-          .left-control {
-            background-color: #007acc;
-            color: #fff;
-          }
-
-          /* Customize the next button */
-          .carousel-button-next {
-            background-color: #ff5722;
-            color: #fff;
-          }
-        `}
-      </style>
     </div>
   );
 }

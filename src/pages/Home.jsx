@@ -13,6 +13,7 @@ import Press from '../components/Press';
 import LearnBlog from '../components/LearnBlog';
 import JoinCard from '../components/JoinCard';
 import Footer from '../components/Footer';
+import PressCarousel from '../components/TestPress';
 
 
 
@@ -31,6 +32,7 @@ function Home() {
         <ConnectKindly />
         <CardBenefitsII />
         <Press />
+        <PressCarousel/>
         <LearnBlog />
         <JoinCard/>
         <Footer/>
