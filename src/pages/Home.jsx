@@ -13,7 +13,7 @@ import Press from '../components/Press';
 import LearnBlog from '../components/LearnBlog';
 import JoinCard from '../components/JoinCard';
 import Footer from '../components/Footer';
-import DefaultCarousel from '../components/TestSlide';
+
 
 
 
@@ -28,7 +28,6 @@ function Home() {
         <FindMatch />
         <CardBenefits />
         <Testimonials />
-        <DefaultCarousel />
         <ConnectKindly />
         <CardBenefitsII />
         <Press />

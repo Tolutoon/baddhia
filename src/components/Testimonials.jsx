@@ -1,6 +1,7 @@
 import React from "react";
 import Data from "../Data";
 import CardSlider from "./CardSlider";
+import DefaultCarousel from "./TestSlide";
 
 function Testimonials() {
   return (
@@ -26,7 +27,7 @@ function Testimonials() {
             );
           })}
         </div>
-        <CardSlider />
+        <DefaultCarousel/>
       </div>
     </section>
   );
