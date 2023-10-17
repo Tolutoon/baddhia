@@ -2,14 +2,15 @@ import React from "react";
 import techCabalLogo from "/images/techCabalLogo.svg";
 import pulseLogo from "/images/pulseLogo.svg";
 import guardianLogo from "/images/guardianLogo.svg";
+import PressCarousel from "./TestPress";
 
 function Press() {
   return (
-    <section className="px-10 md:px-20 mb-20">
+    <section className="px-5 md:px-20 md:mb-20">
       <h2 className="xl:text-3xl text-2xl font-semibold mx-auto xl:mb-20 mb-10 text-center">
         Baddhia in the <span className="text-baddhia-orange">press</span>
       </h2>
-      <div className="flex md:flex-row flex-col justify-center items-center gap-10">
+      <div className="md:flex md:flex-row flex-col justify-center items-center gap-10 hidden">
         <div className="md:h-[350px] bg-[url('/images/techCabal.png')] md:w-[323px] h-[250px] w-[233px] bg-cover bg-no-repeat relative shadow-md rounded-2xl">
           <div className="flex absolute bg-[#FFF6F2] md:w-[323px] h-[40%] w-[233px] bottom-0 flex-col gap-[16px] rounded-2xl justify-center items-center">
             <img className="w-[130px] h-[20px]" src={techCabalLogo} alt="" />
@@ -78,6 +79,7 @@ function Press() {
           </div>
         </div>
       </div>
+      <PressCarousel/>
     </section>
   );
 }
