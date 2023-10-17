@@ -5,7 +5,7 @@ import Testimony1 from '/images/testimony1.svg';
 
 export default function DefaultCarousel() {
   return (
-    <div className="h-[70vh] md:hidden">
+    <div className="h-[60vh] md:hidden">
       <Carousel
        slideInterval={2600}
        leftControl="<"
