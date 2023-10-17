@@ -1,6 +1,6 @@
 import { Carousel } from "flowbite-react";
 
-import Testimony1 from '/images/Frame.svg';
+import Testimony1 from '/images/testimony1.svg';
 
 
 export default function DefaultCarousel() {

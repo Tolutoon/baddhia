@@ -27,11 +27,11 @@ function About() {
         </div>
         <div className="xl:w-[40vw] md:w-[90vw] md:px-0 px-10 mb-20">
           <h2 className="text-baddhia-orange md:text-4xl text-3xl text-left md:mb-10 mb-5 font-semibold">
-            Where Love & Friendship
-            <br /> Blossoms
+            Baddhia: <br />Where Love & <br />Friendship
+      Blossoms.
           </h2>
           <p className="text-gray-500 md:leading-7 leading-6 md:text-base text-[12px]">
-            I never thought I would find love again after my divorce,” says
+          "I never thought I would find love again after my divorce,” says
             Sarah. “I was so hurt, hopeless, and jaded, and I felt like I would
             never be able to trust someone again. But then I met John on
             Baddhia. He was kind, funny, and understanding, and he made me feel
@@ -59,7 +59,7 @@ function About() {
             Baddhia can help you feel more confident, desirable, and empowered.
             When you're on Baddhia, you're surrounded by people who are looking
             for the same things as you. You're not alone anymore. Join Baddhia
-            today and start your journey to finding love or friendship
+            today and start your journey to finding love or friendship!
           </p>
         </div>
       </div>
