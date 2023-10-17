@@ -27,10 +27,10 @@ function Faq() {
               elem.active === 1 ? "is-active" : ""
             }`}
           >
-            <div className="flex items-center gap-4 mb-4">
+            <div className="flex items-center gap-4 mb-4 cursor-pointer" onClick={() => handleToggleActive(elem.id)}>
               <div
                 className="text-xl text-baddhia-orange cursor-pointer rotate-90 group-[.is-active]:rotate-[270deg]"
-                onClick={() => handleToggleActive(elem.id)}
+                
               >
                 {'>'}
               </div>
