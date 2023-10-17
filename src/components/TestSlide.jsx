@@ -7,9 +7,9 @@ export default function DefaultCarousel() {
   return (
     <div className="h-[70vh] md:hidden">
       <Carousel
-       slideInterval={2500}
-       leftControl='<'
-       rightControl='>'
+       slideInterval={2600}
+       leftControl="<"
+       rightControl=">"
       >
         <img
           alt="..."
