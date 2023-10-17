@@ -3,7 +3,6 @@ import React from 'react';
 // import components
 import Header from '../components/Header';
 import Hero from '../components/Hero';
-import Heros from '../components/Heros';
 import FindMatch from '../components/FindMatch';
 import CardBenefits from '../components/CardBenefits';
 import Testimonials from '../components/Testimonials';
@@ -24,7 +23,6 @@ function Home() {
 
         <Header />
         <Hero/>
-        <Heros />
         <FindMatch />
         <CardBenefits />
         <Testimonials />
