@@ -5,7 +5,7 @@ import DefaultCarousel from "./TestSlide";
 
 function Testimonials() {
   return (
-    <section className="testimonal-backDrop px-10 py-10 w-full xl:mb-0 ">
+    <section className="testimonal-backDrop px-10 py-10 w-full mb-0 ">
       <div className="flex flex-col justify-center">
         <h2 className="xl:text-3xl text-2xl font-semibold mx-auto md:mb-10">
           What our <span className="text-baddhia-orange">users</span> say
