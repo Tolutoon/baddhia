@@ -2,7 +2,7 @@ import { Carousel } from "flowbite-react";
 
 export default function DefaultCarousel() {
   return (
-    <div className="h-[30vh]">
+    <div className="h-[80vh]">
       <Carousel>
         <img
           alt="..."
