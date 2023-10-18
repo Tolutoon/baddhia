@@ -1,8 +1,7 @@
 import React from 'react'
 import Header from "../components/Header"
 import TermsContent from '../components/TermsContent'
-import BlogCommunity from '../components/BlogCommunity'
-import Blogfooter from '../components/Blogfooter'
+
 
 
 function Terms() {
@@ -10,8 +9,6 @@ function Terms() {
     <div>
       <Header />
       <TermsContent />
-      <BlogCommunity />
-      <Blogfooter />
     </div>
   )
 }
