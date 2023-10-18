@@ -30,7 +30,7 @@ function About() {
             Baddhia: <br />Where Love & <br />Friendship
       Blossoms.
           </h2>
-          <p className="text-gray-500 md:leading-7 leading-6 md:text-base text-[12px]">
+          <p className="text-gray-500 md:leading-7 leading-6 text-base">
           "I never thought I would find love again after my divorce,” says
             Sarah. “I was so hurt, hopeless, and jaded, and I felt like I would
             never be able to trust someone again. But then I met John on

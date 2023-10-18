@@ -55,7 +55,7 @@ function Reasons() {
                 alt=""
                 className="md:w-[70px] md:h-[70px] w-[60px] h-[60px]"
               />
-              <p className="text-center text-gray-600 text-[12px] w-[90%]">
+              <p className="text-center text-gray-600 text-base w-[90%]">
                 {elem.description}
               </p>
             </div>
