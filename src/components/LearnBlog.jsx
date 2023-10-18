@@ -114,7 +114,6 @@ function LearnBlog() {
         </div>
       </div>
     </div>
-      <BlogSlider />
     </div>
   );
 }

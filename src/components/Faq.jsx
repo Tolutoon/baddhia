@@ -52,7 +52,7 @@ function Faq() {
         </div>
       ))}
       <div>
-        <button>Read More</button>
+        <button>View More</button>
       </div>
     </div>
   );
