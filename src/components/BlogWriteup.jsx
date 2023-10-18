@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Group4 from "/images/group-4.png"
+import Group4 from "/images/group4.jpg"
 
 function BlogWriteup() {
   return (
