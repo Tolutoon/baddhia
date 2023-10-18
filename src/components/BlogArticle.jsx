@@ -7,7 +7,7 @@ import group4 from "/images/Frame 15.png";
 function BlogArticle() {
   return (
     <div>
-      <div className="sm:flex lg:px-36 md:px-10 lg:pt-16 px-8 md:justify-between mb-48 sm:mt-11">
+      <div className="sm:flex lg:px-36 md:px-10 lg:pt-32 px-8 md:justify-between mb-48 pt-20">
         <div className="sm:w-1/2 sm:mr-6 lg:mr-10 mb-16">
           <img
             className="h-96 w-full object-cover sm:h-80 mb-10"
