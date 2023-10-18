@@ -23,14 +23,14 @@ const Data = [
     title: "Purpose",
     img: purpose,
     description:
-      "To help Africans build happy and healthy life-long romantic relationships",
+      "To help people build happy and healthy life-long romantic relationships",
   },
   {
     id: 4,
     title: "Promise",
     img: promise,
     description:
-      "To help Africans build happy and healthy life-long romantic relationships",
+      "To help people build happy and healthy life-long romantic relationships",
   },
 ];
 
@@ -44,7 +44,7 @@ function Reasons() {
         {Data.map((elem) => {
           return (
             <div
-              className="bg-[#FFF6F2] shadow-lg rounded-[32px] md:h-[428px] md:w-[255px] h-[358px] w-[245px] gap-8 p-10 flex justify-center flex-col items-center"
+              className="bg-[#FFF6F2] shadow-lg rounded-[32px] md:h-[428px] md:w-[255px] h-fit w-[245px] gap-8 p-6 flex justify-center flex-col items-center"
               key={elem.id}
             >
               <h2 className="m-4 md:text-3xl text-2xl text-baddhia-orange">
@@ -55,7 +55,7 @@ function Reasons() {
                 alt=""
                 className="md:w-[70px] md:h-[70px] w-[60px] h-[60px]"
               />
-              <p className="text-center text-gray-600 text-[12px] w-[80%]">
+              <p className="text-center text-gray-600 text-[12px] w-[90%]">
                 {elem.description}
               </p>
             </div>

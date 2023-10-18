@@ -5,7 +5,7 @@ import guardianLogo from "/images/guardianLogo.svg";
 
 export default function PressCarousel() {
   return (
-    <div className="h-[60vh] mb-20 md:hidden">
+    <div className="h-[60vh] mb-10 md:hidden">
       <Carousel slideInterval={2600} leftControl="<" rightControl=">">
         <div className="md:h-[350px] bg-[url('/images/techCabal.png')] md:w-[323px] h-[280px] w-[263px] bg-cover bg-no-repeat relative shadow-md rounded-2xl">
           <div className="flex absolute bg-[#FFF6F2] md:w-[323px] h-[40%] w-[263px] bottom-0 flex-col gap-[16px] rounded-2xl justify-center items-center">
