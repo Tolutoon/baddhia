@@ -1,6 +1,7 @@
 import { Carousel } from "flowbite-react";
 
 import Testimony1 from '/images/testimony1.svg';
+import Testimony2 from '/images/testimony2.svg';
 
 
 export default function DefaultCarousel() {
@@ -18,7 +19,8 @@ export default function DefaultCarousel() {
         />
         <img
           alt="..."
-          src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
+          src={Testimony2}
+          style={{ width: '80%', height: '80%' }}
         />
         <img
           alt="..."
