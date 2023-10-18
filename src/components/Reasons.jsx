@@ -47,7 +47,7 @@ function Reasons() {
               className="bg-[#FFF6F2] shadow-lg rounded-[32px] md:h-[418px] md:w-[255px] h-fit w-[245px] gap-8 p-6 flex justify-center flex-col items-center"
               key={elem.id}
             >
-              <h2 className="m-4 md:text-3xl text-2xl text-baddhia-orange">
+              <h2 className="m-2 text-2xl text-baddhia-orange">
                 {elem.title}
               </h2>
               <img

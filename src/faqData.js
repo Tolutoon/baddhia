@@ -2,8 +2,9 @@ const data = [
   {
     id: 1,
     title: "What is Baddhia?",
-    info: "Baddhia is an online matchmaking, intimacy-building and social commerce platform that helps users find their perfect match and build healthy life-long relationships. We are committed to helping people find a genuine partner, express their emotions wholeheartedly and strengthen their intimacy.",
+    info: "Baddhia is an online matchmaking, intimacy-building and social commerce platform that helps you find your perfect match and build a healthy, lifelong romantic relationship, no matter where you are in the world." + "\n " + "We understand that finding the right person can be challenging, and that’s why we use a sophisticated mathematical algorithm to evaluate your psychographic and demographic information and match you with someone who shares your values, interests, and lifestyle."
   },
+  
   {
     id: 2,
     title: "How can I join?",

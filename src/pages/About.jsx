@@ -9,14 +9,14 @@ function About() {
   return (
     <div>
       <Header />
-      <div className="h-[5vh]"></div>
+      <div className="h-[10vh]"></div>
       <div className="bg-[url('/images/about-backphone.png')] h-[20vh] w-full bg-no-repeat md:hidden flex flex-col justify-center px-10">
         <h2 className="md:text-5xl text-4xl font-semibold md:mb-8 text-white">
           About Baddhia
         </h2>
         <p className="md:text-xl text-white">Our brand story</p>
       </div>
-      <div className="bg-[url('/images/aboutHeadBanner.png')] h-[40vh] w-full bg-no-repeat hidden md:flex flex-col justify-center px-40 mb-20">
+      <div className="bg-[url('/images/aboutHeadBanner.png')] h-[30vh] w-full bg-no-repeat hidden md:flex flex-col justify-center px-40 mb-20">
         <h2 className="text-5xl font-semibold md:mb-8 text-white">
           About Baddhia
         </h2>
@@ -27,13 +27,13 @@ function About() {
         <div>
           <img
             src={banner}
-            className="md:w-[45vw] hidden xl:flex h-[776px]"
+            className="md:w-[50vw] hidden xl:flex h-[986px]"
             alt=""
           />
         </div>
-        <div className="xl:w-[40vw] md:w-[90vw] md:px-0 px-10 mb-20">
-          <h2 className="text-baddhia-orange md:text-4xl text-3xl text-left md:mb-10 mb-5 font-semibold">
-            Baddhia: <br />
+        <div className="xl:w-[40vw] md:w-[90vw] md:px-0 px-10 mb-20 md:md-40">
+          <h2 className="text-baddhia-orange md:text-3xl text-2xl text-left md:mb-10 mb-5 font-semibold">
+            <span className="text-4xl">Baddhia:</span> <br />
             Where Love & <br />
             Friendship Blossoms.
           </h2>
