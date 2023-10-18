@@ -35,14 +35,14 @@ function CardSlider() {
       <Swiper
 
         spaceBetween={50}
-        slidesPerView={1}
+        slidesPerView={3}
 
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => (swiperRef.current = swiper)}
       >
         {Data.map((item) => (
           <SwiperSlide key={item.id}>
-            <div className="h-[520px] pt-20 relative xl:my-10 my-5 mb-20  md:hidden flex flex-row duration-500">
+            <div className="h-[460px] relative xl:my-10 my-5 hidden mb-20 md:flex flex-row duration-500">
               <div
                 className={`card flex flex-col gap-[16px] w-fit py-10 px-5 mb-20 justify-center mx-5 items-center bg-white`}
               >
@@ -55,7 +55,7 @@ function CardSlider() {
             </div>
           </SwiperSlide>
         ))}
-        <div className="flex mt-20">
+        <div className="md:flex hidden mt-20">
           <div className="absolute -translate-x-0 translate-y-[-50%] left-[35%] md:left-[45%] bottom-[5%] p-2 text-2xl cursor-pointer rounded-full text-baddhia-orange bg-white shadow-md" onClick={slideToPrev}>
             <BsChevronCompactLeft size={24} />
           </div>

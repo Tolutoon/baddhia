@@ -10,7 +10,7 @@ function Testimonials() {
         <h2 className="xl:text-3xl text-2xl font-semibold mx-auto md:mb-10">
           What our <span className="text-baddhia-orange">users</span> say
         </h2>
-        <div className=" md:justify-start items-start relative md:flex h-fit p-10 hidden">
+{ /*       <div className=" md:justify-start items-start relative md:flex h-fit p-10 hidden">
           {Data.map((elem) => {
             const { id, description, name } = elem;
             return (
@@ -26,7 +26,8 @@ function Testimonials() {
               </div>
             );
           })}
-        </div>
+        </div> */}
+        <CardSlider/>
         <DefaultCarousel/>
       </div>
     </section>

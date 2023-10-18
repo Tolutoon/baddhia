@@ -51,6 +51,9 @@ function Faq() {
           </div>
         </div>
       ))}
+      <div>
+        <button>Read More</button>
+      </div>
     </div>
   );
 }
