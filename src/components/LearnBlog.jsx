@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BlogSlider from "./BlogSlider";
+import BlogCarousel from "./TestBlogSlide";
 
 function LearnBlog() {
   const scrollToTop = () => {
@@ -9,7 +9,7 @@ function LearnBlog() {
   return (
     <div className="">  
     <div className="h-fit md:px-40 md:mb-20 flex flex-col justify-center items-center">
-      <h1 className="text-center font-semibold md:text-3xl text-[22px] mb-10">
+      <h1 className="text-center font-semibold md:text-3xl text-[22px] md:mb-10">
         Learn <span className="text-baddhia-orange">More</span> About our Blogs
       </h1>
       <div className="md:flex hidden gap-8">
@@ -114,6 +114,7 @@ function LearnBlog() {
         </div>
       </div>
     </div>
+    <BlogCarousel />
     </div>
   );
 }
