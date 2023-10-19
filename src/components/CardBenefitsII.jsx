@@ -30,7 +30,7 @@ function CardBenefitsII() {
             text posts are the perfect way to attract like- minded people. So
             whether you’re hiking up a mountain, dancing the night away, or just
             hanging out with friends, share it all on Baddhia. You never know
-            who you might meet
+            who you might meet.
           </p>
           {/* button */}
           <div className="flex justify-start">
