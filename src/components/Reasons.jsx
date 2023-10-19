@@ -36,7 +36,7 @@ const Data = [
 
 function Reasons() {
   return (
-    <div className="mb-20 px-10 md:px-20 flex flex-col justify-center items-center">
+    <div className="mb-20 px-5 md:px-20 flex flex-col justify-center items-center">
       <h2 className="text-center m-4 md:text-3xl text-3xl font-semibold mb-10">
         Why we built <span className="text-baddhia-orange">Baddhia</span>
       </h2>
