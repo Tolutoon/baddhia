@@ -9,28 +9,28 @@ const Data = [
     id: 1,
     title: "Vision",
     img: vision,
-    description: "To inspire bliss in every romantic relationship",
+    description: "To inspire bliss in every romantic relationship.",
   },
   {
     id: 2,
     title: "Mission",
     img: misson,
     description:
-      "To help people find compatible partners, create exciting moments and strengthen intimacy in romantic relationships",
+      "To help people find compatible partners, create exciting moments and strengthen intimacy in romantic relationships.",
   },
   {
     id: 3,
     title: "Purpose",
     img: purpose,
     description:
-      "To help people build happy and healthy life-long romantic relationships",
+      "To help people build happy and healthy life-long romantic relationships.",
   },
   {
     id: 4,
     title: "Promise",
     img: promise,
     description:
-      "To help people build happy and healthy life-long romantic relationships",
+      "Inspiring true expressions.",
   },
 ];
 
@@ -38,13 +38,13 @@ function Reasons() {
   return (
     <div className="mb-20 px-5 md:px-20 flex flex-col justify-center items-center">
       <h2 className="text-center m-4 md:text-3xl text-3xl font-semibold mb-10">
-        Why we built <span className="text-baddhia-orange">Baddhia</span>
+        Why We Built <span className="text-baddhia-orange">Baddhia</span>
       </h2>
       <div className="flex md:flex-row flex-col gap-y-8 gap-x-8">
         {Data.map((elem) => {
           return (
             <div
-              className="bg-[#FFF6F2] shadow-lg rounded-[32px] md:h-[418px] md:w-[255px] h-fit w-[245px] gap-8 p-6 flex justify-center flex-col items-center"
+              className="bg-[#FFF6F2] shadow-lg rounded-[32px] md:h-[418px] md:w-[255px] h-fit w-[300px] gap-8 p-6 flex justify-center flex-col items-center"
               key={elem.id}
             >
               <h2 className="m-2 text-2xl text-baddhia-orange">

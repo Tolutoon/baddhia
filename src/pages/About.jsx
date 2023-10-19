@@ -34,8 +34,8 @@ function About() {
         <div className="xl:w-[40vw] md:w-[90vw] md:px-0 px-10 mb-20 md:md-40">
           <h2 className="text-baddhia-orange md:text-3xl text-3xl text-left md:mb-10 mb-5 font-semibold">
             <span className="text-4xl">Baddhia:</span> <br />
-            Where Love & <br />
-            Friendship Blossoms
+            Where love & <br />
+            friendship blossoms
           </h2>
           <p className="text-gray-500 md:leading-7 leading-6 text-base">
             "I never thought I would find love again after my divorce,” says
