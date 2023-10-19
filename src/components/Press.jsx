@@ -7,7 +7,7 @@ import PressCarousel from "./TestPress";
 function Press() {
   return (
     <section className="px-5 md:px-20 md:mb-20">
-      <h2 className="xl:text-3xl text-2xl font-semibold mx-auto xl:mb-20 md:mb-10 text-center">
+      <h2 className="xl:text-3xl text-3xl font-semibold mx-auto xl:mb-20 md:mb-10 text-center">
         Baddhia in the <span className="text-baddhia-orange">press</span>
       </h2>
       <div className="md:flex md:flex-row flex-col justify-center items-center gap-8 hidden">

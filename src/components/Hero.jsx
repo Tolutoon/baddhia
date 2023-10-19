@@ -11,7 +11,7 @@ function Hero() {
           ,<br /> <span className="text-baddhia-orange"> Anywhere</span> in the
           World.
         </h1>
-        <p className="text-white xl:max-w-[80vh] max-w-[60vh] text-[16px] text-center xl:text-base">
+        <p className="text-white xl:max-w-[80vh] max-w-[50vh] text-[16px] text-center xl:text-base">
           Finding the right person is tough, but we have made it easier. Whether
           you’re looking for love, friendship, or chat, our algorithm will
           connect you with someone who shares your interests and values.
