@@ -15,7 +15,7 @@ function CardBenefits() {
             loading="lazy"
           />
         </div>
-        <div className="m-w-[503px] flex flex-col gap-[34px]">
+        <div className="m-w-[503px] flex flex-col gap-[26px]">
           <h2 className="text-4xl xl:text-5xl text-left font-semibold">
             Meet, Connect <span className="text-baddhia-orange">&</span> <br />{" "}
             Vibe{" "}
@@ -40,15 +40,12 @@ function CardBenefits() {
         </div>
       </div>
       <div className="flex pt-20 items-center flex-col md:flex-row justify-center w-full gap-[84px] mx-auto">
-        <div>
-          <img className="h-[400px] w-[323px]" src={gifts} alt="" loading="" />
-        </div>
-        <div className="flex flex-col gap-[24px]">
-          <h2 className="text-4xl xl:text-5xl xl:text-right text-left font-semibold">
+        <div className="flex flex-col gap-[26px]">
+          <h2 className="text-4xl xl:text-5xl text-left font-semibold">
             Shop <span className="text-baddhia-orange">&</span> <br /> Exchange
             Gifts
           </h2>
-          <p className="xl:text-right text-left max-w-[420px] text-gray-500 text-[16px] leading-[27px]">
+          <p className=" text-left max-w-[420px] text-gray-500 text-[16px] leading-[27px]">
             Show your loved one or crush how much you care with a personalized
             gift from Baddhia. With our wide selection of trendy and romantic
             gifts, you’re sure to find the perfect way to make them feel
@@ -56,7 +53,7 @@ function CardBenefits() {
             random act of kindness, we’ve got you covered.
           </p>
           {/* button */}
-          <div className="flex xl:justify-end">
+          <div className="flex">
             <a href="https://play.google.com/store/apps/details?id=com.baddhia.app">
               <button
                 type="submit"
@@ -67,14 +64,24 @@ function CardBenefits() {
             </a>
           </div>
         </div>
+        <div>
+          <img className="h-[400px] w-[323px]" src={gifts} alt="" loading="" />
+        </div>
       </div>
       <div className="flex pt-20 items-center flex-col-reverse md:flex-row justify-center w-full gap-[64px]">
-        <div className="flex flex-col gap-[24px]">
+        <div>
+          <img
+            className="h-[320px] w-[363px]"
+            src={emojis}
+            alt=""
+            loading="lazy"
+          />
+        </div>
+        <div className="flex flex-col gap-[26px]">
           <h2 className="xl:text-5xl text-4xl text-left font-semibold">
-            Send & Receive <br />{" "}
-            <span className="text-baddhia-orange">Customized</span>
-            <br />
-            Emojis{" "}
+            Send & Receive <br />
+            <span className="text-baddhia-orange"> Customized </span>
+             Emojis{" "}
           </h2>
           <p className="text-left max-w-[410px] text-gray-500 text-[16px] leading-[27px]">
             Say it with heartfelt emojis. Our emojis are like the ones you see
@@ -94,14 +101,6 @@ function CardBenefits() {
               </button>
             </a>
           </div>
-        </div>
-        <div>
-          <img
-            className="h-[320px] w-[363px]"
-            src={emojis}
-            alt=""
-            loading="lazy"
-          />
         </div>
       </div>
     </div>

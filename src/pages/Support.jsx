@@ -31,10 +31,10 @@ function Support() {
           </div>
           </div>
           <form className='flex flex-col w-[70vw] md:w-[40vw] gap-8 mb-10'>
-            <input className=' border-baddhia-orange border-2 rounded-xl h-[40px] px-2' placeholder='Name' type='name'/>
-            <input className=' border-baddhia-orange border-2 rounded-xl h-[40px] px-2' placeholder='Email' type='name'/>
-            <input className=' border-baddhia-orange border-2 rounded-xl h-[40px] px-2' placeholder='Subject' type='name'/>
-            <textarea className=' border-baddhia-orange border-2 h-[160px] rounded-xl px-4'/>
+            <input className=' border-baddhia-orange border-[1px] rounded-xl h-[40px] px-4' placeholder='Name' type='name'/>
+            <input className=' border-baddhia-orange border-[1px] rounded-xl h-[40px] px-4' placeholder='Email' type='name'/>
+            <input className=' border-baddhia-orange border-[1px] rounded-xl h-[40px] px-4' placeholder='Subject' type='name'/>
+            <textarea className=' border-baddhia-orange border-1 h-[160px] rounded-xl px-4'/>
             <button className='bg-baddhia-orange p-4 px-12 rounded-[16px] font-semibold text-base text-white w-fit'>Send Message</button>
           </form>
         </div>

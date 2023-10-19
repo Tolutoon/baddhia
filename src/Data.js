@@ -2,7 +2,7 @@ const Data = [
   {
     id: 1,
     description:
-      "The true expression on the app is top-notch. I have had issues with finding someone that matches my blood group. This app provided me with features that show blood groups before I proceeded to chat",
+      "The true expression on the app is top-notch. I have had issues with finding someone that matches my blood group. This app provided me with features that show blood groups before I proceeded to chat.",
     name: "Kathie",
   },
   {
@@ -20,7 +20,7 @@ const Data = [
   {
     id: 4,
     description:
-      "I never thought I would find love again after my divorce. I was so hurt, hopeless, and jaded. But then I met John on Baddhia. He was kind, funny, and understand",
+      "I never thought I would find love again after my divorce. I was so hurt, hopeless, and jaded. But then I met John on Baddhia. He was kind, funny, and understand.",
     name: "Sarah",
   },
   {

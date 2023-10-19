@@ -19,12 +19,12 @@ function JoinCard() {
         <input
           type="text"
           placeholder="Your Name"
-          className="mb-4 md:p-4 p-2 md:w-[400px] w-[80vw] rounded-xl"
+          className="mb-4 md:p-4 p-4 md:w-[400px] w-[80vw] rounded-xl"
         />
         <input
           type="email"
           placeholder="Your Email"
-          className="md:p-4 mb-4 p-2 md:w-[400px] w-[80vw] rounded-xl"
+          className="md:p-4 mb-4 p-4 md:w-[400px] w-[80vw] rounded-xl"
         />
         <button className="bg-baddhia-orange py-4 px-12 xl:px-16 text-[14px] md:text-base text-white rounded-[32px] transition-all duration-300 hover:scale-105">
           Submit

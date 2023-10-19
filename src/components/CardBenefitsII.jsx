@@ -14,11 +14,11 @@ function CardBenefitsII() {
             loading="lazy"
           />
         </div>
-        <div className="m-w-[503px] flex flex-col gap-[44px]">
+        <div className="m-w-[503px] flex flex-col gap-[26px]">
           <h2 className="text-4xl xl:text-5xl text-left font-semibold">
             Share{" "}
             <span className="text-baddhia-orange">
-              Your <br />
+              Your
             </span>{" "}
             Exciting
             <br />
@@ -46,10 +46,9 @@ function CardBenefitsII() {
         </div>
       </div>
       <div className="flex items-center flex-col-reverse md:flex-row justify-center w-full gap-[44px] md:gap-[84px]">
-        <div className="max-w-[403px] flex flex-col gap-[34px]">
+        <div className="max-w-[403px] flex flex-col gap-[26px]">
           <h2 className="text-4xl xl:text-5xl text-left font-semibold">
-            Privacy <span className="text-baddhia-orange">&</span> <br />{" "}
-            Security
+            Privacy <span className="text-baddhia-orange">&</span> Security
           </h2>
           <p className="text-left max-w-[440px] text-gray-500 text-[16px] leading-[27px]">
             With Baddhia, you can be yourself without fear of judgement. You can

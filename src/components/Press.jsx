@@ -8,7 +8,7 @@ function Press() {
   return (
     <section className="px-5 md:px-20 md:mb-20">
       <h2 className="xl:text-3xl text-3xl font-semibold mx-auto xl:mb-20 md:mb-10 text-center">
-        Baddhia in the <span className="text-baddhia-orange">press</span>
+        Baddhia In The <span className="text-baddhia-orange">Press</span>
       </h2>
       <div className="md:flex md:flex-row flex-col justify-center items-center gap-8 hidden">
         <div className="md:h-[350px] bg-[url('/images/techCabal.png')] md:w-[303px] h-[250px] w-[233px] bg-cover bg-no-repeat relative shadow-md rounded-2xl">
