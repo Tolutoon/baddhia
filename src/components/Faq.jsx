@@ -21,7 +21,7 @@ function Faq() {
         Frequently Asked Questions
       </h1>
       <h3 className="text-center text-gray-500 mb-4 px-8">
-        Not sure how to use our product? We’ve got a step-by-step guide that can
+        Not sure how to use our product? <br /> We’ve got a step-by-step guide that can
         help!
       </h3>
       {items.map((elem) => (
