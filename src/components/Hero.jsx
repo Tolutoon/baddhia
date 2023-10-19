@@ -24,7 +24,7 @@ function Hero() {
         >
           <button
             type="submit"
-            className="bg-baddhia-orange p-4 xl:px-12 px-8 rounded-[16px] font-semibold xl:text-base text-[12px] text-white transition-all duration-300 hover:scale-105"
+            className="bg-baddhia-orange p-4 xl:px-12 px-8 rounded-[16px] font-semibold xl:text-base text-[14px] text-white transition-all duration-300 hover:scale-105"
           >
             Download Now
           </button>
