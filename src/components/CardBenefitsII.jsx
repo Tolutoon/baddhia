@@ -52,10 +52,9 @@ function CardBenefitsII() {
             Security
           </h2>
           <p className="text-left max-w-[440px] text-gray-500 text-[16px] leading-[27px]">
-            Tired of meeting people who don’t get your sense of humor? Your
-            passion for collecting rubber ducks? Your love of puns? Well, with
-            Baddhia, you can finally meet someone who shares your passions,
-            understands your quirks, and appreciates your uniqueness.
+            With Baddhia, you can be yourself without fear of judgement. You can
+            control who sees what you do online, and hide your online activities
+            and profile details from everyone. It’s your privacy, your choice.
           </p>
           {/* button */}
           <div className="flex justify-start">

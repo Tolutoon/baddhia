@@ -49,10 +49,11 @@ function CardBenefits() {
             Gifts
           </h2>
           <p className="xl:text-right text-left max-w-[420px] text-gray-500 text-[16px] leading-[27px]">
-            Tired of meeting people who don’t get your sense of humor? Your
-            passion for collecting rubber ducks? Your love of puns? Well, with
-            Baddhia, you can finally meet someone who shares your passions,
-            understands your quirks, and appreciates your uniqueness.
+            Show your loved one or crush how much you care with a personalized
+            gift from Baddhia. With our wide selection of trendy and romantic
+            gifts, you’re sure to find the perfect way to make them feel
+            special. Whether it’s a birthday gift, holiday gift, or just a
+            random act of kindness, we’ve got you covered.
           </p>
           {/* button */}
           <div className="flex xl:justify-end">
@@ -76,11 +77,11 @@ function CardBenefits() {
             Emojis{" "}
           </h2>
           <p className="text-left max-w-[410px] text-gray-500 text-[16px] leading-[27px]">
-            Show your loved one or crush how much you care with a personalized
-            gift from Baddhia. With our wide selection of trendy and romantic
-            gifts, you’re sure to find the perfect way to make them feel
-            special. Whether it’s a birthday gift, holiday gift, or just a
-            random act of kindness, we’ve got you covered.
+            Say it with heartfelt emojis. Our emojis are like the ones you see
+            on messaging apps, but they have a short romantic note that will
+            make your messages pop. With Baddhia’s customized emojis, you can
+            express your emotions wholeheartedly and make your loved ones feel
+            special.
           </p>
           {/* button */}
           <div className="flex justify-start">
@@ -103,7 +104,6 @@ function CardBenefits() {
           />
         </div>
       </div>
-
     </div>
   );
 }
