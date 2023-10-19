@@ -59,7 +59,7 @@ function CardBenefits() {
             <a href="https://play.google.com/store/apps/details?id=com.baddhia.app">
               <button
                 type="submit"
-                className="bg-baddhia-orange p-4 px-10 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
+                className="bg-baddhia-orange p-4 px-8 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
               >
                 Download Now
               </button>
