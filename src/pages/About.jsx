@@ -20,7 +20,7 @@ function About() {
         <h2 className="text-5xl font-semibold md:mb-8 text-white">
           About Baddhia
         </h2>
-        <p className="md:text-xl text-white">Our brand story</p>
+        <p className="md:text-xl text-white text-[16px]">Our brand story</p>
       </div>
 
       <div className="flex flex-col md:flex-row gap-12 h-fit">
