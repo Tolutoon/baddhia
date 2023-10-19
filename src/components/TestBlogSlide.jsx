@@ -7,7 +7,7 @@ export default function BlogCarousel() {
         document.getElementById("blogContent").scroll(0, 0);
       };
   return (
-    <div className="h-[100vh] md:hidden">
+    <div className="h-[80vh] md:hidden">
       <Carousel slideInterval={2600} leftControl="<" rightControl=">">
         <div className=" bg-[url('/images/dummyImg.png')]  h-[470px] w-[293px] bg-cover bg-center bg-no-repeat relative shadow-md rounded-2xl">
           <div className="flex absolute bg-[#FFF6F2] w-fit bottom-0 flex-col gap-[16px] rounded-2xl justify-center items-center md:p-4 p-2">
