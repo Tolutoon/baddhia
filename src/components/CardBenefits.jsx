@@ -39,7 +39,7 @@ function CardBenefits() {
           </div>
         </div>
       </div>
-      <div className="flex pt-20 items-center flex-col md:flex-row justify-center w-full gap-[84px] mx-auto">
+      <div className="flex pt-20 items-center flex-col-reverse md:flex-row justify-center w-full gap-[84px] mx-auto">
         <div className="flex flex-col gap-[26px]">
           <h2 className="text-4xl xl:text-5xl text-left font-semibold">
             Shop <span className="text-baddhia-orange">&</span> <br /> Exchange
@@ -68,7 +68,7 @@ function CardBenefits() {
           <img className="h-[400px] w-[323px]" src={gifts} alt="" loading="" />
         </div>
       </div>
-      <div className="flex pt-20 items-center flex-col-reverse md:flex-row justify-center w-full gap-[64px]">
+      <div className="flex pt-20 items-center flex-col md:flex-row justify-center w-full gap-[64px]">
         <div>
           <img
             className="h-[320px] w-[363px]"
