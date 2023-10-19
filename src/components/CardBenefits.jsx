@@ -52,7 +52,7 @@ function CardBenefits() {
             gift from Baddhia. With our wide selection of trendy and romantic
             gifts, you’re sure to find the perfect way to make them feel
             special. Whether it’s a birthday gift, holiday gift, or just a
-            random act of kindness, we’ve got you covered
+            random act of kindness, we’ve got you covered.
           </p>
           {/* button */}
           <div className="flex justify-start">

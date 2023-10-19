@@ -19,7 +19,7 @@ import Footer from '../components/Footer';
 function Home() {
 
   return (
-    <main className='max-w-[1920px] mx-auto transition overflow-hidden'>
+    <main className='mx-auto transition overflow-hidden'>
 
         <Header />
         <Hero/>
