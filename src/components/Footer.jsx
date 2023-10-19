@@ -14,7 +14,7 @@ function Blogfooter() {
     <footer className="footer">
       <div className="flex max-sm:flex-col-reverse sm:flex pl-10 sm:justify-between text-white pt-16 sm:px-12 md:px-40 pb-10">
         <div className="text-sm">
-          <img className="w-14 mb-3" src={Logo} alt="" />
+          <img className="h-16 mb-3" src={Logo} alt="" />
           <p>Copyright © 2023 All Right Reserved</p>
           <p>Baddhia</p>
         </div>
