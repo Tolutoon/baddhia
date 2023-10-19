@@ -32,7 +32,7 @@ function About() {
           />
         </div>
         <div className="xl:w-[40vw] md:w-[90vw] md:px-0 px-10 mb-20 md:md-40">
-          <h2 className="text-baddhia-orange md:text-3xl text-2xl text-left md:mb-10 mb-5 font-semibold">
+          <h2 className="text-baddhia-orange md:text-3xl text-3xl text-left md:mb-10 mb-5 font-semibold">
             <span className="text-4xl">Baddhia:</span> <br />
             Where Love & <br />
             Friendship Blossoms
