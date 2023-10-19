@@ -27,7 +27,7 @@ function Hero() {
             type="submit"
             className=" xl:px-12 px-8 rounded-[16px] font-semibold xl:text-base text-[16px] text-white transition-all duration-300 hover:scale-105"
           >
-            <img src='https://tinder.com/static/build/03aed264f8539c570e9bc80ba6b60d92.webp' style={{width: 190}} alt=''/>
+            <img src='https://tinder.com/static/build/03aed264f8539c570e9bc80ba6b60d92.webp' style={{width: 200}} alt=''/>
 
           </button>
         </a>
