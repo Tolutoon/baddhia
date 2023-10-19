@@ -1,5 +1,6 @@
 import React from "react";
 import BackgroundImage from "./BackgroundImage";
+import playstore from '/images/playstore.svg';
 
 function Hero() {
   return (
@@ -24,9 +25,10 @@ function Hero() {
         >
           <button
             type="submit"
-            className="bg-baddhia-orange p-4 xl:px-12 px-8 rounded-[16px] font-semibold xl:text-base text-[16px] text-white transition-all duration-300 hover:scale-105"
+            className=" xl:px-12 px-8 rounded-[16px] font-semibold xl:text-base text-[16px] text-white transition-all duration-300 hover:scale-105"
           >
-            Download Now
+            <img src='https://tinder.com/static/build/03aed264f8539c570e9bc80ba6b60d92.webp' style={{width: 190}} alt=''/>
+
           </button>
         </a>
       </div>
