@@ -24,7 +24,7 @@ function CardBenefitsII() {
             <br />
             Moments
           </h2>
-          <p className="text-left max-w-[440px] text-gray-500 text-[14px]">
+          <p className="text-left max-w-[440px] text-gray-500 text-[14px] leading-[27px]">
             Share your adventures and connect with people who share your
             passions on Baddhia. Our 24-hour disappearing photos, videos and
             text posts are the perfect way to attract like- minded people. So
@@ -51,7 +51,7 @@ function CardBenefitsII() {
             Privacy <span className="text-baddhia-orange">&</span> <br />{" "}
             Security
           </h2>
-          <p className="text-left max-w-[440px] text-gray-500 text-[14px]">
+          <p className="text-left max-w-[440px] text-gray-500 text-[14px] leading-[27px]">
             Tired of meeting people who don’t get your sense of humor? Your
             passion for collecting rubber ducks? Your love of puns? Well, with
             Baddhia, you can finally meet someone who shares your passions,
