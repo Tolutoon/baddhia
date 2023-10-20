@@ -54,7 +54,7 @@ function Header() {
               />
             )}
             {toggleMenu && (
-              <ul className="z-10 fixed -top-0 -right-2 p-3 w-[70vw] h-full shadow-2xl md:hidden list-none uppercase bg-white
+              <ul className="z-30 fixed -top-0 -right-2 p-3 w-[70vw] h-full shadow-2xl md:hidden list-none uppercase bg-white
               flex flex-col justify-start items-end rounded-md text-baddhia-orange animate-slide-in">
                 <AiOutlineClose
                   fontSize={28}
