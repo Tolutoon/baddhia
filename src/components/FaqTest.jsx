@@ -27,7 +27,7 @@ function FaqTest() {
         Not sure how to use our product? <br /> We’ve got a step-by-step guide
         that can help!
       </h3>
-      <div className="h-[70vh] flex gap-8 flex-col">
+      <div className="h-full flex gap-8 flex-col">
         <div className="flex flex-col bg-[#e9e9e9] rounded-xl p-5 md:w-[60vw] w-[80vw] group">
           <div
             className="flex items-center gap-4 mb-4 cursor-pointer"
