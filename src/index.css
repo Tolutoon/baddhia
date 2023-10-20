@@ -10,11 +10,11 @@ body {
     scroll-behavior: smooth;
 }
 
-/*html {
+html {
     scroll-behavior: smooth;
     scrollbar-width: none;
 }
-*/
+
 
 .homePage {
     background: url('/images/background-image.png');
