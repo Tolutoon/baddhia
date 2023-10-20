@@ -6,13 +6,14 @@ import { AiFillMail } from 'react-icons/ai';
 import {BsFillTelephoneFill} from 'react-icons/bs';
 import JoinCard from '../components/JoinCard';
 import Footer from '../components/Footer';
+import FaqTest from '../components/FaqTest';
 
 
 function Support() {
   return (
     <div id='support'>
       <Header />
-      <Faq />
+      <FaqTest />
       <div className="mb-10 bg-[url('/images/getIntouch.png')] h-[50vh] bg-cover bg-center w-[100vw] flex justify-center items-center">
         <h2 className='text-white md:text-5xl text-3xl font-semibold tracking-wide'>Get in Touch</h2>
       </div>
