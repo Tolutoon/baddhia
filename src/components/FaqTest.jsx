@@ -157,38 +157,22 @@ function FaqTest() {
               !items[2].active ? "max-h-0" : "max-h-fit"
             } text-gray-500`}
           >
-            <p>
-              Yes, you can. Love is a beautiful thing, and we are all out just
-              for you. Kindly do these things to increase your chances of
-              finding love on the app
-            </p>
-            <br />
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
                 ✓ Tap Find Your Match on the Baddhia mobile app home page
               </li>
-              <li> 2. Be honest about your purpose on the app.</li>
-              <li> 3. Fill your profile completely and honestly.</li>
+              <li>✓ Select your preferences on the Find Your Perfect Match interface.</li>
+              <li> ✓ Tap Get Result.</li>
               <li>
                 {" "}
-                4. Use the <strong>Find Your Perfect Match</strong> feature to
-                increase your chances by 10x.
+                ✓ Tap any of the profiles suggested for you.
               </li>
               <li>
                 {" "}
-                5. Be patient because it takes time to find love. Don’t get
-                discouraged if you don’t find one right away.
+                ✓ Tap the Love Icon to activate the Chat Icon.
               </li>
-              <li> 6. Be active on the app.</li>
-              <li> 7. Be open to meeting new people.</li>
-              <li> 8. Send thoughtful messages.</li>
-              <li>
-                {" "}
-                9. Post photos, videos, or text about your favorite hobbies,
-                activities, or causes to connect with people who share your
-                passions.
-              </li>
+              <li> ✓ Tap the Chat Icon to open the Messaging interface and send a message to your MATCH.</li>
             </ol>
           </div>
         </div>
@@ -218,22 +202,21 @@ function FaqTest() {
             } text-gray-500`}
           >
             <p>
-              Yes, you can. Love is a beautiful thing, and we are all out just
-              for you. Kindly do these things to increase your chances of
-              finding love on the app
+            Download the Baddhia android app on Google Play Store. The iOS and Web versions are under
+development.
             </p>
             <br />
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
-                ✓ Tap Find Your Match on the Baddhia mobile app home page
+                ✓ Navigate the intro screens.
               </li>
-              <li> 2. Be honest about your purpose on the app.</li>
-              <li> 3. Fill your profile completely and honestly.</li>
+              <li> ✓ Tap <strong>Sign Up</strong>.</li>
+              <li> ✓ Enter your correct details in the fields provided (username, first name, last name, & gender).</li>
               <li>
                 {" "}
-                4. Use the <strong>Find Your Perfect Match</strong> feature to
-                increase your chances by 10x.
+                ✓ Enter your valid email address; Enter and confirm your password; Read and tick the terms of
+service and privacy policy box.
               </li>{" "}
             </ol>
           </div>
