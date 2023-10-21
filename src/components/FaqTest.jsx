@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link }from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function FaqTest() {
   // Initialize items state
@@ -166,17 +166,18 @@ function FaqTest() {
                 {" "}
                 ✓ Tap Find Your Match on the Baddhia mobile app home page
               </li>
-              <li>✓ Select your preferences on the Find Your Perfect Match interface.</li>
+              <li>
+                ✓ Select your preferences on the Find Your Perfect Match
+                interface.
+              </li>
               <li> ✓ Tap Get Result.</li>
+              <li> ✓ Tap any of the profiles suggested for you.</li>
+              <li> ✓ Tap the Love Icon to activate the Chat Icon.</li>
               <li>
                 {" "}
-                ✓ Tap any of the profiles suggested for you.
+                ✓ Tap the Chat Icon to open the Messaging interface and send a
+                message to your MATCH.
               </li>
-              <li>
-                {" "}
-                ✓ Tap the Love Icon to activate the Chat Icon.
-              </li>
-              <li> ✓ Tap the Chat Icon to open the Messaging interface and send a message to your MATCH.</li>
             </ol>
           </div>
         </div>
@@ -206,21 +207,46 @@ function FaqTest() {
             } text-gray-500`}
           >
             <p>
-            Download the Baddhia android app on Google Play Store. The iOS and Web versions are under
-development.
+              Download the Baddhia android app on Google Play Store. The iOS and
+              Web versions are under development.
             </p>
             <br />
             <ol className="gap-2 flex flex-col">
+              <li> ✓ Navigate the intro screens.</li>
               <li>
                 {" "}
-                ✓ Navigate the intro screens.
+                ✓ Tap <strong>Sign Up</strong>.
               </li>
-              <li> ✓ Tap <strong>Sign Up</strong>.</li>
-              <li> ✓ Enter your correct details in the fields provided (username, first name, last name, & gender).</li>
               <li>
                 {" "}
-                ✓ Enter your valid email address; Enter and confirm your password; Read and tick the terms of
-service and privacy policy box.
+                ✓ Enter your correct details in the fields provided (username,
+                first name, last name, & gender).
+              </li>
+              <li>
+                {" "}
+                ✓ Enter your valid email address; Enter and confirm your
+                password; Read and tick the terms of service and privacy policy
+                box.
+              </li>{" "}
+              <li> ✓ Tap Continue</li>{" "}
+              <li>
+                {" "}
+                ✓ Check your email to copy the OTP sent to your email address.
+              </li>{" "}
+              <li>
+                {" "}
+                ✓ Insert the 4-digit OTP in the space provided on the app.
+              </li>{" "}
+              <li>
+                {" "}
+                ✓ Enable your location. We use your location to suggest profiles
+                of people living near you.
+              </li>{" "}
+              <li> ✓ Upload a minimum of 3 photos</li>{" "}
+              <li>
+                {" "}
+                ✓ Congratulations! your Baddhia account has been successfully
+                created.
               </li>{" "}
             </ol>
           </div>
@@ -251,23 +277,44 @@ service and privacy policy box.
             } text-gray-500`}
           >
             <p>
-              Yes, you can. Love is a beautiful thing, and we are all out just
-              for you. Kindly do these things to increase your chances of
-              finding love on the app
+              No! You don’t need a subscription to connect with people on
+              Baddhia. However, if you want to enjoy unlimited access to all the
+              features on Baddhia, you need to subscribe.
             </p>
             <br />
+            <h3 className="font-semibold mb-2">
+              Here are the features you can use without a subscription
+            </h3>
+            <ol className="gap-2 flex flex-col">
+              <li> ✓ Free access to ten (10) profile suggestions daily.</li>
+              <li> ✓ View ten (10) profiles in Moments per time.</li>
+              <li> ✓ Chat before matching.</li>
+              <li> ✓ Upload media in Chat and Moments.</li>{" "}
+            </ol>
+            <h3 className="font-semibold py-4">
+              To enjoy unlimited access, upgrade to “Rose Plan” and get access
+              to the following features:
+            </h3>
+            <ol className="gap-2 flex flex-col">
+              <li>✓ Unlimited access to profiles on the Home Page.</li>
+              <li>✓ Unlimited profile rewinds.</li>
+              <li>✓ See who likes you.</li>
+              <li>✓ Find your perfect match anywhere in the world.</li>
+              <li>✓ View all profiles in Moments and chat with them.</li>
+              <li>✓ See who viewed your profile in Moments.</li>
+              <li>✓ See who is online.</li>
+            </ol>
+            <h3 className="font-semibold py-4">
+              How to Check your Active Subscription Plan:
+            </h3>
             <ol className="gap-2 flex flex-col">
               <li>
-                {" "}
-                ✓ Tap Find Your Match on the Baddhia mobile app home page
+                ✓ Tap the side navigation menu at the top left on the home page.
               </li>
-              <li> 2. Be honest about your purpose on the app.</li>
-              <li> 3. Fill your profile completely and honestly.</li>
+              <li>✓ Tap Settings > Manage Subscription.</li>
               <li>
-                {" "}
-                4. Use the <strong>Find Your Perfect Match</strong> feature to
-                increase your chances by 10x.
-              </li>{" "}
+                ✓ Tap Manage Subscription to view your active subscription plan.
+              </li>
             </ol>
           </div>
         </div>
@@ -296,28 +343,27 @@ service and privacy policy box.
               !items[5].active ? "max-h-0" : "max-h-fit"
             } text-gray-500`}
           >
-            <p>
-              Yes, you can. Love is a beautiful thing, and we are all out just
-              for you. Kindly do these things to increase your chances of
-              finding love on the app
-            </p>
-            <br />
+            <h3 className="font-semibold mb-2">
+              1. How to Fund your Baddhia Main Wallet
+            </h3>
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
-                ✓ Tap Find Your Match on the Baddhia mobile app home page
+                ✓ Tap Wallet on the side navigation menu of the home page.
               </li>
-              <li> 2. Be honest about your purpose on the app.</li>
-              <li> 3. Fill your profile completely and honestly.</li>
+              <li>✓ Tap Fund Wallet on the Main Wallet interface.</li>
+              <li> ✓ Enter the amount you want to fund e.g., $50.</li>
               <li>
-                {" "}
-                4. Use the <strong>Find Your Perfect Match</strong> feature to
-                increase your chances by 10x.
+                ✓ Select your preferred payment method e.g.,
+                <li className="px-4 md:px-10 mt-2">
+                  a) <strong>Pay with Card</strong> (Enter your card details).
+                  Note that the CVC is the last three digits behind your card.
+                </li>
               </li>{" "}
             </ol>
           </div>
         </div>
-        <Link to={'/faq'} onClick={scrollToTop}>
+        <Link to={"/faq"} onClick={scrollToTop}>
           <button
             type="submit"
             className="bg-baddhia-orange py-2 px-4 xl:px-10 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
