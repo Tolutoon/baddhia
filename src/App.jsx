@@ -9,6 +9,7 @@ import Blog from "./pages/Blog";
 import BlogContent from "./pages/BlogContent";
 import Terms from "./pages/Terms";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import FaqPage from "./pages/FaqPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/blog" element={<Blog />} />
       <Route path="/blogContent" element={<BlogContent />} />
       <Route path="/terms&condition" element={<Terms/>}/>
+      <Route path="/faq" element={<FaqPage/>}/>
       <Route path="/privacy" element={<PrivacyPolicy/>}/>
     </Routes>
   );
