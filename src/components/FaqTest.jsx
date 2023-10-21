@@ -387,7 +387,7 @@ function FaqTest() {
         <Link to={"/faq"} onClick={scrollToTop}>
           <button
             type="submit"
-            className="bg-baddhia-orange py-2 px-4 xl:px-10 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
+            className="bg-baddhia-orange py-2 px-8 xl:px-10 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
           >
             Read More
           </button>
