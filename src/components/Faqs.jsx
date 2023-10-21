@@ -489,6 +489,48 @@ function Faqs() {
               official exchange rate published by the apex bank of the
               recipient’s home currency on the date of the transaction.
             </p>
+            <h3 className="font-semibold py-2 mt-2">
+              2. How to Withdraw Money from your Gift Wallet to your Bank
+              Account
+            </h3>
+            <ol className="flex gap-2 flex-col">
+              <li>
+                ✓ Tap <strong>Wallet </strong>on the side navigation menu of the
+                home page.
+              </li>
+              <li>
+                ✓ Tap the “Main Wallet” dashboard and swipe left to move to the
+                “Gift Wallet” interface.
+              </li>
+              <li>
+                ✓ Tap <strong>Transfer Funds</strong> to move your “Gift Wallet”
+                current balance to your Main Wallet.
+              </li>
+              <li>
+                ✓ Tap the “Gift Wallet” dashboard and swipe right to move back
+                to the “Main Wallet” interface.
+              </li>
+              <li>
+                ✓ Tap <strong>Withdraw</strong> on the Main Wallet interface.
+              </li>
+              <li>✓ Enter the “Amount” you want to “Withdraw”.</li>
+              <li>
+                ✓ Enter your “Account Number”. <strong>Note:</strong> Account
+                details must correspond with your profile name.
+              </li>
+              <li>✓ Enter your login password</li>
+              <li>
+                ✓ Tap on <strong>Withdraw</strong>
+              </li>
+              <li>
+                ✓ Baddhia will review your “Withdrawal Request” and credit your
+                bank account
+              </li>
+              <li>
+                ✓ If you encounter any challenge, kindly reach out to us via
+                support@baddhia.ng or chat +234 706 207 2194.
+              </li>
+            </ol>
           </div>
         </div>
         <div className="flex flex-col bg-[#e9e9e9] rounded-xl p-5 md:w-[60vw] w-[80vw] group mb-2">
@@ -516,23 +558,46 @@ function Faqs() {
               !items[7].active ? "max-h-0" : "max-h-fit"
             } text-gray-500`}
           >
-            <p>
-              Yes, you can. Love is a beautiful thing, and we are all out just
-              for you. Kindly do these things to increase your chances of
-              finding love on the app
+            <p className="font-semibold">
+              Where to Find and How to Use the Display Emojis
             </p>
             <br />
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
-                ✓ Tap Find Your Match on the Baddhia mobile app home page
+                ✓ Tap <strong>Chat</strong> at the button navigation menu on the
+                home page
               </li>
-              <li> 2. Be honest about your purpose on the app.</li>
-              <li> 3. Fill your profile completely and honestly.</li>
               <li>
                 {" "}
-                4. Use the <strong>Find Your Perfect Match</strong> feature to
-                increase your chances by 10x.
+                ✓ Tap <strong>Chat</strong> > Choose the user you want to send
+                the emojis to.
+              </li>
+              <li>
+                {" "}
+                ✓ On the messaging interface, tap the{" "}
+                <strong>Love Envelop Icon</strong> >{" "}
+                <strong>Display Emoji</strong>.
+              </li>
+              <li> ✓ Search or scroll through the display emojis provided.</li>{" "}
+              <li> ✓ Select your preferred display emoji.</li>{" "}
+              <li>
+                {" "}
+                ✓ Tap <strong>Pay Now</strong> to purchase the emoji. The algorithm will check if
+                you have sufficient balance in your <strong>“Baddhia Main Wallet”</strong>
+              </li>{" "}
+              <li>
+                {" "}
+                ✓ fter purchase, tap the <strong>Love Envelop Icon</strong> > <strong>Display Emoji </strong>to see the emoji in the purchase
+section of the display emoji.
+              </li>{" "}
+              <li>
+                {" "}
+                ✓ Tap and edit the emoji to suit your style before sending.
+              </li>{" "}
+              <li>
+                {" "}
+                ✓ Tap <strong>Send</strong>.
               </li>{" "}
             </ol>
           </div>
