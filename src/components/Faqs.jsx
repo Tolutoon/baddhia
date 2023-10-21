@@ -583,13 +583,16 @@ function Faqs() {
               <li> ✓ Select your preferred display emoji.</li>{" "}
               <li>
                 {" "}
-                ✓ Tap <strong>Pay Now</strong> to purchase the emoji. The algorithm will check if
-                you have sufficient balance in your <strong>“Baddhia Main Wallet”</strong>
+                ✓ Tap <strong>Pay Now</strong> to purchase the emoji. The
+                algorithm will check if you have sufficient balance in your{" "}
+                <strong>“Baddhia Main Wallet”</strong>
               </li>{" "}
               <li>
                 {" "}
-                ✓ fter purchase, tap the <strong>Love Envelop Icon</strong> > <strong>Display Emoji </strong>to see the emoji in the purchase
-section of the display emoji.
+                ✓ fter purchase, tap the <strong>
+                  Love Envelop Icon
+                </strong> > <strong>Display Emoji </strong>to see the emoji in
+                the purchase section of the display emoji.
               </li>{" "}
               <li>
                 {" "}
@@ -627,23 +630,52 @@ section of the display emoji.
               !items[8].active ? "max-h-0" : "max-h-fit"
             } text-gray-500`}
           >
-            <p>
-              Yes, you can. Love is a beautiful thing, and we are all out just
-              for you. Kindly do these things to increase your chances of
-              finding love on the app.
+            <p className="py-2 font-semibold">
+              Where to Find and How to Use the Gift Emojis
             </p>
             <br />
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
-                ✓ Tap Find Your Match on the Baddhia mobile app home page
+                ✓ Tap <strong>Chat</strong> at the button navigation menu on the
+                home page.
               </li>
-              <li> 2. Be honest about your purpose on the app.</li>
-              <li> 3. Fill your profile completely and honestly.</li>
               <li>
                 {" "}
-                4. Use the <strong>Find Your Perfect Match</strong> feature to
-                increase your chances by 10x.
+                ✓ Tap <strong>Chat</strong> > Choose the user you want to send
+                the gift item(s) to.
+              </li>
+              <li>
+                {" "}
+                ✓ On the messaging interface, tap the{" "}
+                <strong>Love Envelop Icon</strong> > <strong>Gift Emoji</strong>
+                .
+              </li>
+              <li>
+                {" "}
+                ✓ Search or scroll through the gift items displayed in the
+                library.
+              </li>{" "}
+              <li> ✓ Select your preferred gift item.</li>{" "}
+              <li>
+                {" "}
+                ✓ Tap <strong>Send </strong>to purchase and send the gift. The
+                algorithm will check if you have sufficient balance in your{" "}
+                <strong>“Baddhia Main Wallet”</strong> to pay for the item.
+              </li>{" "}
+              <li>
+                {" "}
+                ✓ The “Gift Emoji” will be delivered to the recipient inside a
+                gift box.
+              </li>{" "}
+              <li>
+                {" "}
+                ✓ The recipient will tap the gift box to view its content.
+              </li>{" "}
+              <li>
+                {" "}
+                ✓ The recipient will tap <strong>Accept </strong>or{" "}
+                <strong>Reject</strong>.
               </li>{" "}
             </ol>
           </div>
@@ -674,23 +706,39 @@ section of the display emoji.
             } text-gray-500`}
           >
             <p>
-              Yes, you can. Love is a beautiful thing, and we are all out just
-              for you. Kindly do these things to increase your chances of
-              finding love on the app.
+              To upload Photo, Video or Text on Moments, follow the procedure
+              outlined below:
             </p>
             <br />
+            <p className="font-semibold pb-2">To upload Photo on Moments:</p>
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
-                ✓ Tap Find Your Match on the Baddhia mobile app home page.
+                ✓ Tap <strong>Moments</strong> at the button navigation on the
+                home page.
               </li>
-              <li> 2. Be honest about your purpose on the app.</li>
-              <li> 3. Fill your profile completely and honestly.</li>
               <li>
                 {" "}
-                4. Use the <strong>Find Your Perfect Match</strong> feature to
-                increase your chances by 10x.
+                ✓ Tap <strong>Upload</strong> > <strong>Photo</strong>.
+              </li>
+              <li className="leading-[22px]">
+                {" "}
+                ✓ Tap the <strong>Gallery Icon</strong> to choose a Photo from
+                your phone’s gallery <strong>OR</strong> tap the{" "}
+                <strong>Shutter Button</strong> to take a picture real-time. Tap
+                the <strong>Camera</strong> Icon to switch your camera to front-
+                facing or rear-facing.
+              </li>
+              <li> ✓ Crop the photo into your preferred size.</li>{" "}
+              <li> ✓ Add your preferred caption to the Photo.</li>{" "}
+              <li>
+                {" "}
+                ✓ Tap the <strong>Paper Plane Icon</strong> to post on Moments.
               </li>{" "}
+            </ol>
+            <p className="font-semibold py-2">To upload Video on Moments:</p>
+            <ol className="flex gap-2 flex-col">
+              <li>✓ Tap <strong>Moments</strong> at the button navigation on the home page.</li>
             </ol>
           </div>
         </div>
