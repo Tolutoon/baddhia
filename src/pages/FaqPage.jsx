@@ -6,7 +6,7 @@ function FaqPage() {
   return (
     <>
     <Header/>
-    <div className='h-[30vh] md:h-[35vh] footer flex items-center text-5xl px-20 text-white pt-[40px] font-semibold md:px-80'>FAQ</div>
+    <div className='h-[25vh] md:h-[35vh] footer flex items-center text-3xl px-10 text-white pt-[40px] font-semibold md:px-80'>Frequently Asked Questions</div>
     <Faqs/>
     
     </>
