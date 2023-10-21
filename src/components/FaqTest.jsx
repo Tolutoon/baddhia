@@ -24,6 +24,10 @@ function FaqTest() {
     );
   };
 
+  const scrollToTop = () => {
+    document.getElementById("blogContent").scroll(0, 0);
+  };
+
   return (
     <div className="md:pt-40 pt-[110px] md:px-40 mb-20">
       <h1 className="md:text-4xl text-3xl text-center mb-5 text-baddhia-orange font-semibold w-full">
@@ -313,7 +317,7 @@ service and privacy policy box.
             </ol>
           </div>
         </div>
-        <Link to={'/faq'}>
+        <Link to={'/faq'} onClick={scrollToTop}>
           <button
             type="submit"
             className="bg-baddhia-orange py-2 px-4 xl:px-10 rounded-[16px] font-semibold text-base text-white transition-all duration-300 hover:scale-105"
