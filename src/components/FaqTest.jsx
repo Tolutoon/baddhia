@@ -349,9 +349,9 @@ function FaqTest() {
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
-                ✓ Tap Wallet on the side navigation menu of the home page.
+                ✓ Tap <strong>Wallet</strong> on the side navigation menu of the home page.
               </li>
-              <li>✓ Tap Fund Wallet on the Main Wallet interface.</li>
+              <li>✓ Tap <strong>Fund Wallet</strong> on the Main Wallet interface.</li>
               <li> ✓ Enter the amount you want to fund e.g., $50.</li>
               <li>
                 ✓ Select your preferred payment method e.g.,
@@ -389,7 +389,7 @@ function FaqTest() {
                 ✓ Exit the “Main Wallet” interface and return to home page.
               </li>
               <li>
-                ✓ Tap Wallet on the side navigation menu of the home page to
+                ✓ Tap <strong>Wallet</strong> on the side navigation menu of the home page to
                 return to the “Main Wallet” interface.
               </li>
             </ol>

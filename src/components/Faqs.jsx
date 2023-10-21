@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-
 function Faqs() {
   // Initialize items state
   const [items, setItems] = useState([
@@ -32,7 +31,7 @@ function Faqs() {
   return (
     <div className="md:pt-30 pt-[40px] md:px-40 mb-20">
       <div className="h-full flex gap-4 flex-col justify-center items-center">
-      <div className="flex flex-col bg-[#e9e9e9] rounded-xl p-5 md:w-[60vw] w-[80vw] group">
+        <div className="flex flex-col bg-[#e9e9e9] rounded-xl p-5 md:w-[60vw] w-[80vw] group">
           <div
             className="flex items-center gap-4 mb-4 cursor-pointer"
             onClick={() => handleToggleActive(1)}
@@ -343,9 +342,9 @@ function Faqs() {
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
-                ✓ Tap Wallet on the side navigation menu of the home page.
+                ✓ Tap <strong>Wallet</strong> on the side navigation menu of the home page.
               </li>
-              <li>✓ Tap Fund Wallet on the Main Wallet interface.</li>
+              <li>✓ Tap <strong>Fund Wallet</strong> on the Main Wallet interface.</li>
               <li> ✓ Enter the amount you want to fund e.g., $50.</li>
               <li>
                 ✓ Select your preferred payment method e.g.,
@@ -383,11 +382,13 @@ function Faqs() {
                 ✓ Exit the “Main Wallet” interface and return to home page.
               </li>
               <li>
-                ✓ Tap Wallet on the side navigation menu of the home page to
+                ✓ Tap <strong>Wallet</strong> on the side navigation menu of the home page to
                 return to the “Main Wallet” interface.
               </li>
             </ol>
-            <h3 className="font-semibold mb-2 pl-4 mt-2">If the above did not work;</h3>
+            <h3 className="font-semibold mb-2 pl-4 mt-2">
+              If the above did not work;
+            </h3>
             <ol className="flex gap-2 flex-col pl-4">
               <li>✓ Check your email for a payment receipt.</li>
               <li>
@@ -428,16 +429,15 @@ function Faqs() {
               !items[6].active ? "max-h-0" : "max-h-fit"
             } text-gray-500`}
           >
-            <p>
-              Yes, you can. Love is a beautiful thing, and we are all out just
-              for you. Kindly do these things to increase your chances of
-              finding love on the app
-            </p>
+            <h3>
+              1. How to transfer money from your Baddhia Wallet to another user
+              on the Baddhia App
+            </h3>
             <br />
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
-                ✓ Tap Find Your Match on the Baddhia mobile app home page
+                ✓ Tap <strong>Wallet</strong> on the side navigation menu of the home page.
               </li>
               <li> 2. Be honest about your purpose on the app.</li>
               <li> 3. Fill your profile completely and honestly.</li>
