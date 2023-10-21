@@ -5,7 +5,7 @@ import Group4 from "/images/group4.jpg";
 function BlogWriteup() {
   return (
     <div>
-      <div className="m-0 px-5 pt-[90px] md:m-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
+      <div className="m-0 mb-6 px-5 pt-[90px] md:m-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
         <div className="rounded-2xl overflow-hidden md:block m-1">
           <img className="object-cover" src={Group4} alt="" />
           <div className="bg-B-writeup py-3 pl-6 pr-2">
