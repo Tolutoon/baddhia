@@ -32,7 +32,7 @@ function Faqs() {
   return (
     <div className="md:pt-30 pt-[40px] md:px-40 mb-20">
       <div className="h-full flex gap-4 flex-col justify-center items-center">
-        <div className="flex flex-col bg-[#e9e9e9] rounded-xl p-5 md:w-[60vw] w-[80vw] group">
+      <div className="flex flex-col bg-[#e9e9e9] rounded-xl p-5 md:w-[60vw] w-[80vw] group">
           <div
             className="flex items-center gap-4 mb-4 cursor-pointer"
             onClick={() => handleToggleActive(1)}
@@ -155,37 +155,22 @@ function Faqs() {
               !items[2].active ? "max-h-0" : "max-h-fit"
             } text-gray-500`}
           >
-            <p>
-              Yes, you can. Love is a beautiful thing, and we are all out just
-              for you. Kindly do these things to increase your chances of
-              finding love on the app
-            </p>
-            <br />
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
-                ✓ Tap Find Your Match on the Baddhia mobile app home page
-              </li>
-              <li> 2. Be honest about your purpose on the app.</li>
-              <li> 3. Fill your profile completely and honestly.</li>
-              <li>
-                {" "}
-                4. Use the <strong>Find Your Perfect Match</strong> feature to
-                increase your chances by 10x.
+                ✓ Tap Find Your Match on the Baddhia mobile app home page.
               </li>
               <li>
-                {" "}
-                5. Be patient because it takes time to find love. Don’t get
-                discouraged if you don’t find one right away.
+                ✓ Select your preferences on the Find Your Perfect Match
+                interface.
               </li>
-              <li> 6. Be active on the app.</li>
-              <li> 7. Be open to meeting new people.</li>
-              <li> 8. Send thoughtful messages.</li>
+              <li> ✓ Tap Get Result.</li>
+              <li> ✓ Tap any of the profiles suggested for you.</li>
+              <li> ✓ Tap the Love Icon to activate the Chat Icon.</li>
               <li>
                 {" "}
-                9. Post photos, videos, or text about your favorite hobbies,
-                activities, or causes to connect with people who share your
-                passions.
+                ✓ Tap the Chat Icon to open the Messaging interface and send a
+                message to your MATCH.
               </li>
             </ol>
           </div>
@@ -216,22 +201,46 @@ function Faqs() {
             } text-gray-500`}
           >
             <p>
-              Yes, you can. Love is a beautiful thing, and we are all out just
-              for you. Kindly do these things to increase your chances of
-              finding love on the app
+              Download the Baddhia android app on Google Play Store. The iOS and
+              Web versions are under development.
             </p>
             <br />
             <ol className="gap-2 flex flex-col">
+              <li> ✓ Navigate the intro screens.</li>
               <li>
                 {" "}
-                ✓ Tap Find Your Match on the Baddhia mobile app home page
+                ✓ Tap <strong>Sign Up</strong>.
               </li>
-              <li> 2. Be honest about your purpose on the app.</li>
-              <li> 3. Fill your profile completely and honestly.</li>
               <li>
                 {" "}
-                4. Use the <strong>Find Your Perfect Match</strong> feature to
-                increase your chances by 10x.
+                ✓ Enter your correct details in the fields provided (username,
+                first name, last name, & gender).
+              </li>
+              <li>
+                {" "}
+                ✓ Enter your valid email address; Enter and confirm your
+                password; Read and tick the terms of service and privacy policy
+                box.
+              </li>{" "}
+              <li> ✓ Tap Continue</li>{" "}
+              <li>
+                {" "}
+                ✓ Check your email to copy the OTP sent to your email address.
+              </li>{" "}
+              <li>
+                {" "}
+                ✓ Insert the 4-digit OTP in the space provided on the app.
+              </li>{" "}
+              <li>
+                {" "}
+                ✓ Enable your location. We use your location to suggest profiles
+                of people living near you.
+              </li>{" "}
+              <li> ✓ Upload a minimum of 3 photos.</li>{" "}
+              <li>
+                {" "}
+                ✓ Congratulations! your Baddhia account has been successfully
+                created.
               </li>{" "}
             </ol>
           </div>
@@ -262,23 +271,44 @@ function Faqs() {
             } text-gray-500`}
           >
             <p>
-              Yes, you can. Love is a beautiful thing, and we are all out just
-              for you. Kindly do these things to increase your chances of
-              finding love on the app
+              No! You don’t need a subscription to connect with people on
+              Baddhia. However, if you want to enjoy unlimited access to all the
+              features on Baddhia, you need to subscribe.
             </p>
             <br />
+            <h3 className="font-semibold mb-2">
+              Here are the features you can use without a subscription
+            </h3>
+            <ol className="gap-2 flex flex-col">
+              <li> ✓ Free access to ten (10) profile suggestions daily.</li>
+              <li> ✓ View ten (10) profiles in Moments per time.</li>
+              <li> ✓ Chat before matching.</li>
+              <li> ✓ Upload media in Chat and Moments.</li>{" "}
+            </ol>
+            <h3 className="font-semibold py-4">
+              To enjoy unlimited access, upgrade to “Rose Plan” and get access
+              to the following features:
+            </h3>
+            <ol className="gap-2 flex flex-col">
+              <li>✓ Unlimited access to profiles on the Home Page.</li>
+              <li>✓ Unlimited profile rewinds.</li>
+              <li>✓ See who likes you.</li>
+              <li>✓ Find your perfect match anywhere in the world.</li>
+              <li>✓ View all profiles in Moments and chat with them.</li>
+              <li>✓ See who viewed your profile in Moments.</li>
+              <li>✓ See who is online.</li>
+            </ol>
+            <h3 className="font-semibold py-4">
+              How to Check your Active Subscription Plan:
+            </h3>
             <ol className="gap-2 flex flex-col">
               <li>
-                {" "}
-                ✓ Tap Find Your Match on the Baddhia mobile app home page
+                ✓ Tap the side navigation menu at the top left on the home page.
               </li>
-              <li> 2. Be honest about your purpose on the app.</li>
-              <li> 3. Fill your profile completely and honestly.</li>
+              <li>✓ Tap Settings > Manage Subscription.</li>
               <li>
-                {" "}
-                4. Use the <strong>Find Your Perfect Match</strong> feature to
-                increase your chances by 10x.
-              </li>{" "}
+                ✓ Tap Manage Subscription to view your active subscription plan.
+              </li>
             </ol>
           </div>
         </div>
@@ -307,24 +337,44 @@ function Faqs() {
               !items[5].active ? "max-h-0" : "max-h-fit"
             } text-gray-500`}
           >
-            <p>
-              Yes, you can. Love is a beautiful thing, and we are all out just
-              for you. Kindly do these things to increase your chances of
-              finding love on the app
-            </p>
-            <br />
+            <h3 className="font-semibold mb-2">
+              1. How to Fund your Baddhia Main Wallet
+            </h3>
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
-                ✓ Tap Find Your Match on the Baddhia mobile app home page
+                ✓ Tap Wallet on the side navigation menu of the home page.
               </li>
-              <li> 2. Be honest about your purpose on the app.</li>
-              <li> 3. Fill your profile completely and honestly.</li>
+              <li>✓ Tap Fund Wallet on the Main Wallet interface.</li>
+              <li> ✓ Enter the amount you want to fund e.g., $50.</li>
               <li>
-                {" "}
-                4. Use the <strong>Find Your Perfect Match</strong> feature to
-                increase your chances by 10x.
+                ✓ Select your preferred payment method e.g.,
+                <li className="pl-4 md:px-10 mt-2">
+                  a) <strong>Pay with Card</strong> (Enter your card details).
+                  Note that the CVC is the last three digits behind your card.
+                </li>
+                <li className="pl-4 md:px-10 mt-2">
+                  b) <strong>Pay with Bank</strong> (Select your bank from the
+                  list of banks).
+                </li>
+                <li className="pl-4 md:px-10 mt-2">
+                  c) <strong>Pay with Transfer </strong>(Copy the generated
+                  account number and make a transfer to it).
+                </li>
+                <li className="pl-4 md:px-10 mt-2">
+                  d) <strong>Pay with USSD: </strong>Select your bank and dial
+                  the USSD code on your phone.
+                </li>
               </li>{" "}
+              <li>
+                ✓ Tap <strong>Continue.</strong>
+              </li>
+              <li>
+              ✓ Follow the prompts to <strong>Pay</strong>
+              </li>
+              <li>
+              ✓ Congrats! You’ve successfully funded your wallet.
+              </li>
             </ol>
           </div>
         </div>
@@ -448,7 +498,7 @@ function Faqs() {
             <p>
               Yes, you can. Love is a beautiful thing, and we are all out just
               for you. Kindly do these things to increase your chances of
-              finding love on the app
+              finding love on the app.
             </p>
             <br />
             <ol className="gap-2 flex flex-col">
@@ -494,13 +544,13 @@ function Faqs() {
             <p>
               Yes, you can. Love is a beautiful thing, and we are all out just
               for you. Kindly do these things to increase your chances of
-              finding love on the app
+              finding love on the app.
             </p>
             <br />
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
-                ✓ Tap Find Your Match on the Baddhia mobile app home page
+                ✓ Tap Find Your Match on the Baddhia mobile app home page.
               </li>
               <li> 2. Be honest about your purpose on the app.</li>
               <li> 3. Fill your profile completely and honestly.</li>
@@ -540,7 +590,7 @@ function Faqs() {
             <p>
               Yes, you can. Love is a beautiful thing, and we are all out just
               for you. Kindly do these things to increase your chances of
-              finding love on the app
+              finding love on the app.
             </p>
             <br />
             <ol className="gap-2 flex flex-col">

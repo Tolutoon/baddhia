@@ -104,7 +104,7 @@ function FaqTest() {
             <p>
               Yes, you can. Love is a beautiful thing, and we are all out just
               for you. Kindly do these things to increase your chances of
-              finding love on the app
+              finding love on the app.
             </p>
             <br />
             <ol className="gap-2 flex flex-col">
@@ -164,7 +164,7 @@ function FaqTest() {
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
-                ✓ Tap Find Your Match on the Baddhia mobile app home page
+                ✓ Tap Find Your Match on the Baddhia mobile app home page.
               </li>
               <li>
                 ✓ Select your preferences on the Find Your Perfect Match
@@ -228,7 +228,7 @@ function FaqTest() {
                 password; Read and tick the terms of service and privacy policy
                 box.
               </li>{" "}
-              <li> ✓ Tap Continue</li>{" "}
+              <li> ✓ Tap Continue.</li>{" "}
               <li>
                 {" "}
                 ✓ Check your email to copy the OTP sent to your email address.
@@ -242,7 +242,7 @@ function FaqTest() {
                 ✓ Enable your location. We use your location to suggest profiles
                 of people living near you.
               </li>{" "}
-              <li> ✓ Upload a minimum of 3 photos</li>{" "}
+              <li> ✓ Upload a minimum of 3 photos.</li>{" "}
               <li>
                 {" "}
                 ✓ Congratulations! your Baddhia account has been successfully
@@ -283,7 +283,7 @@ function FaqTest() {
             </p>
             <br />
             <h3 className="font-semibold mb-2">
-              Here are the features you can use without a subscription
+              Here are the features you can use without a subscription.
             </h3>
             <ol className="gap-2 flex flex-col">
               <li> ✓ Free access to ten (10) profile suggestions daily.</li>
@@ -344,7 +344,7 @@ function FaqTest() {
             } text-gray-500`}
           >
             <h3 className="font-semibold mb-2">
-              1. How to Fund your Baddhia Main Wallet
+              1. How to Fund your Baddhia Main Wallet.
             </h3>
             <ol className="gap-2 flex flex-col">
               <li>
@@ -355,11 +355,32 @@ function FaqTest() {
               <li> ✓ Enter the amount you want to fund e.g., $50.</li>
               <li>
                 ✓ Select your preferred payment method e.g.,
-                <li className="px-4 md:px-10 mt-2">
+                <li className="pl-4 md:px-10 mt-2">
                   a) <strong>Pay with Card</strong> (Enter your card details).
                   Note that the CVC is the last three digits behind your card.
                 </li>
+                <li className="pl-4 md:px-10 mt-2">
+                  b) <strong>Pay with Bank</strong> (Select your bank from the
+                  list of banks).
+                </li>
+                <li className="pl-4 md:px-10 mt-2">
+                  c) <strong>Pay with Transfer </strong>(Copy the generated
+                  account number and make a transfer to it).
+                </li>
+                <li className="pl-4 md:px-10 mt-2">
+                  d) <strong>Pay with USSD: </strong>Select your bank and dial
+                  the USSD code on your phone.
+                </li>
               </li>{" "}
+              <li>
+                ✓ Tap <strong>Continue.</strong>
+              </li>
+              <li>
+              ✓ Follow the prompts to <strong>Pay</strong>.
+              </li>
+              <li>
+              ✓ Congrats! You’ve successfully funded your wallet.
+              </li>
             </ol>
           </div>
         </div>
