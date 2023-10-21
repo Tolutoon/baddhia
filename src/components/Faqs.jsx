@@ -157,19 +157,26 @@ function Faqs() {
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
-                ✓ Tap Find Your Match on the Baddhia mobile app home page.
+                ✓ Tap <strong>Find Your Match </strong>on the Baddhia mobile app
+                home page.
               </li>
               <li>
                 ✓ Select your preferences on the Find Your Perfect Match
                 interface.
               </li>
-              <li> ✓ Tap Get Result.</li>
-              <li> ✓ Tap any of the profiles suggested for you.</li>
-              <li> ✓ Tap the Love Icon to activate the Chat Icon.</li>
               <li>
                 {" "}
-                ✓ Tap the Chat Icon to open the Messaging interface and send a
-                message to your MATCH.
+                ✓ Tap <strong>Get Result</strong>.
+              </li>
+              <li> ✓ Tap any of the profiles suggested for you.</li>
+              <li>
+                {" "}
+                ✓ Tap the <strong>Love Icon</strong> to activate the Chat Icon.
+              </li>
+              <li>
+                {" "}
+                ✓ Tap the <strong>Chat Icon</strong> to open the Messaging
+                interface and send a message to your MATCH.
               </li>
             </ol>
           </div>
@@ -221,7 +228,10 @@ function Faqs() {
                 password; Read and tick the terms of service and privacy policy
                 box.
               </li>{" "}
-              <li> ✓ Tap Continue</li>{" "}
+              <li>
+                {" "}
+                ✓ Tap <strong>Continue</strong>
+              </li>{" "}
               <li>
                 {" "}
                 ✓ Check your email to copy the OTP sent to your email address.
@@ -304,9 +314,13 @@ function Faqs() {
               <li>
                 ✓ Tap the side navigation menu at the top left on the home page.
               </li>
-              <li>✓ Tap Settings > Manage Subscription.</li>
               <li>
-                ✓ Tap Manage Subscription to view your active subscription plan.
+                ✓ Tap <strong>Settings</strong> >{" "}
+                <strong>Manage Subscription</strong>.
+              </li>
+              <li>
+                ✓ Tap <strong>Manage Subscription</strong> to view your active
+                subscription plan.
               </li>
             </ol>
           </div>
@@ -342,9 +356,12 @@ function Faqs() {
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
-                ✓ Tap <strong>Wallet</strong> on the side navigation menu of the home page.
+                ✓ Tap <strong>Wallet</strong> on the side navigation menu of the
+                home page.
               </li>
-              <li>✓ Tap <strong>Fund Wallet</strong> on the Main Wallet interface.</li>
+              <li>
+                ✓ Tap <strong>Fund Wallet</strong> on the Main Wallet interface.
+              </li>
               <li> ✓ Enter the amount you want to fund e.g., $50.</li>
               <li>
                 ✓ Select your preferred payment method e.g.,
@@ -382,8 +399,8 @@ function Faqs() {
                 ✓ Exit the “Main Wallet” interface and return to home page.
               </li>
               <li>
-                ✓ Tap <strong>Wallet</strong> on the side navigation menu of the home page to
-                return to the “Main Wallet” interface.
+                ✓ Tap <strong>Wallet</strong> on the side navigation menu of the
+                home page to return to the “Main Wallet” interface.
               </li>
             </ol>
             <h3 className="font-semibold mb-2 pl-4 mt-2">
@@ -429,7 +446,7 @@ function Faqs() {
               !items[6].active ? "max-h-0" : "max-h-fit"
             } text-gray-500`}
           >
-            <h3>
+            <h3 className="font-semibold">
               1. How to transfer money from your Baddhia Wallet to another user
               on the Baddhia App
             </h3>
@@ -437,16 +454,41 @@ function Faqs() {
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
-                ✓ Tap <strong>Wallet</strong> on the side navigation menu of the home page.
+                ✓ Tap <strong>Wallet </strong>on the side navigation menu of the
+                home page.
               </li>
-              <li> 2. Be honest about your purpose on the app.</li>
-              <li> 3. Fill your profile completely and honestly.</li>
+              <li> ✓ Tap Share Funds on the Main Wallet interface.</li>
               <li>
                 {" "}
-                4. Use the <strong>Find Your Perfect Match</strong> feature to
-                increase your chances by 10x.
+                ✓ Tap <strong>Transfer Funds </strong>to move your “Gift Wallet”
+                current balance to your Main Wallet.
+              </li>
+              <li>
+                {" "}
+                ✓ Enter the correct username of the recipient and the amount you
+                want to share e.g., $20.
               </li>{" "}
+              <li>
+                {" "}
+                ✓ Tap <strong>Continue.</strong>
+              </li>{" "}
+              <li> ✓ Enter your login password for verification.</li>{" "}
+              <li>
+                {" "}
+                ✓ Tap <strong>Share Funds</strong>.
+              </li>{" "}
+              <li>
+                {" "}
+                ✓ Check your “Transaction History” to see details of the
+                transaction.
+              </li>
             </ol>
+            <p className="mt-2">
+              <strong>Note:</strong> The fund will be converted from the
+              sender’s home currency to the recipient’s home currency using the
+              official exchange rate published by the apex bank of the
+              recipient’s home currency on the date of the transaction.
+            </p>
           </div>
         </div>
         <div className="flex flex-col bg-[#e9e9e9] rounded-xl p-5 md:w-[60vw] w-[80vw] group mb-2">

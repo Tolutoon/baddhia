@@ -38,7 +38,7 @@ function FaqTest() {
         that can help!
       </h3>
       <div className="h-full flex gap-4 flex-col justify-center items-center">
-        <div className="flex flex-col bg-[#e9e9e9] rounded-xl p-5 md:w-[60vw] w-[80vw] group">
+      <div className="flex flex-col bg-[#e9e9e9] rounded-xl p-5 md:w-[60vw] w-[80vw] group">
           <div
             className="flex items-center gap-4 mb-4 cursor-pointer"
             onClick={() => handleToggleActive(1)}
@@ -104,7 +104,7 @@ function FaqTest() {
             <p>
               Yes, you can. Love is a beautiful thing, and we are all out just
               for you. Kindly do these things to increase your chances of
-              finding love on the app.
+              finding love on the app
             </p>
             <br />
             <ol className="gap-2 flex flex-col">
@@ -164,18 +164,18 @@ function FaqTest() {
             <ol className="gap-2 flex flex-col">
               <li>
                 {" "}
-                ✓ Tap Find Your Match on the Baddhia mobile app home page.
+                ✓ Tap <strong>Find Your Match </strong>on the Baddhia mobile app home page.
               </li>
               <li>
                 ✓ Select your preferences on the Find Your Perfect Match
                 interface.
               </li>
-              <li> ✓ Tap Get Result.</li>
+              <li> ✓ Tap <strong>Get Result</strong>.</li>
               <li> ✓ Tap any of the profiles suggested for you.</li>
-              <li> ✓ Tap the Love Icon to activate the Chat Icon.</li>
+              <li> ✓ Tap the <strong>Love Icon</strong> to activate the Chat Icon.</li>
               <li>
                 {" "}
-                ✓ Tap the Chat Icon to open the Messaging interface and send a
+                ✓ Tap the <strong>Chat Icon</strong> to open the Messaging interface and send a
                 message to your MATCH.
               </li>
             </ol>
@@ -228,7 +228,7 @@ function FaqTest() {
                 password; Read and tick the terms of service and privacy policy
                 box.
               </li>{" "}
-              <li> ✓ Tap Continue.</li>{" "}
+              <li> ✓ Tap <strong>Continue</strong></li>{" "}
               <li>
                 {" "}
                 ✓ Check your email to copy the OTP sent to your email address.
@@ -283,7 +283,7 @@ function FaqTest() {
             </p>
             <br />
             <h3 className="font-semibold mb-2">
-              Here are the features you can use without a subscription.
+              Here are the features you can use without a subscription
             </h3>
             <ol className="gap-2 flex flex-col">
               <li> ✓ Free access to ten (10) profile suggestions daily.</li>
@@ -311,9 +311,9 @@ function FaqTest() {
               <li>
                 ✓ Tap the side navigation menu at the top left on the home page.
               </li>
-              <li>✓ Tap Settings > Manage Subscription.</li>
+              <li>✓ Tap <strong>Settings</strong> > <strong>Manage Subscription</strong>.</li>
               <li>
-                ✓ Tap Manage Subscription to view your active subscription plan.
+                ✓ Tap <strong>Manage Subscription</strong> to view your active subscription plan.
               </li>
             </ol>
           </div>
@@ -393,7 +393,9 @@ function FaqTest() {
                 return to the “Main Wallet” interface.
               </li>
             </ol>
-            <h3 className="font-semibold mb-2 pl-4 mt-2">If the above did not work;</h3>
+            <h3 className="font-semibold mb-2 pl-4 mt-2">
+              If the above did not work;
+            </h3>
             <ol className="flex gap-2 flex-col pl-4">
               <li>✓ Check your email for a payment receipt.</li>
               <li>
