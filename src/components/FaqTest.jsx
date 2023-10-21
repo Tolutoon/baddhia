@@ -12,8 +12,9 @@ function FaqTest() {
       prevItems.map((item) => {
         if (item.id === itemId) {
           return { ...item, active: !item.active };
+        } else {
+          return { ...item, active: false };
         }
-        return item;
       })
     );
   };
@@ -27,7 +28,7 @@ function FaqTest() {
         Not sure how to use our product? <br /> We’ve got a step-by-step guide
         that can help!
       </h3>
-      <div className="h-full flex gap-8 flex-col">
+      <div className="h-full flex gap-4 flex-col justify-center items-center">
         <div className="flex flex-col bg-[#e9e9e9] rounded-xl p-5 md:w-[60vw] w-[80vw] group">
           <div
             className="flex items-center gap-4 mb-4 cursor-pointer"
@@ -93,15 +94,32 @@ function FaqTest() {
             } text-gray-500`}
           >
             <p>
-              Baddhia is an online matchmaking, intimacy-building and social
-              commerce platform that helps you find your perfect match and build
-              a healthy, lifelong romantic relationship, no matter where you are
-              in the world. We understand that finding the right person can be
-              challenging, and that’s why we use a sophisticated mathematical
-              algorithm to evaluate your psychographic and demographic
-              information and match you with someone who shares your values,
-              interests, and lifestyle.
+              Yes, you can. Love is a beautiful thing, and we are all out just
+              for you. Kindly do these things to increase your chances of
+              finding love on the app
             </p>
+            <br />
+            <ol className="gap-2 flex flex-col">
+              <li>
+                {" "}
+                1. Be yourself and avoid pretending to be someone you are not.
+              </li>
+              <li> 2. Be honest about your purpose on the app.</li>
+              <li> 3. Fill your profile completely and honestly.</li>
+              <li>
+                {" "}
+                4. Use the <strong>Find Your Perfect Match</strong> feature to
+                increase your chances by 10x.
+              </li>
+              <li>
+                {" "}
+                5. Be patient because it takes time to find love. Don’t get
+                discouraged if you don’t find one right away.
+              </li>
+              <li> 3. Fill your profile completely and honestly.</li>
+              <li> 3. Fill your profile completely and honestly.</li>
+              <li> 3. Fill your profile completely and honestly.</li>
+            </ol>
           </div>
         </div>
       </div>
