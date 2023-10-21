@@ -376,10 +376,35 @@ function FaqTest() {
                 ✓ Tap <strong>Continue.</strong>
               </li>
               <li>
-              ✓ Follow the prompts to <strong>Pay</strong>.
+                ✓ Follow the prompts to <strong>Pay</strong>.
+              </li>
+              <li>✓ Congrats! You’ve successfully funded your wallet.</li>
+            </ol>
+            <h3 className="font-semibold mb-2 mt-2">
+              2. What to do if your Money isn’t Reflecting after Funding your
+              Main Wallet
+            </h3>
+            <ol className="gap-2 flex flex-col pl-4">
+              <li>
+                ✓ Exit the “Main Wallet” interface and return to home page.
               </li>
               <li>
-              ✓ Congrats! You’ve successfully funded your wallet.
+                ✓ Tap Wallet on the side navigation menu of the home page to
+                return to the “Main Wallet” interface.
+              </li>
+            </ol>
+            <h3 className="font-semibold mb-2 pl-4 mt-2">If the above did not work;</h3>
+            <ol className="flex gap-2 flex-col pl-4">
+              <li>✓ Check your email for a payment receipt.</li>
+              <li>
+                ✓ If you got an email showing “Transaction Successful”, please
+                reach out to Baddhia customer support via support@baddhia.ng or
+                chat +234 706 207 2194.
+              </li>
+              <li>
+                ✓ If you didn’t get any email, it means the transaction wasn’t
+                successful i.e., wait for another 12- 24hrs for your bank to
+                reverse the money.
               </li>
             </ol>
           </div>
