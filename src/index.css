@@ -30,6 +30,10 @@ html {
     
 }
 
+button, Link, a{
+    pointer-events: none;
+}
+
 
 
 .card{
