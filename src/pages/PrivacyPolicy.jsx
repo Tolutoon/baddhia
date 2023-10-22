@@ -14,7 +14,7 @@ function PrivacyPolicy() {
         <h3 className="font-semibold text-baddhia-orange md:text-xl mb-5">
           Create an account and unlock free subscription
         </h3>
-        <p className="text-gray-500 leading-7 mb-20">
+        <p className="text-gray-500 leading-7 mb-10">
           This Privacy Policy is to succinctly explain how we collect, use,
           disclose and protect your information, including any non-public
           personal information.
@@ -232,49 +232,79 @@ function PrivacyPolicy() {
         <p className="text-gray-500 mb-5 leading-7">
           We may disclose any information we collect about current and former
           customers, including non-public personal information, to affiliates
-          and non-affiliated third parties as follows:<br/><br/> 
-          <ol>
-            <li></li>
+          and non-affiliated third parties as follows:
+          <br />
+          <br />
+          <ol className="px-2 flex flex-col gap-2">
+            <li className="leading-7">
+              {" "}
+              1. with Fintech (financial technology) or financial service
+              providers, including the financial institutions identified in your
+              cardholder bank agreement that provide banking services in
+              connection with your Baddhia account.
+            </li>
+            <li className="leading-7">
+              {" "}
+              2. with another user, when you sign up for Baddhia's services via
+              a referral link. The user that referred you may receive
+              information indicating that you have enrolled with Baddhia. You
+              may avoid this sharing by not using a referral link to sign-up.{" "}
+            </li>
+            <li>
+              {" "}
+              3. with non-financial companies, such as email service providers
+              that perform marketing services on our behalf, and fraud
+              prevention service providers that use the information to provide
+              services to Baddhia and other companies.
+            </li>
+            <li>
+              {" "}
+              4. with a non-affiliated third-party to access and transmit your
+              personal and financial information from a relevant financial
+              institution. You grant the third-party the right, power, and
+              authority to access and transmit this information according to
+              terms of their privacy policy.{" "}
+            </li>
+            <li>
+              {" "}
+              5. with other affiliated and non-affiliated companies for our
+              everyday business purposes (such as sellers on Baddhia online
+              store, vendors, strategic business partners, and delivery
+              companies) to process transactions, maintain accounts, respond to
+              court orders and legal investigations or report to credit bureaus.
+              For example, in connection with our everyday business purposes, we
+              may share information about you as follows: In response to a
+              request for information, if we are required by, or we believe
+              disclosure is in accordance with, any applicable law, regulation
+              or legal process.{" "}
+            </li>
+            <li>
+              {" "}
+              6. with relevant law enforcement officials or other third parties,
+              such as investigators or auditors, if we believe it is appropriate
+              to investigate fraud. If we believe your actions are inconsistent
+              with the spirit or language of our user agreements or policies, or
+              to protect the rights, property, and safety of Baddhia
+              stakeholders.{" "}
+            </li>
+            <li>
+              {" "}
+              7. in connection with, or during negotiations of, any merger, sale
+              of Baddhia's assets, financing or acquisition of all or a portion
+              of our business to another company; and,
+            </li>
+            <li>
+              {" "}
+              8. with your consent or at your direction, including if we notify
+              you that the information you provide will be shared in a
+              particular manner and you provide such information. We may also
+              share aggregated or de-identified Information, which cannot
+              reasonably be used to identify you. For example, we may share
+              transaction zip codes with third parties to improve our accuracy
+              in product deliveries and to improve the clarity of transaction
+              descriptions.
+            </li>
           </ol>
-          1. with Fintech
-          (financial technology) or financial service providers, including the
-          financial institutions identified in your cardholder bank agreement
-          that provide banking services in connection with your Baddhia account.
-          2. with another user, when you sign up for Baddhia's services via a
-          referral link. The user that referred you may receive information
-          indicating that you have enrolled with Baddhia. You may avoid this
-          sharing by not using a referral link to sign-up. 3. with non-financial
-          companies, such as email service providers that perform marketing
-          services on our behalf, and fraud prevention service providers that
-          use the information to provide services to Baddhia and other
-          companies. 4. with a non-affiliated third-party to access and transmit
-          your personal and financial information from a relevant financial
-          institution. You grant the third-party the right, power, and authority
-          to access and transmit this information according to terms of their
-          privacy policy. 5. with other affiliated and non-affiliated companies
-          for our everyday business purposes (such as sellers on Baddhia online
-          store, vendors, strategic business partners, and delivery companies)
-          to process transactions, maintain accounts, respond to court orders
-          and legal investigations or report to credit bureaus. For example, in
-          connection with our everyday business purposes, we may share
-          information about you as follows: In response to a request for
-          information, if we are required by, or we believe disclosure is in
-          accordance with, any applicable law, regulation or legal process. 6.
-          with relevant law enforcement officials or other third parties, such
-          as investigators or auditors, if we believe it is appropriate to
-          investigate fraud. If we believe your actions are inconsistent with
-          the spirit or language of our user agreements or policies, or to
-          protect the rights, property, and safety of Baddhia stakeholders. 7.
-          in connection with, or during negotiations of, any merger, sale of
-          Baddhia's assets, financing or acquisition of all or a portion of our
-          business to another company; and, 8. with your consent or at your
-          direction, including if we notify you that the information you provide
-          will be shared in a particular manner and you provide such
-          information. We may also share aggregated or de-identified
-          Information, which cannot reasonably be used to identify you. For
-          example, we may share transaction zip codes with third parties to
-          improve our accuracy in product deliveries and to improve the clarity
-          of transaction descriptions.
         </p>
         <h3 className="font-semibold text-baddhia-orange mb-5">
           9. Account Information
@@ -329,6 +359,27 @@ function PrivacyPolicy() {
           purpose and scope of data collection and processing in connection with
           social sharing features, please visit the privacy policies of the
           entities that provide these features.
+        </p>
+        <h3 className="font-semibold text-baddhia-orange mb-5">
+          14. Analytics and Advertising Services Provided by Others
+        </h3>
+        <p className="text-gray-500 mb-5">
+          We may allow others to provide analytics services on our behalf and to
+          serve advertisements on our behalf across the Internet. These entities
+          may use cookies, web beacons and other technologies to collect
+          information about your use of the Services and other websites,
+          including your IP address, web browser, pages viewed, time spent on
+          pages, links clicked and conversion information. This information may
+          be used by Baddhia and others, to, among other things, analyze and
+          track data, determine the popularity of certain content, deliver
+          advertising targeted to your interests and better understand your
+          online activity.
+        </p>
+        <h3 className="font-semibold text-baddhia-orange mb-5">
+          15. Security
+        </h3>
+        <p className="text-gray-500 mb-5">
+         Baddhia takes reasonable measures to help protect all information about you from loss, theft
         </p>
         <h3 className="font-semibold text-baddhia-orange mb-5">
           14. Analytics and Advertising Services Provided by Others
