@@ -4,7 +4,7 @@ function PrivacyPolicy() {
   return (
     <div className="p-4 pt-20 md:px-40 px-10">
       <div>
-        <h1 className="text-baddhia-orange md:text-4xl text-3xl mb-10 font-bold">Privacy Policy</h1>
+        <h1 className="text-baddhia-orange md:text-4xl text-3xl mb-10 font-bold text-center">Baddhia Privacy Policy</h1>
         <h3 className="font-semibold text-baddhia-orange md:text-xl mb-5">Create an account and unlock free subscription</h3>
         <p className="text-gray-500 leading-7 mb-20">
           This Privacy Policy is to succinctly explain how we collect, use,
@@ -50,7 +50,7 @@ function PrivacyPolicy() {
           including non-public personal information, about you from
           non-affiliated third-party service providers in order to verify your
           identity and for fraud prevention, including your prior addresses and
-          names
+          names.
         </p>
         <h3 className="font-semibold text-baddhia-orange mb-5">4. Other Information we Collect</h3>
         <p className="text-gray-500 mb-5">
@@ -237,3 +237,9 @@ function PrivacyPolicy() {
 }
 
 export default PrivacyPolicy;
+
+
+
+
+
+
