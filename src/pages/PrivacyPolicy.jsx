@@ -309,7 +309,7 @@ function PrivacyPolicy() {
         <h3 className="font-semibold text-baddhia-orange mb-5">
           9. Account Information
         </h3>
-        <p className="text-gray-500 mb-5">
+        <p className="text-gray-500 mb-5 leading-7">
           You may edit your account profile information by logging into your
           account via our Services. If you wish to delete or deactivate your
           online account, please contact us, but note that we may retain certain
@@ -318,7 +318,7 @@ function PrivacyPolicy() {
         <h3 className="font-semibold text-baddhia-orange mb-5">
           10. Location Information
         </h3>
-        <p className="text-gray-500 mb-5">
+        <p className="text-gray-500 mb-5 leading-7">
           Due to the nature of our business – online dating/geo-location
           matching; you would be required to give out details of your location
           information to Baddhia or Map service provider within our mobile
@@ -332,7 +332,7 @@ function PrivacyPolicy() {
         <h3 className="font-semibold text-baddhia-orange mb-5">
           11. Baddhia Brand Promotional Communications
         </h3>
-        <p className="text-gray-500 mb-5">
+        <p className="text-gray-500 mb-5 leading-7">
           You may opt out of receiving promotional emails and text messages from
           Baddhia by following the instructions in those messages. Please note
           that if you opt out, we may still send you transactional or
@@ -340,7 +340,7 @@ function PrivacyPolicy() {
           business relations.
         </p>
         <h3 className="font-semibold text-baddhia-orange mb-5">12. Cookies </h3>
-        <p className="text-gray-500 mb-5">
+        <p className="text-gray-500 mb-5 leading-7">
           Most web browsers are set to accept cookies by default. If you prefer,
           you can usually choose to set your browser to remove or reject browser
           cookies. Please note that if you choose to remove or reject cookies,
@@ -349,7 +349,7 @@ function PrivacyPolicy() {
         <h3 className="font-semibold text-baddhia-orange mb-5">
           13. Social Sharing Features
         </h3>
-        <p className="text-gray-500 mb-5">
+        <p className="text-gray-500 mb-5 leading-7">
           Our Services include social sharing features for common social
           networks to let users share content. These features are served from
           third-party services that may serve their own cookies. The use of such
@@ -363,7 +363,7 @@ function PrivacyPolicy() {
         <h3 className="font-semibold text-baddhia-orange mb-5">
           14. Analytics and Advertising Services Provided by Others
         </h3>
-        <p className="text-gray-500 mb-5">
+        <p className="text-gray-500 mb-5 leading-7">
           We may allow others to provide analytics services on our behalf and to
           serve advertisements on our behalf across the Internet. These entities
           may use cookies, web beacons and other technologies to collect
@@ -375,26 +375,26 @@ function PrivacyPolicy() {
           advertising targeted to your interests and better understand your
           online activity.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">
-          15. Security
-        </h3>
-        <p className="text-gray-500 mb-5">
-         Baddhia takes reasonable measures to help protect all information about you from loss, theft
+        <h3 className="font-semibold text-baddhia-orange mb-5">15. Security</h3>
+        <p className="text-gray-500 mb-5 leading-7">
+          Baddhia takes reasonable measures to help protect all information
+          about you from loss, theft, misuse and unauthorized access,
+          disclosure, alteration, and destruction. Furthermore, Baddhia
+          implements policies designed to protect the confidentiality and
+          security of your non-public personal information, including a privacy
+          protection policy, and limits access to your non-public personal
+          information to emplyees and directors of the Baddhia that have a
+          business reason to know such information, and implements security
+          practices and procedures designed to protect the confidentiality and
+          security of such practices and procedures designed to protect the
+          confidentiality and security of such information and prohibit unlawful
+          disclosure of such information in accordance with its policies.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">
-          14. Analytics and Advertising Services Provided by Others
-        </h3>
-        <p className="text-gray-500 mb-5">
-          We may allow others to provide analytics services on our behalf and to
-          serve advertisements on our behalf across the Internet. These entities
-          may use cookies, web beacons and other technologies to collect
-          information about your use of the Services and other websites,
-          including your IP address, web browser, pages viewed, time spent on
-          pages, links clicked and conversion information. This information may
-          be used by Baddhia and others, to, among other things, analyze and
-          track data, determine the popularity of certain content, deliver
-          advertising targeted to your interests and better understand your
-          online activity.
+        <h3 className="font-semibold text-baddhia-orange mb-5">16. Contact Us</h3>
+        <p className='text-gray-500 leading-7'>
+          Should you have any further enquiry about the aforementioned Privacy
+          Policy documents, kindly contact us at: support@baddhia.com,
+          support@baddhia.ng or +234 706 207 2194.
         </p>
       </div>
     </div>
