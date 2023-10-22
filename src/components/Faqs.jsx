@@ -14,6 +14,8 @@ function Faqs() {
     { id: 9, active: false },
     { id: 10, active: false },
     { id: 11, active: false },
+    { id: 12, active: false },
+    { id: 13, active: false },
   ]);
 
   const handleToggleActive = (itemId) => {
@@ -739,6 +741,11 @@ function Faqs() {
             <p className="font-semibold py-2">To upload Video on Moments:</p>
             <ol className="flex gap-2 flex-col">
               <li>✓ Tap <strong>Moments</strong> at the button navigation on the home page.</li>
+              <li>✓ Tap <strong>Upload</strong> > <strong>Text</strong>.</li>
+              <li>✓ Type in the empty space on your screen.</li>
+              <li>✓ Tap <strong>Text Style</strong> to change the Text font.</li>
+              <li>✓ Tap the <strong>Paint Brush Icon</strong> to change the background colour.</li>
+              <li>Tap the <strong>Paper Plane Icon</strong> to post on Moments.</li>
             </ol>
           </div>
         </div>
@@ -765,6 +772,99 @@ function Faqs() {
           <div
             className={`overflow-hidden ${
               !items[10].active ? "max-h-0" : "max-h-fit"
+            } text-gray-500`}
+          >
+            <p>
+            Yes! Here is how to go about it.
+            </p>
+            <br />
+            <p className="font-semibold mb-2">1. How to Invite an Exclusive Partner</p>
+            <ol className="gap-2 flex flex-col">
+              <li>
+                {" "}
+                ✓ Tap Exclusive Partner on the side navigation menu of the home page.
+              </li>
+              <li> ✓ Enter the “Username” of the User that you want to invite.</li>
+              <li>
+                {" "}
+                ✓ <strong>Tap Search</strong>; The User Profile will be displayed.
+              </li>{" "}
+              <li>
+                {" "}
+                ✓ <strong>Tap Send Invite</strong>; The “Invitee” will receive a notification from you.
+              </li>{" "}
+            </ol>
+          </div>
+        </div>
+        <div className="flex flex-col bg-[#e9e9e9] rounded-xl p-5 md:w-[60vw] w-[80vw] group mb-2">
+          <div
+            className="flex items-center gap-4 mb-4 cursor-pointer"
+            onClick={() => handleToggleActive(12)}
+          >
+            <div
+              className={`text-xl text-baddhia-orange cursor-pointer ${
+                items[11].active ? "rotate-90" : ""
+              }`}
+            >
+              {">"}
+            </div>
+            <div
+              className={`font-semibold ${
+                items[11].active ? "group-[.is-active]:font-bold" : ""
+              }`}
+            >
+              <h3>How Do I Change My Account Password?</h3>
+            </div>
+          </div>
+          <div
+            className={`overflow-hidden ${
+              !items[11].active ? "max-h-0" : "max-h-fit"
+            } text-gray-500`}
+          >
+            <p>
+              Yes, you can. Love is a beautiful thing, and we are all out just
+              for you. Kindly do these things to increase your chances of
+              finding love on the app.
+            </p>
+            <br />
+            <ol className="gap-2 flex flex-col">
+              <li>
+                {" "}
+                ✓ Tap Find Your Match on the Baddhia mobile app home page
+              </li>
+              <li> 2. Be honest about your purpose on the app.</li>
+              <li> 3. Fill your profile completely and honestly.</li>
+              <li>
+                {" "}
+                4. Use the <strong>Find Your Perfect Match</strong> feature to
+                increase your chances by 10x.
+              </li>{" "}
+            </ol>
+          </div>
+        </div>
+        <div className="flex flex-col bg-[#e9e9e9] rounded-xl p-5 md:w-[60vw] w-[80vw] group mb-2">
+          <div
+            className="flex items-center gap-4 mb-4 cursor-pointer"
+            onClick={() => handleToggleActive(13)}
+          >
+            <div
+              className={`text-xl text-baddhia-orange cursor-pointer ${
+                items[12].active ? "rotate-90" : ""
+              }`}
+            >
+              {">"}
+            </div>
+            <div
+              className={`font-semibold ${
+                items[12].active ? "group-[.is-active]:font-bold" : ""
+              }`}
+            >
+              <h3>How do I Delete my Baddhia account?</h3>
+            </div>
+          </div>
+          <div
+            className={`overflow-hidden ${
+              !items[12].active ? "max-h-0" : "max-h-fit"
             } text-gray-500`}
           >
             <p>
