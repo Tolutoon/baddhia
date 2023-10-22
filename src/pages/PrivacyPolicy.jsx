@@ -41,7 +41,7 @@ function PrivacyPolicy() {
         <h3 className="font-semibold text-baddhia-orange mb-5">
           1. Categories of Non-public Personal Information
         </h3>
-        <p className="text-gray-500 mb-5">
+        <p className="text-gray-500 mb-5 leading-7">
           We collect non-public personal information you provide to us when you
           sign-up on our Baddhia platform or when you communicate with us about
           your Baddhia account. The types of information we may collect include
@@ -54,7 +54,7 @@ function PrivacyPolicy() {
         <h3 className="font-semibold text-baddhia-orange mb-5">
           2. Information About Your Transactions with Us
         </h3>
-        <p className="text-gray-500 mb-5">
+        <p className="text-gray-500 mb-5 leading-7">
           As you use your Baddhia account to connect, build healthy
           relationships, chat, and make transactions, we collect non-public
           personal information in connection with each transaction, including
@@ -65,7 +65,7 @@ function PrivacyPolicy() {
         <h3 className="font-semibold text-baddhia-orange mb-5">
           3. Information From Other Sources
         </h3>
-        <p className="text-gray-500 mb-5">
+        <p className="text-gray-500 mb-5 leading-7">
           When you create a Baddhia account, we may collect information,
           including non-public personal information, about you from
           non-affiliated third-party service providers in order to verify your
@@ -75,7 +75,7 @@ function PrivacyPolicy() {
         <h3 className="font-semibold text-baddhia-orange mb-5">
           4. Other Information we Collect
         </h3>
-        <p className="text-gray-500 mb-5">
+        <p className="text-gray-500 mb-5 leading-7">
           We may collect information you provide to us, such as your name, email
           address and any other information you choose to provide. For example,
           we may collect such information if you request an invite to join
@@ -85,12 +85,12 @@ function PrivacyPolicy() {
         <h3 className="font-semibold text-baddhia-orange mb-5">
           5. Information We Collect Automatically from our Services
         </h3>
-        <p className="text-gray-500 mb-5">
+        <p className="text-gray-500 mb-5 leading-7">
           When you access or use our Services, we automatically collect
           information about you as follows: <br />
           <br />
-          <ol className="flex flex-col gap-2 mb-2 pl-2">
-            <li>
+          <ol className="flex flex-col gap-2 mb-2 pl-2 ">
+            <li className="leading-7">
               {" "}
               1. <strong>Location Information:</strong> We may collect your
               location information from your mobile device with your prior
@@ -105,21 +105,21 @@ function PrivacyPolicy() {
               of location information from your device, please see “location
               information” below.
             </li>
-            <li>
+            <li className="leading-7">
               {" "}
               2. <strong>Device Information:</strong> We collect information
               about the computer or mobile device you use to access our
               Services, including the hardware model, operating system and
               version, unique device identifiers and mobile network information.
             </li>
-            <li>
+            <li className="leading-7">
               {" "}
               3. <strong>Log Information:</strong> We log information about your
               use of our Services, including the type of browser you use, access
               times, pages viewed, your IP address and the page you visited
               before navigating to our Services.
             </li>
-            <li>
+            <li className="leading-7">
               4.{" "}
               <strong>
                 Information Collected by Cookies and Other Tracking
@@ -144,7 +144,7 @@ function PrivacyPolicy() {
         <h3 className="font-semibold text-baddhia-orange mb-5">
           6. How We Respond to Do Not Track Signals
         </h3>
-        <p className="text-gray-500 mb-5">
+        <p className="text-gray-500 mb-5 leading-7">
           We allow Do Not Track browser configurations. We use cookies and other
           tracking technologies, and Do Not Track status may alter the available
           services with certain browsers when these tracking functionalities are
