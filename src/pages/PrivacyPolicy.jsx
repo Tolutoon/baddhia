@@ -4,7 +4,10 @@ function PrivacyPolicy() {
   return (
     <div className="p-4 pt-20 md:px-40 px-10">
       <div>
-        <h1 className="text-baddhia-orange md:text-4xl text-[35px] leading-10 mb-10 font-bold text-center">
+        <h1 className="text-baddhia-orange md:text-4xl text-[35px] md:hidden leading-10 mb-10 font-bold text-center">
+          Baddhia<br/> Privacy Policy
+        </h1>
+        <h1 className="text-baddhia-orange md:text-4xl text-[35px] leading-10 mb-10 font-bold md:block hidden text-center">
           Baddhia Privacy Policy
         </h1>
         <h3 className="font-semibold text-baddhia-orange md:text-xl mb-5">
