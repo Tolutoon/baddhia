@@ -5,7 +5,8 @@ function PrivacyPolicy() {
     <div className="p-4 pt-20 md:px-40 px-8">
       <div>
         <h1 className="text-baddhia-orange md:text-4xl text-[35px] md:hidden leading-10 mb-10 font-bold text-center">
-          Baddhia<br/> Privacy Policy
+          Baddhia
+          <br /> Privacy Policy
         </h1>
         <h1 className="text-baddhia-orange md:text-4xl text-[35px] leading-10 mb-10 font-bold md:block hidden text-center">
           Baddhia Privacy Policy
@@ -22,15 +23,18 @@ function PrivacyPolicy() {
           website and mobile application (collectively, “Services” or
           “Platform”) or otherwise interact with us as described below. <br />
           <br />
-          <span className="text-baddhia-orange">There is high probability that we may change this Privacy Policy at
-          different time; however, if we make changes, we will notify you
-          through our website and/or other communication platforms and in some
-          cases, such as by adding a statement to the homepages of our website
-          or mobile application or by sending you an email notification).</span><br /><br /> We
-          encourage you to review the Privacy Policy whenever you interact with
-          us to stay informed about our information practices and the ways you
-          can help protect your privacy. This privacy policy applies to the
-          Services provided by Baddhia Limited. (“we” or “us”).
+          <span className="text-baddhia-orange">
+            There is high probability that we may change this Privacy Policy at
+            different time; however, if we make changes, we will notify you
+            through our website and/or other communication platforms and in some
+            cases, such as by adding a statement to the homepages of our website
+            or mobile application or by sending you an email notification).
+          </span>
+          <br />
+          <br /> We encourage you to review the Privacy Policy whenever you
+          interact with us to stay informed about our information practices and
+          the ways you can help protect your privacy. This privacy policy
+          applies to the Services provided by Baddhia Limited. (“we” or “us”).
         </p>
       </div>
       <div>
@@ -83,36 +87,59 @@ function PrivacyPolicy() {
         </h3>
         <p className="text-gray-500 mb-5">
           When you access or use our Services, we automatically collect
-          information about you as follows: 1. Location Information: We may
-          collect your location information from your mobile device with your
-          prior consent. Also, we have incorporated Map API into our Services,
-          and you may consent to the collection of location information by Map
-          services in connection with your use of this maps service. Any
-          information collected via your use of Map services will be transmitted
-          directly to the service provider and is not collected by us. Please
-          refer to our Map service provider’s privacy policy for details about
-          their collection, use and sharing of this information. For information
-          about how to disable the collection of location information from your
-          device, please see “location information” below. 2. Device
-          Information: We collect information about the computer or mobile
-          device you use to access our Services, including the hardware model,
-          operating system and version, unique device identifiers and mobile
-          network information. 3. Log Information: We log information about your
-          use of our Services, including the type of browser you use, access
-          times, pages viewed, your IP address and the page you visited before
-          navigating to our Services. 4. Information Collected by Cookies and
-          Other Tracking Technologies: We use various technologies to collect
-          information on our Services and other websites, and this may include
-          sending cookies to your computer or mobile device. Cookies are small
-          data files stored on your hard drive or in device memory that help us
-          to improve our Services and your experience, see which areas and
-          features of our Services are popular and count visits. For more
-          information about cookies, and how to disable them, please see
-          “Cookies” below. We may also collect information using web beacons
-          (also known as "tracking pixels"). Web beacons are electronic images
-          that may be used in our Services or emails and help deliver cookies,
-          count visits, understand usage and campaign effectiveness and
-          determine whether an email has been opened and acted upon.
+          information about you as follows: <br />
+          <br />
+          <ol className="flex flex-col gap-2 mb-2 pl-2">
+            <li>
+              {" "}
+              1. <strong>Location Information:</strong> We may collect your
+              location information from your mobile device with your prior
+              consent. Also, we have incorporated Map API into our Services, and
+              you may consent to the collection of location information by Map
+              services in connection with your use of this maps service. Any
+              information collected via your use of Map services will be
+              transmitted directly to the service provider and is not collected
+              by us. Please refer to our Map service provider’s privacy policy
+              for details about their collection, use and sharing of this
+              information. For information about how to disable the collection
+              of location information from your device, please see “location
+              information” below.
+            </li>
+            <li>
+              {" "}
+              2. <strong>Device Information:</strong> We collect information
+              about the computer or mobile device you use to access our
+              Services, including the hardware model, operating system and
+              version, unique device identifiers and mobile network information.
+            </li>
+            <li>
+              {" "}
+              3. <strong>Log Information:</strong> We log information about your
+              use of our Services, including the type of browser you use, access
+              times, pages viewed, your IP address and the page you visited
+              before navigating to our Services.
+            </li>
+            <li>
+              4.{" "}
+              <strong>
+                Information Collected by Cookies and Other Tracking
+                Technologies:
+              </strong>{" "}
+              We use various technologies to collect information on our Services
+              and other websites, and this may include sending cookies to your
+              computer or mobile device. Cookies are small data files stored on
+              your hard drive or in device memory that help us to improve our
+              Services and your experience, see which areas and features of our
+              Services are popular and count visits.
+            </li>
+            For more information about cookies, and how to disable them, please
+            see “Cookies” below. We may also collect information using web
+            beacons (also known as "tracking pixels"). Web beacons are
+            electronic images that may be used in our Services or emails and
+            help deliver cookies, count visits, understand usage and campaign
+            effectiveness and determine whether an email has been opened and
+            acted upon.
+          </ol>
         </p>
         <h3 className="font-semibold text-baddhia-orange mb-5">
           6. How We Respond to Do Not Track Signals
@@ -123,22 +150,31 @@ function PrivacyPolicy() {
           services with certain browsers when these tracking functionalities are
           used to provide services. We do not alter the information our
           applications attempt to collect based on your Do Not Track
-          configuration. The app does use third party services that may collect
+          configuration.
+          <br />
+          <br /> The app does use third party services that may collect
           information used to identify you. Consult privacy policy of
-          third-party service providers used by the app. (i). Google Play
-          Services (ii). Flutterwave payment gateway (iii). Paystack payment
-          gateway (iv). Apple Store Services
+          third-party service providers used by the app. <br />
+          <br />
+          <ol className="flex flex-col gap-2 pl-4">
+            <li> (i) Google Play Services</li>
+            <li>(ii) Flutterwave payment gateway</li>
+            <li>(iii) Paystack payment gateway</li>
+            <li>(iv) Apple Store Services</li>
+          </ol>
         </p>
         <h3 className="font-semibold text-baddhia-orange mb-5">
           7. Use of Information
         </h3>
         <p className="text-gray-500 mb-5">
           We may use your information, including non-public personal information
-          as follows: • provide, maintain, and improve our Services. • provide
-          and deliver the products and services you request. • process
-          transaction and delivery services and send you related information,
-          including confirmations. • verify your identity and prevent fraud. •
-          send you technical notices, updates, security alerts and support and
+          as follows:
+          <br />
+          <br /> • provide, maintain, and improve our Services. • provide and
+          deliver the products and services you request. • process transaction
+          and delivery services and send you related information, including
+          confirmations. • verify your identity and prevent fraud. • send you
+          technical notices, updates, security alerts and support and
           administrative messages. • respond to your comments, questions and
           requests and provide customer support services. • communicate with you
           about products, services, offers, promotions, rewards, and events
