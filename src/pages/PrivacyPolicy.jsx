@@ -161,6 +161,7 @@ function PrivacyPolicy() {
             <li>(ii) Flutterwave payment gateway</li>
             <li>(iii) Paystack payment gateway</li>
             <li>(iv) Apple Store Services</li>
+            <li>(v) Apple Pay Services</li>
           </ol>
         </p>
         <h3 className="font-semibold text-baddhia-orange mb-5">
@@ -170,31 +171,72 @@ function PrivacyPolicy() {
           We may use your information, including non-public personal information
           as follows:
           <br />
-          <br /> • provide, maintain, and improve our Services. • provide and
-          deliver the products and services you request. • process transaction
-          and delivery services and send you related information, including
-          confirmations. • verify your identity and prevent fraud. • send you
-          technical notices, updates, security alerts and support and
-          administrative messages. • respond to your comments, questions and
-          requests and provide customer support services. • communicate with you
-          about products, services, offers, promotions, rewards, and events
-          offered by Baddhia and others, and provide news and information we
-          think will be of interest to you. • monitor and analyze trends, usage,
-          and activities in connection with our Services. • personalize and
-          improve our Services and provide advertisements, content or features
-          that match user profiles or interests. • process and deliver contest
-          or promotion entries and rewards. • link or combine information we get
-          from others to help understand your needs and provide you with better
-          service. • carry out any other purpose for which the information was
-          collected. 7. Use of Information
+          <br />
+          <ol className="flex flex-col gap-2 pl-4 mb-4">
+            <li>• provide, maintain, and improve our Services.</li>
+            <li className="leading-6">
+              {" "}
+              • provide and deliver the products and services you request.
+            </li>
+            <li>
+              {" "}
+              • process transaction and delivery services and send you related
+              information, including confirmations.
+            </li>
+            <li>• verify your identity and prevent fraud.</li>
+            <li>
+              • send you technical notices, updates, security alerts and support
+              and administrative messages.
+            </li>
+            <li>
+              • respond to your comments, questions and requests and provide
+              customer support services.
+            </li>
+            <li className="leading-7">
+              {" "}
+              • communicate with you about products, services, offers,
+              promotions, rewards, and events offered by Baddhia and others, and
+              provide news and information we think will be of interest to you.
+            </li>
+            <li className="leading-6">
+              • monitor and analyze trends, usage, and activities in connection
+              with our Services.
+            </li>
+            <li className="leading-7">
+              • personalize and improve our Services and provide advertisements,
+              content or features that match user profiles or interests.
+            </li>
+            <li>
+              • process and deliver contest or promotion entries and rewards.
+            </li>
+            <li className="leading-7">
+              • link or combine information we get from others to help
+              understand your needs and provide you with better service.
+            </li>
+            <li className="leading-6">
+              • carry out any other purpose for which the information was
+              collected.
+            </li>
+          </ol>
+          <span className="text-baddhia-orange leading-7">
+            Baddhia is registered in Lagos Nigeria and the information we
+            collect is governed by the Nigerian law. By accessing or using the
+            Services or otherwise provding information to us, you consent to the
+            processing and transfer of information in and to Nigeria and other
+            countries.
+          </span>
         </p>
         <h3 className="font-semibold text-baddhia-orange mb-5">
           8. Disclosure of Information
         </h3>
-        <p className="text-gray-500 mb-5">
+        <p className="text-gray-500 mb-5 leading-7">
           We may disclose any information we collect about current and former
           customers, including non-public personal information, to affiliates
-          and non-affiliated third parties as follows: 1. with Fintech
+          and non-affiliated third parties as follows:<br/><br/> 
+          <ol>
+            <li></li>
+          </ol>
+          1. with Fintech
           (financial technology) or financial service providers, including the
           financial institutions identified in your cardholder bank agreement
           that provide banking services in connection with your Baddhia account.
