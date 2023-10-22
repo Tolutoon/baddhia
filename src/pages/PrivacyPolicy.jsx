@@ -2,7 +2,7 @@ import React from "react";
 
 function PrivacyPolicy() {
   return (
-    <div className="p-4 pt-20 md:px-40 px-10">
+    <div className="p-4 pt-20 md:px-40 px-8">
       <div>
         <h1 className="text-baddhia-orange md:text-4xl text-[35px] md:hidden leading-10 mb-10 font-bold text-center">
           Baddhia<br/> Privacy Policy
