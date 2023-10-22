@@ -847,13 +847,58 @@ function Faqs() {
                 interface to accept the invitation.
               </li>
               <li>
-                ✓ The “Invitee” will tap <strong>Accept </strong>to accept your exclusive partner
-                invitation.
+                ✓ The “Invitee” will tap <strong>Accept </strong>to accept your
+                exclusive partner invitation.
               </li>
-              <li>✓ You will receive a notification that your invitation has been accepted.</li>
-              <li>✓ A golden crown will be placed on the “Profile Picture” of the exclusive partner on the “Paired”
-interface.</li>
+              <li>
+                ✓ You will receive a notification that your invitation has been
+                accepted.
+              </li>
+              <li>
+                ✓ A golden crown will be placed on the “Profile Picture” of the
+                exclusive partner on the “Paired” interface.
+              </li>
             </ol>
+            <p className="py-2 font-semibold mt-2">
+              2. How to Migrate a User to an Exclusive Partner
+            </p>
+            <ol className="flex flex-col gap-2 pl-2">
+              <li>
+                ✓ Tap <strong>Chat</strong> at the bottom navigation menu on the
+                home page.
+              </li>
+              <li>
+                ✓ Navigate and tap Chat on the <strong>Chat</strong> interface.
+              </li>
+              <li>✓ Tap the “Menu Icon” on the Profile you want to migrate.</li>
+              <li>
+                ✓ Tap Invite as <span>Exclusive User</span> from the pop-up
+                list.
+              </li>
+              <li>✓ The “Invitee” will receive a notification from you.</li>
+              <li>
+                ✓ The “Invitee” will tap <strong>Accept</strong> to accept your
+                exclusive partner invitation.
+              </li>
+              <li>
+                ✓ You will receive a notification that your invitation has been
+                accepted.
+              </li>
+              <li>
+                ✓ A golden crown will be placed on the “Profile Picture” of the
+                exclusive partner on the “Paired” interface.
+              </li>
+            </ol>
+            <p className="py-2 font-semibold mt-2">
+              3. How to Delete an Exclusive Partner.
+            </p>
+            <ol className="flex flex-col gap-2 pl-2">
+                <li>✓ Tap <strong>Chat </strong>at the bottom navigation menu on the home page.</li>
+                <li>✓ Navigate and tap <strong>Paired </strong>on the Chat interface.</li>
+                <li>✓ Tap the “Menu Icon” on the Profile that has a golden crown on its profile picture.</li>
+                <li>✓ Tap <strong>Delete Exclusive Partner</strong> > <strong>Delete </strong>from the pop-up list.</li>
+                <li>✓ The golden crown will be removed from the top of the profile picture.</li>
+              </ol>
           </div>
         </div>
         <div className="flex flex-col bg-[#e9e9e9] rounded-xl p-5 md:w-[60vw] w-[80vw] group mb-2">
