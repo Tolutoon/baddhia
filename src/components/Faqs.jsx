@@ -232,7 +232,7 @@ function Faqs() {
               </li>{" "}
               <li>
                 {" "}
-                ✓ Tap <strong>Continue</strong>
+                ✓ Tap <strong>Continue</strong>.
               </li>{" "}
               <li>
                 {" "}
