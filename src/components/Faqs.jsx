@@ -453,7 +453,7 @@ function Faqs() {
               on the Baddhia App
             </h3>
             <br />
-            <ol className="gap-2 flex flex-col">
+            <ol className="gap-2 flex flex-col pl-2">
               <li>
                 {" "}
                 ✓ Tap <strong>Wallet </strong>on the side navigation menu of the
@@ -495,7 +495,7 @@ function Faqs() {
               2. How to Withdraw Money from your Gift Wallet to your Bank
               Account
             </h3>
-            <ol className="flex gap-2 flex-col">
+            <ol className="flex gap-2 flex-col pl-2">
               <li>
                 ✓ Tap <strong>Wallet </strong>on the side navigation menu of the
                 home page.
@@ -564,7 +564,7 @@ function Faqs() {
               Where to Find and How to Use the Display Emojis
             </p>
             <br />
-            <ol className="gap-2 flex flex-col">
+            <ol className="gap-2 flex flex-col pl-2">
               <li>
                 {" "}
                 ✓ Tap <strong>Chat</strong> at the button navigation menu on the
@@ -636,7 +636,7 @@ function Faqs() {
               Where to Find and How to Use the Gift Emojis
             </p>
             <br />
-            <ol className="gap-2 flex flex-col">
+            <ol className="gap-2 flex flex-col pl-2">
               <li>
                 {" "}
                 ✓ Tap <strong>Chat</strong> at the button navigation menu on the
@@ -713,7 +713,7 @@ function Faqs() {
             </p>
             <br />
             <p className="font-semibold pb-2">To upload Photo on Moments:</p>
-            <ol className="gap-2 flex flex-col">
+            <ol className="gap-2 flex flex-col pl-2">
               <li>
                 {" "}
                 ✓ Tap <strong>Moments</strong> at the button navigation on the
@@ -739,13 +739,25 @@ function Faqs() {
               </li>{" "}
             </ol>
             <p className="font-semibold py-2">To upload Video on Moments:</p>
-            <ol className="flex gap-2 flex-col">
-              <li>✓ Tap <strong>Moments</strong> at the button navigation on the home page.</li>
-              <li>✓ Tap <strong>Upload</strong> > <strong>Text</strong>.</li>
+            <ol className="flex gap-2 flex-col pl-2">
+              <li>
+                ✓ Tap <strong>Moments</strong> at the button navigation on the
+                home page.
+              </li>
+              <li>
+                ✓ Tap <strong>Upload</strong> > <strong>Text</strong>.
+              </li>
               <li>✓ Type in the empty space on your screen.</li>
-              <li>✓ Tap <strong>Text Style</strong> to change the Text font.</li>
-              <li>✓ Tap the <strong>Paint Brush Icon</strong> to change the background colour.</li>
-              <li>Tap the <strong>Paper Plane Icon</strong> to post on Moments.</li>
+              <li>
+                ✓ Tap <strong>Text Style</strong> to change the Text font.
+              </li>
+              <li>
+                ✓ Tap the <strong>Paint Brush Icon</strong> to change the
+                background colour.
+              </li>
+              <li>
+                Tap the <strong>Paper Plane Icon</strong> to post on Moments.
+              </li>
             </ol>
           </div>
         </div>
@@ -774,25 +786,73 @@ function Faqs() {
               !items[10].active ? "max-h-0" : "max-h-fit"
             } text-gray-500`}
           >
-            <p>
-            Yes! Here is how to go about it.
-            </p>
+            <p>Yes! Here is how to go about it.</p>
             <br />
-            <p className="font-semibold mb-2">1. How to Invite an Exclusive Partner</p>
-            <ol className="gap-2 flex flex-col">
+            <p className="font-semibold mb-2">
+              1. How to Invite an Exclusive Partner
+            </p>
+            <ol className="gap-2 flex flex-col pl-2">
               <li>
                 {" "}
-                ✓ Tap Exclusive Partner on the side navigation menu of the home page.
+                ✓ Tap Exclusive Partner on the side navigation menu of the home
+                page.
               </li>
-              <li> ✓ Enter the “Username” of the User that you want to invite.</li>
               <li>
                 {" "}
-                ✓ <strong>Tap Search</strong>; The User Profile will be displayed.
+                ✓ Enter the “Username” of the User that you want to invite.
+              </li>
+              <li>
+                {" "}
+                ✓ <strong>Tap Search</strong>; The User Profile will be
+                displayed.
               </li>{" "}
               <li>
                 {" "}
-                ✓ <strong>Tap Send Invite</strong>; The “Invitee” will receive a notification from you.
+                ✓ <strong>Tap Send Invite</strong>; The “Invitee” will receive a
+                notification from you.
               </li>{" "}
+              <li>
+                {" "}
+                ✓ The “Invitee” will tap <strong>Accept</strong> to accept your
+                exclusive partner invitation.
+              </li>{" "}
+              <li>
+                {" "}
+                ✓ You will receive a notification that your invitation has been
+                accepted.
+              </li>{" "}
+              <li>
+                {" "}
+                ✓ A golden crown will be placed on the “Profile Picture” of the
+                exclusive partner on the “Paired” interface.
+              </li>{" "}
+            </ol>
+            <p className="py-2 font-semibold">
+              If the “Invitee” does not have a Baddhia Account, you can send an
+              Invitation Link
+            </p>
+            <ol className="flex flex-col gap-2 pl-2">
+              <li>
+                ✓ Tap <strong>Exclusive Partner</strong> on the side navigation
+                menu of the home page.
+              </li>
+              <li>
+                ✓ Tap <strong>Send Invite Link</strong>; An interface will be
+                displayed where you can choose which medium to use e.g., Send
+                via <strong>WhatsApp, Facebook, Email </strong> etc.
+              </li>
+              <li>
+                ✓ The recipient of the link will tap the link and be redirected
+                to either the Play store to download or the “Accept” / “Decline”
+                interface to accept the invitation.
+              </li>
+              <li>
+                ✓ The “Invitee” will tap <strong>Accept </strong>to accept your exclusive partner
+                invitation.
+              </li>
+              <li>✓ You will receive a notification that your invitation has been accepted.</li>
+              <li>✓ A golden crown will be placed on the “Profile Picture” of the exclusive partner on the “Paired”
+interface.</li>
             </ol>
           </div>
         </div>

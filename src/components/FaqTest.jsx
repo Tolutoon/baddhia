@@ -107,7 +107,7 @@ function FaqTest() {
               finding love on the app
             </p>
             <br />
-            <ol className="gap-2 flex flex-col">
+            <ol className="gap-2 flex flex-col pl-2">
               <li>
                 {" "}
                 1. Be yourself and avoid pretending to be someone you are not.
@@ -161,7 +161,7 @@ function FaqTest() {
               !items[2].active ? "max-h-0" : "max-h-fit"
             } text-gray-500`}
           >
-            <ol className="gap-2 flex flex-col">
+            <ol className="gap-2 flex flex-col pl-2">
               <li>
                 {" "}
                 ✓ Tap <strong>Find Your Match </strong>on the Baddhia mobile app home page.
@@ -285,7 +285,7 @@ function FaqTest() {
             <h3 className="font-semibold mb-2">
               Here are the features you can use without a subscription
             </h3>
-            <ol className="gap-2 flex flex-col">
+            <ol className="gap-2 flex flex-col pl-2">
               <li> ✓ Free access to ten (10) profile suggestions daily.</li>
               <li> ✓ View ten (10) profiles in Moments per time.</li>
               <li> ✓ Chat before matching.</li>
@@ -295,7 +295,7 @@ function FaqTest() {
               To enjoy unlimited access, upgrade to “Rose Plan” and get access
               to the following features:
             </h3>
-            <ol className="gap-2 flex flex-col">
+            <ol className="gap-2 flex flex-col pl-2">
               <li>✓ Unlimited access to profiles on the Home Page.</li>
               <li>✓ Unlimited profile rewinds.</li>
               <li>✓ See who likes you.</li>
@@ -307,7 +307,7 @@ function FaqTest() {
             <h3 className="font-semibold py-4">
               How to Check your Active Subscription Plan:
             </h3>
-            <ol className="gap-2 flex flex-col">
+            <ol className="gap-2 flex flex-col pl-2">
               <li>
                 ✓ Tap the side navigation menu at the top left on the home page.
               </li>
@@ -346,7 +346,7 @@ function FaqTest() {
             <h3 className="font-semibold mb-2">
               1. How to Fund your Baddhia Main Wallet.
             </h3>
-            <ol className="gap-2 flex flex-col">
+            <ol className="gap-2 flex flex-col pl-2">
               <li>
                 {" "}
                 ✓ Tap <strong>Wallet</strong> on the side navigation menu of the home page.
