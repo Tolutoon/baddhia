@@ -22,11 +22,11 @@ function PrivacyPolicy() {
           website and mobile application (collectively, “Services” or
           “Platform”) or otherwise interact with us as described below. <br />
           <br />
-          There is high probability that we may change this Privacy Policy at
+          <span className="text-baddhia-orange">There is high probability that we may change this Privacy Policy at
           different time; however, if we make changes, we will notify you
           through our website and/or other communication platforms and in some
           cases, such as by adding a statement to the homepages of our website
-          or mobile application or by sending you an email notification). We
+          or mobile application or by sending you an email notification).</span><br /><br /> We
           encourage you to review the Privacy Policy whenever you interact with
           us to stay informed about our information practices and the ways you
           can help protect your privacy. This privacy policy applies to the
