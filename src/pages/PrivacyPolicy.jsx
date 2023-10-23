@@ -64,11 +64,7 @@ function PrivacyPolicy() {
           3. Information From Other Sources
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
-          When you create a Baddhia account, we may collect information,
-          including non-public personal information, about you from
-          non-affiliated third-party service providers in order to verify your
-          identity and for fraud prevention, including your prior addresses and
-          names.
+         When you create a Baddhia account, we may collect information, including non-public personal information, about you from non-affiliated third-party service providers in order to verify your identity and for fraud prevention, including your prior addresses and names.
         </p>
         <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
           4. Other Information we Collect
@@ -90,18 +86,7 @@ function PrivacyPolicy() {
           <ol className="flex flex-col gap-2 mb-2 pl-2 ">
             <li className="leading-7">
               {" "}
-              1. <strong>Location Information:</strong> We may collect your
-              location information from your mobile device with your prior
-              consent. Also, we have incorporated Map API into our Services, and
-              you may consent to the collection of location information by Map
-              services in connection with your use of this maps service. Any
-              information collected via your use of Map services will be
-              transmitted directly to the service provider and is not collected
-              by us. Please refer to our Map service provider’s privacy policy
-              for details about their collection, use and sharing of this
-              information. For information about how to disable the collection
-              of location information from your device, please see “location
-              information” below.
+              1. <strong>Location Information:</strong> We may collect your location information from your mobile device with your prior consent. Also, we have incorporated Map API into our Services, and you may consent to the collection of location information by Map services in connection with your use of this maps service. Any information collected via your use of Map services will be transmitted directly to the service provider and is not collected by us. Please refer to our Map service provider’s privacy policy for details about their collection, use and sharing of this information. For information about how to disable the collection of location information from your device, please see “location information” below.
             </li>
             <li className="leading-7">
               {" "}
