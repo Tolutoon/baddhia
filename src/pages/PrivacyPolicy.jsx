@@ -224,7 +224,7 @@ function PrivacyPolicy() {
             countries.
           </span>
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
           8. Disclosure of Information
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -304,7 +304,7 @@ function PrivacyPolicy() {
             </li>
           </ol>
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
           9. Account Information
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -344,7 +344,7 @@ function PrivacyPolicy() {
           cookies. Please note that if you choose to remove or reject cookies,
           this could affect the availability and functionality of our Services.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
           13. Social Sharing Features
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -358,7 +358,7 @@ function PrivacyPolicy() {
           social sharing features, please visit the privacy policies of the
           entities that provide these features.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
           14. Analytics and Advertising Services Provided by Others
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -388,7 +388,7 @@ function PrivacyPolicy() {
           confidentiality and security of such information and prohibit unlawful
           disclosure of such information in accordance with its policies.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
           16. Contact Us
         </h3>
         <p className="text-gray-500 leading-7">
