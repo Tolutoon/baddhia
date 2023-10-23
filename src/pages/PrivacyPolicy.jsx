@@ -291,7 +291,7 @@ function PrivacyPolicy() {
           standard uninstall process to remove our mobile application from your
           device.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
           11. Baddhia Brand Promotional Communications
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -301,7 +301,7 @@ function PrivacyPolicy() {
           relationship messages, such as those about your account or our ongoing
           business relations.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">12. Cookies </h3>
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">12. Cookies </h3>
         <p className="text-gray-500 mb-5 leading-7">
           Most web browsers are set to accept cookies by default. If you prefer,
           you can usually choose to set your browser to remove or reject browser
@@ -337,7 +337,7 @@ function PrivacyPolicy() {
           advertising targeted to your interests and better understand your
           online activity.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">15. Security</h3>
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">15. Security</h3>
         <p className="text-gray-500 mb-5 leading-7">
           Baddhia takes reasonable measures to help protect all information
           about you from loss, theft, misuse and unauthorized access,
