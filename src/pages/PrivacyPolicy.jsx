@@ -90,10 +90,7 @@ function PrivacyPolicy() {
             </li>
             <li className="leading-7">
               {" "}
-              2. <strong>Device Information:</strong> We collect information
-              about the computer or mobile device you use to access our
-              Services, including the hardware model, operating system and
-              version, unique device identifiers and mobile network information.
+              2. <strong>Device Information:</strong>We collect information about the computer or mobile device you use to access our Services, including the hardware model, operating system and version, unique device identifiers and mobile network information.
             </li>
             <li className="leading-7">
               {" "}
@@ -108,36 +105,18 @@ function PrivacyPolicy() {
                 Information Collected by Cookies and Other Tracking
                 Technologies:
               </strong>{" "}
-              We use various technologies to collect information on our Services
-              and other websites, and this may include sending cookies to your
-              computer or mobile device. Cookies are small data files stored on
-              your hard drive or in device memory that help us to improve our
-              Services and your experience, see which areas and features of our
-              Services are popular and count visits.
+             We use various technologies to collect information on our Services and other websites, and this may include sending cookies to your computer or mobile device. Cookies are small data files stored on your hard drive or in device memory that help us to improve our Services and your experience, see which areas and features of our Services are popular and count visits.
             </li>
-            For more information about cookies, and how to disable them, please
-            see “Cookies” below. We may also collect information using web
-            beacons (also known as "tracking pixels"). Web beacons are
-            electronic images that may be used in our Services or emails and
-            help deliver cookies, count visits, understand usage and campaign
-            effectiveness and determine whether an email has been opened and
-            acted upon.
+            For more information about cookies, and how to disable them, please see “Cookies” below. We may also collect information using web beacons (also known as "tracking pixels"). Web beacons are electronic images that may be used in our Services or emails and help deliver cookies, count visits, understand usage and campaign effectiveness and determine whether an email has been opened and acted upon.
           </ol>
         </p>
         <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
           6. How We Respond to Do Not Track Signals
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
-          We allow Do Not Track browser configurations. We use cookies and other
-          tracking technologies, and Do Not Track status may alter the available
-          services with certain browsers when these tracking functionalities are
-          used to provide services. We do not alter the information our
-          applications attempt to collect based on your Do Not Track
-          configuration.
+          We allow Do Not Track browser configurations. We use cookies and other tracking technologies, and Do Not Track status may alter the available services with certain browsers when these tracking functionalities are used to provide services. We do not alter the information our applications attempt to collect based on your Do Not Track configuration.
           <br />
-          <br /> The app does use third party services that may collect
-          information used to identify you. Consult privacy policy of
-          third-party service providers used by the app. <br />
+          <br /> The app does use third party services that may collect information used to identify you. Consult privacy policy of third-party service providers used by the app. <br />
           <br />
           <ol className="flex flex-col gap-2 pl-4">
             <li> (i) Google Play Services</li>
