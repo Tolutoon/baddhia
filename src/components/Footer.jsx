@@ -27,7 +27,7 @@ function Blogfooter() {
             <a href="https://www.linkedin.com/company/baddhia/"><FaLinkedin className="ml-4" /></a>
           </div>
           <div className="text-sm flex flex-col md:items-end">
-            <Link to={'/terms&condition'} onClick={scrollToTop} className="mb-1">Terms of Use</Link>
+            <Link to={'/terms&condition'} onClick={scrollToTop} className="mb-1">Terms of Service</Link>
             <Link to={'/privacy'} onClick={scrollToTop} className="mb-1">Privacy Policy</Link>
             <Link to={'/blog'} onClick={scrollToTop} className="mb-1">Blog</Link>
             <Link to={'/support'} onClick={scrollToTop} className="mb-1">Frequently Asked Questions</Link>
