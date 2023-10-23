@@ -7,7 +7,7 @@ import PressCarousel from "./TestPress";
 function Press() {
   return (
     <section className="px-5 md:px-20 md:mb-20">
-      <h2 className="xl:text-3xl text-3xl font-semibold mx-auto xl:mb-20 md:mb-10 text-center">
+      <h2 className="xl:text-4xl text-3xl font-semibold mx-auto xl:mb-20 md:mb-10 text-center">
         Baddhia In The <span className="text-baddhia-orange">Press</span>
       </h2>
       <div className="md:flex md:flex-row flex-col justify-center items-center gap-8 hidden">
@@ -23,7 +23,7 @@ function Press() {
               {/* Added target="_blank" for opening links in a new tab */}
               <button
                 type="submit"
-                className="bg-baddhia-orange py-2 px-6 rounded-[16px] font-semibold md:text-base text-[12px] text-white transition-all duration-300 hover:scale-105"
+                className="bg-baddhia-orange py-2 px-6 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
               >
                 Read More
               </button>
