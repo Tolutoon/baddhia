@@ -23,7 +23,7 @@ function Support() {
             <AiFillMail fontSize={26} className='text-baddhia-orange'/>
           <div className='flex flex-col text-gray-500'>
             <p>Email</p>
-            <p>support@baddhia.com</p>
+            <p>support@baddhia.ng</p>
           </div>
             <BsFillTelephoneFill fontSize={26} className='text-baddhia-orange'/>
           <div className='flex flex-col text-gray-500'>
