@@ -277,7 +277,7 @@ function PrivacyPolicy() {
           online account, please contact us, but note that we may retain certain
           information as required by law or for legitimate business purposes.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
           10. Location Information
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
