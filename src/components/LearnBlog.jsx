@@ -9,7 +9,7 @@ function LearnBlog() {
   return (
     <div className="">  
     <div className="h-fit md:px-40 md:mb-20 flex flex-col justify-center items-center">
-      <h1 className="text-center font-semibold text-3xl text-[22px] md:mb-10">
+      <h1 className="text-center font-semibold text-4xl text-[22px] md:mb-10">
         Learn <span className="text-baddhia-orange">More</span> From our Blog
       </h1>
       <div className="md:flex hidden gap-8">
