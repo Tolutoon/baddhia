@@ -80,7 +80,7 @@ function PrivacyPolicy() {
           Baddhia or if you enter into any marketing and brand promotion
           activities.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
           5. Information We Collect Automatically from our Services
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -139,7 +139,7 @@ function PrivacyPolicy() {
             acted upon.
           </ol>
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
           6. How We Respond to Do Not Track Signals
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -162,7 +162,7 @@ function PrivacyPolicy() {
             <li>(v) Apple Pay Services</li>
           </ol>
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
           7. Use of Information
         </h3>
         <p className="text-gray-500 mb-5">
