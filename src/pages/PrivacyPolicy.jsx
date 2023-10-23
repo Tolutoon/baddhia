@@ -25,17 +25,18 @@ function PrivacyPolicy() {
             different time; however, if we make changes, we will notify you
             through our website and/or other communication platforms and in some
             cases, such as by adding a statement to the homepages of our website
-            or mobile application or by sending you an email notification).
+            or software application or by sending you an email notification).
           </span>
           <br />
-          <br /> We encourage you to review the Privacy Policy whenever you
-          interact with us to stay informed about our information practices and
-          the ways you can help protect your privacy. This privacy policy
-          applies to the Services provided by Baddhia Limited. (“we” or “us”).
+          <br />
+          We encourage you to review the Privacy Policy whenever you interact
+          with us to stay informed about our information practices and the ways
+          you can help protect your privacy. This privacy policy applies to the
+          Services provided by Baddhia Limited. (“we” or “us”).
         </p>
       </div>
       <div>
-        <h3 className="font-semibold text-baddhia-orange mb-5">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
           1. Categories of Non-public Personal Information
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -48,7 +49,7 @@ function PrivacyPolicy() {
           status, username, password, and any other information you choose to
           provide.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
           2. Information About Your Transactions with Us
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -59,7 +60,7 @@ function PrivacyPolicy() {
           collect photos or other information that you make available during
           online activities.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
           3. Information From Other Sources
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -69,7 +70,7 @@ function PrivacyPolicy() {
           identity and for fraud prevention, including your prior addresses and
           names.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
           4. Other Information we Collect
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -387,8 +388,10 @@ function PrivacyPolicy() {
           confidentiality and security of such information and prohibit unlawful
           disclosure of such information in accordance with its policies.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5">16. Contact Us</h3>
-        <p className='text-gray-500 leading-7'>
+        <h3 className="font-semibold text-baddhia-orange mb-5">
+          16. Contact Us
+        </h3>
+        <p className="text-gray-500 leading-7">
           Should you have any further enquiry about the aforementioned Privacy
           Policy documents, kindly contact us at: support@baddhia.com,
           support@baddhia.ng or +234 706 207 2194.
