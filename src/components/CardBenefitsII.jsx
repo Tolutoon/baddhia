@@ -15,7 +15,16 @@ function CardBenefitsII() {
           />
         </div>
         <div className="m-w-[503px] flex flex-col gap-[26px]">
-          <h2 className="text-4xl xl:text-5xl text-left font-semibold">
+          <h2 className="text-4xl xl:text-5xl text-left font-semibold hidden md:block">
+            Share{" "}
+            <span className="text-baddhia-orange">
+              Your
+            </span>{" "}<br/>
+            Exciting
+            <br />
+            Moments
+          </h2>
+          <h2 className="text-4xl xl:text-5xl text-left font-semibold md:hidden block">
             Share{" "}
             <span className="text-baddhia-orange">
               Your
