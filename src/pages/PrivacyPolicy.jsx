@@ -11,9 +11,6 @@ function PrivacyPolicy() {
         <h1 className="text-baddhia-orange md:text-4xl text-[35px] leading-10 mb-10 font-bold md:block hidden text-center">
           Baddhia Privacy Policy
         </h1>
-        <h3 className="font-semibold text-baddhia-orange md:text-xl mb-5">
-          Create an account and unlock free subscription
-        </h3>
         <p className="text-gray-500 leading-7 mb-10">
           This Privacy Policy is to succinctly explain how we collect, use,
           disclose and protect your information, including any non-public
