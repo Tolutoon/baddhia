@@ -74,7 +74,7 @@ function TermsContent() {
           In order to use Baddhia, you may sign in using either your telephone
           number or email address. For more details regarding the information we
           collect from you and how we use it, please consult our Privacy
-          Policy.You are responsible for maintaining the confidentiality of your
+          Policy.<br/><br/>You are responsible for maintaining the confidentiality of your
           login credentials you use to sign up for Baddhia, and you are solely
           responsible for all activities that occur under those credentials. If
           you think someone has gained access to your account, please contact us
@@ -91,7 +91,7 @@ function TermsContent() {
           affect your rights or obligations, we may not provide you with notice
           before taking them. We may even suspend the Service entirely, in which
           event we will notify you in advance unless exculpatory circumstances,
-          such as safety or security concerns, prevent us from doing so.You may
+          such as safety or security concerns, prevent us from doing so.<br/><br/>You may
           terminate your account at any time, for any reason, by following the
           instructions in “Settings” in the Service.Baddhia may terminate your
           account at any time without notice if it believes that you have
@@ -113,7 +113,7 @@ function TermsContent() {
           <div className="ml-4 mt-3">
             i. You agree to use caution in all interactions with other members,
             particularly if you decide to communicate off the platform or meet
-            in person.<br></br> .ii. You agree that you will not provide your
+            in person.<br></br> ii. You agree that you will not provide your
             financial information (for example, your credit/debit card or bank
             account information), or otherwise send money to other members,
             except if you decide to share funds with them via your Baddhia main
@@ -140,7 +140,7 @@ function TermsContent() {
           license to access and use the Service. This license is for the sole
           purpose of letting you use and enjoy the Service’s benefits as
           intended by Baddhia and permitted by this Agreement. Therefore, you
-          agree NOT to::<br></br>
+          agree <strong>NOT</strong> to:<br></br>
           <div className="ml-4 mt-3">
             i. use the Service or any content contained in the Service for any
             commercial purposes without our written consent.<br></br>
@@ -185,7 +185,7 @@ function TermsContent() {
           </div>
           Baddhia may investigate and take any available legal action in
           response to illegal and/ or unauthorized uses of the Service,
-          including termination of your account. Any software that we provide
+          including termination of your account.<br/> Any software that we provide
           you may automatically download and install upgrades, updates, or other
           new features. You may be able to adjust these automatic downloads
           through your device’s settings.
@@ -310,7 +310,7 @@ function TermsContent() {
         <p className="text-baddhia-orange font-semibold mb-2 text-xl">10. Purchases</p>
         <p className="leading-7 mb-10 text-gray-500">
           All payments for purchases on the Baddhia platform will be initiated
-          through the Baddhia main walletFrom time to time, Baddhia may offer
+          through the Baddhia main wallet.<br/>From time to time, Baddhia may offer
           products and services for purchase on the Baddhia online store through
           payment platforms authorized by Baddhia. If you choose to make an
           in-app purchase, you will be prompted to confirm your purchase with
@@ -443,7 +443,7 @@ function TermsContent() {
           <span className="text-blue-500">
             support@baddhia.com. support@baddhia.ng
           </span>{" "}
-          or +234 706 207 2194..
+          or +234 706 207 2194.
         </p>
         <p className="text-baddhia-orange font-semibold mb-2 text-xl">10.5 Pricing</p>
         <p className="text-gray-500 leading-7 mb-10">
