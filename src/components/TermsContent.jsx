@@ -24,8 +24,8 @@ function TermsContent() {
         </p>
         <p className="mb-6 text-baddhia-orange">
           {" "}
-          If you do not accept and agree to be bound by all of the terms of
-          this Agreement you should not use the Service.
+          If you do not accept and agree to be bound by all of the terms of this
+          Agreement you should not use the Service.
         </p>
         <p className="leading-7 mb-9 text-gray-500">
           We may make changes to this Agreement and to the Service from time to
@@ -45,7 +45,9 @@ function TermsContent() {
           with Baddhia, including but not limited to events, agreements, and
           conduct preceding your acceptance of this Agreement.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2 text-xl">2. Eligibility</p>
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
+          2. Eligibility
+        </p>
         <p className="leading-7 mb-10 text-gray-500">
           You must be at least 18 years of age to create an account on Baddhia
           and use the Service. By creating an account and using the Service, you
@@ -73,9 +75,11 @@ function TermsContent() {
         <p className="leading-7 mb-10 text-gray-500">
           In order to use Baddhia, you may sign in using either your telephone
           number or email address. For more details regarding the information we
-          collect from you and how we use it, please consult our Privacy
-          Policy.<br/><br/>You are responsible for maintaining the confidentiality of your
-          login credentials you use to sign up for Baddhia, and you are solely
+          collect from you and how we use it, please consult our Privacy Policy.
+          <br />
+          <br />
+          You are responsible for maintaining the confidentiality of your login
+          credentials you use to sign up for Baddhia, and you are solely
           responsible for all activities that occur under those credentials. If
           you think someone has gained access to your account, please contact us
           immediately.
@@ -91,12 +95,14 @@ function TermsContent() {
           affect your rights or obligations, we may not provide you with notice
           before taking them. We may even suspend the Service entirely, in which
           event we will notify you in advance unless exculpatory circumstances,
-          such as safety or security concerns, prevent us from doing so.<br/><br/>You may
-          terminate your account at any time, for any reason, by following the
-          instructions in “Settings” in the Service.Baddhia may terminate your
-          account at any time without notice if it believes that you have
-          violated this Agreement. Upon such termination, you will not be
-          entitled to any refund for purchases. After your account is
+          such as safety or security concerns, prevent us from doing so.
+          <br />
+          <br />
+          You may terminate your account at any time, for any reason, by
+          following the instructions in “Settings” in the Service.Baddhia may
+          terminate your account at any time without notice if it believes that
+          you have violated this Agreement. Upon such termination, you will not
+          be entitled to any refund for purchases. After your account is
           terminated, this Agreement will terminate, except that the following
           provisions will still apply to you and Baddhia: Section 4, Section 5,
           and Sections 12 - 19.
@@ -155,7 +161,7 @@ function TermsContent() {
             search/retrieval application, proxy or other manual or automatic
             device, method, or process to access, retrieve, index, “data mine,”
             or in any way reproduce or circumvent the navigational structure or
-            presentation of the Service or its contents<br></br>
+            presentation of the Service or its contents.<br></br>
             v. use the Service in any way that could interfere with, disrupt, or
             negatively affect the Service or the servers or networks connected
             to the Service.<br></br>
@@ -185,10 +191,10 @@ function TermsContent() {
           </div>
           Baddhia may investigate and take any available legal action in
           response to illegal and/ or unauthorized uses of the Service,
-          including termination of your account.<br/> Any software that we provide
-          you may automatically download and install upgrades, updates, or other
-          new features. You may be able to adjust these automatic downloads
-          through your device’s settings.
+          including termination of your account.
+          <br /> Any software that we provide you may automatically download and
+          install upgrades, updates, or other new features. You may be able to
+          adjust these automatic downloads through your device’s settings.
         </p>
         <p className="text-baddhia-orange font-semibold mb-2 text-xl">
           7. Rights you Grant Baddhia.
@@ -201,22 +207,24 @@ function TermsContent() {
           such as Facebook, Google, or Apple, as well as any information you
           post, upload, display or otherwise make available (collectively,
           “post”) on the Service or transmit to other members (collectively,
-          “Content”).Baddhia’s license to your Content shall be non-exclusive,
-          except that Baddhia’s license shall be exclusive with respect to
-          derivative works created through use of the Service. For example,
-          Baddhia would have an exclusive license to screenshots of the Service
-          that include your Content. In addition, so that Baddhia can prevent
-          the use of your Content outside of the Service, you authorize Baddhia
-          to act on your behalf with respect to infringing uses of your Content
-          taken from the Service by other members or third parties. This
-          expressly includes the authority, but not the obligation, to send
-          notices on your behalf if your Content is taken and used by third
-          parties outside of the ServiceOur license to your Content is subject
-          to your rights under applicable law (for example laws regarding
-          personal data protection to the extent any Content contains personal
-          information as defined by those laws) and is for the limited purpose
-          of operating, developing, providing, and improving the Service and
-          researching and developing new ones.<br></br>
+          “Content”).
+          <br />
+          Baddhia’s license to your Content shall be non-exclusive, except that
+          Baddhia’s license shall be exclusive with respect to derivative works
+          created through use of the Service. For example, Baddhia would have an
+          exclusive license to screenshots of the Service that include your
+          Content. In addition, so that Baddhia can prevent the use of your
+          Content outside of the Service, you authorize Baddhia to act on your
+          behalf with respect to infringing uses of your Content taken from the
+          Service by other members or third parties. This expressly includes the
+          authority, but not the obligation, to send notices on your behalf if
+          your Content is taken and used by third parties outside of the
+          ServiceOur license to your Content is subject to your rights under
+          applicable law (for example laws regarding personal data protection to
+          the extent any Content contains personal information as defined by
+          those laws) and is for the limited purpose of operating, developing,
+          providing, and improving the Service and researching and developing
+          new ones.<br></br>
           <div className="ml-4 mt-3">
             i. You agree that any Content you place or that you authorize us to
             place on the Service may be viewed by other members and may be
@@ -287,12 +295,13 @@ function TermsContent() {
             xii. use another user’s account, share an account with another user,
             or maintain more than one account.<br></br>
             xiii. create another account if we have already terminated your
-            account unless you have our permission.Baddhia reserves the right to
-            investigate and/or terminate your account without a refund of any
-            purchases if you have violated this Agreement, misused the Service,
-            or behaved in a way that Baddhia regards as inappropriate or
-            unlawful, including actions or communications that occur on or off
-            the Service/Platform.
+            account unless you have our permission.
+            <br />
+            Baddhia reserves the right to investigate and/or terminate your
+            account without a refund of any purchases if you have violated this
+            Agreement, misused the Service, or behaved in a way that Baddhia
+            regards as inappropriate or unlawful, including actions or
+            communications that occur on or off the Service/Platform.
           </div>
         </p>
         <p className="text-baddhia-orange font-semibold mb-2 text-xl">
@@ -307,112 +316,118 @@ function TermsContent() {
           via support@baddhia.com.
         </p>
 
-        <p className="text-baddhia-orange font-semibold mb-2 text-xl">10. Purchases</p>
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
+          10. Purchases
+        </p>
         <p className="leading-7 mb-10 text-gray-500">
           All payments for purchases on the Baddhia platform will be initiated
-          through the Baddhia main wallet.<br/>From time to time, Baddhia may offer
-          products and services for purchase on the Baddhia online store through
-          payment platforms authorized by Baddhia. If you choose to make an
-          in-app purchase, you will be prompted to confirm your purchase with
-          the applicable payment provider, and your method of payment (Baddhia
-          main wallet) (your “Payment Method”) will be charged at the prices
-          displayed to you for the service(s) you’ve selected as well as any
-          sales or similar taxes that may be imposed on your payments, and you
-          authorize Baddhia or the third party account, as applicable, to charge
-          you.
+          through the Baddhia main wallet.
+          <br />
+          From time to time, Baddhia may offer products and services for
+          purchase on the Baddhia online store through payment platforms
+          authorized by Baddhia. If you choose to make an in-app purchase, you
+          will be prompted to confirm your purchase with the applicable payment
+          provider, and your method of payment (Baddhia main wallet) (your
+          “Payment Method”) will be charged at the prices displayed to you for
+          the service(s) you’ve selected as well as any sales or similar taxes
+          that may be imposed on your payments, and you authorize Baddhia or the
+          third party account, as applicable, to charge you.
         </p>
         <p className="text-baddhia-orange font-semibold mb-2 text-xl">
           10.1 Subscription
         </p>
         <p className="leading-7 mb-10 text-gray-500">
-          You may choose to subscribe to any of Baddhia’s virtual products. When
-          you do so, you agree to make payment through the Baddhia main wallet.
-          After successful completion of your profile, you will be offered a
-          2-week free subscription to use the Service.Once your multimedia
-          starter pack or recurrent subscription expires, you may decide to
-          renew by funding your Baddhia main wallet and activating your
-          subscription. Also, upon expiry, you will not be able to upload
-          content in your gallery, chat, and share media files with any user
-          except an exclusive partner.Deleting your account on Baddhia or
-          deleting the Baddhia application from your device does not cancel your
-          subscription; Baddhia will retain all funds charged to your Payment
-          Method until your subscription expires. If you initiate a chargeback
-          or otherwise reverse a payment made with your Payment Method, Baddhia
-          may terminate your account immediately in its sole discretion.
+          You may choose to subscribe to any of Baddhia’s services. When you do
+          so, you agree to make payment through the Baddhia main wallet. After
+          successful completion of your profile, you will be offered a free
+          subscription to use the Service. If you decided to upgrade from the
+          free plan to a paid subscription, you will be required to fund your
+          main wallet to pay for the subscription. Once your subscription
+          expires, you may decide to renew by funding your Baddhia main wallet
+          and activating your subscription. Also, upon expiry, you will be
+          denied access to all the paid features that you had access to.
+          Deleting your account on Baddhia or deleting the Baddhia application
+          from your device does not cancel your subscription; Baddhia will
+          retain all funds charged to your Payment Method until your
+          subscription expires. If you initiate a chargeback or otherwise
+          reverse a payment made with your Payment Method, Baddhia may terminate
+          your account immediately in its sole discretion.
         </p>
         <p className="text-baddhia-orange font-semibold mb-2 text-xl">
           10.2 Display and CTA Emojis
         </p>
         <p className="leading-7 mb-6 text-gray-500">
-          From time to time, you may purchase a Display or CTA (Call-to-Action)
-          emoji on the Baddhia online store. The Display emoji can be used while
-          chatting with a user and can only be used once. Once it has been
-          received by the recipient, you will no longer retain ownership of the
-          emoji in your emoji library.
+          From time to time, you may purchase a Display or Call-to-Action (Gift)
+          emoji on the Baddhia software application. The Display emoji can be
+          used while chatting with a user and can only be used once after
+          purchase. Once it has been received by the recipient, you will no
+          longer retain ownership of the emoji in your display emoji library.
         </p>
         <p className="leading-7 mb-6 text-gray-500">
-          Before proceeding to purchase a CTA emoji, check if Baddhia has
-          operational presence in your city or country. We do not advise that
-          you purchase a CTA emoji on the Baddhia online store if Baddhia does
-          not have an operational presence in your city or country. The CTA
-          emoji requires the consent of the recipient before it can be
-          activated. It must be activated within 72 hours of purchase, else the
-          transaction will be cancelled, and payment reversed to your Baddhia
-          main wallet. By purchasing the Display and CTA emoji, you acknowledge
-          and agree that
+          The Gift emoji requires the consent of the recipient before it can be
+          activated. It must be accepted within 72 hours of purchase and sending
+          it to the recipient, else the transaction will be cancelled, and
+          payment reversed to your Baddhia main wallet. By purchasing the Gift
+          emoji, you acknowledge and agree that:
         </p>
         <p className="leading-7 ml-4 mb-6 text-gray-500">
-          i. the Baddhia online store is a platform for sellers to sell and
-          buyers to purchase products,<br></br>
-          ii. a contract for the sale and purchase of a product or products will
-          come into force between you and the seller,<br></br>
-          iii. Baddhia is not a party to the transaction between you and the
-          seller, but shall accept binding sales on behalf of sellers,<br></br>
-          iv. deliveries will be processed within 48 hours after the CTA emoji
-          has been activated,<br></br>
-          v. the seller is responsible for the safety and delivery lead time of
-          products that you purchased on the Baddhia online store,<br></br>
-          vi. the price of the product displayed in the product listing is
+          i. Baddhia will NOT deliver a physical gift item to the recipient’s
+          doorstep or any other address, unless otherwise stated and
+          communicated to both the sender and recipient before purchase,
+          <br></br>
+          ii. Baddhia will send the cash equivalent of the gift item purchased
+          and sent to the recipient via the messaging interface to the
+          recipient’s gift wallet, unless otherwise stated before purchasing or
+          sending the gift item,<br></br>
+          iii. the cash equivalent of the gift item purchased on the Baddhia
+          software application will be converted from the sender’s home currency
+          to the recipient’s home currency at the official exchange rate of the
+          recipient’s home currency before sending the cash to the recipient’s
+          gift wallet,<br></br>
+          iv. the conversion of the gift item to its cash equivalent will be
+          done using the official exchange rate published by the recipient’s
+          home apex bank on the date that the gift item was purchased on the
+          Baddhia software application,<br></br>
+          v. the price of the item(s) displayed in the gift emoji library is
           genuine and acceptable to you,<br></br>
-          vii. the price of the product will include all taxes, delivery
-          charges, packaging charges, handling charges, administrative charges,
-          insurance costs, and other ancillary costs and charges,<br></br>
-          viii. Baddhia charges 5% commission on every product successfully
-          delivered to you,ix. CTA emojis for services must be claimed within 7
-          days after successful activation.
+          vi. the price of the item(s) displayed in the gift emoji library may
+          not be accurate, vii. the price of the item(s) displayed in the gift
+          emoji library does not include any federal, state, or local taxes,
+          delivery charges, packaging charges, handling charges, administrative
+          charges, insurance costs, and other ancillary costs and charges, vii.
+          Baddhia charges 5% commission on every item purchased via the gift
+          emoji library, sent, and accepted by the recipient.
         </p>
         <p className="text-baddhia-orange font-semibold text-xl mb-2">
           10.3 Baddhia Gallery and Gallery Wallet
         </p>
         <p className="text-gray-500 leading-7 mb-10">
-          As part of the key features of the Service, you may upload an image or
-          video content on the Baddhia gallery and receive monetary appreciation
-          when you do so. You acknowledge and agree that:<br></br>
+          You acknowledge and agree that:<br></br>
           <div className="ml-4 mt-3">
-            i. all content that you post on your gallery must satisfy our
-            community rules as detailed in section 8 of the Baddhia Terms of
-            Service,<br></br>
-            ii. Baddhia reserves an exclusive right to determine the range and
-            threshold of the monetary appreciation that you receive for your
-            content,<br></br>
-            iii. Baddhia charges 5% commission on every monetary appreciation
-            you receive for your gallery content on the Baddhia platform,
+            i. Baddhia reserves an exclusive right to determine the range and
+            threshold of the money that you can fund, share, and withdraw from
+            your main wallet at all times,<br></br>
+            ii. Baddhia charges a 5% commission on every gift item that is
+            purchased on the Baddhia software application and sent to you,
             <br></br>
-            iv. you will transfer all monetary appreciation received in your
-            gallery wallet to your main wallet before requesting a withdrawal,
+            iii. you will transfer from your gift wallet to your main wallet
+            before requesting a withdrawal,
             <br></br>
-            v. all withdrawals through the Baddhia main wallet attracts a 10%
-            withdrawal fee,. <br></br>
-            vi. We may monitor or review any Content you post on your gallery.
-            We may delete any Content, in whole or in part, that in our sole
-            judgment violates this Agreement or may harm the reputation of the
-            Service.Baddhia may manage, regulate, control, modify or eliminate
-            virtual products at any time. Baddhia shall have no liability to you
-            or any third party in the event that Baddhia exercises any such
-            rights
+            iv. all withdrawals through the Baddhia main wallet attracts a 10%
+            withdrawal fee,
+            <br></br>
+            v. Baddhia may monitor or review all transactions carried out on
+            your main and gift wallet, <br></br>
+            vi. you may be required to obtain Baddhia’s approval before
+            withdrawing any amount from your main wallet, as determined by
+            Baddhia from time to time,<br></br>vii. Baddhia may lock your wallet
+            (gift and main) balance and conduct a security or fraud check before
+            granting your withdrawal request.
           </div>
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2 text-xl">10.4 Refund</p>
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
+          10.4 Refund
+        </p>
         <p className="text-gray-500 mb-5 leading-7">
           Generally, all charges for purchases are nonrefundable, and there are
           no refunds or credits for partially used durations. However, you may
@@ -421,18 +436,16 @@ function TermsContent() {
           withdrawal, Baddhia reserves the right to query and queue your
           withdrawal for up to 72 hours, and also, charge a 10% withdrawal fee.
           <p className="my-4">
-            In the event that your CTA emoji is not activated within the
+            n the event that your gift emoji is not accepted within the
             stipulated period, your funds will be reversed to your Baddhia main
             wallet.
           </p>
         </p>
         <p className="text-gray-500 leading-7 mb-6">
-          Changes to our returns and refund policy shall be effective in respect
-          of all purchases made from the date of publication of the change on
-          our websiteIn the event that you die before the end of your
-          subscription period, your next of kin shall be entitled to a refund of
-          that portion of any payment you had made for your subscription which
-          is allocable to the period after your death.{" "}
+          Changes to our refund policy shall be effective in respect of all
+          purchases made from the date of publication of the change on our
+          website. In the event that you die, your next of kin shall be entitled
+          to a refund of the available balance in your Baddhia main wallet.
         </p>
         <p className="text-gray-500 leading-7 mb-6">
           In the event that you become disabled (such that you are unable to use
@@ -445,7 +458,9 @@ function TermsContent() {
           </span>{" "}
           or +234 706 207 2194.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2 text-xl">10.5 Pricing</p>
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
+          10.5 Pricing
+        </p>
         <p className="text-gray-500 leading-7 mb-10">
           Baddhia operates a global business, and our pricing varies by a number
           of factors. We frequently offer promotional rates which can vary based
@@ -458,9 +473,10 @@ function TermsContent() {
         <p className="text-gray-500 mb-10 leading-7">
           If you believe that your work has been copied and posted on the
           Service in a way that constitutes copyright infringement, please
-          submit a takedown request via support@Baddhia.com.If you contact us
-          regarding alleged copyright infringement, please be sure to attach the
-          following information to the email:<br></br>
+          submit a takedown request via support@Baddhia.com.
+          <br />
+          If you contact us regarding alleged copyright infringement, please be
+          sure to attach the following information to the email:<br></br>
           <div className="ml-4 mt-3">
             i. an electronic or physical signature of the person authorized to
             act on behalf of the owner of the copyright interest;<br></br>ii. a
@@ -490,13 +506,13 @@ function TermsContent() {
           non-infringement. Baddhia does not represent or warrant that (a) the
           service will be uninterrupted, secure or error free, (b) any defects
           or errors in the service will be corrected, or (c) that any content or
-          information you obtain on or through the service will be
-          accurate.Baddhia takes no responsibility for any content that you or
-          another member or third party posts, sends, or receives through the
-          service. Any material downloaded or otherwise obtained through the use
-          of the service is accessed at your own discretion and risk..Baddhia
-          disclaims and takes no responsibility for any conduct of you or any
-          other member, on or off the service
+          information you obtain on or through the service will be accurate.
+          Baddhia takes no responsibility for any content that you or another
+          member or third party posts, sends, or receives through the service.
+          Any material downloaded or otherwise obtained through the use of the
+          service is accessed at your own discretion and risk. Baddhia disclaims
+          and takes no responsibility for any conduct of you or any other
+          member, on or off the service.
         </p>
         <p className="text-baddhia-orange font-semibold text-xl mb-2">
           13. Third Party Services
@@ -528,20 +544,19 @@ function TermsContent() {
           Notwithstanding the foregoing, in no event shall Baddhia’s aggregate
           liability to you for any and all claims arising out of or relating to
           the service, or this agreement exceed the amount paid, if any, by you
-          to Baddhia during the twenty-four (24) month period immediately
-          preceding the date that you first file a lawsuit, arbitration or any
-          other legal proceeding against Baddhia, whether in law or in equity,
-          in any tribunal. The damages limitation set forth in the immediately
+          to Baddhia during the six (6) month period immediately preceding the
+          date that you first file a lawsuit, arbitration or any other legal
+          proceeding against Baddhia, whether in law or in equity, in any
+          tribunal. The damages limitation set forth in the immediately
           preceding sentence applies (i) regardless of the ground upon which
           liability is based (whether default, contract, tort, statute, or
           otherwise), (ii) irrespective of the type of breach of obligations,
-          and (iii) with respect to all events, the service, and this
-          agreement.The limitation of liability provisions set forth in this
-          section 14 shall apply even if your remedies under this agreement fail
-          with respect to their essential purpose.Some jurisdictions do not
-          allow the exclusion or limitation of certain damages, so some or all
-          of the exclusions and limitations in this section may not apply to
-          you.
+          and (iii) with respect to all events, the service, and this agreement.
+          The limitation of liability provisions set forth in this section 14
+          shall apply even if your remedies under this agreement fail with
+          respect to their essential purpose. Some jurisdictions do not allow
+          the exclusion or limitation of certain damages, so some or all of the
+          exclusions and limitations in this section may not apply to you.
         </p>
         <p className="text-baddhia-orange font-semibold text-xl mb-2">
           15. Arbitration, Class-Action Waiver, and Jury Waiver
@@ -646,7 +661,9 @@ function TermsContent() {
           Notwithstanding the foregoing, the Arbitration Agreement in Section 15
           above shall be governed by the Arbitration and Conciliation Act.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2 text-xl">17. Venue</p>
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
+          17. Venue
+        </p>
         <p className="leading-7 mb-10 text-gray-500">
           Except for claims that may be properly brought in a small claims court
           of competent jurisdiction, all claims arising out of or relating to
