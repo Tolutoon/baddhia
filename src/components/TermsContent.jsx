@@ -5,7 +5,7 @@ function TermsContent() {
     <div>
       <div className=" text-left md:px-40 px-8 pt-20 pb-20">
         <div className="text-baddhia-orange md:text-4xl text-[35px] leading-10 mb-10 font-bold text-center">
-          <h1>Terms & Conditions</h1>
+          <h1>Terms of Service</h1>
         </div>
         <h1 className="mb-10 text-gray-500">
           Welcome to Baddhia, operated by Baddhia Limited (“us,” “our”, “we,”
