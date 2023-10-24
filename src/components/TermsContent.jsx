@@ -3,14 +3,14 @@ import React from "react";
 function TermsContent() {
   return (
     <div>
-      <div className=" text-left md:px-40 px-10 pt-20 text-sm pb-20">
-        <div className="md:text-4xl text-3xl mb-10 font-semibold text-baddhia-orange">
+      <div className=" text-left md:px-40 px-10 pt-20 pb-20">
+        <div className="md:text-4xl text-3xl mb-10 font-semibold text-center text-baddhia-orange">
           <h1>Terms & Conditions</h1>
         </div>
-        <p className="mb-10">
+        <h1 className="mb-10">
           Welcome to Baddhia, operated by Baddhia Limited (“us,” “our”, “we,”
           the “Company” or “Baddhia”).
-        </p>
+        </h1>
         <p className="text-baddhia-orange font-semibold mb-2">
           1. Acceptance of the Baddhia Terms of Service
         </p>
