@@ -3,7 +3,7 @@ import React from "react";
 function TermsContent() {
   return (
     <div>
-      <div className=" text-left md:px-40 px-10 pt-40 text-sm pb-20">
+      <div className=" text-left md:px-40 px-10 pt-20 text-sm pb-20">
         <div className="md:text-4xl text-3xl mb-10 font-semibold text-baddhia-orange">
           <h1>Terms & Conditions</h1>
         </div>

@@ -36,7 +36,7 @@ function PrivacyPolicy() {
         </p>
       </div>
       <div>
-        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-xl">
           1. Categories of Non-public Personal Information
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -49,7 +49,7 @@ function PrivacyPolicy() {
           status, username, password, and any other information you choose to
           provide.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-xl">
           2. Information About Your Transactions with Us
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -60,13 +60,13 @@ function PrivacyPolicy() {
           collect photos or other information that you make available during
           online activities.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-xl">
           3. Information From Other Sources
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
          When you create a Baddhia account, we may collect information, including non-public personal information, about you from non-affiliated third-party service providers in order to verify your identity and for fraud prevention, including your prior addresses and names.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-xl">
           4. Other Information we Collect
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -76,7 +76,7 @@ function PrivacyPolicy() {
           Baddhia or if you enter into any marketing and brand promotion
           activities.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-xl">
           5. Information We Collect Automatically from our Services
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -110,7 +110,7 @@ function PrivacyPolicy() {
             For more information about cookies, and how to disable them, please see “Cookies” below. We may also collect information using web beacons (also known as "tracking pixels"). Web beacons are electronic images that may be used in our Services or emails and help deliver cookies, count visits, understand usage and campaign effectiveness and determine whether an email has been opened and acted upon.
           </ol>
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-xl">
           6. How We Respond to Do Not Track Signals
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -126,7 +126,7 @@ function PrivacyPolicy() {
             <li>(v) Apple Pay Services</li>
           </ol>
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-xl">
           7. Use of Information
         </h3>
         <p className="text-gray-500 mb-5">
@@ -188,7 +188,7 @@ function PrivacyPolicy() {
             countries.
           </span>
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-xl">
           8. Disclosure of Information
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -268,7 +268,7 @@ function PrivacyPolicy() {
             </li>
           </ol>
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-xl">
           9. Account Information
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -277,7 +277,7 @@ function PrivacyPolicy() {
           online account, please contact us, but note that we may retain certain
           information as required by law or for legitimate business purposes.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-xl">
           10. Location Information
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -291,7 +291,7 @@ function PrivacyPolicy() {
           standard uninstall process to remove our mobile application from your
           device.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-xl">
           11. Baddhia Brand Promotional Communications
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -301,14 +301,14 @@ function PrivacyPolicy() {
           relationship messages, such as those about your account or our ongoing
           business relations.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">12. Cookies </h3>
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-xl">12. Cookies </h3>
         <p className="text-gray-500 mb-5 leading-7">
           Most web browsers are set to accept cookies by default. If you prefer,
           you can usually choose to set your browser to remove or reject browser
           cookies. Please note that if you choose to remove or reject cookies,
           this could affect the availability and functionality of our Services.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-xl">
           13. Social Sharing Features
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -322,7 +322,7 @@ function PrivacyPolicy() {
           social sharing features, please visit the privacy policies of the
           entities that provide these features.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-xl">
           14. Analytics and Advertising Services Provided by Others
         </h3>
         <p className="text-gray-500 mb-5 leading-7">
@@ -337,7 +337,7 @@ function PrivacyPolicy() {
           advertising targeted to your interests and better understand your
           online activity.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">15. Security</h3>
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-xl">15. Security</h3>
         <p className="text-gray-500 mb-5 leading-7">
           Baddhia takes reasonable measures to help protect all information
           about you from loss, theft, misuse and unauthorized access,
@@ -352,7 +352,7 @@ function PrivacyPolicy() {
           confidentiality and security of such information and prohibit unlawful
           disclosure of such information in accordance with its policies.
         </p>
-        <h3 className="font-semibold text-baddhia-orange mb-5 text-2xl">
+        <h3 className="font-semibold text-baddhia-orange mb-5 text-xl">
           16. Contact Us
         </h3>
         <p className="text-gray-500 leading-7">
