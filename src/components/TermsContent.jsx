@@ -45,31 +45,32 @@ function TermsContent() {
           with Baddhia, including but not limited to events, agreements, and
           conduct preceding your acceptance of this Agreement.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">2. Eligibility</p>
-        <p className="leading-7 mb-10">
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">2. Eligibility</p>
+        <p className="leading-7 mb-10 text-gray-500">
           You must be at least 18 years of age to create an account on Baddhia
           and use the Service. By creating an account and using the Service, you
           represent and warrant that:<br></br>
-          <div className="ml-4 mt-3">
+          <div className="ml-4 mt-3 text-gray-500">
             i. you can form a binding contract with Baddhia,<br></br>
-            ii. you are not a person who is barred from using the Service under
+            ii. you identify either as a male or female gender,<br></br>
+            iii. you are not a person who is barred from using the Service under
             the laws of the Federal Republic of Nigeria or any other applicable
             jurisdiction (for example, you do not appear on the U.S. Treasury
             Department’s list of Specially Designated Nationals or face any
             other similar prohibition),<br></br>
-            iii. you will comply with this Agreement and all applicable local,
+            iv. you will comply with this Agreement and all applicable local,
             state, national and international laws, rules, and regulations, and
             <br></br>
-            iv. you have never been convicted of or pled no contest to a felony,
+            v. you have never been convicted of or pled no contest to a felony,
             a sex crime, or any crime involving violence, and that you are not
             required to register as a sex offender with any state, federal or
             local sex offender registry.
           </div>
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
           3. Your Account
         </p>
-        <p className="leading-7 mb-10">
+        <p className="leading-7 mb-10 text-gray-500">
           In order to use Baddhia, you may sign in using either your telephone
           number or email address. For more details regarding the information we
           collect from you and how we use it, please consult our Privacy
@@ -79,10 +80,10 @@ function TermsContent() {
           you think someone has gained access to your account, please contact us
           immediately.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
           4. Modifying the Service and Termination
         </p>
-        <p className="leading-7 mb-10">
+        <p className="leading-7 mb-10 text-gray-500">
           Baddhia is always striving to improve the Service and bring you
           additional features that you will find engaging and useful. This means
           we may add new product features or enhancements from time to time as
@@ -100,10 +101,10 @@ function TermsContent() {
           provisions will still apply to you and Baddhia: Section 4, Section 5,
           and Sections 12 - 19.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
           5. Safety; Your Interactions with Other Members
         </p>
-        <p className="leading-7 mb-10">
+        <p className="leading-7 mb-10 text-gray-500">
           Though Baddhia strives to encourage a respectful member experience
           through features like the “mutual likes” that allows members to be
           paired only after they have both indicated interest in one another,
@@ -130,10 +131,10 @@ function TermsContent() {
             provide may be used for that purpose.
           </div>
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
           6. Rights Baddhia Grants You
         </p>
-        <p className="leading-7 mb-10">
+        <p className="leading-7 mb-10 text-gray-500">
           Baddhia grants you a personal, worldwide, royalty-free,
           non-assignable, non-exclusive, revocable, and non-sublicensable
           license to access and use the Service. This license is for the sole
@@ -189,10 +190,10 @@ function TermsContent() {
           new features. You may be able to adjust these automatic downloads
           through your device’s settings.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
           7. Rights you Grant Baddhia.
         </p>
-        <p className="leading-7 mb-10">
+        <p className="leading-7 mb-1 text-gray-500">
           By creating an account, you grant to Baddhia a worldwide,
           transferable, sub-licensable, royalty-free, right and license to host,
           store, use, copy, display, reproduce, adapt, edit, publish, modify and
@@ -252,10 +253,10 @@ function TermsContent() {
             or personal safety of the Company or any other person.
           </div>
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
           8. Community Rules.
         </p>
-        <p className="leading-7 mb-10">
+        <p className="leading-7 mb-10 text-gray-500">
           By using the Service, you agree that you will{" "}
           <span className="font-semibold">NOT</span>:<br></br>
           <div className="ml-4 mt-3">
@@ -294,10 +295,10 @@ function TermsContent() {
             the Service/Platform.
           </div>
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
           9. Other Members’ Content
         </p>
-        <p className="leading-7 mb-10">
+        <p className="leading-7 mb-10 text-gray-500">
           Although Baddhia reserves the right to review and remove Content that
           violates this Agreement, such Content is the sole responsibility of
           the member who posts it, and Baddhia cannot guarantee that all Content
