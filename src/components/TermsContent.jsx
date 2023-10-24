@@ -4,17 +4,17 @@ function TermsContent() {
   return (
     <div>
       <div className=" text-left md:px-40 px-10 pt-20 pb-20">
-        <div className="md:text-4xl text-3xl mb-10 font-semibold text-center text-baddhia-orange">
+        <div className="text-baddhia-orange md:text-4xl text-[35px] leading-10 mb-10 font-bold text-center">
           <h1>Terms & Conditions</h1>
         </div>
-        <h1 className="mb-10">
+        <h1 className="mb-10 text-gray-500">
           Welcome to Baddhia, operated by Baddhia Limited (“us,” “our”, “we,”
           the “Company” or “Baddhia”).
         </h1>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="font-semibold text-baddhia-orange text-xl mb-2">
           1. Acceptance of the Baddhia Terms of Service
         </p>
-        <p className="leading-7 mb-6">
+        <p className="leading-7 mb-6 text-gray-500">
           By creating a Baddhia account or by using any Baddhia service, whether
           through a mobile or web application (collectively, the “Service” or
           “Platform”) you agree to be bound by (i) these Terms of Service, (ii)
@@ -24,10 +24,10 @@ function TermsContent() {
         </p>
         <p className="mb-6 text-baddhia-orange">
           {" "}
-          .If you do not accept and agree to be bound by all of the terms of
+          If you do not accept and agree to be bound by all of the terms of
           this Agreement you should not use the Service.
         </p>
-        <p className="leading-7 mb-9">
+        <p className="leading-7 mb-9 text-gray-500">
           We may make changes to this Agreement and to the Service from time to
           time. We may do this for a variety of reasons including to reflect
           changes in or requirements of the law, new features, or changes in
@@ -306,8 +306,8 @@ function TermsContent() {
           via support@baddhia.com.
         </p>
 
-        <p className="text-baddhia-orange font-semibold mb-2">10. Purchases</p>
-        <p className="leading-7 mb-10">
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">10. Purchases</p>
+        <p className="leading-7 mb-10 text-gray-500">
           All payments for purchases on the Baddhia platform will be initiated
           through the Baddhia main walletFrom time to time, Baddhia may offer
           products and services for purchase on the Baddhia online store through
@@ -320,10 +320,10 @@ function TermsContent() {
           authorize Baddhia or the third party account, as applicable, to charge
           you.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
           10.1 Subscription
         </p>
-        <p className="leading-7 mb-10">
+        <p className="leading-7 mb-10 text-gray-500">
           You may choose to subscribe to any of Baddhia’s virtual products. When
           you do so, you agree to make payment through the Baddhia main wallet.
           After successful completion of your profile, you will be offered a
@@ -339,17 +339,17 @@ function TermsContent() {
           or otherwise reverse a payment made with your Payment Method, Baddhia
           may terminate your account immediately in its sole discretion.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
           10.2 Display and CTA Emojis
         </p>
-        <p className="leading-7 mb-6">
+        <p className="leading-7 mb-6 text-gray-500">
           From time to time, you may purchase a Display or CTA (Call-to-Action)
           emoji on the Baddhia online store. The Display emoji can be used while
           chatting with a user and can only be used once. Once it has been
           received by the recipient, you will no longer retain ownership of the
           emoji in your emoji library.
         </p>
-        <p className="leading-7 mb-6">
+        <p className="leading-7 mb-6 text-gray-500">
           Before proceeding to purchase a CTA emoji, check if Baddhia has
           operational presence in your city or country. We do not advise that
           you purchase a CTA emoji on the Baddhia online store if Baddhia does
@@ -360,7 +360,7 @@ function TermsContent() {
           main wallet. By purchasing the Display and CTA emoji, you acknowledge
           and agree that
         </p>
-        <p className="leading-7 ml-4 mb-6">
+        <p className="leading-7 ml-4 mb-6 text-gray-500">
           i. the Baddhia online store is a platform for sellers to sell and
           buyers to purchase products,<br></br>
           ii. a contract for the sale and purchase of a product or products will
@@ -380,10 +380,10 @@ function TermsContent() {
           delivered to you,ix. CTA emojis for services must be claimed within 7
           days after successful activation.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold text-xl mb-2">
           10.3 Baddhia Gallery and Gallery Wallet
         </p>
-        <p className="leading-7 mb-10">
+        <p className="text-gray-500 leading-7 mb-10">
           As part of the key features of the Service, you may upload an image or
           video content on the Baddhia gallery and receive monetary appreciation
           when you do so. You acknowledge and agree that:<br></br>
@@ -411,8 +411,8 @@ function TermsContent() {
             rights
           </div>
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">10.4 Refund</p>
-        <p className="leading-7 mb-6">
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">10.4 Refund</p>
+        <p className="text-gray-500 mb-5 leading-7">
           Generally, all charges for purchases are nonrefundable, and there are
           no refunds or credits for partially used durations. However, you may
           request a refund of the available balance in your Baddhia main wallet
@@ -425,7 +425,7 @@ function TermsContent() {
             wallet.
           </p>
         </p>
-        <p className="leading-7 mb-6">
+        <p className="text-gray-500 leading-7 mb-6">
           Changes to our returns and refund policy shall be effective in respect
           of all purchases made from the date of publication of the change on
           our websiteIn the event that you die before the end of your
@@ -433,28 +433,28 @@ function TermsContent() {
           that portion of any payment you had made for your subscription which
           is allocable to the period after your death.{" "}
         </p>
-        <p className="leading-7 mb-6">
+        <p className="text-gray-500 leading-7 mb-6">
           In the event that you become disabled (such that you are unable to use
           the services of Baddhia) before the end of your subscription period,
           you shall be entitled to a refund of that portion of any payment you
           had made for your subscription which is allocable to the period after
           your disability by providing the company notice via{" "}
           <span className="text-blue-500">
-            support@baddhia.com. support@baddhia.com
+            support@baddhia.com. support@baddhia.ng
           </span>{" "}
           or +234 706 207 2194..
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">10.5 Pricing</p>
-        <p className="leading-7 mb-10">
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">10.5 Pricing</p>
+        <p className="text-gray-500 leading-7 mb-10">
           Baddhia operates a global business, and our pricing varies by a number
           of factors. We frequently offer promotional rates which can vary based
           on region, length of subscription, bundle size and more. We also
           regularly test new features and payment options.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold text-xl mb-2">
           11. Notice and Procedure for Making Claims of Copyright Infringement
         </p>
-        <p className="leading-7 mb-10">
+        <p className="text-gray-500 mb-10 leading-7">
           If you believe that your work has been copied and posted on the
           Service in a way that constitutes copyright infringement, please
           submit a takedown request via support@Baddhia.com.If you contact us
@@ -479,7 +479,7 @@ function TermsContent() {
           </div>
         </p>
         <p className="text-baddhia-orange font-semibold mb-2">Disclaimers</p>
-        <p className="leading-7 mb-10">
+        <p className="text-gray-500 leading-7 mb-10">
           Baddhia provides the service on an “as is” and “as available” basis
           and to the extent permitted by applicable law, grants no warranties of
           any kind, whether express, implied, statutory, or otherwise with
@@ -497,10 +497,10 @@ function TermsContent() {
           disclaims and takes no responsibility for any conduct of you or any
           other member, on or off the service
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold text-xl mb-2">
           13. Third Party Services
         </p>
-        <p className="leading-7 mb-10">
+        <p className="text-gray-500 leading-7 mb-10">
           The Service may contain advertisements and promotions offered by third
           parties and links to other web sites or resources. Baddhia is not
           responsible for the availability (or lack of availability) of such
@@ -509,10 +509,10 @@ function TermsContent() {
           will govern their relationship with you. Baddhia is not responsible or
           liable for such third parties’ terms or actions.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold text-xl mb-2">
           14. Limitation of Liability
         </p>
-        <p className="leading-7 mb-10">
+        <p className="text-gray-500 mb-5 leading-7">
           To the fullest extent permitted by applicable law, in no event shall
           Baddhia, its affiliates, employees, licensors or service providers be
           liable for any indirect, consequential, exemplary, incidental,
@@ -542,10 +542,10 @@ function TermsContent() {
           of the exclusions and limitations in this section may not apply to
           you.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold text-xl mb-2">
           15. Arbitration, Class-Action Waiver, and Jury Waiver
         </p>
-        <p className="leading-7 mb-6">
+        <p className="text-gray-500 mb-5 leading-7">
           Except where prohibited by applicable law: The exclusive means of
           resolving any dispute or claim arising out of or relating to this
           Agreement (including any alleged breach thereof), or the Service,
@@ -570,7 +570,7 @@ function TermsContent() {
           action, class arbitration, or other representative action or
           proceeding against Baddhia.
         </p>
-        <p className="leading-7 mb-6">
+        <p className="text-gray-500 mb-5 leading-7">
           By accepting this Agreement, you agree to the Arbitration Agreement in
           this Section 15. In doing so, BOTH YOU AND BADDHIA GIVE UP THE RIGHT
           TO GO TO COURT to assert or defend any claims between you and Baddhia
@@ -578,7 +578,7 @@ function TermsContent() {
           and are within such court’s jurisdiction). YOU ALSO GIVE UP YOUR RIGHT
           TO PARTICIPATE IN A CLASS ACTION OR OTHER CLASS PROCEEDING.
         </p>
-        <p className="leading-7 mb-6">
+        <p className="text-gray-500 mb-5 leading-7">
           If you assert a claim against Baddhia outside of small claims court
           (and Baddhia does not request that the claim, be moved to small claims
           court), your rights will be determined by a NEUTRAL ARBITRATOR, NOT A
@@ -595,15 +595,15 @@ function TermsContent() {
           enforceable in court and may be overturned by a court only for very
           limited reasons.
         </p>
-        <p className="leading-7 mb-6">
+        <p className="leading-7 text-gray-500 mb-6">
           The Jurisdiction and Venue provisions in Sections 16 and 17 are
           incorporated and are applicable to this Arbitration Agreement.
         </p>
-        <p className="leading-7 mb-6">
+        <p className="leading-7 mb-6 text-gray-500">
           As you decide whether to agree to this Arbitration Agreement, here are
           some important considerations:
         </p>
-        <p className="leading-7 mb-6">
+        <p className="text-gray-500 mb-5 leading-7">
           Arbitration is a process of private dispute resolution that does not
           involve the civil courts, a civil judge, or a jury. Instead, the
           parties’ dispute is decided by a private arbitrator selected by the
@@ -613,20 +613,20 @@ function TermsContent() {
           Baddhia. Agreeing to arbitration will only affect where those claims
           may be brought and how they will be resolved.
         </p>
-        <p className="leading-7 mb-6">
+        <p className="leading-7 mb-6 text-gray-500">
           Arbitration is generally considered to be a more rapid dispute
           resolution process than the judicial system, but that is not always
           the case. The Arbitrator will typically determine whether Baddhia or
           you will be required to pay or split the cost of any arbitration with
           Baddhia, based on the circumstances presented.
         </p>
-        <p className="leading-7 mb-6">
+        <p className="leading-7 mb-6 text-gray-500">
           You will be precluded from bringing any class or representative action
           against Baddhia, and you will also be precluded from participating in
           any recovery resulting from any class or representative action brought
           against Baddhia.
         </p>
-        <p className="leading-7 mb-10">
+        <p className="leading-7 mb-10 text-gray-500">
           Whether to agree to this arbitration agreement is an important
           decision. It is your decision to make, and you should take care to
           conduct further research and to consult with others — including but
@@ -634,10 +634,10 @@ function TermsContent() {
           decision, just as you would when making any other important business
           or life decision.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold text-xl mb-2">
           16. Governing Law
         </p>
-        <p className="leading-7 mb-10">
+        <p className="leading-7 mb-10 text-gray-500">
           Except where our arbitration agreement is prohibited by law, the laws
           of the Federal Republic of Nigeria, without regard to its conflict of
           laws rules, shall apply to any disputes arising out of or relating to
@@ -645,8 +645,8 @@ function TermsContent() {
           Notwithstanding the foregoing, the Arbitration Agreement in Section 15
           above shall be governed by the Arbitration and Conciliation Act.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">17. Venue</p>
-        <p className="leading-7 mb-10">
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">17. Venue</p>
+        <p className="leading-7 mb-10 text-gray-500">
           Except for claims that may be properly brought in a small claims court
           of competent jurisdiction, all claims arising out of or relating to
           this Agreement, to the Service, or to your relationship with Baddhia
@@ -656,10 +656,10 @@ function TermsContent() {
           jurisdiction of courts in Lagos State and waive any claim that such
           courts constitute an inconvenient forum.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
           18. Indemnity by You
         </p>
-        <p className="leading-7 mb-10">
+        <p className="leading-7 mb-10 text-gray-500">
           You agree, to the extent permitted under applicable law, to indemnify,
           defend and hold harmless Baddhia, our affiliates, and our respective
           officers, directors, agents, and employees from and against any and
@@ -668,21 +668,10 @@ function TermsContent() {
           relating in any way to your access to or use of the Service, your
           Content, or your breach of this Agreement.
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
-          9. Other Members’ Content
-        </p>
-        <p className="leading-7 mb-10">
-          Although Baddhia reserves the right to review and remove Content that
-          violates this Agreement, such Content is the sole responsibility of
-          the member who posts it, and Baddhia cannot guarantee that all Content
-          will comply with this Agreement. If you see Content on the Service
-          that violates this Agreement, please report it within the Service or
-          via support@baddhia.com.
-        </p>
-        <p className="text-baddhia-orange font-semibold mb-2">
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
           19. Entire Agreement; Other
         </p>
-        <p className="leading-7 mb-20">
+        <p className="leading-7 mb-20 text-gray-500">
           This Agreement, which includes the Privacy Policy, Arbitration
           Agreement, and any terms disclosed to you if you purchase or have
           purchased additional features, products, or services we offer on the
