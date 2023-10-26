@@ -8,7 +8,7 @@ function CardBenefitsII() {
       <div className="flex items-center mb-10 md:mb-0 flex-col md:flex-row justify-center w-full gap-y-[44px] md:gap-[164px]">
         <div className="pt-10">
           <img
-            className="h-[532px] w-[282px]"
+            className="h-[443px] w-[332px]"
             src={shareMoment}
             alt=""
             loading="lazy"
