@@ -71,7 +71,7 @@ function CardBenefits() {
       <div className="flex pt-20 items-center flex-col md:flex-row justify-center w-full gap-[64px]">
         <div>
           <img
-            className="h-[320px] w-[363px]"
+            className="h-[639px] w-[492px]"
             src={emojis}
             alt=""
             loading="lazy"

@@ -10,18 +10,13 @@ function About() {
     <div>
       <Header />
       <div className="h-[5vh]"></div>
-      <div className="bg-[url('/images/aboutBannerMd.png')] h-[20vh] w-full bg-no-repeat md:hidden flex flex-col justify-center px-10">
-        <h2 className="md:text-5xl text-4xl font-semibold md:mb-8 text-white">
+      <div className="md:h-[30vh] h-[25vh] about flex flex-col text-3xl md:text-4xl px-10 md:px-40 text-white pt-[55px] md:pt-20 md:mb-20 font-bold">
+        <h2 className="md:text-5xl text-4xl font-semibold text-white">
           About Baddhia
         </h2>
-        <p className="md:text-xl text-white text-[16px] uppercase tracking-wide">Our brand story</p>
-      </div>
-
-      <div className="bg-[url('/images/aboutHeadBanner.png')] h-[30vh] w-full bg-no-repeat hidden md:flex flex-col justify-center px-40 mb-20">
-        <h2 className="text-5xl font-semibold  text-white">
-          About Baddhia
-        </h2>
-        <p className="md:text-xl text-white text-[18px] uppercase">Our brand story</p>
+        <p className="md:text-xl text-white text-[16px] uppercase tracking-wide">
+          Our brand story
+        </p>
       </div>
 
       <div className="flex flex-col md:flex-row gap-12 h-fit">

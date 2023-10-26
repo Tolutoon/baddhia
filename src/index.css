@@ -24,7 +24,7 @@ html {
 
 
 .backBanner {
-    background: url('/images/connect-kindly.png');
+    background: url('/images/connectkindly.png');
     background-repeat: no-repeat;
     background-size: contain;
     
@@ -41,6 +41,10 @@ html {
 
 .footer {
     background: linear-gradient(180deg, rgba(255, 99, 27, 0.86) 0%, #E03636 100%); 
+}
+
+.about {
+    background: linear-gradient(180deg, rgba(255, 99, 27, 0.86) 0%, #E03636 100%);
 }
 
 .testimonal-backDrop{
