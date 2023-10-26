@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import banner from "/images/aboutBanner.png";
+import banner from "/images/about-banner.png";
 import Reasons from "../components/Reasons";
 import JoinCard from "../components/JoinCard";
 import Footer from "../components/Footer";
@@ -19,21 +19,21 @@ function About() {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-12 h-fit">
+      <div className="flex flex-col md:flex-row justify-center gap-12 h-fit">
         <div>
           <img
             src={banner}
-            className="md:w-[50vw] hidden xl:flex h-[986px]"
+            className="md:w-[50vw] hidden xl:flex h-[796px]"
             alt=""
           />
         </div>
-        <div className="xl:w-[40vw] md:w-[90vw] md:px-0 px-10 mb-20 md:md-40">
+        <div className="xl:w-[40vw] md:w-[90vw] md:pl-0 px-10 mb-20 md:md-40">
           <h2 className="text-baddhia-orange md:text-3xl text-3xl text-left md:mb-10 mb-5 font-semibold">
             <span className="text-4xl">Baddhia:</span> <br />
             Where love & <br />
             friendship blossoms
           </h2>
-          <p className="text-gray-500 md:leading-7 leading-6 text-base">
+          <p className="text-gray-500 md:leading-7 leading-6 text-base md:max-w-[40vw]">
             "I never thought I would find love again after my divorce,” says
             Sarah. “I was so hurt, hopeless, and jaded, and I felt like I would
             never be able to trust someone again. But then I met John on
