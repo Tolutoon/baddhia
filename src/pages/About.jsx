@@ -10,7 +10,7 @@ function About() {
     <div>
       <Header />
       <div className="h-[5vh]"></div>
-      <div className="md:h-[30vh] h-[25vh] about flex flex-col text-3xl md:text-4xl px-10 md:px-40 text-white pt-[55px] md:pt-20 md:mb-20 font-bold">
+      <div className="md:h-[30vh] h-[20vh] about flex flex-col text-3xl md:text-4xl px-10 md:px-40 text-white pt-[55px] md:pt-20 md:mb-20">
         <h2 className="md:text-5xl text-4xl font-semibold text-white">
           About Baddhia
         </h2>
