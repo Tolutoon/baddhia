@@ -5,7 +5,7 @@ import privacy from "/images/privacy.png";
 function CardBenefitsII() {
   return (
     <div className="px-10 mb-20">
-      <div className="flex items-center mb-20 md:mb-0 flex-col md:flex-row justify-center w-full gap-y-[44px] md:gap-[164px]">
+      <div className="flex items-center mb-10 md:mb-0 flex-col md:flex-row justify-center w-full gap-y-[44px] md:gap-[164px]">
         <div className="pt-10">
           <img
             className="h-[532px] w-[282px]"
