@@ -19,7 +19,7 @@ function About() {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center gap-12 h-fit">
+      <div className="flex flex-col md:flex-row justify-center gap-12 h-fit ">
         <div>
           <img
             src={banner}
@@ -28,8 +28,8 @@ function About() {
           />
         </div>
         <div className="xl:w-[40vw] md:w-[90vw] md:pl-0 px-10 mb-20 md:md-40">
-          <h2 className="text-baddhia-orange md:text-3xl text-3xl text-left md:mb-10 mb-5 font-semibold">
-            <span className="text-4xl">Baddhia:</span> <br />
+          <h2 className="text-baddhia-orange md:text-3xl text-3xl text-left mb-5 font-semibold">
+            <span className="text-4xl md:text-5xl">Baddhia:</span> <br />
             Where love & <br />
             friendship blossoms
           </h2>

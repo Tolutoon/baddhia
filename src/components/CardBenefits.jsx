@@ -1,12 +1,12 @@
 import React from "react";
-import connectImage from "/images/connect.png";
+import connectImage from "/images/meet_connect.png";
 import emojis from "/images/emojis.png";
-import gifts from "/images/gifts.png";
+import gifts from "/images/exchange_gifts.png";
 
 function CardBenefits() {
   return (
     <div className="px-10 mb-20">
-      <div className="flex md:pt-40 pt-20 items-center flex-col md:flex-row justify-center w-full gap-[44px] md:gap-[144px]">
+      <div className="flex md:pt-40 pt-20 items-center flex-col md:flex-row justify-center w-full gap-[44px] md:gap-[94px]">
         <div>
           <img
             className="h-[399px] w-[323px]"
@@ -68,10 +68,10 @@ function CardBenefits() {
           <img className="h-[400px] w-[323px]" src={gifts} alt="" loading="" />
         </div>
       </div>
-      <div className="flex pt-20 items-center flex-col md:flex-row justify-center w-full gap-[64px]">
+      <div className="flex pt-20 items-center flex-col md:flex-row justify-center w-full md:gap-[94px] gap-[64px]">
         <div>
           <img
-            className="h-[639px] w-[492px]"
+            className="h-[429px] w-[352px]"
             src={emojis}
             alt=""
             loading="lazy"
