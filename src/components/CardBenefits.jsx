@@ -9,7 +9,7 @@ function CardBenefits() {
       <div className="flex md:pt-40 pt-20 items-center flex-col md:flex-row justify-center w-full gap-[44px] md:gap-[94px]">
         <div>
           <img
-            className="h-[429px] w-[352px] rounded-3xl"
+            className="h-[443px] w-[332px] rounded-[32px]"
             src={connectImage}
             alt=""
             loading="lazy"
@@ -65,13 +65,13 @@ function CardBenefits() {
           </div>
         </div>
         <div>
-          <img className="h-[449px] w-[323px]" src={gifts} alt="" loading="" />
+          <img className="h-[443px] w-[332px]" src={gifts} alt="" loading="" />
         </div>
       </div>
       <div className="flex pt-20 items-center flex-col md:flex-row justify-center w-full md:gap-[94px] gap-[64px]">
         <div>
           <img
-            className="h-[449px] w-[352px]"
+            className="h-[443px] w-[332px]"
             src={emojis}
             alt=""
             loading="lazy"
