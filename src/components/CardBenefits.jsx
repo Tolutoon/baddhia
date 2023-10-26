@@ -9,7 +9,7 @@ function CardBenefits() {
       <div className="flex md:pt-40 pt-20 items-center flex-col md:flex-row justify-center w-full gap-[44px] md:gap-[94px]">
         <div>
           <img
-            className="h-[399px] w-[323px]"
+            className="h-[429px] w-[352px] rounded-3xl"
             src={connectImage}
             alt=""
             loading="lazy"
@@ -20,7 +20,7 @@ function CardBenefits() {
             Meet, Connect <span className="text-baddhia-orange">&</span> <br />{" "}
             Vibe{" "}
           </h2>
-          <p className="text-left max-w-[440px] text-gray-500 text-[16px] leading-[27px]">
+          <p className="text-left max-w-[410px] text-gray-500 text-[16px] leading-[27px]">
             Tired of meeting people who don’t get your sense of humor? Your
             passion for collecting rubber ducks? Your love of puns? Well, with
             Baddhia, you can finally meet someone who shares your passions,
@@ -65,13 +65,13 @@ function CardBenefits() {
           </div>
         </div>
         <div>
-          <img className="h-[400px] w-[323px]" src={gifts} alt="" loading="" />
+          <img className="h-[449px] w-[323px]" src={gifts} alt="" loading="" />
         </div>
       </div>
       <div className="flex pt-20 items-center flex-col md:flex-row justify-center w-full md:gap-[94px] gap-[64px]">
         <div>
           <img
-            className="h-[429px] w-[352px]"
+            className="h-[449px] w-[352px]"
             src={emojis}
             alt=""
             loading="lazy"

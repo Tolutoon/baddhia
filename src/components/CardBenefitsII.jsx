@@ -77,7 +77,7 @@ function CardBenefitsII() {
         </div>
         <div className="pt-10">
           <img
-            className="xl:h-[503px] xl:w-[442px] h-[403px] w-[332px]"
+            className=" h-[443px] w-[332px]"
             src={privacy}
             alt=""
             loading="lazy"
