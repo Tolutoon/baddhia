@@ -30,7 +30,7 @@ function Blogfooter() {
             <Link to={'/terms&condition'} onClick={scrollToTop} className="mb-1">Terms of Service</Link>
             <Link to={'/privacy'} onClick={scrollToTop} className="mb-1">Privacy Policy</Link>
             <Link to={'/blog'} onClick={scrollToTop} className="mb-1">Blog</Link>
-            <Link to={'/support'} onClick={scrollToTop} className="mb-1">Frequently Asked Questions</Link>
+            <Link to={'/faq'} onClick={scrollToTop} className="mb-1">Frequently Asked Questions</Link>
 
             <a href="https://play.google.com/store/apps/details?id=com.baddhia.app" target="_blank" rel="noreferrer">
               <button
