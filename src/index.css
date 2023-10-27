@@ -45,7 +45,9 @@ html {
 }
 
 .about {
-    background: linear-gradient(180deg, rgba(255, 99, 27, 0.86) 0%, #E03636 100%);
+    background: url('/images/our-brand-story.png');
+    background-repeat: no-repeat;
+    background-size: cover
 }
 
 .testimonal-backDrop{
