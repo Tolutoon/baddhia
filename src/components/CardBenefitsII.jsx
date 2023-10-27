@@ -5,7 +5,7 @@ import privacy from "/images/privacy.png";
 function CardBenefitsII() {
   return (
     <div className="px-10 mb-20">
-      <div className="flex items-center mb-10 md:mb-0 flex-col md:flex-row justify-center w-full gap-y-[44px] md:gap-[164px]">
+      <div className="flex items-center mb-10 md:mb-0 flex-col md:flex-row justify-center w-full gap-y-[44px] md:gap-[84px]">
         <div className="pt-10">
           <img
             className="h-[443px] w-[332px]"
@@ -14,7 +14,7 @@ function CardBenefitsII() {
             loading="lazy"
           />
         </div>
-        <div className="m-w-[503px] flex flex-col gap-[26px]">
+        <div className="m-w-[403px] flex flex-col gap-[26px]">
           <h2 className="text-4xl xl:text-5xl text-left font-semibold md:hidden block leading-12">
             Share{" "}
             <span className="text-baddhia-orange">
@@ -32,7 +32,7 @@ function CardBenefitsII() {
             <br />
             Moments
           </h2>
-          <p className="text-left max-w-[440px] text-gray-500 text-[16px] leading-[27px]">
+          <p className="text-left max-w-[400px] text-gray-500 text-[16px] leading-[27px]">
             Share your adventures and connect with people who share your
             passions on Baddhia. Our 24-hour disappearing photos, videos and
             text posts are the perfect way to attract like- minded people. So
