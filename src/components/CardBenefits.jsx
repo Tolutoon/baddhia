@@ -6,10 +6,10 @@ import gifts from "/images/exchange_gifts.png";
 function CardBenefits() {
   return (
     <div className="px-10 mb-20">
-      <div className="flex md:pt-40 pt-20 items-center flex-col md:flex-row justify-center w-full gap-[44px] md:gap-[94px]">
+      <div className="flex md:pt-40 pt-20 items-center flex-col md:flex-row justify-center w-full gap-[44px] md:gap-[84px]">
         <div>
           <img
-            className="h-[443px] w-[332px] rounded-[32px]"
+            className="h-[443px] w-[338px] rounded-[32px]"
             src={connectImage}
             alt=""
             loading="lazy"
