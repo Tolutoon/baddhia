@@ -47,7 +47,7 @@ html {
 .about {
     background: url('/images/our-brand-story.png');
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 .testimonal-backDrop{

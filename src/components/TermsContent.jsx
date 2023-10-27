@@ -324,7 +324,7 @@ function TermsContent() {
           through the Baddhia main wallet.
           <br />
           From time to time, Baddhia may offer products and services for
-          purchase on the Baddhia online store through payment platforms
+          purchase on the Baddhia application through payment platforms
           authorized by Baddhia. If you choose to make an in-app purchase, you
           will be prompted to confirm your purchase with the applicable payment
           provider, and your method of payment (Baddhia main wallet) (your
@@ -340,12 +340,14 @@ function TermsContent() {
           You may choose to subscribe to any of Baddhia’s services. When you do
           so, you agree to make payment through the Baddhia main wallet. After
           successful completion of your profile, you will be offered a free
-          subscription to use the Service. If you decided to upgrade from the
-          free plan to a paid subscription, you will be required to fund your
-          main wallet to pay for the subscription. Once your subscription
-          expires, you may decide to renew by funding your Baddhia main wallet
-          and activating your subscription. Also, upon expiry, you will be
-          denied access to all the paid features that you had access to.
+          subscription to use the Service. <br />
+          If you decided to upgrade from the free plan to a paid subscription,
+          you will be required to fund your main wallet to pay for the
+          subscription. Once your subscription expires, you may decide to renew
+          by funding your Baddhia main wallet and activating your subscription.
+          Also, upon expiry, you will be denied access to all the paid features
+          that you had access to.
+          <br />
           Deleting your account on Baddhia or deleting the Baddhia application
           from your device does not cancel your subscription; Baddhia will
           retain all funds charged to your Payment Method until your
@@ -391,12 +393,13 @@ function TermsContent() {
           v. the price of the item(s) displayed in the gift emoji library is
           genuine and acceptable to you,<br></br>
           vi. the price of the item(s) displayed in the gift emoji library may
-          not be accurate, vii. the price of the item(s) displayed in the gift
-          emoji library does not include any federal, state, or local taxes,
-          delivery charges, packaging charges, handling charges, administrative
-          charges, insurance costs, and other ancillary costs and charges, vii.
-          Baddhia charges 5% commission on every item purchased via the gift
-          emoji library, sent, and accepted by the recipient.
+          not be accurate, <br />
+          vii. the price of the item(s) displayed in the gift emoji library does
+          not include any federal, state, or local taxes, delivery charges,
+          packaging charges, handling charges, administrative charges, insurance
+          costs, and other ancillary costs and charges, <br />
+          vii. Baddhia charges 5% commission on every item purchased via the
+          gift emoji library, sent, and accepted by the recipient.
         </p>
         <p className="text-baddhia-orange font-semibold text-xl mb-2">
           10.3 Baddhia Gallery and Gallery Wallet
@@ -436,7 +439,7 @@ function TermsContent() {
           withdrawal, Baddhia reserves the right to query and queue your
           withdrawal for up to 72 hours, and also, charge a 10% withdrawal fee.
           <p className="my-4">
-            n the event that your gift emoji is not accepted within the
+            In the event that your gift emoji is not accepted within the
             stipulated period, your funds will be reversed to your Baddhia main
             wallet.
           </p>
@@ -495,7 +498,9 @@ function TermsContent() {
             behalf.Baddhia will terminate the accounts of repeat infringers.
           </div>
         </p>
-        <p className="text-baddhia-orange font-semibold mb-2">Disclaimers</p>
+        <p className="text-baddhia-orange font-semibold mb-2 text-xl">
+          12. Disclaimers
+        </p>
         <p className="text-gray-500 leading-7 mb-10">
           Baddhia provides the service on an “as is” and “as available” basis
           and to the extent permitted by applicable law, grants no warranties of
