@@ -8,7 +8,7 @@ function CardBenefitsII() {
       <div className="flex items-center mb-10 md:mb-0 flex-col md:flex-row justify-center w-full gap-y-[44px] md:gap-[84px]">
         <div className="pt-10">
           <img
-            className="h-[443px] w-[332px]"
+            className="h-[443px] w-[332px] object-cover rounded-[32px]"
             src={shareMoment}
             alt=""
             loading="lazy"
@@ -77,7 +77,7 @@ function CardBenefitsII() {
         </div>
         <div className="pt-10">
           <img
-            className=" h-[443px] w-[332px]"
+            className=" h-[443px] w-[332px] object-cover rounded-[32px]"
             src={privacy}
             alt=""
             loading="lazy"
