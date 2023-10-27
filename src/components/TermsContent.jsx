@@ -402,7 +402,7 @@ function TermsContent() {
           gift emoji library, sent, and accepted by the recipient.
         </p>
         <p className="text-baddhia-orange font-semibold text-xl mb-2">
-          10.3Baddhia Main and Gift Wallets
+          10.3 Baddhia Main and Gift Wallets
         </p>
         <p className="text-gray-500 leading-7 mb-10">
           You acknowledge and agree that:<br></br>
