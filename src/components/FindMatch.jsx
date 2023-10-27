@@ -12,7 +12,7 @@ function FindMatch() {
       <FindMatchBackground />
 
       <div className="absolute left-0 h-[20vh] md:h-full w-full flex justify-center flex-col items-center cursor-pointer top-0 text-white ">
-        <h2 className="text-[18px] md:text-4xl md:mb-8 font-semibold">
+        <h2 className="text-[24px] md:text-4xl md:mb-8 font-semibold">
           How to Find your <span className="text-baddhia-orange">Perfect Match</span>
         </h2>
 
