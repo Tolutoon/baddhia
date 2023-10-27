@@ -356,7 +356,7 @@ function TermsContent() {
           your account immediately in its sole discretion.
         </p>
         <p className="text-baddhia-orange font-semibold mb-2 text-xl">
-          10.2 Display and CTA Emojis
+          10.2 Display and Gift Emojis
         </p>
         <p className="leading-7 mb-6 text-gray-500">
           From time to time, you may purchase a Display or Call-to-Action (Gift)
@@ -402,7 +402,7 @@ function TermsContent() {
           gift emoji library, sent, and accepted by the recipient.
         </p>
         <p className="text-baddhia-orange font-semibold text-xl mb-2">
-          10.3 Baddhia Gallery and Gallery Wallet
+          10.3Baddhia Main and Gift Wallets
         </p>
         <p className="text-gray-500 leading-7 mb-10">
           You acknowledge and agree that:<br></br>
