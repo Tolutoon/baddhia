@@ -23,7 +23,7 @@ function FindMatch() {
           videoId="YHetNsWUd5k"
           onClose={() => setOpen(false)}
         />
-        <div onClick={() => setOpen(true)} className="text-baddhia-orange">
+        <div onClick={() => setOpen(true)}>
           <AiOutlinePlayCircle fontSize={42}/>
         </div>
       </div>
