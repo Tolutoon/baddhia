@@ -16,7 +16,7 @@ function CardBenefits() {
           />
         </div>
         <div className="m-w-[503px] flex flex-col gap-[26px]">
-          <h2 className="text-4xl xl:text-5xl text-left font-semibold">
+          <h2 className="text-[32px] xl:text-5xl text-left font-semibold leading-10">
             Meet, Connect <span className="text-baddhia-orange">&</span> <br />{" "}
             Vibe{" "}
           </h2>
@@ -41,7 +41,7 @@ function CardBenefits() {
       </div>
       <div className="flex pt-20 md:pt-25 items-center flex-col-reverse md:flex-row justify-center w-full md:gap-[84px] gap-[44px] mx-auto">
         <div className="flex flex-col gap-[26px]">
-          <h2 className="text-4xl xl:text-5xl text-left font-semibold">
+          <h2 className="text-[32px] xl:text-5xl text-left font-semibold leading-10">
             Shop <span className="text-baddhia-orange">&</span> <br /> Exchange
             Gifts
           </h2>
@@ -78,7 +78,7 @@ function CardBenefits() {
           />
         </div>
         <div className="flex flex-col gap-[26px]">
-          <h2 className="xl:text-5xl text-4xl text-left font-semibold">
+          <h2 className="xl:text-5xl text-[32px] text-left font-semibold leading-10">
             Send & Receive <br />
             <span className="text-baddhia-orange"> Customized </span>
              Emojis{" "}

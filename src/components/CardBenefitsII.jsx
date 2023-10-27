@@ -15,7 +15,7 @@ function CardBenefitsII() {
           />
         </div>
         <div className="m-w-[403px] flex flex-col gap-[26px]">
-          <h2 className="text-4xl xl:text-5xl text-left font-semibold md:hidden block leading-12">
+          <h2 className="text-[32px] xl:text-5xl text-left font-semibold md:hidden block leading-10">
             Share{" "}
             <span className="text-baddhia-orange">
               Your
@@ -55,7 +55,7 @@ function CardBenefitsII() {
       </div>
       <div className="flex items-center flex-col-reverse md:flex-row justify-center w-full gap-[44px] md:gap-[84px]">
         <div className="max-w-[403px] flex flex-col gap-[26px]">
-          <h2 className="text-4xl xl:text-5xl text-left font-semibold">
+          <h2 className="text-[32px] xl:text-5xl text-left font-semibold">
             Privacy <span className="text-baddhia-orange">&</span> Security
           </h2>
           <p className="text-left max-w-[440px] text-gray-500 text-[16px] leading-[27px]">
