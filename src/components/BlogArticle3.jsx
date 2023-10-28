@@ -1,5 +1,5 @@
 import React from 'react'
-import Article1 from "/images/Article 1.jpg"
+import Article3 from "/images/Article 3.jpg"
 import Frameblog1 from "/images/perfect Match 1.jpg"
 import Frameblog3 from "/images/Frameblog4.png"
 
@@ -24,7 +24,7 @@ function BlogArticle3() {
           <p>Baddhia Tips</p>
           </div>
         </div>
-          <img className='h-96 w-full object-cover sm:h-80 mb-10' src={Article1} alt=""/>
+          <img className='h-96 w-full object-cover sm:h-80 mb-10' src={Article3} alt=""/>
           <p className='mb-7 text-justify'><p className='mb-2'>In today's fast-paced world, finding meaningful connections and building lasting friendships can be a challenge. However, with the rise of social apps and online dating platforms, it's now easier than ever to connect with like-minded individuals who share your interests and values.</p>
 
           <p className='mb-2'>Baddhia, a leading matchmaking platform, goes beyond traditional online dating by providing a space where users can foster genuine friendships and create lasting bonds.</p>
