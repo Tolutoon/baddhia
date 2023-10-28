@@ -17,7 +17,7 @@ function BlogArticle6() {
           </div>
           <div className='text-center text-xs'>
             <p className='font-bold'>Date</p>
-          <p>October 26, 2023</p>
+          <p>October 28, 2023</p>
           </div>
           <div className='text-center text-xs'>
             <p className='font-bold'>Category</p>

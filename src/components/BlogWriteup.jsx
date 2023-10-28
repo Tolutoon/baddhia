@@ -30,7 +30,7 @@ function BlogWriteup() {
                   <span className="text-[12px] font-semibold">
                   Elegbeleye Paul
                   </span>
-                  <span className="text-[12px]">June 28, 2013</span>
+                  <span className="text-[12px]">October 28, 2023</span>
                 </div>
 
                 <Link to="/blogcontent">
@@ -62,7 +62,7 @@ function BlogWriteup() {
                   <span className="text-[12px] font-semibold">
                   Elegbeleye Paul 
                   </span>
-                  <span className="text-[12px]">June 28, 2013</span>
+                  <span className="text-[12px]">October 28, 2023</span>
                 </div>
 
 
@@ -94,7 +94,7 @@ function BlogWriteup() {
                   <span className="text-[12px] font-semibold">
                   Chibuike Iheka
                   </span>
-                  <span className="text-[12px]">June 28, 2013</span>
+                  <span className="text-[12px]">October 28, 2023</span>
                 </div>
 
 
@@ -126,7 +126,7 @@ function BlogWriteup() {
                   <span className="text-[12px] font-semibold">
                   Chibuike Iheka
                   </span>
-                  <span className="text-[12px]">June 28, 2013</span>
+                  <span className="text-[12px]">October 28, 2023</span>
                 </div>
 
 
@@ -159,7 +159,7 @@ function BlogWriteup() {
                   <span className="text-[12px] font-semibold">
                   Elegbeleye Paul
                   </span>
-                  <span className="text-[12px]">June 28, 2013</span>
+                  <span className="text-[12px]">October 28, 2023</span>
                 </div>
 
 
@@ -193,7 +193,7 @@ function BlogWriteup() {
                   <span className="text-[12px] font-semibold">
                   Elegbeleye Paul 
                   </span>
-                  <span className="text-[12px]">June 28, 2013</span>
+                  <span className="text-[12px]">October 28, 2023</span>
                 </div>
 
 
