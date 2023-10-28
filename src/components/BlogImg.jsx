@@ -12,7 +12,7 @@ function BlogImg() {
 
   return (
     <div className="embla" ref={emblaRef}>
-      <div className="embla__container w-full h-full md:h-img-h ">
+      <div className="embla__container w-full h-full md:h-[500px] ">
         <div className="embla__slide relative w-full h-80 md:h-full">
         <img src={blogImg} alt="" />
         <div className='absolute left-6 md:left-10 bottom-12 inset-0 flex items-end justify-left text-left text-sm font-bold sm:left-10 md:text-xl text-white lg:text-2xl'>
