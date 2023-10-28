@@ -20,7 +20,7 @@ const Data = [
   {
     id: 4,
     description:
-      "I never thought I would find love again after my divorce. I was so hurt, hopeless, and jaded. But then I met John on Baddhia. He was kind, funny, and understand.",
+      "I never thought I would find love again after my divorce. I was so hurt, hopeless, and jaded. But then I met John on Baddhia. He was kind, funny, and understanding, and he made me feel like I could be myself again.",
     name: "Sarah",
   },
   {
