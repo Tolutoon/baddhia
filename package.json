@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@swiper/core": "^0.0.21",
+    "embla-carousel-autoplay": "^8.0.0-rc14",
+    "embla-carousel-react": "^8.0.0-rc14",
     "flowbite-react": "^0.6.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

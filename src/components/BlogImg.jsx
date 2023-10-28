@@ -1,18 +1,37 @@
 import React from 'react'
-import blogimg from "/images/blog-header.png"
+import useEmblaCarousel from 'embla-carousel-react';
+import Autoplay from 'embla-carousel-autoplay';
+import blogImg from "/images/mohamed.png"
+import carly from "/images/carly.png"
+import nathan from "/images/nathan.png"
 
 
 
 function BlogImg() {
+  const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]) 
+
   return (
-    <div>
-      <div className='w-full relative mb-28 px-8 md:px-16 pt-10 md:pt-0 hidden sm:block'>
-        <img className='w-full h-auto' src={blogimg} alt="" />
-        <div className='absolute left-10 md:left-20 bottom-5 inset-0 flex items-end justify-left text-left text-xs sm:left-10 md:text-xl text-white font-semibold lg:text-2xl'>
+    <div className="embla" ref={emblaRef}>
+      <div className="embla__container w-full h-full md:h-img-h ">
+        <div className="embla__slide relative w-full h-80 md:h-full">
+        <img src={blogImg} alt="" />
+        <div className='absolute left-6 md:left-10 bottom-12 inset-0 flex items-end justify-left text-left text-sm font-bold sm:left-10 md:text-xl text-white lg:text-2xl'>
         <p >Mastering Baddhia: A Comprehensive Guide to<br></br> Navigating the App</p>
+        </div>
+        </div>
+        <div className="embla__slide relative h-full md:h-full"><img src={carly} alt="" />
+        <div className='absolute left-6 md:left-10 bottom-7 inset-0 flex items-end justify-left text-left text-sm font-bold sm:left-10 md:text-xl text-white lg:text-2xl'>
+        <p >Finding Your Perfect Match: A Guide to <br></br>Baddhia's Compatibility Features</p>
+        </div>
+        </div>
+        <div className="embla__slide relative h-full md:h-full"><img src={nathan} alt="" />
+        <div className='absolute left-6 md:left-10 bottom-7 inset-0 flex items-end justify-left text-left text-sm font-bold sm:left-10 md:text-xl text-white lg:text-2xl'>
+        <p >More than Romance: Building Lasting Friendships <br></br>on Baddhia </p>
+        </div>
         </div>
       </div>
     </div>
+    
   )
 }
 
