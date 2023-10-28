@@ -33,15 +33,13 @@ function BlogWriteup() {
                   <span className="text-[12px]">October 28, 2023</span>
                 </div>
 
-                <Link to="/blogcontent">
-                
+                <a href="/blogcontent">
                 <button
                     type="submit"
                     className="bg-baddhia-orange  p-2  px-6 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105">
                     Read More
                   </button>
-               
-                  </Link>
+                  </a>
 
               </div>
             </div>
@@ -66,14 +64,14 @@ function BlogWriteup() {
                 </div>
 
 
-                <Link to="/blogcontent2">
+                <a href="/blogcontent2">
                 <button
                     type="submit"
                     className="bg-baddhia-orange  p-2  px-6 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
                   >
                     Read More
                   </button>
-                  </Link>
+                 </a>
 
               </div>
             </div>
@@ -98,14 +96,14 @@ function BlogWriteup() {
                 </div>
 
 
-                <Link to="/blogcontent3">
+                <a href="/blogcontent3">
                 <button
                     type="submit"
                     className="bg-baddhia-orange  p-2  px-6 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
                   >
                     Read More
                   </button>
-                  </Link>
+                  </a>
               </div>
             </div>
           </div>
@@ -130,14 +128,14 @@ function BlogWriteup() {
                 </div>
 
 
-                <Link to="/blogcontent4">
+                <a href="/blogcontent4">
                 <button
                     type="submit"
                     className="bg-baddhia-orange  p-2  px-6 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
                   >
                     Read More
                   </button>
-                  </Link>
+                  </a>
 
               </div>
             </div>
@@ -163,14 +161,14 @@ function BlogWriteup() {
                 </div>
 
 
-                <Link to="/blogcontent5">
+                <a href="/blogcontent5">
                 <button
                     type="submit"
                     className="bg-baddhia-orange  p-2  px-6 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
                   >
                     Read More
                   </button>
-                  </Link>
+                  </a>
 
               </div>
             </div>
@@ -197,14 +195,14 @@ function BlogWriteup() {
                 </div>
 
 
-                <Link to="/blogcontent6">
+                <a href="/blogcontent6">
                 <button
                     type="submit"
                     className="bg-baddhia-orange  p-2  px-6 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
                   >
                     Read More
                   </button>
-                  </Link>
+                  </a>
 
               </div>
             </div>
