@@ -8,7 +8,11 @@ export default {
     extend: {
       colors: {
         'baddhia-orange': '#fc5000',
-        'B-writeup': "#FFD9C8"
+        'B-writeup': "#FFD9C8",
+      },
+      height: {
+        'img-h':"500px",
+        'h-max': "500px"
       }
     },
   },

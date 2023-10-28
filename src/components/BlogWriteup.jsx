@@ -11,113 +11,207 @@ import Group6 from "/images/group6.jpg"
 function BlogWriteup() {
   return (
     <div>
-        <div className='mx-8 my-6 md:m-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4'>
-                
-                <div className='rounded-2xl overflow-hidden md:block m-1'>
-                    <img className='object-cover' src={Group4} alt="" />
-                    <div className='bg-B-writeup py-3 pl-6 pr-2'>
-                    <h1 className='font-bold font-base'>
-                        More Than Romance: Building Lasting Relationships on Baddhia
-                    </h1>
-                    <p className='text-xs mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione quam, eligendi eum debitis neque quod?</p>
-                    <h2 className="font-bold mt-3">Anchor's Name</h2>
-                    <div className="flex justify-between mt-2">
-                        <p className="text-xs">DD-MM-YYYY</p>
-                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-white rounded-full uppercase py-2 px-6 m-0">
-                            <Link to="/BlogContent">Read more</Link>
-                        </div>
-                    </div>
+        <h1 className='text-center font-bold text-2xl mb-7 mt-14'>Baddhia Tips</h1>
+       <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:mx-16 lg:grid-cols-3 justify-items-center items-center'>
+       <div>
+        
+       <div className=" bg-[url('/images/group4.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
+     
+          <div className="flex absolute bg-[#FFF6F2] w-fit bottom-0 flex-col rounded-2xl justify-center items-center md:p-4 p-2">
+            <div className="w-[90%]">
+              <h3 className="text-baddhia-orange font-semibold mb-2">
+              Mastering Baddhia: A Comprehensive Guide to Navigating the App
+              </h3>
+              <p className="text-black text-[12px] mb-4">
+              Have you ever experienced disappointment in relationships that made you decide not to go into one again? Or have you worked so hard in a relationship...
+              </p>
+              <div className="flex justify-between ">
+                <div className="flex flex-col">
+                  <span className="text-[12px] font-semibold">
+                  Elegbeleye Paul
+                  </span>
+                  <span className="text-[12px]">June 28, 2013</span>
                 </div>
-            </div>
-            
-                <div className='rounded-2xl overflow-hidden md:block m-1'>
-                    <img className='object-cover' src={Group4} alt="" />
-                    <div className='bg-B-writeup py-3 pl-6 pr-2'>
-                    <h1 className='font-bold font-base'>
-                        More Than Romance: Building Lasting Relationships on Baddhia
-                    </h1>
-                    <p className='text-xs mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione quam, eligendi eum debitis neque quod?</p>
-                    <h2 className="font-bold mt-3">Anchor's Name</h2>
-                    <div className="flex justify-between mt-2">
-                        <p className="text-xs">DD-MM-YYYY</p>
-                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-white rounded-full uppercase py-2 px-6 m-0">
-                            <Link to="/">Read more</Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-                <div className='rounded-2xl overflow-hidden md:block m-1'>
-                    <img className='object-cover' src={Group4} alt="" />
-                    <div className='bg-B-writeup py-3 pl-6 pr-2'>
-                    <h1 className='font-bold font-base'>
-                        More Than Romance: Building Lasting Relationships on Baddhia
-                    </h1>
-                    <p className='text-xs mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione quam,       eligendi eum debitis neque quod?
-                    </p>
-                    <h2 className="font-bold mt-3">Anchor's Name</h2>
-                        <div className="flex justify-between mt-2">
-                            <p className="text-xs">DD-MM-YYYY</p>
-                            <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-white rounded-full uppercase py-2 px-6 m-0">
-                            <Link to="/">Read more</Link>
-                        </div>
-                        </div>
-                </div>
-            </div>
-                <div className='rounded-2xl overflow-hidden md:block m-1'>
-                    <img className='object-cover' src={Group4} alt="" />
-                    <div className='bg-B-writeup py-3 pl-6 pr-2'>
-                    <h1 className='font-bold font-base'>
-                        More Than Romance: Building Lasting Relationships on Baddhia
-                    </h1>
-                    <p className='text-xs mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione quam,       eligendi eum debitis neque quod?
-                    </p>
-                    <h2 className="font-bold mt-3">Anchor's Name</h2>
-                        <div className="flex justify-between mt-2">
-                            <p className="text-xs">DD-MM-YYYY</p>
-                            <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
-                            <Link to="/">Read more</Link>
-                        </div>
-                        </div>
-                </div>
-            </div>
-        
-        
+                <Link to="/blogcontent">
                 
-                <div className='rounded-2xl overflow-hidden md:block m-1'>
-                    <img className='object-cover' src={Group4} alt="" />
-                    <div className='bg-B-writeup py-3 pl-6 pr-2'>
-                    <h1 className='font-bold font-base'>
-                        More Than Romance: Building Lasting Relationships on Baddhia
-                    </h1>
-                    <p className='text-xs mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione quam, eligendi eum debitis neque quod?</p>
-                    <h2 className="font-bold mt-3">Anchor's Name</h2>
-                    <div className="flex justify-between mt-2">
-                        <p className="text-xs">DD-MM-YYYY</p>
-                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
-                            <Link to="/">Read more</Link>
-                        </div>
-                    </div>
-                </div>
+                <button
+                    type="submit"
+                    className="bg-baddhia-orange  p-2  px-6 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105">
+                    Read More
+                  </button>
+               
+                  </Link>
+
+              </div>
             </div>
-                <div className='rounded-2xl overflow-hidden md:block m-1'>
-                    <img className='object-cover' src={Group4} alt="" />
-                    <div className='bg-B-writeup py-3 pl-6 pr-2'>
-                    <h1 className='font-bold font-base'>
-                        More Than Romance: Building Lasting Relationships on Baddhia
-                    </h1>
-                    <p className='text-xs mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione quam, eligendi eum debitis neque quod?</p>
-                    <h2 className="font-bold mt-3">Anchor's Name</h2>
-                    <div className="flex justify-between mt-2">
-                        <p className="text-xs">DD-MM-YYYY</p>
-                        <div className="bg-baddhia-orange flex-shrink-0 border text-xs text-gray-300 rounded-full uppercase py-2 px-6 m-0">
-                            <Link to="/">Read more</Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <div className='flex justify-center items-center'><button className='bg-baddhia-orange py-2 px-9 mb-28 uppercase text-gray-300 text-lg font-semibold rounded-full'><Link to="/">Read more article</Link></button></div>
+       </div>
+
+        <div className=" bg-[url('/images/group4.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
+          <div className="flex absolute bg-[#FFF6F2] w-fit bottom-0 flex-col rounded-2xl justify-center items-center md:p-4 p-2">
+            <div className="w-[90%]">
+              <h3 className="text-baddhia-orange font-semibold mb-2">
+              Finding Your Perfect Match: A Guide to Baddhia's Compatibility Features</h3>
+              <p className="text-black text-[12px] mb-4">
+              There are many online dating sites that singles have used but couldn't find a compatible partner. Perhaps you have tried some of these online dating sites as...
+              </p>
+              <div className="flex justify-between ">
+                <div className="flex flex-col">
+                  <span className="text-[12px] font-semibold">
+                  Elegbeleye Paul 
+                  </span>
+                  <span className="text-[12px]">June 28, 2013</span>
+                </div>
+
+
+                <Link to="/blogcontent2">
+                <button
+                    type="submit"
+                    className="bg-baddhia-orange  p-2  px-6 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
+                  >
+                    Read More
+                  </button>
+                  </Link>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className=" bg-[url('/images/group4.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
+          <div className="flex absolute bg-[#FFF6F2] w-fit bottom-0 flex-col rounded-2xl justify-center items-center md:p-4 p-2">
+            <div className="w-[90%]">
+              <h3 className="text-baddhia-orange font-semibold mb-2">
+                More Than Romance: Building Lasting Friendships on Baddhia
+              </h3>
+              <p className="text-black text-[12px] mb-4">
+              In today's fast-paced world, finding meaningful connections and building lasting friendships can be a challenge. However, with the rise of social apps and online dating platforms, it's now easier than ever to connect with...
+              </p>
+              <div className="flex justify-between ">
+                <div className="flex flex-col">
+                  <span className="text-[12px] font-semibold">
+                  Chibuike Iheka
+                  </span>
+                  <span className="text-[12px]">June 28, 2013</span>
+                </div>
+
+
+                <Link to="/blogcontent3">
+                <button
+                    type="submit"
+                    className="bg-baddhia-orange  p-2  px-6 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
+                  >
+                    Read More
+                  </button>
+                  </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className=" bg-[url('/images/group4.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
+          <div className="flex absolute bg-[#FFF6F2] w-fit bottom-0 flex-col rounded-2xl justify-center items-center md:p-4 p-2">
+            <div className="w-[90%]">
+              <h3 className="text-baddhia-orange font-semibold mb-2">
+              Rekindling Romance: Baddhia's Guide to Spicing Up Relationships
+
+              </h3>
+              <p className="text-black text-[12px] mb-4">
+              Romance in a relationship is like a delicate flame that needs constant care and attention to keep burning brightly. It's those special moments, sweet gestures, and heart-pounding excitement that make us feel alive in love...
+              </p>
+              <div className="flex justify-between ">
+                <div className="flex flex-col">
+                  <span className="text-[12px] font-semibold">
+                  Chibuike Iheka
+                  </span>
+                  <span className="text-[12px]">June 28, 2013</span>
+                </div>
+
+
+                <Link to="/blogcontent4">
+                <button
+                    type="submit"
+                    className="bg-baddhia-orange  p-2  px-6 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
+                  >
+                    Read More
+                  </button>
+                  </Link>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className=" bg-[url('/images/group4.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
+          <div className="flex absolute bg-[#FFF6F2] w-fit bottom-0 flex-col rounded-2xl justify-center items-center md:p-4 p-2">
+            <div className="w-[90%]">
+              <h3 className="text-baddhia-orange font-semibold mb-2">
+              How to Date with Confidence and Debunk the Desperation Myth with Baddhia
+              </h3>
+              <p className="text-black text-[12px] mb-4">
+              Confidence, or the lack thereof, can significantly impact our dating lives. It's often said that confidence is attractive, and it's not just a cliché. The way you carry yourself, your self-assuredness, and your belief...
+
+              </p>
+              <div className="flex justify-between">
+                <div className="flex flex-col">
+                  <span className="text-[12px] font-semibold">
+                  Elegbeleye Paul
+                  </span>
+                  <span className="text-[12px]">June 28, 2013</span>
+                </div>
+
+
+                <Link to="/blogcontent5">
+                <button
+                    type="submit"
+                    className="bg-baddhia-orange  p-2  px-6 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
+                  >
+                    Read More
+                  </button>
+                  </Link>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className=" bg-[url('/images/group4.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
+          <div className="flex absolute bg-[#FFF6F2] w-fit bottom-0 flex-col rounded-2xl justify-center items-center md:p-4 p-2">
+            <div className="w-[90%]">
+              <h3 className="text-baddhia-orange font-semibold mb-2">
+              How to Create a Safe Haven in Your Dating Journey with Baddhia's Measures Against Ghosting and Catfishing
+              </h3>
+              <p className="text-black text-[12px] mb-4">
+              Dating in a safe and secure environment with no fear of any vice is everyone's desire because it gives the confidence of being real to one's compatible partner.
+            There are many factors responsible for the fear people have concerning online dating, which is...
+
+              </p>
+              <div className="flex justify-between ">
+                <div className="flex flex-col">
+                  <span className="text-[12px] font-semibold">
+                  Elegbeleye Paul 
+                  </span>
+                  <span className="text-[12px]">June 28, 2013</span>
+                </div>
+
+
+                <Link to="/blogcontent6">
+                <button
+                    type="submit"
+                    className="bg-baddhia-orange  p-2  px-6 rounded-[16px] font-semibold text-[12px] text-white transition-all duration-300 hover:scale-105"
+                  >
+                    Read More
+                  </button>
+                  </Link>
+
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+        <div className='flex justify-center mt-8 items-center'><button className='bg-baddhia-orange py-2 px-9 mb-28 uppercase text-white text-lg font-semibold rounded-full'><Link to="/">Read more article</Link></button></div>
     </div>
   )
 }
