@@ -9,7 +9,7 @@ function BlogArticle() {
     <div>
       <div className='sm:flex text-sm lg:px-36 lg:pt-16 md:px-10 sm:mt-11 px-8 md:justify-between mb-48'>
         <div className='sm:w-1/2 sm:mr-6 lg:mr-10 mb-16'>
-        <h1 className='font-bold text-[18px] md:text-2xl text-justify mb-2 mt-7 md:mt-0 w-full'>Mastering Baddhia: A Comprehensive Guide to Navigating the App</h1>
+        <h1 className='font-bold text-[18px] md:text-2xl text-left mb-2 mt-7 md:mt-0 w-full'>Mastering Baddhia: A Comprehensive Guide to Navigating the App</h1>
         <div className='flex gap-8 mb-5 mt-4'>
           <div className='text-center text-xs'>
             <p className='font-bold'>Post Author</p>
@@ -53,6 +53,7 @@ function BlogArticle() {
             <li>(ii) Find your perfect match, anywhere in the world.</li>
             <li>(iii) Shop and exchange gifts from the comfort of anywhere you are.</li>
             <li>(iv) Express your emotions wholeheartedly with customized emojis.</li>
+            <li>(v) Share exciting moments and attract like minds.</li>
           </ul>
 
           <h1 className='font-bold mb-2'>HOW TO FIND YOUR COMPATIBLE PARTNER USING THE BADDHIA APP</h1>
@@ -65,9 +66,20 @@ function BlogArticle() {
           </ol>
           <h1 className='font-bold mb-3'>BENEFITS OF USING THE BADDHIA APP FEATURES</h1>
           <p className='mb-1'><span className='font-semibold'>Baddhia app usage</span> gets you the opportunity to:</p>
-          <ul><li>
-          (i) Get profile suggestions of genuine singles living near you.
-            </li></ul>
+          <ul>
+            <li>(i) Get profile suggestions of genuine singles living near you.</li>
+            <li>(ii) Find your perfect match based on genotype, personality, demographic compatibility, and mutual purpose on the App.</li>
+            <li>(iii) Upload 24-hour disappearing photos, videos, or text to connect with people who share your values, interests, and lifestyle.</li>
+            <li>(vi) Buy and share virtual gift items with your crush, admirers, or loved ones.</li>
+            <li>(v) Buy and send customized emojis with prefilled romantic notes to your crush or loved ones.</li>
+            <li>(vi) GFund, share, and withdraw funds from your Baddhia wallet. </li>
+            <li>(vii) Chat and share audio, video, and photos in the messaging interface.</li>
+            <li>(vii) Invite and chat with your spouse/boyfriend/girlfriend.</li>
+            <li>(ix) Hide/unhide your online activity and profile details.</li>
+            </ul>
+            <p className='mb-3 mt-5'><span className='font-semibold'>Using Baddhia effectively</span> will help you find your desired dream partner and experience long-lasting intimacy with your perfect match. You will gain a strong foundation for building lasting and enduring romantic and platonic relationships.</p>
+            <p><a className='text-blue-500 underline' href="https://play.google.com/store/apps/details?id=com.baddhia.app" target="_blank">Download the App</a>, sign up and enjoy!</p>
+
         </div>
         <div className='sm:w-1/2 sm:ml-6 lg:ml-20'>
           <div className='relative mb-16'>

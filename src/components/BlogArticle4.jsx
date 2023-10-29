@@ -9,7 +9,7 @@ function BlogArticle4() {
     <div>
       <div className='sm:flex text-sm lg:px-36 lg:pt-16 md:px-10 sm:mt-11 px-8 md:justify-between mb-48'>
         <div className='sm:w-1/2 sm:mr-6 lg:mr-10 mb-16'>
-        <h1 className='font-bold text-[18px] md:text-2xl text-justify mb-2 mt-7 md:mt-0 w-full'>Rekindling Romance: Baddhia's Guide to Spicing Up Relationships</h1>
+        <h1 className='font-bold text-[18px] md:text-2xl text-left mb-2 mt-7 md:mt-0 w-full'>Rekindling Romance: Baddhia's Guide to Spicing Up Relationships</h1>
         <div className='flex gap-8 mb-5 mt-4'>
           <div className='text-center text-xs'>
             <p className='font-bold'>Post Author</p>
