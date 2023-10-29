@@ -9,6 +9,9 @@ import Blog from "./pages/Blog";
 import BlogContent from "./pages/BlogContent";
 import BlogContent2 from './pages/BlogContent2'
 import BlogContent3 from './pages/BlogContent3';
+import BlogContent4 from './pages/BlogContent4';
+import BlogContent5 from './pages/BlogContent5';
+import BlogContent6 from './pages/BlogContent6';
 import Terms from "./pages/Terms";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import FaqPage from "./pages/FaqPage";
@@ -24,6 +27,9 @@ function App() {
       <Route path='/blogcontent' element={<BlogContent />}/>
       <Route path='/blogcontent2' element={<BlogContent2 />}/>
       <Route path='/blogcontent3' element={<BlogContent3 />}/>
+      <Route path='/blogcontent4' element={<BlogContent4 />}/>
+      <Route path='/blogcontent5' element={<BlogContent5 />}/>
+      <Route path='/blogcontent6' element={<BlogContent6 />}/>
       <Route path="/terms&condition" element={<Terms/>}/>
       <Route path="/faq" element={<FaqPage/>}/>
       <Route path="/privacy" element={<PrivacyPolicy/>}/>

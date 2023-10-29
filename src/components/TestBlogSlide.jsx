@@ -17,7 +17,7 @@ export default function BlogCarousel() {
               </h3>
               <p className="text-gray-400 text-[12px] mb-4">
                 Have you ever experienced disappointment in relationships that
-                made you decide not to go into one again?
+                made you decide not to go into one again?...
               </p>
               <div className="flex md:gap-4 gap-8 ">
                 <div className="flex flex-col">

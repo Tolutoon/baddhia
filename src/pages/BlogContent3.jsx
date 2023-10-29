@@ -1,13 +1,13 @@
 import React from 'react';
 import JoinCard from '../components/JoinCard';
-import Header from '../components/Header';
+import BlogHeader from '../components/Header';
 import BlogArticle3 from '../components/BlogArticle3';
 import Footer from "../components/Footer";
 
 function BlogContent3() {
     return (
       <div>
-        <Header />
+        <BlogHeader />
         <BlogArticle3 />
         <JoinCard />
         <Footer />
