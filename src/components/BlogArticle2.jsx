@@ -1,5 +1,5 @@
 import React from 'react'
-import Article2 from "/images/Article 2.jpg"
+import Article2 from "/images/Article2.jpg"
 import Frameblog1 from "/images/perfect Match 1.jpg"
 import Frameblog3 from "/images/Frameblog4.png"
 

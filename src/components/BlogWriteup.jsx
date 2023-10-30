@@ -1,12 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import BlogContent from '../pages/BlogContent'
-import Group1 from "/images/group1.jpg"
-import Group2 from "/images/group2.jpg"
-import Group3 from "/images/group3.jpg"
-import Group4 from "/images/group4.jpg"
-import Group5 from "/images/group5.jpg"
-import Group6 from "/images/group6.jpg"
+
 
 function BlogWriteup() {
   return (
@@ -15,7 +10,7 @@ function BlogWriteup() {
        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:mx-16 lg:grid-cols-3 justify-items-center items-center'>
        <div>
         
-       <div className=" bg-[url('/images/group4.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
+       <div className=" bg-[url('/images/Article1.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
      
           <div className="flex absolute bg-[#FFF6F2] w-fit bottom-0 flex-col rounded-2xl justify-center items-center md:p-4 p-2">
             <div className="w-[90%]">
@@ -47,7 +42,7 @@ function BlogWriteup() {
         </div>
        </div>
 
-        <div className=" bg-[url('/images/group4.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
+        <div className=" bg-[url('/images/Article2.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
           <div className="flex absolute bg-[#FFF6F2] w-fit bottom-0 flex-col rounded-2xl justify-center items-center md:p-4 p-2">
             <div className="w-[90%]">
               <h3 className="text-baddhia-orange font-semibold mb-2">
@@ -78,7 +73,7 @@ function BlogWriteup() {
           </div>
         </div>
 
-        <div className=" bg-[url('/images/group4.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
+        <div className=" bg-[url('/images/Article3.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
           <div className="flex absolute bg-[#FFF6F2] w-fit bottom-0 flex-col rounded-2xl justify-center items-center md:p-4 p-2">
             <div className="w-[90%]">
               <h3 className="text-baddhia-orange font-semibold mb-2">
