@@ -22,25 +22,25 @@ function BlogHeader() {
         </Link>
 
         <nav>
-          <ul className="md:flex gap-x-7 uppercase hidden transition list-none">
+          <ul className="md:flex gap-x-7 hidden transition list-none">
             <li className="text-baddhia-orange text-base">
-              <a href="">Dating advice</a>
+              <a href="">Baddhia Tips</a>
             </li>
             <li className="text-baddhia-orange text-base">
-              <a href="">Baddhia tips</a>
+              <a href="">Dating Advice</a>
             </li>
             <li className="text-baddhia-orange text-base">
               <a
                 href="/about"
               >
-                About us
+                About Us
               </a>
             </li>
             <li className="text-baddhia-orange text-base">
               <a
-                href=""
+                 href="https://play.google.com/store/apps/details?id=com.baddhia.app" target="_blank"
               >
-                sign up
+                Download App
               </a>
             </li>
           </ul>
@@ -59,7 +59,7 @@ function BlogHeader() {
               />
             )}
             {toggleMenu && (
-              <ul className="z-30 fixed -top-0 -right-2 p-3 w-[70vw] h-full shadow-2xl md:hidden list-none uppercase bg-white
+              <ul className="z-30 fixed -top-0 -right-2 p-3 w-[70vw] h-full shadow-2xl md:hidden list-none bg-white
               flex flex-col justify-start items-end rounded-md text-baddhia-orange animate-slide-in">
                 <AiOutlineClose
                   fontSize={28}
@@ -67,23 +67,23 @@ function BlogHeader() {
                   className="cursor-pointer text-baddhia-orange mr-6 mt-2"
                 />{" "}
                 <li className="text-baddhia-orange text-base w-full my-2 mt-4 flex items-end">
-                  <a href="">Dating advice</a>
+                  <a href="">Baddhia Tips</a>
                 </li>
                 <li className="text-baddhia-orange text-base w-full my-2 flex items-end">
-                  <a href="">baddhia tips</a>
+                  <a href="">Dating Advice</a>
                 </li>
                 <li className="text-baddhia-orange text-base w-full my-2 flex items-end">
                   <a
                     href="/about"
                   >
-                    about us
+                    About Us
                   </a>
                 </li>
                 <li className="text-baddhia-orange text-base w-full my-2 flex items-end">
                   <a
-                    href=""
+                    href="https://play.google.com/store/apps/details?id=com.baddhia.app" target="_blank"
                   >
-                    Sign up
+                    Download App
                   </a>
                 </li>
               </ul>

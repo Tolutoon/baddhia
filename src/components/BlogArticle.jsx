@@ -116,6 +116,7 @@ function BlogArticle() {
             <li>
               (iv) Express your emotions wholeheartedly with customized emojis.
             </li>
+            <li>(v) Share exciting moments and attract like minds.</li>
           </ul>
 
           <h1 className="font-bold mb-2">

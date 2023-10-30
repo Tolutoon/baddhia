@@ -1,6 +1,6 @@
 import React from 'react';
 import JoinCard from '../components/JoinCard';
-import BlogHeader from '../components/Header';
+import BlogHeader from '../components/BlogHeader';
 import BlogArticle3 from '../components/BlogArticle3';
 import Footer from "../components/Footer";
 
