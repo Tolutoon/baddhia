@@ -1,5 +1,5 @@
 import React from 'react'
-import Frameblog from "/images/Article 1.jpg"
+import Article4 from "/images/Article4.jpg"
 import Frameblog1 from "/images/perfect Match 1.jpg"
 import Frameblog3 from "/images/Frame 15.png"
 
@@ -24,7 +24,7 @@ function BlogArticle4() {
           <p>Baddhia Tips</p>
           </div>
         </div>
-          <img className='h-96 w-full object-cover sm:h-80 mb-10' src={Frameblog} alt=""/>
+          <img className='h-96 w-full object-cover sm:h-80 mb-10' src={Article4} alt=""/>
           <p className='mb-7 text-justify'>Romance in a relationship is like a delicate flame that needs constant care and attention to keep burning brightly. It's those special moments, sweet gestures, and heart-pounding excitement that make us feel alive in love.<br></br>
 
             Yet, as time goes by, the routines of life can overshadow the spark that once defined our connection. But fear not, because rekindling romance is not only possible; it's a delightful journey that can deepen your bond and reignite the passion in your relationship.<br></br>

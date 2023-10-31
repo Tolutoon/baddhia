@@ -1,5 +1,5 @@
 import React from 'react'
-import Frameblog from "/images/Article 1.jpg"
+import Article5 from "/images/Article5.jpg"
 import Frameblog1 from "/images/perfect Match 1.jpg"
 import Frameblog3 from "/images/Frame 15.png"
 
@@ -24,7 +24,7 @@ function BlogArticle5() {
           <p>Baddhia Tips</p>
           </div>
         </div>
-          <img className='h-96 w-full object-cover sm:h-80 mb-10' src={Frameblog} alt=""/>
+          <img className='h-96 w-full object-cover sm:h-80 mb-10' src={Article5} alt=""/>
           <p className='mb-12 text-justify'>Confidence, or the lack thereof, can significantly impact our dating lives. It's often said that confidence is attractive, and it's not just a cliché. The way you carry yourself, your self-assuredness, and your belief in your own worth can influence not only the success of your dating endeavors but also the quality of the relationships you form. In this post, we'll explore the profound effects of confidence on relationships, both positive and negative, and how Baddhia can be your ally in boosting your dating confidence.</p> 
 
           <p className='mb-3 text-justify text-[20px] font-semibold'>
