@@ -321,7 +321,7 @@ function FaqTest() {
                 ✓ Tap the side navigation menu at the top left on the home page.
               </li>
               <li>
-                ✓ Tap <strong>Settings</strong> >{" "}
+                ✓ Tap <strong>Settings</strong> {'>'}{" "}
                 <strong>Manage Subscription</strong>.
               </li>
               <li>

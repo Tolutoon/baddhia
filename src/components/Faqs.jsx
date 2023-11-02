@@ -317,7 +317,7 @@ function Faqs() {
                 ✓ Tap the side navigation menu at the top left on the home page.
               </li>
               <li>
-                ✓ Tap <strong>Settings</strong> >{" "}
+                ✓ Tap <strong>Settings</strong> {'>'}{" "}
                 <strong>Manage Subscription</strong>.
               </li>
               <li>
@@ -572,13 +572,13 @@ function Faqs() {
               </li>
               <li>
                 {" "}
-                ✓ Tap <strong>Chat</strong> > Choose the user you want to send
+                ✓ Tap <strong>Chat</strong> {'>'} Choose the user you want to send
                 the emojis to.
               </li>
               <li>
                 {" "}
                 ✓ On the messaging interface, tap the{" "}
-                <strong>Love Envelop Icon</strong> >{" "}
+                <strong>Love Envelop Icon</strong> {'>'}{" "}
                 <strong>Display Emoji</strong>.
               </li>
               <li> ✓ Search or scroll through the display emojis provided.</li>{" "}
@@ -593,7 +593,7 @@ function Faqs() {
                 {" "}
                 ✓ fter purchase, tap the <strong>
                   Love Envelop Icon
-                </strong> > <strong>Display Emoji </strong>to see the emoji in
+                </strong> {'>'} <strong>Display Emoji </strong>to see the emoji in
                 the purchase section of the display emoji.
               </li>{" "}
               <li>
@@ -644,13 +644,13 @@ function Faqs() {
               </li>
               <li>
                 {" "}
-                ✓ Tap <strong>Chat</strong> > Choose the user you want to send
+                ✓ Tap <strong>Chat</strong> {'>'} Choose the user you want to send
                 the gift item(s) to.
               </li>
               <li>
                 {" "}
                 ✓ On the messaging interface, tap the{" "}
-                <strong>Love Envelop Icon</strong> > <strong>Gift Emoji</strong>
+                <strong>Love Envelop Icon</strong> {'>'} <strong>Gift Emoji</strong>
                 .
               </li>
               <li>
@@ -721,7 +721,7 @@ function Faqs() {
               </li>
               <li>
                 {" "}
-                ✓ Tap <strong>Upload</strong> > <strong>Photo</strong>.
+                ✓ Tap <strong>Upload</strong> {'>'} <strong>Photo</strong>.
               </li>
               <li className="leading-[22px]">
                 {" "}
@@ -745,7 +745,7 @@ function Faqs() {
                 home page.
               </li>
               <li>
-                ✓ Tap <strong>Upload</strong> > <strong>Text</strong>.
+                ✓ Tap <strong>Upload</strong> {'>'} <strong>Text</strong>.
               </li>
               <li>✓ Type in the empty space on your screen.</li>
               <li>
@@ -896,7 +896,7 @@ function Faqs() {
                 <li>✓ Tap <strong>Chat </strong>at the bottom navigation menu on the home page.</li>
                 <li>✓ Navigate and tap <strong>Paired </strong>on the Chat interface.</li>
                 <li>✓ Tap the “Menu Icon” on the Profile that has a golden crown on its profile picture.</li>
-                <li>✓ Tap <strong>Delete Exclusive Partner</strong> > <strong>Delete </strong>from the pop-up list.</li>
+                <li>✓ Tap <strong>Delete Exclusive Partner</strong> {'>'} <strong>Delete </strong>from the pop-up list.</li>
                 <li>✓ The golden crown will be removed from the top of the profile picture.</li>
               </ol>
           </div>
@@ -986,7 +986,7 @@ function Faqs() {
                 {" "}
                 ✓ Tap <strong>Settings</strong> on the side navigation menu of the home page.
               </li>
-              <li> ✓ Scroll down and tap <strong>Delete My Account</strong> > <strong>Proceed</strong>.</li>
+              <li> ✓ Scroll down and tap <strong>Delete My Account</strong> {'>'} <strong>Proceed</strong>.</li>
             </ol>
           </div>
         </div>
