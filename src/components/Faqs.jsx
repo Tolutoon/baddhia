@@ -317,7 +317,7 @@ function Faqs() {
                 ✓ Tap the side navigation menu at the top left on the home page.
               </li>
               <li>
-                ✓ Tap <strong>Settings</strong> {'>'}{" "}
+                ✓ Tap <strong>Settings</strong> {">"}{" "}
                 <strong>Manage Subscription</strong>.
               </li>
               <li>
@@ -572,13 +572,13 @@ function Faqs() {
               </li>
               <li>
                 {" "}
-                ✓ Tap <strong>Chat</strong> {'>'} Choose the user you want to send
-                the emojis to.
+                ✓ Tap <strong>Chat</strong> {">"} Choose the user you want to
+                send the emojis to.
               </li>
               <li>
                 {" "}
                 ✓ On the messaging interface, tap the{" "}
-                <strong>Love Envelop Icon</strong> {'>'}{" "}
+                <strong>Love Envelop Icon</strong> {">"}{" "}
                 <strong>Display Emoji</strong>.
               </li>
               <li> ✓ Search or scroll through the display emojis provided.</li>{" "}
@@ -591,10 +591,9 @@ function Faqs() {
               </li>{" "}
               <li>
                 {" "}
-                ✓ fter purchase, tap the <strong>
-                  Love Envelop Icon
-                </strong> {'>'} <strong>Display Emoji </strong>to see the emoji in
-                the purchase section of the display emoji.
+                ✓ fter purchase, tap the <strong>Love Envelop Icon</strong>{" "}
+                {">"} <strong>Display Emoji </strong>to see the emoji in the
+                purchase section of the display emoji.
               </li>{" "}
               <li>
                 {" "}
@@ -644,14 +643,14 @@ function Faqs() {
               </li>
               <li>
                 {" "}
-                ✓ Tap <strong>Chat</strong> {'>'} Choose the user you want to send
-                the gift item(s) to.
+                ✓ Tap <strong>Chat</strong> {">"} Choose the user you want to
+                send the gift item(s) to.
               </li>
               <li>
                 {" "}
                 ✓ On the messaging interface, tap the{" "}
-                <strong>Love Envelop Icon</strong> {'>'} <strong>Gift Emoji</strong>
-                .
+                <strong>Love Envelop Icon</strong> {">"}{" "}
+                <strong>Gift Emoji</strong>.
               </li>
               <li>
                 {" "}
@@ -721,7 +720,7 @@ function Faqs() {
               </li>
               <li>
                 {" "}
-                ✓ Tap <strong>Upload</strong> {'>'} <strong>Photo</strong>.
+                ✓ Tap <strong>Upload</strong> {">"} <strong>Photo</strong>.
               </li>
               <li className="leading-[22px]">
                 {" "}
@@ -738,14 +737,32 @@ function Faqs() {
                 ✓ Tap the <strong>Paper Plane Icon</strong> to post on Moments.
               </li>{" "}
             </ol>
-            <p className="font-semibold py-2">To upload Video on Moments:</p>
+            <p className="font-semibold py-2 mt-2">To upload Video on Moments:</p>
             <ol className="flex gap-2 flex-col pl-2">
               <li>
                 ✓ Tap <strong>Moments</strong> at the button navigation on the
                 home page.
               </li>
               <li>
-                ✓ Tap <strong>Upload</strong> {'>'} <strong>Text</strong>.
+                ✓ Tap the <strong>Gallery Icon</strong> to choose a Video from
+                your phone’s gallery <strong>OR</strong> tap the <strong>Shutter Button</strong> to record a video
+                real-time. Tap the <strong>Camera Icon</strong> to switch your camera to front-
+                facing or rear-facing.
+              </li>
+              <li>✓ Cut the video into 30 secs.</li>
+              <li>✓ Add your preferred caption to the Video</li>
+              <li>
+                Tap the <strong>Paper Plane Icon</strong> to post on Moments.
+              </li>
+            </ol>
+            <p className="font-semibold py-2 mt-2">To upload Texts on Moments:</p>
+            <ol className="flex gap-2 flex-col pl-2">
+              <li>
+                ✓ Tap <strong>Moments</strong> at the button navigation on the
+                home page.
+              </li>
+              <li>
+                ✓ Tap <strong>Upload</strong> {">"} <strong>Text</strong>.
               </li>
               <li>✓ Type in the empty space on your screen.</li>
               <li>
@@ -893,12 +910,27 @@ function Faqs() {
               3. How to Delete an Exclusive Partner.
             </p>
             <ol className="flex flex-col gap-2 pl-2">
-                <li>✓ Tap <strong>Chat </strong>at the bottom navigation menu on the home page.</li>
-                <li>✓ Navigate and tap <strong>Paired </strong>on the Chat interface.</li>
-                <li>✓ Tap the “Menu Icon” on the Profile that has a golden crown on its profile picture.</li>
-                <li>✓ Tap <strong>Delete Exclusive Partner</strong> {'>'} <strong>Delete </strong>from the pop-up list.</li>
-                <li>✓ The golden crown will be removed from the top of the profile picture.</li>
-              </ol>
+              <li>
+                ✓ Tap <strong>Chat </strong>at the bottom navigation menu on the
+                home page.
+              </li>
+              <li>
+                ✓ Navigate and tap <strong>Paired </strong>on the Chat
+                interface.
+              </li>
+              <li>
+                ✓ Tap the “Menu Icon” on the Profile that has a golden crown on
+                its profile picture.
+              </li>
+              <li>
+                ✓ Tap <strong>Delete Exclusive Partner</strong> {">"}{" "}
+                <strong>Delete </strong>from the pop-up list.
+              </li>
+              <li>
+                ✓ The golden crown will be removed from the top of the profile
+                picture.
+              </li>
+            </ol>
           </div>
         </div>
         <div className="flex flex-col bg-[#e9e9e9] rounded-xl p-5 md:w-[60vw] w-[80vw] group mb-2">
@@ -929,22 +961,20 @@ function Faqs() {
             <ol className="gap-2 flex flex-col pl-2">
               <li>
                 {" "}
-                ✓ Tap <strong>Settings</strong> on the side navigation menu of the home page.
+                ✓ Tap <strong>Settings</strong> on the side navigation menu of
+                the home page.
               </li>
-              <li>✓ Scroll down and tap <strong>Change Password</strong>.</li>
+              <li>
+                ✓ Scroll down and tap <strong>Change Password</strong>.
+              </li>
               <li> ✓ Enter your current password.</li>
+              <li> ✓ Enter and confirm new password.</li>{" "}
               <li>
                 {" "}
-                ✓ Enter and confirm new password.
+                ✓ Tap <strong>Confirm & Proceed</strong>; An OTP will be sent to
+                your registered email address.
               </li>{" "}
-              <li>
-                {" "}
-                ✓ Tap <strong>Confirm & Proceed</strong>; An OTP will be sent to your registered email address.
-              </li>{" "}
-              <li>
-                {" "}
-                ✓ Enter the 4-digit OTP in the space provided.
-              </li>{" "}
+              <li> ✓ Enter the 4-digit OTP in the space provided.</li>{" "}
               <li>
                 {" "}
                 ✓ Tap <strong>Verify & Proceed</strong>.
@@ -984,9 +1014,14 @@ function Faqs() {
             <ol className="gap-2 flex flex-col pl-2">
               <li>
                 {" "}
-                ✓ Tap <strong>Settings</strong> on the side navigation menu of the home page.
+                ✓ Tap <strong>Settings</strong> on the side navigation menu of
+                the home page.
               </li>
-              <li> ✓ Scroll down and tap <strong>Delete My Account</strong> {'>'} <strong>Proceed</strong>.</li>
+              <li>
+                {" "}
+                ✓ Scroll down and tap <strong>Delete My Account</strong> {">"}{" "}
+                <strong>Proceed</strong>.
+              </li>
             </ol>
           </div>
         </div>
