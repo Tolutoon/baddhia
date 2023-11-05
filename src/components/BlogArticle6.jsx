@@ -1,7 +1,8 @@
 import React from 'react'
-import Article1 from "/images/Article 1.jpg"
+import Article6 from "/images/Article6.jpg"
 import Frameblog1 from "/images/perfect Match 1.jpg"
-import Frameblog3 from "/images/Frame 15.png"
+import Article1 from "/images/article-1.jpg"
+import Article2 from "/images/article-2.jpg"
 
 
 function BlogArticle6() {
@@ -24,7 +25,7 @@ function BlogArticle6() {
           <p>Baddhia Tips</p>
           </div>
         </div>
-          <img className='h-96 w-full object-cover sm:h-80 mb-10' src={Article1} alt=""/>
+          <img className='h-96 w-full object-cover sm:h-80 mb-10' src={Article6} alt=""/>
           <p className='mb-2 text-justify'><p>Dating in a safe and secure environment with no fear of any vice is everyone's desire because it gives the confidence of being real to one's compatible partner.</p>
         <p className='mb-2'>There are many factors responsible for the fear people have concerning online dating, which is why Baddhia's online dating app is committed to ensuring a safe and secure dating environment.</p>
         <p>Being ghosted on dating apps can be frustrating and disheartening. This piece is set to shed light on the Baddhia app's robust anti-ghosting and anti-catfishing measures, ensuring your interactions remain authentic and free from deception.</p>
@@ -143,49 +144,66 @@ function BlogArticle6() {
             </div>
           </div>
 
-          <div className='mb-7'>
-            <p className='text-baddhia-orange font-semibold mb-5 text-lg'>Related Article</p>
-            <div className='w-full rounded-2xl overflow-hidden shadow-lg'>
-              <img className='h-60 w-full object-cover' src={Frameblog3} alt="" />
+          <div>
+          <div className='w-full rounded-2xl overflow-hidden shadow-lg'>
+              <img className='h-60 w-full object-cover' src={Article1} alt="" />
               <div className='sm:px-10 text-sm px-3 py-5 lg:h-64 bg-orange-100 w-auto md:h-80 sm:h-64'>
-              <h3 className='font-bold text-[17px] mb-3 sm:mb-5'>More Than Romance: Building Lasting Friendships on Baddhia</h3>
-              <p className='text-sm text-justify mb-3 sm:mb-6'>Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.
+              <h3 className='font-bold text-[17px] mb-3 sm:mb-5'>Mastering Baddhia: A Comprehensive Guide to Navigating the App</h3>
+              <p className='text-sm mb-3 text-justify sm:mb-6'>Have you ever experienced disappointment in relationships that
+                  made you decide not to go into one again? Or have you worked
+                  so hard in a relationship...
               </p>
               <div className='flex justify-between items-center'>
                 <div>
                   <h4 className='font-bold mb-1 text-[13px] sm:text-sm sm:mb-2'>
-                    Fletcher James
+                  Elegbeleye Paul
                   </h4>
-                  <p className='sm:text-sm text-[12px]'>June 28, 2018</p>
+                  <p className='sm:text-sm text-[12px]'>October 28, 2023</p>
                 </div>
                 <div>
+                  <a href="/blogcontent">
                   <button className='text-white bg-baddhia-orange px-[12px] py-[9px] text-[13px] sm:text-sm sm:py-1 sm:px-2 rounded-full'>Read More</button>
+                  </a>
                 </div>
               </div>
+              </div>
+            </div>
+          
+            <div className=" mt-10">
+            <div className="w-full rounded-2xl overflow-hidden shadow-lg">
+              <img
+                className="h-60 w-full object-cover"
+                src={Article2}
+                alt=""
+              />
+              <div className="sm:px-10 text-sm px-3 py-5 lg:h-64 bg-orange-100 w-auto md:h-80 sm:h-64">
+                <h3 className="font-bold text-[17px] mb-3 sm:mb-5">
+                Finding Your Perfect Match: A Guide to Baddhia's Compatibility
+                Features
+                </h3>
+                <p className="text-sm text-justify mb-3 sm:mb-6">
+                There are many online dating sites that singles have used but
+                couldn't find a compatible partner. Perhaps you have tried some
+                of these online dating sites as...
+                </p>
+                <div className="flex justify-between items-center">
+                  <div>
+                    <h4 className="font-bold mb-1 text-[13px] sm:text-sm sm:mb-2">
+                    Elegbeleye Paul
+                    </h4>
+                    <p className="sm:text-sm text-[12px]">October 28, 2023</p>
+                  </div>
+                  <div>
+                    <a href="/blogcontent2">
+                    <button className="text-white bg-baddhia-orange px-[12px] py-[9px] text-[13px] sm:text-sm sm:py-1 sm:px-2 rounded-full">
+                      Read More
+                    </button>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-
-          <div>
-          <div className='w-full rounded-2xl overflow-hidden shadow-lg'>
-              <img className='h-60 w-full object-cover' src={Frameblog3} alt="" />
-              <div className='sm:px-10 text-sm px-3 py-5 lg:h-64 bg-orange-100 w-auto md:h-80 sm:h-64'>
-              <h3 className='font-bold text-[17px] mb-3 sm:mb-5'>More Than Romance: Building Lasting Friendships on Baddhia</h3>
-              <p className='text-sm mb-3 text-justify sm:mb-6'>Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.
-              </p>
-              <div className='flex justify-between items-center'>
-                <div>
-                  <h4 className='font-bold mb-1 text-[13px] sm:text-sm sm:mb-2'>
-                    Fletcher James
-                  </h4>
-                  <p className='sm:text-sm text-[12px]'>June 28, 2018</p>
-                </div>
-                <div>
-                  <button className='text-white bg-baddhia-orange px-[12px] py-[9px] text-[13px] sm:text-sm sm:py-1 sm:px-2 rounded-full'>Read More</button>
-                </div>
-              </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

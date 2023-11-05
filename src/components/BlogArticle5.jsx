@@ -1,7 +1,8 @@
 import React from 'react'
 import Article5 from "/images/Article5.jpg"
 import Frameblog1 from "/images/perfect Match 1.jpg"
-import Frameblog3 from "/images/Frame 15.png"
+import Article6 from "/images/Article6.jpg"
+import Article1 from "/images/article-1.jpg"
 
 
 function BlogArticle5() {
@@ -131,20 +132,27 @@ function BlogArticle5() {
           <div className='mb-7'>
             <p className='text-baddhia-orange font-semibold mb-5 text-lg'>Related Article</p>
             <div className='w-full rounded-2xl overflow-hidden shadow-lg'>
-              <img className='h-60 w-full object-cover' src={Frameblog3} alt="" />
+              <img className='h-60 w-full object-cover' src={Article6} alt="" />
               <div className='sm:px-10 text-sm px-3 py-5 lg:h-64 bg-orange-100 w-auto md:h-80 sm:h-64'>
-              <h3 className='font-bold text-[17px] mb-3 sm:mb-5'>More Than Romance: Building Lasting Friendships on Baddhia</h3>
-              <p className='text-sm text-justify mb-3 sm:mb-6'>Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.
+              <h3 className='font-bold text-[17px] mb-3 sm:mb-5'>How to Create a Safe Haven in Your Dating Journey with Baddhia's
+                Measures Against Ghosting and Catfishing</h3>
+              <p className='text-sm mb-3 text-justify sm:mb-6'>Dating in a safe and secure environment with no fear of any vice
+                is everyone's desire because it gives the confidence of being
+                real to one's compatible partner. There are many factors
+                responsible for the fear people have concerning online dating,
+                which is...
               </p>
               <div className='flex justify-between items-center'>
                 <div>
                   <h4 className='font-bold mb-1 text-[13px] sm:text-sm sm:mb-2'>
-                    Fletcher James
+                  Elegbeleye Paul
                   </h4>
-                  <p className='sm:text-sm text-[12px]'>June 28, 2018</p>
+                  <p className='sm:text-sm text-[12px]'>October 28, 2023</p>
                 </div>
                 <div>
+                  <a href="/blogcontent6">
                   <button className='text-white bg-baddhia-orange px-[12px] py-[9px] text-[13px] sm:text-sm sm:py-1 sm:px-2 rounded-full'>Read More</button>
+                  </a>
                 </div>
               </div>
               </div>
@@ -153,20 +161,24 @@ function BlogArticle5() {
 
           <div>
           <div className='w-full rounded-2xl overflow-hidden shadow-lg'>
-              <img className='h-60 w-full object-cover' src={Frameblog3} alt="" />
+              <img className='h-60 w-full object-cover' src={Article1} alt="" />
               <div className='sm:px-10 text-sm px-3 py-5 lg:h-64 bg-orange-100 w-auto md:h-80 sm:h-64'>
-              <h3 className='font-bold text-[17px] mb-3 sm:mb-5'>More Than Romance: Building Lasting Friendships on Baddhia</h3>
-              <p className='text-sm mb-3 text-justify sm:mb-6'>Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.
+              <h3 className='font-bold text-[17px] mb-3 sm:mb-5'>Mastering Baddhia: A Comprehensive Guide to Navigating the App</h3>
+              <p className='text-sm mb-3 text-justify sm:mb-6'>Have you ever experienced disappointment in relationships that
+                  made you decide not to go into one again? Or have you worked
+                  so hard in a relationship...
               </p>
               <div className='flex justify-between items-center'>
                 <div>
                   <h4 className='font-bold mb-1 text-[13px] sm:text-sm sm:mb-2'>
-                    Fletcher James
+                  Elegbeleye Paul
                   </h4>
-                  <p className='sm:text-sm text-[12px]'>June 28, 2018</p>
+                  <p className='sm:text-sm text-[12px]'>October 28, 2023</p>
                 </div>
                 <div>
+                  <a href="/blogcontent">
                   <button className='text-white bg-baddhia-orange px-[12px] py-[9px] text-[13px] sm:text-sm sm:py-1 sm:px-2 rounded-full'>Read More</button>
+                  </a>
                 </div>
               </div>
               </div>

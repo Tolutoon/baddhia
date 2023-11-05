@@ -1,7 +1,8 @@
 import React from 'react'
 import Article4 from "/images/Article4.jpg"
 import Frameblog1 from "/images/perfect Match 1.jpg"
-import Frameblog3 from "/images/Frame 15.png"
+import Article5 from "/images/Article5.jpg"
+import Article6 from "/images/Article6.jpg"
 
 
 function BlogArticle4() {
@@ -100,43 +101,54 @@ function BlogArticle4() {
 
           <div className='mb-7'>
             <p className='text-baddhia-orange font-semibold mb-5 text-lg'>Related Article</p>
-            <div className='w-full rounded-2xl overflow-hidden shadow-lg'>
-              <img className='h-60 w-full object-cover' src={Frameblog3} alt="" />
+            <div className='w-full mt-10 rounded-2xl overflow-hidden shadow-lg'>
+              <img className='h-60 w-full object-cover' src={Article5} alt="" />
               <div className='sm:px-10 text-sm px-3 py-5 lg:h-64 bg-orange-100 w-auto md:h-80 sm:h-64'>
-              <h3 className='font-bold text-[17px] mb-3 sm:mb-5'>More Than Romance: Building Lasting Friendships on Baddhia</h3>
-              <p className='text-sm text-justify mb-3 sm:mb-6'>Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.
+              <h3 className='font-bold text-[17px] mb-3 sm:mb-5'>How to Date with Confidence and Debunk the Desperation Myth with
+                Baddhia</h3>
+              <p className='text-sm mb-3 text-justify sm:mb-6'>Confidence, or the lack thereof, can significantly impact our
+                dating lives. It's often said that confidence is attractive, and
+                it's not just a cliché. The way you carry yourself, your
+                self-assuredness, and your belief...
               </p>
               <div className='flex justify-between items-center'>
                 <div>
                   <h4 className='font-bold mb-1 text-[13px] sm:text-sm sm:mb-2'>
-                    Fletcher James
+                  Elegbeleye Paul
                   </h4>
-                  <p className='sm:text-sm text-[12px]'>June 28, 2018</p>
+                  <p className='sm:text-sm text-[12px]'>October 28, 2023</p>
                 </div>
                 <div>
+                  <a href="/blogcontent5">
                   <button className='text-white bg-baddhia-orange px-[12px] py-[9px] text-[13px] sm:text-sm sm:py-1 sm:px-2 rounded-full'>Read More</button>
+                  </a>
                 </div>
               </div>
               </div>
             </div>
-          </div>
 
-          <div>
-          <div className='w-full rounded-2xl overflow-hidden shadow-lg'>
-              <img className='h-60 w-full object-cover' src={Frameblog3} alt="" />
+          <div className='mt-10 w-full rounded-2xl overflow-hidden shadow-lg'>
+              <img className='h-60 w-full object-cover' src={Article6} alt="" />
               <div className='sm:px-10 text-sm px-3 py-5 lg:h-64 bg-orange-100 w-auto md:h-80 sm:h-64'>
-              <h3 className='font-bold text-[17px] mb-3 sm:mb-5'>More Than Romance: Building Lasting Friendships on Baddhia</h3>
-              <p className='text-sm mb-3 text-justify sm:mb-6'>Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.
+              <h3 className='font-bold text-[17px] mb-3 sm:mb-5'>How to Create a Safe Haven in Your Dating Journey with Baddhia's
+                Measures Against Ghosting and Catfishing</h3>
+              <p className='text-sm mb-3 text-justify sm:mb-6'>Dating in a safe and secure environment with no fear of any vice
+                is everyone's desire because it gives the confidence of being
+                real to one's compatible partner. There are many factors
+                responsible for the fear people have concerning online dating,
+                which is...
               </p>
               <div className='flex justify-between items-center'>
                 <div>
                   <h4 className='font-bold mb-1 text-[13px] sm:text-sm sm:mb-2'>
-                    Fletcher James
+                  Elegbeleye Paul
                   </h4>
-                  <p className='sm:text-sm text-[12px]'>June 28, 2018</p>
+                  <p className='sm:text-sm text-[12px]'>October 28, 2023</p>
                 </div>
                 <div>
+                  <a href="/blogcontent6">
                   <button className='text-white bg-baddhia-orange px-[12px] py-[9px] text-[13px] sm:text-sm sm:py-1 sm:px-2 rounded-full'>Read More</button>
+                  </a>
                 </div>
               </div>
               </div>

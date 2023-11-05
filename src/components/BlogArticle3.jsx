@@ -1,7 +1,8 @@
 import React from 'react'
 import Article3 from "/images/Article-3.jpg"
 import Frameblog1 from "/images/perfect Match 1.jpg"
-import Frameblog3 from "/images/Frame 15.png"
+import Article4 from "/images/Article4.jpg"
+import Article5 from "/images/Article5.jpg"
 
 
 function BlogArticle3() {
@@ -13,7 +14,7 @@ function BlogArticle3() {
         <div className='flex gap-8 mb-5 mt-4'>
           <div className='text-center text-xs'>
             <p className='font-bold'>Post Author</p>
-          <p>Chibuike Iheka</p>
+          <p>Balqis Shittu</p>
           </div>
           <div className='text-center text-xs'>
             <p className='font-bold'>Date</p>
@@ -101,43 +102,62 @@ function BlogArticle3() {
 
           <div className='mb-7'>
             <p className='text-baddhia-orange font-semibold mb-5 text-lg'>Related Article</p>
-            <div className='w-full rounded-2xl overflow-hidden shadow-lg'>
-              <img className='h-60 w-full object-cover' src={Frameblog3} alt="" />
-              <div className='sm:px-10 text-sm px-3 py-5 lg:h-64 bg-orange-100 w-auto md:h-80 sm:h-64'>
-              <h3 className='font-bold text-[17px] mb-3 sm:mb-5'>More Than Romance: Building Lasting Friendships on Baddhia</h3>
-              <p className='text-sm text-justify mb-3 sm:mb-6'>Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.
-              </p>
-              <div className='flex justify-between items-center'>
-                <div>
-                  <h4 className='font-bold mb-1 text-[13px] sm:text-sm sm:mb-2'>
-                    Fletcher James
-                  </h4>
-                  <p className='sm:text-sm text-[12px]'>June 28, 2018</p>
+            <div>
+            <div className="w-full rounded-2xl overflow-hidden shadow-lg">
+              <img
+                className="h-60 w-full object-cover"
+                src={Article4}
+                alt=""
+              />
+              <div className="sm:px-10 text-sm px-3 py-5 lg:h-64 bg-orange-100 w-auto md:h-80 sm:h-64">
+                <h3 className="font-bold text-[17px] mb-3 sm:mb-5">
+                Rekindling Romance: Baddhia's Guide to Spicing Up Relationships
+                </h3>
+                <p className="text-sm mb-3 text-justify sm:mb-6">
+                Romance in a relationship is like a delicate flame that needs
+                constant care and attention to keep burning brightly. It's those
+                special moments, sweet gestures, and heart-pounding excitement
+                that make us feel alive in love...
+                </p>
+                <div className="flex justify-between items-center">
+                  <div>
+                    <h4 className="font-bold mb-1 text-[13px] sm:text-sm sm:mb-2">
+                    Chibuike Iheka
+                    </h4>
+                    <p className="sm:text-sm text-[12px]">October 28, 2023</p>
+                  </div>
+                  <div>
+                    <a href="/blogcontent4">
+                    <button className="text-white bg-baddhia-orange px-[12px] py-[9px] text-[13px] sm:text-sm sm:py-1 sm:px-2 rounded-full">
+                      Read More
+                    </button>
+                    </a>
+                  </div>
                 </div>
-                <div>
-                  <button className='text-white bg-baddhia-orange px-[12px] py-[9px] text-[13px] sm:text-sm sm:py-1 sm:px-2 rounded-full'>Read More</button>
-                </div>
-              </div>
               </div>
             </div>
           </div>
-
-          <div>
-          <div className='w-full rounded-2xl overflow-hidden shadow-lg'>
-              <img className='h-60 w-full object-cover' src={Frameblog3} alt="" />
+          <div className='w-full mt-10 rounded-2xl overflow-hidden shadow-lg'>
+              <img className='h-60 w-full object-cover' src={Article5} alt="" />
               <div className='sm:px-10 text-sm px-3 py-5 lg:h-64 bg-orange-100 w-auto md:h-80 sm:h-64'>
-              <h3 className='font-bold text-[17px] mb-3 sm:mb-5'>More Than Romance: Building Lasting Friendships on Baddhia</h3>
-              <p className='text-sm mb-3 text-justify sm:mb-6'>Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici consequat justo enim. Venenatis eget adipiscing luctus lorem.
+              <h3 className='font-bold text-[17px] mb-3 sm:mb-5'>How to Date with Confidence and Debunk the Desperation Myth with
+                Baddhia</h3>
+              <p className='text-sm mb-3 text-justify sm:mb-6'>Confidence, or the lack thereof, can significantly impact our
+                dating lives. It's often said that confidence is attractive, and
+                it's not just a cliché. The way you carry yourself, your
+                self-assuredness, and your belief...
               </p>
               <div className='flex justify-between items-center'>
                 <div>
                   <h4 className='font-bold mb-1 text-[13px] sm:text-sm sm:mb-2'>
-                    Fletcher James
+                  Elegbeleye Paul
                   </h4>
-                  <p className='sm:text-sm text-[12px]'>June 28, 2018</p>
+                  <p className='sm:text-sm text-[12px]'>October 28, 2023</p>
                 </div>
                 <div>
+                  <a href="/blogcontent5">
                   <button className='text-white bg-baddhia-orange px-[12px] py-[9px] text-[13px] sm:text-sm sm:py-1 sm:px-2 rounded-full'>Read More</button>
+                  </a>
                 </div>
               </div>
               </div>

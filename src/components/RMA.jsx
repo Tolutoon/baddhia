@@ -1,12 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
 
-function BlogWriteup() {
+function RMA() {
   return (
-    <div>
-      <h1 className="text-center font-bold text-2xl mb-7 mt-14">
-        Baddhia Tips
-      </h1>
+    <div className='pt-32 pb-20'>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:mx-16 lg:grid-cols-3 justify-items-center items-center">
         <div>
           <div className=" bg-[url('/images/article-1.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
@@ -210,13 +206,8 @@ function BlogWriteup() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mt-8 items-center">
-        <button className="bg-baddhia-orange py-2 px-9 mb-28 uppercase text-white text-lg font-semibold rounded-full">
-          <a href="/read-more">Read More Article</a>
-        </button>
-      </div>
     </div>
-  );
+  )
 }
 
-export default BlogWriteup;
+export default RMA

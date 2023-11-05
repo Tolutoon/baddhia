@@ -7,7 +7,7 @@ import BlogHeader from "../components/BlogHeader";
 
 function BlogContent() {
   return (
-    <div className="" id="blogContent">
+    <div className="">
       <BlogHeader />
       <BlogArticle />
       <JoinCard />
