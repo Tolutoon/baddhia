@@ -13,3 +13,6 @@ export default defineConfig({
     }
   },
 })
+
+
+// input: ['src/main.jsx', './index.html']
