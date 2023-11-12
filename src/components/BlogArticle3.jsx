@@ -235,9 +235,9 @@ function BlogArticle3() {
                     <p className="sm:text-sm text-[12px]">October 28, 2023</p>
                   </div>
                   <div>
-                    <button className="text-white bg-baddhia-orange px-[12px] py-[9px] text-[13px] sm:text-sm sm:py-1 sm:px-2 rounded-full">
-                      Read More
-                    </button>
+                  <a href="/blogcontent5">
+                  <button className='text-white bg-baddhia-orange px-[12px] py-[9px] text-[13px] sm:text-sm sm:py-1 sm:px-2 rounded-full'>Read More</button>
+                  </a>
                   </div>
                 </div>
               </div>

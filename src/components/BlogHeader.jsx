@@ -24,10 +24,10 @@ function BlogHeader() {
         <nav>
           <ul className="md:flex gap-x-7 hidden transition list-none">
             <li className="text-baddhia-orange text-base">
-              <a href="">Baddhia Tips</a>
+              <a href="/blog">Baddhia Tips</a>
             </li>
             <li className="text-baddhia-orange text-base">
-              <a href="">Dating Advice</a>
+              <a href="/Advice-tips">Dating Advice</a>
             </li>
             <li className="text-baddhia-orange text-base">
               <a

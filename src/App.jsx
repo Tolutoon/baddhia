@@ -15,6 +15,8 @@ import BlogContent6 from './pages/BlogContent6';
 import Terms from "./pages/Terms";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import FaqPage from "./pages/FaqPage";
+import BlogAdvice from "./pages/BlogAdvice";
+import ReadMoreArticle from "./pages/ReadMoreArticle";
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
       <Route path="/terms&condition" element={<Terms/>}/>
       <Route path="/faq" element={<FaqPage/>}/>
       <Route path="/privacy" element={<PrivacyPolicy/>}/>
+      <Route path="/Advice-tips" element={<BlogAdvice />}/>
+      <Route path="/read-more" element={<ReadMoreArticle />}/>
     </Routes>
   );
 }
