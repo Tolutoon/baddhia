@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function BlogWriteup() {
   return (
@@ -57,7 +56,7 @@ function BlogWriteup() {
               <div className="flex justify-between ">
                 <div className="flex flex-col">
                   <span className="text-[12px] font-semibold">
-                    Elegbeleye Paul
+                  Chibuike Iheka
                   </span>
                   <span className="text-[12px]">October 28, 2023</span>
                 </div>
@@ -90,7 +89,7 @@ function BlogWriteup() {
               <div className="flex justify-between ">
                 <div className="flex flex-col">
                   <span className="text-[12px] font-semibold">
-                  Balqis Shittu
+                  Elegbeleye Paul
                   </span>
                   <span className="text-[12px]">October 28, 2023</span>
                 </div>
@@ -123,7 +122,7 @@ function BlogWriteup() {
               <div className="flex justify-between ">
                 <div className="flex flex-col">
                   <span className="text-[12px] font-semibold">
-                    Chibuike Iheka
+                  Elegbeleye Paul
                   </span>
                   <span className="text-[12px]">October 28, 2023</span>
                 </div>
@@ -185,9 +184,7 @@ function BlogWriteup() {
               <p className="text-black text-[12px] mb-4">
                 Dating in a safe and secure environment with no fear of any vice
                 is everyone's desire because it gives the confidence of being
-                real to one's compatible partner. There are many factors
-                responsible for the fear people have concerning online dating,
-                which is...
+                real to one's compatible partner...
               </p>
               <div className="flex justify-between ">
                 <div className="flex flex-col">

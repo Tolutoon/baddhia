@@ -1,12 +1,18 @@
 import React from 'react'
 import BlogHeader from '../components/BlogHeader'
-import BlogWriteup from '../components/BlogWriteup'
+import BlogAdviceSlide from '../components/BlogAdviceSlide'
+import BlogAdviceCard from '../components/BlogAdviceCard'
+import JoinCard from '../components/JoinCard'
+import Footer from '../components/Footer'
 
 function BlogAdvice() {
   return (
     <div>
         <BlogHeader />
-        <h1 className='pt-20'>Baddhia Advice tips</h1>
+        <BlogAdviceSlide />
+        <BlogAdviceCard />
+        <JoinCard />
+        <Footer />
     </div>
   )
 }
