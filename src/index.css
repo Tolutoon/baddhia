@@ -16,15 +16,10 @@ html {
 }
 
 
-.homePage {
-    background: url('/images/background-image.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
 .backBanner {
-    background: url('/images/connectkindly.png');
+    background: url('/images/connectkindly.webp');
     background-repeat: no-repeat;
     background-size: contain;
 

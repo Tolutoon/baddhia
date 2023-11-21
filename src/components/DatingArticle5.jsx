@@ -1,8 +1,8 @@
 import React from 'react'
 import Article11 from "/images/Article11.jpg"
-import Frameblog1 from "/images/perfect Match 1.jpg";
-import Article3 from "/images/Article-3.jpg"
-import Article2 from "/images/article-2.jpg"
+import Frameblog1 from "/images/perfect Match 1.webp";
+import Article3 from "/images/Article-3.webp"
+import Article2 from "/images/Article2.webp"
 
 function DatingArticle5() {
   return (

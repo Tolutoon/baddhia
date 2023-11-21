@@ -1,5 +1,5 @@
 import React from 'react';
-import background from '/images/background-image.png';
+import background from '/images/background-image.webp';
 import mobileBack from '/images/backAlt.png';
 
 function BackgroundImage() {

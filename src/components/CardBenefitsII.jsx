@@ -1,6 +1,6 @@
 import React from "react";
-import shareMoment from "/images/share-moments.png";
-import privacy from "/images/privacy.png";
+import shareMoment from "/images/share-moments.webp";
+import privacy from "/images/privacy.webp";
 
 function CardBenefitsII() {
   return (

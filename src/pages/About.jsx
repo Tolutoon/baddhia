@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import banner from "/images/about-banner.png";
+import banner from "/images/about-banner.webp";
 import Reasons from "../components/Reasons";
 import JoinCard from "../components/JoinCard";
 import Footer from "../components/Footer";
@@ -23,7 +23,7 @@ function About() {
         <div>
           <img
             src={banner}
-            className="md:w-[50vw] hidden xl:flex h-[796px]"
+            className="md:w-[50vw] hidden xl:flex h-[796px] bg-cover"
             alt=""
           />
         </div>

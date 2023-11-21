@@ -1,5 +1,5 @@
 import React from 'react';
-import background from '/images/how_to_find.png';
+import background from '/images/how_to_find.webp';
 
 function FindMatchBackground() {
   return (

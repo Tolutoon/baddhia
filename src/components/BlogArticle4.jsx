@@ -1,8 +1,8 @@
 import React from "react";
-import Article4 from "/images/Article4.jpg";
-import Frameblog1 from "/images/perfect Match 1.jpg";
-import Article5 from "/images/Article5.jpg";
-import Article6 from "/images/Article6.jpg";
+import Article4 from "/images/Article4.webp";
+import Frameblog1 from "/images/perfect Match 1.webp";
+import Article5 from "/images/Article5.webp";
+import Article6 from "/images/Article6.webp";
 
 function BlogArticle4() {
   return (

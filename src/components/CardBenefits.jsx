@@ -1,7 +1,7 @@
 import React from "react";
-import connectImage from "/images/meet_connect.png";
-import emojis from "/images/emojis.png";
-import gifts from "/images/exchange_gifts.png";
+import connectImage from "/images/meet_connect.webp";
+import emojis from "/images/emojis.webp";
+import gifts from "/images/exchange_gifts.webp";
 
 function CardBenefits() {
   return (

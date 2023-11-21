@@ -14,7 +14,7 @@ function Support() {
     <div id='support'>
       <Header />
       <FaqTest />
-      <div className="mb-10 bg-[url('/images/getIntouch.png')] h-[50vh] bg-cover bg-center w-[100vw] flex justify-center items-center">
+      <div className="mb-10 bg-[url('/images/getIntouch.webp')] h-[50vh] bg-cover bg-center w-[100vw] flex justify-center items-center">
         <h2 className='text-white md:text-5xl text-3xl font-semibold tracking-wide'>Get in Touch</h2>
       </div>
       <div>
