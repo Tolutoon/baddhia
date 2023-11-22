@@ -1,8 +1,8 @@
 import React from 'react';
 import Article9 from "/images/Article9.jpg"
 import Frameblog1 from "/images/perfect Match 1.jpg";
-import Article3 from "/images/Article-3.jpg"
-import Article2 from "/images/article-2.jpg"
+import Article11 from "/images/Article11.jpg"
+import Article10 from "/images/Article10.jpg"
 
 
 function DatingArticle3() {
@@ -181,31 +181,30 @@ function DatingArticle3() {
             <p className="text-baddhia-orange font-semibold mb-5 text-lg">
               Related Article
             </p>
+            
+          <div>
             <div className="w-full rounded-2xl overflow-hidden shadow-lg">
               <img
                 className="h-60 w-full object-cover"
-                src={Article2}
+                src={Article10}
                 alt=""
               />
               <div className="sm:px-10 text-sm px-3 py-5 lg:h-64 bg-orange-100 w-auto md:h-80 sm:h-64">
                 <h3 className="font-bold text-[17px] mb-3 sm:mb-5">
-                Finding Your Perfect Match: A Guide to Baddhia's Compatibility
-                Features
+                Cultivating Healthy Relationship Habits That Strengthen Your Relationship
                 </h3>
-                <p className="text-sm text-justify mb-3 sm:mb-6">
-                There are many online dating sites that singles have used but
-                couldn't find a compatible partner. Perhaps you have tried some
-                of these online dating sites as...
+                <p className="text-sm mb-3 text-justify sm:mb-6">
+                A healthy and fulfilling relationship is built on a strong foundation of trust, adequate communication, and mutual respect. These are the reasons and essence of cultivating...
                 </p>
                 <div className="flex justify-between items-center">
                   <div>
                     <h4 className="font-bold mb-1 text-[13px] sm:text-sm sm:mb-2">
-                    Elegbeleye Paul
+                    Chibuike Iheka
                     </h4>
                     <p className="sm:text-sm text-[12px]">October 28, 2023</p>
                   </div>
                   <div>
-                    <a href="/blogcontent2">
+                    <a href="/Dating-article4">
                     <button className="text-white bg-baddhia-orange px-[12px] py-[9px] text-[13px] sm:text-sm sm:py-1 sm:px-2 rounded-full">
                       Read More
                     </button>
@@ -215,33 +214,31 @@ function DatingArticle3() {
               </div>
             </div>
           </div>
+          </div>
 
           <div>
             <div className="w-full rounded-2xl overflow-hidden shadow-lg">
               <img
                 className="h-60 w-full object-cover"
-                src={Article3}
+                src={Article11}
                 alt=""
               />
               <div className="sm:px-10 text-sm px-3 py-5 lg:h-64 bg-orange-100 w-auto md:h-80 sm:h-64">
                 <h3 className="font-bold text-[17px] mb-3 sm:mb-5">
-                  More Than Romance: Building Lasting Friendships on Baddhia
+                The Importance of Self-Love in Dating
                 </h3>
                 <p className="text-sm mb-3 text-justify sm:mb-6">
-                In today's fast-paced world, finding meaningful connections and
-                building lasting friendships can be a challenge. However, with
-                the rise of social apps and online dating platforms, it's now
-                easier than ever to connect with...
+                The importance of self-love in a relationship cannot be overstated. Unfortunately, many dating relationships fail because the parties involved do not understand the importance of self-love...
                 </p>
                 <div className="flex justify-between items-center">
                   <div>
                     <h4 className="font-bold mb-1 text-[13px] sm:text-sm sm:mb-2">
-                    Balqis Shittu
+                    Elegbeleye Paul
                     </h4>
                     <p className="sm:text-sm text-[12px]">October 28, 2023</p>
                   </div>
                   <div>
-                    <a href="/blogcontent3">
+                    <a href="/Dating-article5">
                     <button className="text-white bg-baddhia-orange px-[12px] py-[9px] text-[13px] sm:text-sm sm:py-1 sm:px-2 rounded-full">
                       Read More
                     </button>
