@@ -156,7 +156,7 @@ function BlogWriteup() {
               <div className="flex justify-between">
                 <div className="flex flex-col">
                   <span className="text-[12px] font-semibold">
-                    Elegbeleye Paul
+                  Chibuike Iheka
                   </span>
                   <span className="text-[12px]">October 28, 2023</span>
                 </div>

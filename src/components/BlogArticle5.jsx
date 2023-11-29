@@ -16,7 +16,7 @@ function BlogArticle5() {
           <div className="flex gap-8 mb-5 mt-4">
             <div className="text-center text-xs">
               <p className="font-bold">Post Author</p>
-              <p>Elegbeleye Paul</p>
+              <p>Chibuike Iheka</p>
             </div>
             <div className="text-center text-xs">
               <p className="font-bold">Date</p>
