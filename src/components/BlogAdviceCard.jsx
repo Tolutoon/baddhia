@@ -8,7 +8,7 @@ function BlogAdviceCard() {
       </h1>
       <div className="flex flex-wrap justify-center items-center gap-[34px]">
         <div>
-          <div className=" bg-[url('/images/Article7.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
+          <div className=" bg-[url('/images/Article7.webp')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
             <div className="flex absolute bg-[#FFF6F2] w-fit bottom-0 flex-col rounded-2xl justify-center items-center md:p-4 p-2">
               <div className="w-[90%]">
                 <h3 className="text-baddhia-orange font-semibold mb-2">
@@ -39,7 +39,7 @@ function BlogAdviceCard() {
           </div>
         </div>
 
-        <div className=" bg-[url('/images/Article8.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
+        <div className=" bg-[url('/images/Article8.webp')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
           <div className="flex absolute bg-[#FFF6F2] w-fit bottom-0 flex-col rounded-2xl justify-center items-center md:p-4 p-2">
             <div className="w-[90%]">
               <h3 className="text-baddhia-orange font-semibold mb-2">
@@ -69,7 +69,7 @@ function BlogAdviceCard() {
           </div>
         </div>
 
-        <div className=" bg-[url('/images/Article9.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
+        <div className=" bg-[url('/images/Article9.webp')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
           <div className="flex absolute bg-[#FFF6F2] w-fit bottom-0 flex-col rounded-2xl justify-center items-center md:p-4 p-2">
             <div className="w-[90%]">
               <h3 className="text-baddhia-orange font-semibold mb-2">
@@ -99,7 +99,7 @@ function BlogAdviceCard() {
           </div>
         </div>
 
-        <div className=" bg-[url('/images/Article10.jpg')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
+        <div className=" bg-[url('/images/Article10.webp')]  h-[470px] w-[350px] bg-cover mb-10 bg-center bg-no-repeat relative shadow-md rounded-2xl">
           <div className="flex absolute bg-[#FFF6F2] w-fit bottom-0 flex-col rounded-2xl justify-center items-center md:p-4 p-2">
             <div className="w-[90%]">
               <h3 className="text-baddhia-orange font-semibold mb-2">
